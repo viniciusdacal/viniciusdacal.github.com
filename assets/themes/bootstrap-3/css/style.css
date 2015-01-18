@@ -14,11 +14,72 @@
   float: right; }*/
 
 /* Jekyll Bootstrap Colors */
+body{
+  font-family: 'Open Sans', sans-serif;  
+}
+
 h1, h2, h3, h4 {
   color: #f22430;
+  font-family: 'Bree Serif', serif;
+
 }
 #footer {
   background-color: #fdcd60;
+}
+/*
+
+
+font-family: 'Bree Serif', serif;
+font-family: 'Open Sans', sans-serif;
+*/
+
+nav.navbar.navbar-default{
+  background: #fff;
+}
+.navbar-nav>li{
+  margin: 0 15px;
+}
+.navbar-nav>li>a{
+  padding: 26px 0;
+}
+
+.navbar-nav>li>a:hover{
+  border-bottom: 3px solid #777;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+ border-bottom: 3px solid #2e2e2e;
+ background: #fff; 
+ box-shadow: none;
+}
+
+.navbar-default .navbar-brand{
+  width: 310px;
+  color: #2e2e2e;
+}
+
+.profile-picture{
+  border-radius: 50%;
+  margin-right: 15px;
+  float: left;
+}
+
+.sitetitle-wrapper{
+  float: left;
+  display: block;
+  
+}
+
+.sitetitle{
+  font-family: 'Bree Serif', serif;
+  font-size: 35px;
+  display: block;
+}
+
+.jobtitle{
+  font-size: 13px;
+  display: block;
+  margin-top: 5px;
 }
 
 
