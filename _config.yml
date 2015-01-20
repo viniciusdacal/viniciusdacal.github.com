@@ -2,11 +2,13 @@
 title: vinicius.dacal
 jobtitle: Front end Developer
 email: viniciusldacal@gmail.com
-description: > # Tutoriais, artigos e materiais para estudos de desenvolvimento web.
+description: "Tutoriais, artigos e materiais para estudos de desenvolvimento web."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://viniciusdacal.com" # the base hostname & protocol for your site
+url: "https://viniciusdacal.github.com" # the base hostname & protocol for your site
 twitter_username: vinicius_dacal
 github_username:  viniciusdacal
+facebook:  https://www.facebook.com/viniciusdacal
+linkedin: https://www.linkedin.com/in/viniciusdacal
 
 # Build settings
 markdown: kramdown
