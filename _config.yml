@@ -1,0 +1,28 @@
+# Site settings
+title: vinicius.dacal
+jobtitle: Front end Developer
+email: viniciusldacal@gmail.com
+description: > # Tutoriais, artigos e materiais para estudos de desenvolvimento web.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://viniciusdacal.com" # the base hostname & protocol for your site
+twitter_username: vinicius_dacal;
+github_username:  viniciusdacal
+
+# Build settings
+markdown: kramdown
+
+#blog layout settings
+
+months:
+  Jan: "Janeiro"
+  Feb: "Fevereiro"
+  Mar: "Março"
+  Apr: "Abril"
+  May: "Maio"
+  Jun: "Junho"
+  July: "Julho"
+  Aug: "Agosto"
+  Sep: "Setembro"
+  Oct: "Outubro"
+  Nov: "Novembro"
+  Dec: "Dezembro"
