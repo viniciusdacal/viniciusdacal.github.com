@@ -3,7 +3,8 @@
  */
 .site-header {
     border-bottom: 1px solid $grey-color-light;
-    min-height: 56px;
+    min-height: 70px;
+    box-shadow: 0 1px 13px rgba(100,100,100,0.1);
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -114,18 +115,51 @@
  */
 .site-footer {
     border-top: 1px solid $grey-color-light;
+    background-color: #F2F2F2;
     padding: $spacing-unit 0;
 }
 
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+    border-bottom: 1px solid #ddd;
 }
 
 .contact-list,
 .social-media-list {
     list-style: none;
     margin-left: 0;
+}
+
+.social-media-list li{
+    display:inline-block;
+}
+
+.icon-facebook svg > path{
+    fill: #3c5b9b;
+}
+
+.icon-twitter svg > path{
+    fill: #27caff;
+}
+
+.icon-github svg > path{
+    fill: #000;
+}
+
+.icon-linkedin svg > path{
+    fill: #0173b2;
+}
+
+.fotter-description{
+    font-size:12px;
+    line-height:14px;
+}
+
+.fotter-picture{
+    float: left;
+    border-radius:50%;
+    margin-right:10px;
 }
 
 .footer-col-wrapper {
@@ -142,18 +176,18 @@
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(34% - (#{$spacing-unit} / 2));
+    width:         calc(34% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+    width:         calc(33% - (#{$spacing-unit} / 2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(33% - (#{$spacing-unit} / 2));
+    width:         calc(33% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -213,13 +247,13 @@
             min-height:100%;
             
             opacity:0;
-            transition: opacity 0.3s linear;
+            transition: opacity 0.3s ease;
 
         }
         &:hover{
 
             >.bg{
-                opacity:0.7;
+                opacity:0.8;
             }
             > .wrapper{
                 box-shadow: 0 2px 6px  rgba(0,0,0,0.8);
