@@ -12,7 +12,8 @@ linkedin: https://www.linkedin.com/in/viniciusdacal
 
 # Build settings
 markdown: kramdown
-
+sass:
+    style: :compressed
 #blog layout settings
 
 months:
