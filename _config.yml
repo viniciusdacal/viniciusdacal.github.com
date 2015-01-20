@@ -5,7 +5,7 @@ email: viniciusldacal@gmail.com
 description: > # Tutoriais, artigos e materiais para estudos de desenvolvimento web.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://viniciusdacal.com" # the base hostname & protocol for your site
-twitter_username: vinicius_dacal;
+twitter_username: vinicius_dacal
 github_username:  viniciusdacal
 
 # Build settings
