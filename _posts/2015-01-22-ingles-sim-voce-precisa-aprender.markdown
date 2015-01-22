@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Inglês. Sim, você precisa saber"
+title:  "Inglês. Sim, você precisa saber."
 date:   2015-01-22 10:00:00
-categories: ingles
+categories: inglês
 bg: "ingles-sim-voce-precisa-saber.jpg"
 
 ---
@@ -11,13 +11,13 @@ bg: "ingles-sim-voce-precisa-saber.jpg"
 
 Neste post eu falarei um pouco sobre a importância do Inglês e darei algumas dicas de como você pode estudar sozinho. Vamos quebrar o paradigma de que a única forma de aprender Inglês é nas escolas de idioma.
 
-###Inglês? Mas o blog não é sobre programação
-Sim, eu sei que o blog é voltado pra área de desenvolvimento, mas é **IMPOSSÍVEL** você seguir carreira nessa área sem saber o mínimo de inglês, além disso, o blog é meu e eu posto sobre o que eu quiser né XD.
+###Inglês? Mas o blog não é sobre programação?
+Sim, eu sei que o blog é voltado pra área de desenvolvimento, mas é **IMPOSSÍVEL** você seguir carreira nessa área sem saber o mínimo de inglês.
 
 ###Não gosto de inglês, por que eu devo aprender?
 Como todo mundo sabe, o inglês é o idioma universal (Tanto que em Star Wars ele é falado até pelos alienígenas), sendo universal, a maioria dos materiais de estudo em diversas áreas está em inglês. Vídeos, documentações, blogs, tutoriais e etc. Tudo em Inglês!
 
-A primeira matéria da tecnologia nova que está para sair será em inglês, a documentação sairá primeiro em inglês, tudo sobre ela será primeiro em inglês. Assim acontece com frameworks, linguagens de programação, plataformas e afins, ou seja, se você não sabe inglês, vai ficar dependendo da boa vontade de alguém traduzir o conteúdo e postar num blog ou em outras mídias. 
+A primeira matéria da nova tecnologia que está para sair será em inglês, a documentação sairá primeiro em inglês, tudo sobre ela será primeiro em inglês. Assim acontece com frameworks, linguagens de programação, plataformas e afins, ou seja, se você não sabe inglês, vai ficar dependendo da boa vontade de alguém traduzir o conteúdo e postar num blog ou em outras mídias. 
 
 Viu só como o Inglês é importante pra você se manter atualizado?
 
@@ -48,6 +48,6 @@ Se você ainda não consegue entender muita coisa, continue estudando que você 
 
 Tem alguma dica legal que quer dividir comigo e com a galera? Deixa nos comentários, todas as dicas serão bem vindas.
 
-Dúvidas, comentários ou sugestões, deixe logo abaixo :)
+Dúvidas, comentários ou sugestões, deixe logo abaixo. :)
 
 
