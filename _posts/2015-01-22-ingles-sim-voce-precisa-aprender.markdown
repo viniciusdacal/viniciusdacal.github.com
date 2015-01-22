@@ -39,7 +39,7 @@ Caso você não use o iTunes, sugiro o site [inglesonline.com.br](http://www.ing
 Através de podcasts você vai melhorar muito o seu entendimento e automaticamente a sua conversação.
 
 ###Outra dica muito importante é
-Se você não gosta, comece a gostar! Faça uma imersão total no idioma. Assista filmes legendados, ouça músicas, e consuma o máximo de coisas que puder (Não estou falando de comida, vocês entenderam né).
+Se você não gosta, comece a gostar! Faça uma imersão total no idioma. Assista filmes legendados, ouça músicas, e consuma o máximo de coisas que puder no idioma (Não estou falando de comida, vocês entenderam né).
 
 ###Finalizando
 Essas foram as metodologias que mais funcionaram pra mim, espero que funcionem para você  também. 
