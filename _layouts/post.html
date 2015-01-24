@@ -15,6 +15,16 @@ layout: default
 		<article class="post-content">
 			{{ content }}
 		</article>
+		
+		<div class="pagination">			
+		{% if page.previous %}
+			<a href="{{page.previous.url}}" rel="prev" class="prev">Anterior</a>
+		{% endif %}
+
+		{% if page.next %}
+			<a href="{{page.next.url}}" rel="next" class="next">Próximo</a>
+		{% endif %}
+		</div>
 
 	   	<div id="disqus_thread"></div>
 	    <script type="text/javascript">

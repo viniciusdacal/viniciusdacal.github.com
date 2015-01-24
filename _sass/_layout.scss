@@ -338,3 +338,40 @@
         }
     }
 }
+
+.button{
+    display: block;
+    border: 1px solid #999;
+    padding: 10px;
+    box-shadow: 0 6px 3px -4px rgba(200, 200, 200, 1);
+    transition: all 0.07s linear;
+    text-decoration:none;
+    color: #555;
+    -webkit-transform: translate3d(0, 0, 0);
+    &:hover{
+        background-color: #f5f5f5;
+        box-shadow: 0 4px 3px -4px rgba(200, 200, 200, 1);
+        transform: translateY(2px);
+    }
+}
+
+.pagination{
+
+    width: 100%;
+    display: block;
+    margin: 20px 0;
+    float: left;
+    
+    .prev{
+        float: left;
+        @extend .button;
+    }
+
+    .next{
+        float: right;
+        @extend .button;
+    }
+    
+}
+
+
