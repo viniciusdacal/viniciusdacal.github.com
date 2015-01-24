@@ -2,7 +2,7 @@
 layout: post
 title:  "Inglês. Sim, você precisa saber."
 date:   2015-01-22 10:00:00
-categories: inglês
+categories: ingles
 bg: "ingles-sim-voce-precisa-saber.jpg"
 
 ---
