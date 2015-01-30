@@ -4,7 +4,7 @@ title:  "O básico do básico do Git e do Github."
 date:   2015-01-29 23:40:00
 categories: iniciante 
 uglyTitle : "o-basico-do-basico-do-git-e-do-github"
-bg: "codecademy-o-que-voce-pode-aprender-com-ele.jpg"
+bg: "o-basico-do-basico-do-git-e-do-github.jpg"
 
 ---
 {% assign assets = "/assets/" | append: page.uglyTitle  | prepend: site.baseurl%}
