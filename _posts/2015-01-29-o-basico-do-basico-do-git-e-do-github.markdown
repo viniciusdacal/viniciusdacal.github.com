@@ -82,6 +82,8 @@ A intenção do post não é lhe ensinar todos os comandos e todas as possibilid
 
 abaixo segue alguns links para você começar a estudar.
 
+- [http://tableless.com.br/iniciando-no-git-parte-1/](http://tableless.com.br/iniciando-no-git-parte-1/)
+- [http://tableless.com.br/iniciando-no-git-parte-2/](http://tableless.com.br/iniciando-no-git-parte-2/)
 - [http://rogerdudler.github.io/git-guide/index.pt_BR.html](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
 - [https://www.codeschool.com/courses/try-git](https://www.codeschool.com/courses/try-git)
 - [http://tableless.com.br/alguns-comandos-git/](http://tableless.com.br/alguns-comandos-git/)
