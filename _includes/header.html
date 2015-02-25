@@ -22,7 +22,7 @@
 
       <div class="trigger">
         {% for menu in site.t[page.lang] %}
-          <a class="page-link" href="{{ menu[1].url | prepend: site.baseurl }}">{{menu[1].name}}</a>
+          <a class="page-link {% if menu[1].url == page.url %}active{% endif %}" href="{{ menu[1].url | prepend: site.baseurl }}">{{menu[1].name}}</a>
         {% endfor %}
       </div>
     </nav>
