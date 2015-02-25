@@ -17,12 +17,11 @@ layout: default
 		</article>
 
 		<div class="pagination">
-		{% if page.previous %}
-			<a href="{{page.previous.url}}" rel="prev" class="prev">Anterior</a>
+		{% if page.pt_prev %}
+			<a href="{{page.pt_prev.url}}" rel="prev" class="prev">Anterior</a>
 		{% endif %}
-
-		{% if page.next %}
-			<a href="{{page.next.url}}" rel="next" class="next">Próximo</a>
+		{% if page.pt_next %}
+			<a href="{{page.pt_next.url}}" rel="next" class="next">Próximo</a>
 		{% endif %}
 		</div>
 
