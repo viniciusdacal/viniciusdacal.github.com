@@ -39,19 +39,14 @@ defaults:
       path: ""
     values:
       lang: "pt"
+      metalang: "pt-br"
   # Language for everything inside `/en`
   -
     scope:
       path: "en"
     values:
       lang: "en"
-  # Language for English posts
-  -
-    scope:
-      path: "en/_posts"
-      type: "posts" # As of version 2.3.0, Jekyll uses plural keywords for type
-    values:
-      lang: "en"
+      metalang: "en"
 
 
 t:
