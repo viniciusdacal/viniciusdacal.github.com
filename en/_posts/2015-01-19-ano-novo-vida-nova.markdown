@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_en
 title:  "New year, new life!"
 date:   2015-01-19 23:27:00
 categories: offtopic
