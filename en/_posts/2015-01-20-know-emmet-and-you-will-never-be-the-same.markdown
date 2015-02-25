@@ -7,18 +7,18 @@ bg: "conheca-o-emmet.jpg"
 
 ---
 
-[Emmet](http://emmet.io/), anteriormente conhecido como Zen Coding, é um plugin para editores de texto que adianta sua vida na hora de escrever HTML e CSS.
+Previously known as Zen Coding,[Emmet](http://emmet.io/) is a plugin for text editors that makes your life easier when you have to write HTML and CSS.
 
 
-###Pode explicar melhor?
- Ele é um plugin que você pode instalar no seu editor de texto favorito e lhe dá o superpoder de escrever HTML através de seletores CSS. Isso mesmo, seletores CSS! 
+###Could you explain?
+It is a plugin that you can install in your favorite text editor and gives you a superpower to write HTML by CSS selectors. That's it, CSS selectors!
 
-Você vai escrever div>img, vai apertar a tecla "TAB" e vai ver o seguinte código:
+You'll write `div>img`, hit `TAB` and the follow HTML appears:
 
 {% highlight html %}
 <div><img src="" alt=""></div>
 {% endhighlight %}
-Maravilha, não é? Ele também funciona com classes e ids conforme o exemplo abaixo:
+That's wonderful, don't you think? It works with `class` and `IDs` too, as the below example:
 
 {% highlight html %}
 div.wrapper>div#picture
@@ -30,7 +30,7 @@ div.wrapper>div#picture
 </div>
 {% endhighlight %}
 
-Além de funcionar com seletores CSS, ele também possui algumas outras opções, como o operador "*". Com ele você pode informar quantas vezes um determinado elemento deve se repetir, conforme o exemplo abaixo:
+In addition to work with CSS selectors, It also works with another options, like the `*` operator. With it, you can say how many times some tag will be repeated, as the follow example:
 
 {% highlight html %}
 ul>li*3
