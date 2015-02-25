@@ -31,3 +31,47 @@ months:
   Oct: "Outubro"
   Nov: "Novembro"
   Dec: "Dezembro"
+
+defaults:
+  # Default language
+  -
+    scope:
+      path: ""
+    values:
+      lang: "pt"
+  # Language for everything inside `/en`
+  -
+    scope:
+      path: "en"
+    values:
+      lang: "en"
+  # Language for English posts
+  -
+    scope:
+      path: "en/_posts"
+      type: "posts" # As of version 2.3.0, Jekyll uses plural keywords for type
+    values:
+      lang: "en"
+
+
+t:
+  en:
+    home:
+      name: "home"
+      url: "/en/"
+    about:
+      name: "about.me"
+      url: "/en/about/"
+    projects:
+      name: "projects"
+      url: "/en/projects/"
+  pt:
+    home:
+      name: "home"
+      url: "/"
+    about:
+      name: "about.me"
+      url: "/about/"
+    projects:
+        name: "projetos"
+        url: "/projects/"
