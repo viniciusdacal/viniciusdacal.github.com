@@ -1,6 +1,6 @@
 <header class="site-header">
 
-  <a class="site-title" href="{{ site.baseurl }}/">
+  <a class="site-title" href="{{ site.baseurl }}/{% if page.lang == 'en' %}en/{% endif %}">
     <img src="{{ "/img/viniciusdacal.jpg" | prepend: site.baseurl }}" class="title-picture">
     <div class="titles-wrapper">
       <div class="title">{{ site.title }}</div>
@@ -26,6 +26,10 @@
         {% endfor %}
       </div>
     </nav>
+    <div class="language-menu">
+      <a href="{{ "/" | prepend: site.baseurl }}">PT</a>
+      <a href="{{ "/en/" | prepend: site.site.baseurl }}">EN</a>
+    </div>
 
   </div>
 
