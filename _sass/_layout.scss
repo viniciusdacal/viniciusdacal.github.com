@@ -133,7 +133,7 @@
         color: #777;
         position: relative;
         margin-right: 2px;
-        &:hover {
+        &:hover, &.active {
             color: #333;
         }
         &:first-child:after {

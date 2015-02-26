@@ -27,8 +27,8 @@
       </div>
     </nav>
     <div class="language-menu">
-      <a href="{{ "/" | prepend: site.baseurl }}">PT</a>
-      <a href="{{ "/en/" | prepend: site.site.baseurl }}">EN</a>
+      <a href="{{ "/" | prepend: site.baseurl }}" {% if page.lang == 'pt' %}class="active"{% endif %}>PT</a>
+      <a href="{{ "/en/" | prepend: site.site.baseurl }}" {% if page.lang == 'en' %}class="active"{% endif %}>EN</a>
     </div>
 
   </div>
