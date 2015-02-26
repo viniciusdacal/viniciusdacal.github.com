@@ -44,7 +44,7 @@ ul>li*3
 </ul>
 {% endhighlight %}
 
-Há também o operador "$", que funciona como um enumerador:
+There is also an operator `$`, that works as an index:
 
 {% highlight html %}
 ul>li.item$*3
@@ -58,30 +58,29 @@ ul>li.item$*3
 </ul>
 {% endhighlight %}
 
-Você também consegue inserir texto dentro das tags utilizando chaves "{}", conforme este exemplo:
+You can also insert text inside tags, using closures `{}`, as the follow example:
 
 {% highlight html %}
-ul>li.item${Este é o item $}*3
+ul>li.item${This is the item $}*3
 {% endhighlight %}
 
 {% highlight html %}
 <ul>
-    <li class="item1">Este é o item 1</li>
-    <li class="item2">Este é o item 2</li>
-    <li class="item3">Este é o item 3</li>
+    <li class="item1">This is the item 1</li>
+    <li class="item2">This is the item 2</li>
+    <li class="item3">This is the item 3</li>
 </ul>
 {% endhighlight %}
 
-##Instalação
-Confira a [lista](http://emmet.io/download/) de editores suportados. É só clicar em cima do editor que você usa e você será levado a uma página no github ensinando a instalar.
+##Installation
+Check the [list](http://emmet.io/download/) of supported editors. Just select what editor you use, and you'll taken to an installation guide.
 
-###Conclusão
-Emmet lhe poupa um tempo considerável, que você passaria escrevendo linhas e linhas de HTML.
-Mas ele não para por ai, essas são apenas as principais features, além delas há muitas mais que você pode conferir aqui: [docs.emmet.io/abbreviations/syntax/](http://docs.emmet.io/abbreviations/syntax/).
+###Conclusion
+Emmet saves you much time, that you would spend writing a bunch of HTML. But, It doesn’t stop here, these are just the main features, beyond them, there are a lot more you can see here: [docs.emmet.io/abbreviations/syntax/](http://docs.emmet.io/abbreviations/syntax/).
 
-Para usar as abreviações dele para css, confira a documentação: [docs.emmet.io/css-abbreviations/](http://docs.emmet.io/css-abbreviations/).
-Funciona de uma forma muito parecida com a que eu mostrei nos códigos acima, vai ser fácil de você assimilar.
+If you want to use Emmet to help you write CSS, check the docs here: [docs.emmet.io/css-abbreviations/](http://docs.emmet.io/css-abbreviations/).
+Works in a similar way that I showed above.
 
-Dúvidas, comentários ou sugestões, deixe logo abaixo :)
+Questions, comments or sugestions, leave below. :)
 
 
