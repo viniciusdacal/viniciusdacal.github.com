@@ -10,8 +10,9 @@
   <meta property="og:site_name" content="{{site.site_name}}"/>
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+  <meta property="fb:app_id" content="684221391686656" />
   <meta property="og:description" content="{% if page.title %}{{ page.excerpt | remove: '<p>' | remove: '</p>' }}{% else %}{{page.description}}{% endif %}" />
-  <meta property="article:author" content="{{page.facebook}}" />
+  <meta property="article:author" content="{{site.facebook}}" />
   <meta property="og:image" content="{{page.bg | prepend: "/assets/" | prepend: site.baseurl | prepend: site.url}}" />
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:locale:alternate" content="en_US" />
