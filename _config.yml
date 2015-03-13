@@ -40,6 +40,7 @@ defaults:
     values:
       lang: "pt"
       metalang: "pt-br"
+      footer_description: "Front end Developer, apaixonado por aprender novas tecnologias, culturas e pessoas"
   # Language for everything inside `/en`
   -
     scope:
@@ -47,6 +48,7 @@ defaults:
     values:
       lang: "en"
       metalang: "en"
+      footer_description: "Front end Developer, passionate for learning new technologies, cultures and people"
 
 
 t:
