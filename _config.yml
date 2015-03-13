@@ -1,5 +1,6 @@
 # Site settings
 title: vinicius.dacal
+site_name: Vinicius Dacal - Front End Developer
 jobtitle: Front end Developer
 email: viniciusldacal@gmail.com
 description: "Tutoriais, artigos e materiais para estudos de desenvolvimento web."
@@ -49,7 +50,6 @@ defaults:
       lang: "en"
       metalang: "en"
       footer_description: "Front end Developer, passionate for learning new technologies, cultures and people"
-
 
 t:
   en:
