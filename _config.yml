@@ -72,3 +72,6 @@ t:
     projects:
         name: "projetos"
         url: "/projects/"
+
+gems:
+  - jekyll-category-aware-prev-next
