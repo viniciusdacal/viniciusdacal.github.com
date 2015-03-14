@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vinicius.dacal</title>
+    <description>Tutoriais, artigos e materiais para estudos de desenvolvimento web.</description>
+    <link>http://viniciusdacal.com/</link>
+    <atom:link href="http://viniciusdacal.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 14 Mar 2015 15:08:40 -0300</pubDate>
+    <lastBuildDate>Sat, 14 Mar 2015 15:08:40 -0300</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Como deixar o terminal do Mac Colorido.</title>
+        <description>
+&lt;p&gt;Quando você começa a usar o terminal (linha de comando), sente aquela dificuldade de apenas bater o olho e saber o que está acontecendo ali. Bem, que tal se você pudesse adicionar um pouco de cor para diferenciar mais facilmente uma coisa da outra?&lt;/p&gt;
+
+&lt;p&gt;Se você precisa usar muito o terminal, nada melhor do que tonar ele o mais amigável possível, abaixo vou explicar algumas coisas que podem tonar sua experiência muito mais agradável.&lt;/p&gt;
+
+&lt;h3 id=&quot;abilitando-as-cores&quot;&gt;Abilitando as cores&lt;/h3&gt;
+&lt;p&gt;Por padrão, o terminal não vem com as cores abilitadas, para abilitá-las, faça o seguinte:
+Abra o terminal e digite &lt;code&gt;vim .bash_profile&lt;/code&gt;
+Cole as seguintes linhas:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PS1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ &amp;quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;CLICOLOR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;LSCOLORS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;ExFxBxDxCxegedabagacad
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ls&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;ls -GFh&amp;#39;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Pressione &lt;code&gt;ESC&lt;/code&gt;, depois &lt;code&gt;:wq&lt;/code&gt; e &lt;code&gt;ENTER&lt;/code&gt; para salvar a alteração.
+Feito isso, basta reiniciar seu terminal para ver o resultado.&lt;/p&gt;
+
+&lt;h3 id=&quot;temas&quot;&gt;Temas&lt;/h3&gt;
+&lt;p&gt;Se as cores padrão não lhe agradarem muito, pesquise outros temas.
+Eu gosto de usar o Dracula &lt;a href=&quot;https://github.com/zenorocha/dracula-theme#terminalapp&quot;&gt;https://github.com/zenorocha/dracula-theme&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A instalação é bem simples:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terminal&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Baixe o arquivo .ZIP&lt;/li&gt;
+  &lt;li&gt;No Terminal, selecione a aba &lt;code&gt;Terminal &amp;gt; preferências&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Seleciona acaba &lt;code&gt;Perfis&lt;/code&gt; &lt;/li&gt;
+  &lt;li&gt;Clique no ícone &lt;span class=&quot;fa fa-cog&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;Clique em &lt;code&gt;Importar&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Selecione o arquivo terminal/Dracula.terminal&lt;/li&gt;
+  &lt;li&gt;Selecione ele na lista e clique no botão &lt;code&gt;Padrão&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;iTerm2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Baixe o arquivo .ZIP&lt;/li&gt;
+  &lt;li&gt;No iTerm2 vá em  &lt;code&gt;Preferences &amp;gt; Profiles&lt;/code&gt; &lt;/li&gt;
+  &lt;li&gt;Selecione a aba &lt;code&gt;Colors&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Clique no botão &lt;code&gt;Load Presets&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Clique em &lt;code&gt;Import&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Selecione o arquivo &lt;code&gt;iterm/Dracula.itermcolors&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Selecione o  Dracula em  &lt;code&gt;Load Presets&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Se você quiser mais temas para o iTerm2, acesse o link
+&lt;a href=&quot;http://iterm2colorschemes.com/&quot;&gt;http://iterm2colorschemes.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Feb 2015 13:00:00 -0200</pubDate>
+        <link>http://viniciusdacal.com/pt/iniciante/2015/02/09/como-deixar-o-terminal-do-mac-colorido.html</link>
+        <guid isPermaLink="true">http://viniciusdacal.com/pt/iniciante/2015/02/09/como-deixar-o-terminal-do-mac-colorido.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>iniciante</category>
+        
+      </item>
+    
+      <item>
+        <title>O básico do básico do Git e do Github.</title>
+        <description>
+&lt;p&gt;Acredito que muitas pessoas, como eu, quando começaram a estudar  Git e Github se sentiram confusas com os termos e comandos utilizados pelo sistema. Neste breve post, vou simplificar (ou não) o dialeto deste mundo do versionamento.&lt;/p&gt;
+
+&lt;h3 id=&quot;o-que--o-git&quot;&gt;O que é o git?&lt;/h3&gt;
+&lt;p&gt;Git é um sistema de controle de versão, criado por Linus Torvalds, para desenvolver o Kernel do Linux. Com ele você  pode fazer e salvar cada alteração em seu projeto e futuramente essas alterações poderão ser consultadas ou revertidas. É como se você criasse um ponto de restauração no seu sistema, só que no Git realmente funciona!&lt;/p&gt;
+
+&lt;p&gt;Com o Git você consegue saber a data, a hora, quem alterou e o que foi alterado. Fantástico não?&lt;/p&gt;
+
+&lt;p&gt;Nesta &lt;a href=&quot;https://www.youtube.com/watch?v=R7NYx8wRrWg&quot;&gt;ótima palestra do BrazilJS2014&lt;/a&gt;, o Mauricio Wolff da Booking, demonstra um case fantástico de como ele conseguiu limpar CSS gigantes com a ajuda do Git e do Github, vale a pena assistir (Fica tranquilo, está em português).&lt;/p&gt;
+
+&lt;h3 id=&quot;o-que--o-github&quot;&gt;O que é o Github?&lt;/h3&gt;
+&lt;p&gt;Github é um site que funciona em cima do Git. Nele você consegue criar seus projetos e mantê-los online, mas mais do que isso, ele também funciona como uma rede social, onde as pessoas conseguem ver seus projetos e contribuir para eles. Além de tudo isso, ele também é o melhor portfolio que você pode ter. Olhar para o código que você escreve é uma das melhores maneiras de conhecer seu trabalho.&lt;/p&gt;
+
+&lt;h3 id=&quot;termos-frequentemente-usados&quot;&gt;Termos frequentemente usados&lt;/h3&gt;
+&lt;p&gt;Para você que está começando agora, nada melhor do que ficar por dentro de algumas palavras frequentemente usadas nesse dialeto “versionístico”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Commit&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Um Commit é um pacote de alterações do seu projeto. Digamos que você já tenha uma pasta com os arquivos do seu projeto, você acabou de editar um arquivo e precisa salvar essas alterações no Git, nesse caso você precisará fazer um Commit.&lt;/p&gt;
+
+&lt;p&gt;Vamos supor que o arquivo alterado tenha sido o “arquivo.txt” que está dentro da pasta textos, nesse caso você executará o seguinte comando:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git add textos/arquivo.txt&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Feito isso você terá adicionado o arquivo “arquivo.txt” ao Stage, que é onde ele fica antes de ser “comitado”.&lt;/p&gt;
+
+&lt;p&gt;Digamos que sua alteração foi somente essa e você quer “comitar” ela  para o Git, é só executar o seguinte comando:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git commit –m “Mensagem descrevendo o que foi alterado”&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Você acaba de criar um commit, um pacote de alterações que contem apenas um arquivo.
+Caso você tenha alterado vários arquivos e deseja incluir todos eles ao mesmo commit,  troque apenas o caminho do arquivo para “.”, fica assim:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;git add .&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;O comando do commit vai continuar o mesmo.
+ O que você precisa entender é que ao executar o git add você está adicionando arquivos ao Stage, e que ao executar o git commit, tudo que estiver no Stage vai para o HEAD do seu projeto Git local.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fork, Forkar, Forkado&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/o-basico-do-basico-do-git-e-do-github/print-fork.jpg&quot; alt=&quot;Print fork&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quando você coloca seu projeto publico lá no Github, as pessoas podem “Forkar” ele, o que seria o mesmo que tirar uma cópia, só que essa cópia fará referência ao projeto original, e carregará com ela todo o histórico de alterações anteriores ao “Fork”.
+Nessa cópia, é possível você fazer alterações e trabalhar de forma independente do projeto original.&lt;/p&gt;
+
+&lt;p&gt;Digamos que você queira fazer um blog, é possível você “Forkar” o projeto do Jekyll e fazer as alterações, customizações e postagens em cima da sua própria “cópia” (Fork).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pull request&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;É uma proposta de alteração ao projeto.
+Digamos que você fez um Fork em um projeto, descobriu um bug nele e acabou corrigindo, ou encontrou uma forma de melhorá-lo. Se a alteração efetuada for interessante para o projeto original, você pode enviar um Pull request, propondo que sua alteração seja anexada à ele.&lt;/p&gt;
+
+&lt;p&gt;Tem dúvida de como fazer um Pull request, confira &lt;a href=&quot;https://www.youtube.com/watch?v=E8MPe6tCMo8&quot;&gt;este vídeo do Suíssa&lt;/a&gt;, exemplificando um pull request em 3min.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Issues&lt;/strong&gt;
+&lt;img src=&quot;/assets/o-basico-do-basico-do-git-e-do-github/print-issues.jpg&quot; alt=&quot;print issues&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Issues podem ser erros, bugs, dúvidas, sugestões de novas  features e etc.&lt;/p&gt;
+
+&lt;p&gt;A parte de Issues é o seu canal de comunicação com os colaboradores e desenvolvedores do projeto.&lt;/p&gt;
+
+&lt;p&gt;Digamos que algo no projeto esteja com erro, você pode abrir uma issue e descrever o erro.&lt;/p&gt;
+
+&lt;p&gt;A issue deve ser aberta no projeto original, caso você abrir uma Issue no seu Fork, somente as pessoas que Forkaram essa sua versão irão acompanhar a discussão.&lt;/p&gt;
+
+&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
+&lt;p&gt;A intenção do post não é lhe ensinar todos os comandos e todas as possibilidades que o git lhe dá, mas sim lhe introduzir nesse mundo para que você possa ler e estudar outros artigos com mais facilidade.&lt;/p&gt;
+
+&lt;p&gt;abaixo segue alguns links para você começar a estudar.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tableless.com.br/iniciando-no-git-parte-1/&quot;&gt;http://tableless.com.br/iniciando-no-git-parte-1/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tableless.com.br/iniciando-no-git-parte-2/&quot;&gt;http://tableless.com.br/iniciando-no-git-parte-2/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rogerdudler.github.io/git-guide/index.pt_BR.html&quot;&gt;http://rogerdudler.github.io/git-guide/index.pt_BR.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codeschool.com/courses/try-git&quot;&gt;https://www.codeschool.com/courses/try-git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tableless.com.br/alguns-comandos-git/&quot;&gt;http://tableless.com.br/alguns-comandos-git/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Se você tiver sugestão de mais algum termo, deixe nos comentários que eu anexo ao post.&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Jan 2015 21:40:00 -0200</pubDate>
+        <link>http://viniciusdacal.com/pt/iniciante/2015/01/29/o-basico-do-basico-do-git-e-do-github.html</link>
+        <guid isPermaLink="true">http://viniciusdacal.com/pt/iniciante/2015/01/29/o-basico-do-basico-do-git-e-do-github.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>iniciante</category>
+        
+      </item>
+    
+      <item>
+        <title>Codecademy. O que você pode aprender com ele.</title>
+        <description>
+&lt;p&gt;Codecademy é um website &lt;strong&gt;gratuito&lt;/strong&gt;, que lhe permite aprender várias linguagens de programação de uma forma muito prática.
+Se você pretende aprender uma nova linguagem, este é o lugar certo para começar. &lt;/p&gt;
+
+&lt;h3 id=&quot;qual-o-motivo-desse-post&quot;&gt;Qual o motivo desse post?&lt;/h3&gt;
+&lt;p&gt;O mercado atual valoriza muito um profissional especializado, mas também valoriza muito um profissional com conhecimento em várias linguagens de programação. Me entenda bem, eu disse conhecimento, não disse que você precisa ser um master ninja sr. em todas as linguagens da terra, mas saber pelo menos o básico de algumas linguagens pode lhe trazer alguns benefícios.&lt;/p&gt;
+
+&lt;p&gt;Digamos que você é um desenvolvedor front-end, manja muito de html, css e javascript e certo dia você resolve criar um blog, você ouve falar a respeito do &lt;a href=&quot;http://www.jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; e decide utilizar ele. Até ai tudo bem, se você souber o básico de um terminal não vai ter o menor problema. Mas digamos que você precise de algum plugin muito específico para o seu blog e precise desenvolver um você mesmo, nesse caso você precisará saber pelo menos o básico de ruby.&lt;/p&gt;
+
+&lt;p&gt;Coisas do tipo podem acontecer com outras linguagens também.&lt;/p&gt;
+
+&lt;h3 id=&quot;beleza-mas-o-que-o-codecademy-tem-a-ver-com-isso&quot;&gt;Beleza! Mas o que o Codecademy tem a ver com isso?&lt;/h3&gt;
+
+&lt;p&gt;Quando você quer aprender uma nova linguagem, as vezes fica meio perdido e confuso por onde começar, e é exatamente ai que o Codecademy entra. Ele começa a te ensinar desde o básico da linguagem como váriaveis, estruturas de condiçoes, laços de repetição, funções e até orientação à objetos. Tudo isso com exercícios práticos, o que é mais divertido. &lt;/p&gt;
+
+&lt;h3 id=&quot;cursos&quot;&gt;Cursos&lt;/h3&gt;
+
+&lt;p&gt;Atualmente seus principais cursos são de HTML, CSS, Javascript, Jquery, PHP, Python e Ruby, mas também ele possui outros cursos que te ensinam a consumir algumas APIs de terceiros, como Youtube, Deezer, Github, entre outros.&lt;/p&gt;
+
+&lt;h3 id=&quot;como-comear&quot;&gt;Como começar&lt;/h3&gt;
+&lt;p&gt;Você pode fazer seu cadastro no site utilizando sua conta do Facebook, Google ou preenchendo o formulário com os seus dados.
+&lt;img src=&quot;/assets/codecademy-o-que-voce-pode-aprender-com-ele/cadastro-codecademy.jpg&quot; alt=&quot;&amp;quot;Cadastro Codecademy&amp;quot;&quot; title=&quot;Cadastro Codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;depois--s-selecionar-o-curso-que-tiver-interesse&quot;&gt;Depois é só selecionar o curso que tiver interesse:&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/codecademy-o-que-voce-pode-aprender-com-ele/cursos-codecademy.jpg&quot; alt=&quot;&amp;quot;Cursos Codecademy&amp;quot;&quot; title=&quot;Cursos Codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;e-voc-ser-encaminhado-para-a-primeira-lio&quot;&gt;E você será encaminhado para a primeira lição&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/codecademy-o-que-voce-pode-aprender-com-ele/licao-codecademy.jpg&quot; alt=&quot;&amp;quot;Lição Codecademy&amp;quot;&quot; title=&quot;Lição Codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Essa é a tela da lição. Na lateral esquerda, você possui um bloco com as instruções necessárias para concluir a tarefa. No centro você tem seu editor de texto e na lateral direita o console com o resultado do código que você executou.&lt;/p&gt;
+
+&lt;p&gt;Depois que você salvar e sair de uma lição, é possível ver seu progresso no curso conforme o print abaixo.
+&lt;img src=&quot;/assets/codecademy-o-que-voce-pode-aprender-com-ele/progresso-codecademy.jpg&quot; alt=&quot;&amp;quot;Progresso Codecademy&amp;quot;&quot; title=&quot;Progresso Codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
+&lt;p&gt;Como eu já expliquei, este site não tornará você um ninja, mas pode lhe ajudar a entrar no caminho para se tornar um.
+Ficou interessado? Corre lá &lt;a href=&quot;http://www.codecademy.com/pt-BR/learn&quot;&gt;codecademy.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Jan 2015 21:00:00 -0200</pubDate>
+        <link>http://viniciusdacal.com/pt/iniciante/2015/01/23/codecademy-o-que-voce-pode-aprender-com-ele.html</link>
+        <guid isPermaLink="true">http://viniciusdacal.com/pt/iniciante/2015/01/23/codecademy-o-que-voce-pode-aprender-com-ele.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>iniciante</category>
+        
+      </item>
+    
+      <item>
+        <title>Inglês. Sim, você precisa saber.</title>
+        <description>&lt;p&gt;Neste post eu falarei um pouco sobre a importância do Inglês e darei algumas dicas de como você pode estudar sozinho. Vamos quebrar o paradigma de que a única forma de aprender Inglês é nas escolas de idioma.&lt;/p&gt;
+
+&lt;h3 id=&quot;ingls-mas-o-blog-no--sobre-programao&quot;&gt;Inglês? Mas o blog não é sobre programação?&lt;/h3&gt;
+&lt;p&gt;Sim, eu sei que o blog é voltado pra área de desenvolvimento, mas é &lt;strong&gt;IMPOSSÍVEL&lt;/strong&gt; você seguir carreira nessa área sem saber o mínimo de inglês.&lt;/p&gt;
+
+&lt;h3 id=&quot;no-gosto-de-ingls-por-que-eu-devo-aprender&quot;&gt;Não gosto de inglês, por que eu devo aprender?&lt;/h3&gt;
+&lt;p&gt;Como todo mundo sabe, o inglês é o idioma universal (Tanto que em Star Wars ele é falado até pelos alienígenas), sendo universal, a maioria dos materiais de estudo em diversas áreas está em inglês. Vídeos, documentações, blogs, tutoriais e etc. Tudo em Inglês!&lt;/p&gt;
+
+&lt;p&gt;A primeira matéria da nova tecnologia que está para sair será em inglês, a documentação sairá primeiro em inglês, tudo sobre ela será primeiro em inglês. Assim acontece com frameworks, linguagens de programação, plataformas e afins, ou seja, se você não sabe inglês, vai ficar dependendo da boa vontade de alguém traduzir o conteúdo e postar num blog ou em outras mídias. &lt;/p&gt;
+
+&lt;p&gt;Viu só como o Inglês é importante pra você se manter atualizado?&lt;/p&gt;
+
+&lt;p&gt;Outro fator é que até aqui no Brasil, as melhores empresas para se trabalhar exigem Inglês avançado ou fluente, não tem pra onde correr!&lt;/p&gt;
+
+&lt;h3 id=&quot;ok-voc-me-convenceu-como-eu-posso-comear&quot;&gt;Ok, você me convenceu! Como eu posso começar?&lt;/h3&gt;
+&lt;p&gt;Uma maneira muito bacana de começar é utilizando Apps! Se você possui um Smartphone, pesquise pelo aplicativo &lt;a href=&quot;https://www.duolingo.com/mobile&quot;&gt;Duolingo&lt;/a&gt;. Este app funciona como um jogo onde você consegue disputar com seus amigos pra ver quem fica com o primeiro lugar no ranking. Com ele você vai ganhar vocabulário, vai aprender gramática, escuta e pronúncia.&lt;/p&gt;
+
+&lt;p&gt;Não tem Smartphone? Fica tranquilo, você também pode acessar a versão online em &lt;a href=&quot;https://www.duolingo.com&quot;&gt;duolingo.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Depois que você estiver em um nível “Intermediário”, sugiro que procure por podcasts sobre inglês.&lt;/p&gt;
+
+&lt;p&gt;Se você usa o iTunes, fica fácil, vá até a iTunes Store, selecione a opção podcasts, depois selecione a categoria “Educação” e a subcategoria  ”Cursos de línguas”, selecione um podcast que lhe chamar a atenção e comece a ouvir.&lt;/p&gt;
+
+&lt;p&gt;Eu sugiro começar por podcasts com episódios curtos, como o “Happy English” e o “Dayli Easy English Expressions” que possuem episódios que variam de 5 a 10 minutos.&lt;/p&gt;
+
+&lt;p&gt;Caso você não use o iTunes, sugiro o site &lt;a href=&quot;http://www.inglesonline.com.br/category/podcast-inglesonline/&quot;&gt;inglesonline.com.br&lt;/a&gt; para você começar a ouvir.&lt;/p&gt;
+
+&lt;p&gt;Através de podcasts você vai melhorar muito o seu entendimento e automaticamente a sua conversação.&lt;/p&gt;
+
+&lt;h3 id=&quot;outra-dica-muito-importante-&quot;&gt;Outra dica muito importante é&lt;/h3&gt;
+&lt;p&gt;Se você não gosta, comece a gostar! Faça uma imersão total no idioma. Assista filmes legendados, ouça músicas, e consuma o máximo de coisas que puder no idioma (Não estou falando de comida, vocês entenderam né).&lt;/p&gt;
+
+&lt;h3 id=&quot;finalizando&quot;&gt;Finalizando&lt;/h3&gt;
+&lt;p&gt;Essas foram as metodologias que mais funcionaram pra mim, espero que funcionem para você  também. &lt;/p&gt;
+
+&lt;p&gt;Se você ainda não consegue entender muita coisa, continue estudando que você chegará lá. &lt;strong&gt;O que não pode é ficar parado!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tem alguma dica legal que quer dividir comigo e com a galera? Deixa nos comentários, todas as dicas serão bem vindas.&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 22 Jan 2015 08:00:00 -0200</pubDate>
+        <link>http://viniciusdacal.com/pt/ingles/2015/01/22/ingles-sim-voce-precisa-aprender.html</link>
+        <guid isPermaLink="true">http://viniciusdacal.com/pt/ingles/2015/01/22/ingles-sim-voce-precisa-aprender.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>ingles</category>
+        
+      </item>
+    
+      <item>
+        <title>Instalando plugins no Sublime Text!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; é um editor de textos gratuito que lhe permite escrever código em várias linguagens. Além de ser um programa extremamente leve, ele também lhe da a opção de instalar plugins, o que é &lt;del&gt;a cereja&lt;/del&gt;  o morango do bolo.&lt;/p&gt;
+
+&lt;h3 id=&quot;package-control&quot;&gt;Package Control&lt;/h3&gt;
+
+&lt;p&gt;Como o próprio nome já diz, o Package Control será o seu controlador de pacotes. Com ele você poderá pesquisar, instalar e remover snippets, plug-ins e etc. Porém, o Package Control não vem junto com o sublime, mas instalá-lo é muito simples:&lt;/p&gt;
+
+&lt;p&gt;Vá no menu do programa e selecione &lt;code&gt;View &amp;gt; Show Console&lt;/code&gt;. No console que será aberto cole o seguinte texto:&lt;/p&gt;
+
+&lt;p&gt;Se você estiver usando Sublime Text 2:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;import urllib2,os,hashlib; h = &amp;#39;2deb499853c4371624f5a07e27c334aa&amp;#39; + &amp;#39;bf8c4e67d14fb0525ba4f89698a6d7e1&amp;#39;; pf = &amp;#39;Package Control.sublime-package&amp;#39;; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( &amp;#39;http://packagecontrol.io/&amp;#39; + pf.replace(&amp;#39; &amp;#39;, &amp;#39;%20&amp;#39;)).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), &amp;#39;wb&amp;#39; ).write(by) if dh == h else None; print(&amp;#39;Error validating download (got %s instead of %s), please try manual install&amp;#39; % (dh, h) if dh != h else &amp;#39;Please restart Sublime Text to finish installation&amp;#39;)&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; escape&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Caso esteja usando o Sublime Text 3:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;import urllib.request,os,hashlib; h = &amp;#39;2deb499853c4371624f5a07e27c334aa&amp;#39; + &amp;#39;bf8c4e67d14fb0525ba4f89698a6d7e1&amp;#39;; pf = &amp;#39;Package Control.sublime-package&amp;#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( &amp;#39;http://packagecontrol.io/&amp;#39; + pf.replace(&amp;#39; &amp;#39;, &amp;#39;%20&amp;#39;)).read(); dh = hashlib.sha256(by).hexdigest(); print(&amp;#39;Error validating download (got %s instead of %s), please try manual install&amp;#39; % (dh, h)) if dh != h else open(os.path.join( ipp, pf), &amp;#39;wb&amp;#39; ).write(by)&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; escape&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Feito isso, pressione &lt;code&gt;Enter&lt;/code&gt; e aguarde até o fim da instalação.&lt;/p&gt;
+
+&lt;p&gt;Terminado a instalação, reinicie o Sublime e pressione &lt;code&gt;Cmd+Shift+P&lt;/code&gt; . No campo que será aberto, digite “Install Package” e pressione  &lt;code&gt;Enter&lt;/code&gt;.
+Feito isso, pesquise o nome do Plugin que você deseja instalar, selecione-o e pressione  &lt;code&gt;Enter&lt;/code&gt; novamente e aguarde até o fim da instalação.&lt;/p&gt;
+
+&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
+
+&lt;p&gt;Plugins foram feitos para facilitar sua vida, eles são muito eficazes nisso se você souber usá-los. Procure achar os plugins que melhor se encaixam no seu workflow.&lt;/p&gt;
+
+&lt;p&gt;Várias listas com excelentes plugins podem ser facilmente encontradas fazendo uma simples pesquisa no Google.&lt;/p&gt;
+
+&lt;p&gt;Confira o post que eu fiz falando sobre o Emmet. Se você escreve HTML e CSS, esse deve ser seu primeiro plugin.&lt;/p&gt;
+
+&lt;p&gt;E vocês que já conheciam o Sublime e seus plugins, quais plugins vocês usam?&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo :)&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 21 Jan 2015 18:30:00 -0200</pubDate>
+        <link>http://viniciusdacal.com/pt/frontend/html/css/2015/01/21/instalando-plugins-no-sublime-text.html</link>
+        <guid isPermaLink="true">http://viniciusdacal.com/pt/frontend/html/css/2015/01/21/instalando-plugins-no-sublime-text.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>frontend</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+      </item>
+    
+      <item>
+        <title>Know Emmet and you will never be the same!</title>
+        <description>&lt;p&gt;Previously known as Zen Coding,&lt;a href=&quot;http://emmet.io/&quot;&gt;Emmet&lt;/a&gt; is a plugin for text editors that makes your life easier when you have to write HTML and CSS.&lt;/p&gt;
+
+&lt;h3 id=&quot;could-you-explain&quot;&gt;Could you explain?&lt;/h3&gt;
+&lt;p&gt;It is a plugin that you can install in your favorite text editor and gives you a superpower to write HTML by CSS selectors. That’s it, CSS selectors!&lt;/p&gt;
+
+&lt;p&gt;You’ll write &lt;code&gt;div&amp;gt;img&lt;/code&gt;, hit &lt;code&gt;TAB&lt;/code&gt; and the follow HTML appears:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;That’s wonderful, don’t you think? It works with &lt;code&gt;class&lt;/code&gt; and &lt;code&gt;IDs&lt;/code&gt; too, as the below example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;div.wrapper&amp;gt;div#picture&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;wrapper&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;picture&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;In addition to work with CSS selectors, It also works with another options, like the &lt;code&gt;*&lt;/code&gt; operator. With it, you can say how many times some tag will be repeated, as the follow example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ul&amp;gt;li*3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;There is also an operator &lt;code&gt;$&lt;/code&gt;, that works as an index:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ul&amp;gt;li.item$*3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;item1&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;item2&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;item3&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;You can also insert text inside tags, using closures &lt;code&gt;{}&lt;/code&gt;, as the follow example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ul&amp;gt;li.item${This is the item $}*3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;item1&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;This is the item 1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;item2&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;This is the item 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;item3&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;This is the item 3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Check the &lt;a href=&quot;http://emmet.io/download/&quot;&gt;list&lt;/a&gt; of supported editors. Just select what editor you use, and you’ll taken to an installation guide.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;Emmet saves you much time, that you would spend writing a bunch of HTML. But, It doesn’t stop here, these are just the main features, beyond them, there are a lot more you can see here: &lt;a href=&quot;http://docs.emmet.io/abbreviations/syntax/&quot;&gt;docs.emmet.io/abbreviations/syntax/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you want to use Emmet to help you write CSS, check the docs here: &lt;a href=&quot;http://docs.emmet.io/css-abbreviations/&quot;&gt;docs.emmet.io/css-abbreviations/&lt;/a&gt;.
+Works in a similar way that I showed above.&lt;/p&gt;
+
+&lt;p&gt;Questions, comments or sugestions, leave below. :)&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 20 Jan 2015 20:50:00 -0200</pubDate>
+        <link>http://viniciusdacal.com/en/frontend/html/css/2015/01/20/know-emmet-and-you-will-never-be-the-same.html</link>
+        <guid isPermaLink="true">http://viniciusdacal.com/en/frontend/html/css/2015/01/20/know-emmet-and-you-will-never-be-the-same.html</guid>
+        
+        
+        <category>en</category>
+        
+        <category>frontend</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+      </item>
+    
+      <item>
+        <title>Conheça o Emmet e você nunca mais será o mesmo!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://emmet.io/&quot;&gt;Emmet&lt;/a&gt;, anteriormente conhecido como Zen Coding, é um plugin para editores de texto que adianta sua vida na hora de escrever HTML e CSS.&lt;/p&gt;
+
+&lt;h3 id=&quot;pode-explicar-melhor&quot;&gt;Pode explicar melhor?&lt;/h3&gt;
+&lt;p&gt;Ele é um plugin que você pode instalar no seu editor de texto favorito e lhe dá o superpoder de escrever HTML através de seletores CSS. Isso mesmo, seletores CSS! &lt;/p&gt;
+
+&lt;p&gt;Você vai escrever div&amp;gt;img, vai apertar a tecla “TAB” e vai ver o seguinte código:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Maravilha, não é? Ele também funciona com classes e ids conforme o exemplo abaixo:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;div.wrapper&amp;gt;div#picture&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;wrapper&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;picture&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Além de funcionar com seletores CSS, ele também possui algumas outras opções, como o operador “*”. Com ele você pode informar quantas vezes um determinado elemento deve se repetir, conforme o exemplo abaixo:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ul&amp;gt;li*3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Há também o operador “$”, que funciona como um enumerador:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ul&amp;gt;li.item$*3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;item1&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;item2&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;item3&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Você também consegue inserir texto dentro das tags utilizando chaves “{}”, conforme este exemplo:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ul&amp;gt;li.item${Este é o item $}*3&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;item1&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Este é o item 1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;item2&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Este é o item 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;quot;item3&amp;quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Este é o item 3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;instalao&quot;&gt;Instalação&lt;/h2&gt;
+&lt;p&gt;Confira a &lt;a href=&quot;http://emmet.io/download/&quot;&gt;lista&lt;/a&gt; de editores suportados. É só clicar em cima do editor que você usa e você será levado a uma página no github ensinando a instalar.&lt;/p&gt;
+
+&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
+&lt;p&gt;Emmet lhe poupa um tempo considerável, que você passaria escrevendo linhas e linhas de HTML.
+Mas ele não para por ai, essas são apenas as principais features, além delas há muitas mais que você pode conferir aqui: &lt;a href=&quot;http://docs.emmet.io/abbreviations/syntax/&quot;&gt;docs.emmet.io/abbreviations/syntax/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Para usar as abreviações dele para css, confira a documentação: &lt;a href=&quot;http://docs.emmet.io/css-abbreviations/&quot;&gt;docs.emmet.io/css-abbreviations/&lt;/a&gt;.
+Funciona de uma forma muito parecida com a que eu mostrei nos códigos acima, vai ser fácil de você assimilar.&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo :)&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 20 Jan 2015 20:50:00 -0200</pubDate>
+        <link>http://viniciusdacal.com/pt/frontend/html/css/2015/01/20/conheca-o-emmet-e-voce-nunca-mais-sera-o-mesmo.html</link>
+        <guid isPermaLink="true">http://viniciusdacal.com/pt/frontend/html/css/2015/01/20/conheca-o-emmet-e-voce-nunca-mais-sera-o-mesmo.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>frontend</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+      </item>
+    
+      <item>
+        <title>Ano novo, vida nova!</title>
+        <description>&lt;p&gt;Fazendo planos no último ano, decidi que esse ano algumas coisas iriam mudar (ou não). Decidi que estudaria ainda mais e além de estudar iria compartilhar um pouco do conhecimento adquirido. Nada melhor do que começar a escrever um blog, acho que é a maneira mais fácil de compartilhar conhecimento, receber feedback e conseguir mensurar o impacto do conteúdo produzido.&lt;/p&gt;
+
+&lt;h3 id=&quot;contedo-do-blog&quot;&gt;Conteúdo do blog&lt;/h3&gt;
+
+&lt;p&gt;Neste blog vou postar sobre tecnologias web. Como tenho mais domínio sobre assuntos de front-end, provavelmente vai ser o conteúdo que vocês mais irão ver por aqui. Mas como vou postar conteúdos que estarei estudando, vocês podem acabar encontrando alguns posts falando sobre linguagens de back-end, como PHP, Python, Scala e outras mais que vocês já devem ter ouvido falar (Se for ficar listando linguagens server side, vamos ficar aqui até amanhã né).&lt;/p&gt;
+
+&lt;h3 id=&quot;comentrios-e-feedbacks&quot;&gt;Comentários e Feedbacks&lt;/h3&gt;
+
+&lt;p&gt;Todo comentário e feedback será muito bem vindo :)
+Só peço que não me xinguem caso eu escrever alguma asneira. Faz um comentário bacana, falando onde está o erro e como eu poderia melhorar.
+Da mesma forma que eu espero contribuir para o aprendizado de algumas pessoas, espero que vocês também possam contribuir com o meu.&lt;/p&gt;
+
+&lt;h3 id=&quot;contatos&quot;&gt;Contatos&lt;/h3&gt;
+&lt;p&gt;Dúvidas, comen†ários ou sugestões, envie um e-mail para &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#118;&amp;#105;&amp;#110;&amp;#105;&amp;#099;&amp;#105;&amp;#117;&amp;#115;&amp;#108;&amp;#100;&amp;#097;&amp;#099;&amp;#097;&amp;#108;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#118;&amp;#105;&amp;#110;&amp;#105;&amp;#099;&amp;#105;&amp;#117;&amp;#115;&amp;#108;&amp;#100;&amp;#097;&amp;#099;&amp;#097;&amp;#108;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;, ou no Twitter &lt;a href=&quot;https://twitter.com/vinicius_dacal&quot;&gt;@vinicius_dacal&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Jan 2015 21:27:00 -0200</pubDate>
+        <link>http://viniciusdacal.com/pt/offtopic/2015/01/19/ano-novo-vida-nova.html</link>
+        <guid isPermaLink="true">http://viniciusdacal.com/pt/offtopic/2015/01/19/ano-novo-vida-nova.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>offtopic</category>
+        
+      </item>
+    
+      <item>
+        <title>New year, new life!</title>
+        <description>&lt;p&gt;Making plans last year, I decided that this year some things would change (or not). I decided I’d study more and beyond to study, I’d share a bit of aquired knowledge. Nothing better than start to write a blog, I think this is the easiest way to share knowledge, receive feedback e measure the impact of the produced content.&lt;/p&gt;
+
+&lt;h3 id=&quot;blog-content&quot;&gt;Blog Content&lt;/h3&gt;
+
+&lt;p&gt;On this blog, I will post about web technologies. As I know more about Front end development, probably that will be the subject that you will see more here.
+But, I will post about stuff that I will be studying, then you could find some posts about Back end development, as PHP, Python, Scala and others.&lt;/p&gt;
+
+&lt;h3 id=&quot;comments-and-feedbacks&quot;&gt;Comments and Feedbacks&lt;/h3&gt;
+&lt;p&gt;Every comment and feedback will be welcome :)
+I just want to remember this is not just the place where I share knowledge, but also where I learn. As a human in constantly evolution, I make some mistakes, so, if I write something wrong here, please, correct me.&lt;/p&gt;
+
+&lt;h3 id=&quot;get-in-touch&quot;&gt;Get in touch&lt;/h3&gt;
+&lt;p&gt;Questions, comments or sugestions, send me an e-mail &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#118;&amp;#105;&amp;#110;&amp;#105;&amp;#099;&amp;#105;&amp;#117;&amp;#115;&amp;#108;&amp;#100;&amp;#097;&amp;#099;&amp;#097;&amp;#108;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#118;&amp;#105;&amp;#110;&amp;#105;&amp;#099;&amp;#105;&amp;#117;&amp;#115;&amp;#108;&amp;#100;&amp;#097;&amp;#099;&amp;#097;&amp;#108;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;, ou no Twitter &lt;a href=&quot;https://twitter.com/vinicius_dacal&quot;&gt;@vinicius_dacal&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 19 Jan 2015 21:27:00 -0200</pubDate>
+        <link>http://viniciusdacal.com/en/offtopic/2015/01/19/ano-novo-vida-nova.html</link>
+        <guid isPermaLink="true">http://viniciusdacal.com/en/offtopic/2015/01/19/ano-novo-vida-nova.html</guid>
+        
+        
+        <category>en</category>
+        
+        <category>offtopic</category>
+        
+      </item>
+    
+  </channel>
+</rss>
