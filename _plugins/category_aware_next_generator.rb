@@ -1,5 +1,5 @@
 module Jekyll
-  class CategoryAwareNextGenerator < Generator
+  class CategoryAwareNextGenerator < Jekyll::Generator
 
     safe true
     priority :high
