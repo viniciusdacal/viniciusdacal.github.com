@@ -5,9 +5,63 @@
     <description>Tutoriais, artigos e materiais para estudos de desenvolvimento web.</description>
     <link>http://viniciusdacal.com/</link>
     <atom:link href="http://viniciusdacal.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Mar 2015 16:09:44 -0300</pubDate>
-    <lastBuildDate>Sat, 14 Mar 2015 16:09:44 -0300</lastBuildDate>
+    <pubDate>Thu, 26 Mar 2015 20:04:25 -0300</pubDate>
+    <lastBuildDate>Thu, 26 Mar 2015 20:04:25 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Install plugins on Sublime Text!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; is a free text editor that gives you freedom to code in many programming languages. Above that, It is a very lightweight program and it is also possible install some plugins, that is particularly the best part.&lt;/p&gt;
+
+&lt;h3 id=&quot;package-control&quot;&gt;Package Control&lt;/h3&gt;
+
+&lt;p&gt;As the name says, Package Control is your Package Controller, with it, you can search, install and remove snippets, plugins, etc…&lt;/p&gt;
+
+&lt;p&gt;Package Control doesn’t come with sublime installer, but it’s very simple to install it:&lt;/p&gt;
+
+&lt;p&gt;Go to menu program and select &lt;code&gt;View &amp;gt; Show Console&lt;/code&gt;, in the console that will appears, paste the text below:&lt;/p&gt;
+
+&lt;p&gt;If you are in Sublime Text 2:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;import urllib2,os,hashlib; h = &amp;#39;2deb499853c4371624f5a07e27c334aa&amp;#39; + &amp;#39;bf8c4e67d14fb0525ba4f89698a6d7e1&amp;#39;; pf = &amp;#39;Package Control.sublime-package&amp;#39;; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( &amp;#39;http://packagecontrol.io/&amp;#39; + pf.replace(&amp;#39; &amp;#39;, &amp;#39;%20&amp;#39;)).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), &amp;#39;wb&amp;#39; ).write(by) if dh == h else None; print(&amp;#39;Error validating download (got %s instead of %s), please try manual install&amp;#39; % (dh, h) if dh != h else &amp;#39;Please restart Sublime Text to finish installation&amp;#39;)&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; escape&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;If you are in Sublime Text 3:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;import urllib.request,os,hashlib; h = &amp;#39;2deb499853c4371624f5a07e27c334aa&amp;#39; + &amp;#39;bf8c4e67d14fb0525ba4f89698a6d7e1&amp;#39;; pf = &amp;#39;Package Control.sublime-package&amp;#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( &amp;#39;http://packagecontrol.io/&amp;#39; + pf.replace(&amp;#39; &amp;#39;, &amp;#39;%20&amp;#39;)).read(); dh = hashlib.sha256(by).hexdigest(); print(&amp;#39;Error validating download (got %s instead of %s), please try manual install&amp;#39; % (dh, h)) if dh != h else open(os.path.join( ipp, pf), &amp;#39;wb&amp;#39; ).write(by)&amp;quot;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;|&lt;/span&gt; escape&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;When It done, press &lt;code&gt;Enter&lt;/code&gt; and wait the installation finish.&lt;/p&gt;
+
+&lt;p&gt;Restart Sublime Text and press &lt;code&gt;Cmd+Shift+P&lt;/code&gt;. In the input that appears, type “Install Package” and press &lt;code&gt;Enter&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Search for the plugin name that you want to install, select it, press &lt;code&gt;Enter&lt;/code&gt; again and wait for the installation.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+
+&lt;p&gt;Plugins were made to make your life easier, they are very effective if you would know to use them. Try to find the plugins that best fit in your workflow.&lt;/p&gt;
+
+&lt;p&gt;You can easily find many lists with excellent sublime plugins just googling.&lt;/p&gt;
+
+&lt;p&gt;Take a look at the post that I wrote about Emmet. If you write HTML and CSS, this should be your first plugin.&lt;/p&gt;
+
+&lt;p&gt;And you that already knew Sublime, which plugins do you use?&lt;/p&gt;
+
+&lt;p&gt;Questions, comments or suggestions, leave below. :)&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 26 Mar 2015 17:00:00 -0300</pubDate>
+        <link>http://viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html</link>
+        <guid isPermaLink="true">http://viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html</guid>
+        
+        
+        <category>en</category>
+        
+        <category>frontend</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+      </item>
     
       <item>
         <title>Como deixar o terminal do Mac Colorido.</title>

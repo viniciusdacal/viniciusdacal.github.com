@@ -6,19 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Know Emmet and you will never be the same!</title>
-  <meta name="description" content="Previously known as Zen Coding,Emmet is a plugin for text editors that makes your life easier when you have to write HTML and CSS.">
+  <title>Install plugins on Sublime Text!</title>
+  <meta name="description" content="Sublime Text is a free text editor that gives you freedom to code in many programming languages. Above that, It is a very lightweight program and it is also ...">
 
   <meta name="keywords" content="frontend, web development, tecnologia web, css, html, javascript, php, python, ruby, java, backend, programming">
   <meta property="og:site_name" content="Vinicius Dacal - Front End Developer"/>
-  <meta property="og:title" content="Know Emmet and you will never be the same!" />
-  <meta property="og:url" content="http://viniciusdacal.com/en/frontend/html/css/2015/01/20/know-emmet-and-you-will-never-be-the-same.html" />
+  <meta property="og:title" content="Install plugins on Sublime Text!" />
+  <meta property="og:url" content="http://viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html" />
   <meta property="fb:app_id" content="684221391686656" />
-  <meta property="og:description" content="Previously known as Zen Coding,Emmet is a plugin for text editors that makes your life easier when you have to write HTML and CSS.
+  <meta property="og:description" content="Sublime Text is a free text editor that gives you freedom to code in many programming languages. Above that, It is a very lightweight program and it is also possible install some plugins, that is particularly the best part.
 
 " />
   <meta property="article:author" content="https://www.facebook.com/viniciusdacal" />
-  <meta property="og:image" content="http://viniciusdacal.com/assets/conheca-o-emmet.jpg" />
+  <meta property="og:image" content="http://viniciusdacal.com/assets/instalando-plugins-no-sublime-text.jpg" />
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:locale:alternate" content="en_US" />
   <meta property="og:type" content="article" />
@@ -26,7 +26,7 @@
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://viniciusdacal.com/en/frontend/html/css/2015/01/20/know-emmet-and-you-will-never-be-the-same.html">
+  <link rel="canonical" href="http://viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html">
   <link rel="alternate" type="application/rss+xml" title="vinicius.dacal" href="http://viniciusdacal.com/feed.xml" />
 </head>
 
@@ -93,82 +93,59 @@
 
 
     <div class="page-content">      
-        <div class="wrapper">
+        
+
+
+<div class="wrapper">
 	<div class="post">
 
 		<header class="post-header">
-			<h1 class="post-title">Know Emmet and you will never be the same!</h1>
-			<p class="post-meta">January 20, 2015 </p>
+			<h1 class="post-title">Install plugins on Sublime Text!</h1>
+			<p class="post-meta">26 de Março de 2015 </p>
 		</header>
 
 		<article class="post-content">
-			<p>Previously known as Zen Coding,<a href="http://emmet.io/">Emmet</a> is a plugin for text editors that makes your life easier when you have to write HTML and CSS.</p>
+			<p><a href="http://www.sublimetext.com/">Sublime Text</a> is a free text editor that gives you freedom to code in many programming languages. Above that, It is a very lightweight program and it is also possible install some plugins, that is particularly the best part.</p>
 
-<h3 id="could-you-explain">Could you explain?</h3>
-<p>It is a plugin that you can install in your favorite text editor and gives you a superpower to write HTML by CSS selectors. That’s it, CSS selectors!</p>
+<h3 id="package-control">Package Control</h3>
 
-<p>You’ll write <code>div&gt;img</code>, hit <code>TAB</code> and the follow HTML appears:</p>
+<p>As the name says, Package Control is your Package Controller, with it, you can search, install and remove snippets, plugins, etc…</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div&gt;&lt;img</span> <span class="na">src=</span><span class="s">&quot;&quot;</span> <span class="na">alt=</span><span class="s">&quot;&quot;</span><span class="nt">&gt;&lt;/div&gt;</span></code></pre></div>
+<p>Package Control doesn’t come with sublime installer, but it’s very simple to install it:</p>
 
-<p>That’s wonderful, don’t you think? It works with <code>class</code> and <code>IDs</code> too, as the below example:</p>
+<p>Go to menu program and select <code>View &gt; Show Console</code>, in the console that will appears, paste the text below:</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">div.wrapper&gt;div#picture</code></pre></div>
+<p>If you are in Sublime Text 2:</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;wrapper&quot;</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">&quot;picture&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
-<span class="nt">&lt;/div&gt;</span></code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">{</span> <span class="s2">&quot;import urllib2,os,hashlib; h = &#39;2deb499853c4371624f5a07e27c334aa&#39; + &#39;bf8c4e67d14fb0525ba4f89698a6d7e1&#39;; pf = &#39;Package Control.sublime-package&#39;; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( &#39;http://packagecontrol.io/&#39; + pf.replace(&#39; &#39;, &#39;%20&#39;)).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), &#39;wb&#39; ).write(by) if dh == h else None; print(&#39;Error validating download (got %s instead of %s), please try manual install&#39; % (dh, h) if dh != h else &#39;Please restart Sublime Text to finish installation&#39;)&quot;</span> <span class="p">|</span> escape<span class="o">}</span></code></pre></div>
 
-<p>In addition to work with CSS selectors, It also works with another options, like the <code>*</code> operator. With it, you can say how many times some tag will be repeated, as the follow example:</p>
+<p>If you are in Sublime Text 3:</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">ul&gt;li*3</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">{</span> <span class="s2">&quot;import urllib.request,os,hashlib; h = &#39;2deb499853c4371624f5a07e27c334aa&#39; + &#39;bf8c4e67d14fb0525ba4f89698a6d7e1&#39;; pf = &#39;Package Control.sublime-package&#39;; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( &#39;http://packagecontrol.io/&#39; + pf.replace(&#39; &#39;, &#39;%20&#39;)).read(); dh = hashlib.sha256(by).hexdigest(); print(&#39;Error validating download (got %s instead of %s), please try manual install&#39; % (dh, h)) if dh != h else open(os.path.join( ipp, pf), &#39;wb&#39; ).write(by)&quot;</span> <span class="p">|</span> escape<span class="o">}</span></code></pre></div>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li&gt;&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span></code></pre></div>
+<p>When It done, press <code>Enter</code> and wait the installation finish.</p>
 
-<p>There is also an operator <code>$</code>, that works as an index:</p>
+<p>Restart Sublime Text and press <code>Cmd+Shift+P</code>. In the input that appears, type “Install Package” and press <code>Enter</code>.</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">ul&gt;li.item$*3</code></pre></div>
-
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;item1&quot;</span><span class="nt">&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;item2&quot;</span><span class="nt">&gt;&lt;/li&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;item3&quot;</span><span class="nt">&gt;&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span></code></pre></div>
-
-<p>You can also insert text inside tags, using closures <code>{}</code>, as the follow example:</p>
-
-<div class="highlight"><pre><code class="language-html" data-lang="html">ul&gt;li.item${This is the item $}*3</code></pre></div>
-
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;ul&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;item1&quot;</span><span class="nt">&gt;</span>This is the item 1<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;item2&quot;</span><span class="nt">&gt;</span>This is the item 2<span class="nt">&lt;/li&gt;</span>
-    <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;item3&quot;</span><span class="nt">&gt;</span>This is the item 3<span class="nt">&lt;/li&gt;</span>
-<span class="nt">&lt;/ul&gt;</span></code></pre></div>
-
-<h2 id="installation">Installation</h2>
-<p>Check the <a href="http://emmet.io/download/">list</a> of supported editors. Just select what editor you use, and you’ll taken to an installation guide.</p>
+<p>Search for the plugin name that you want to install, select it, press <code>Enter</code> again and wait for the installation.</p>
 
 <h3 id="conclusion">Conclusion</h3>
-<p>Emmet saves you much time, that you would spend writing a bunch of HTML. But, It doesn’t stop here, these are just the main features, beyond them, there are a lot more you can see here: <a href="http://docs.emmet.io/abbreviations/syntax/">docs.emmet.io/abbreviations/syntax/</a>.</p>
 
-<p>If you want to use Emmet to help you write CSS, check the docs here: <a href="http://docs.emmet.io/css-abbreviations/">docs.emmet.io/css-abbreviations/</a>.
-Works in a similar way that I showed above.</p>
+<p>Plugins were made to make your life easier, they are very effective if you would know to use them. Try to find the plugins that best fit in your workflow.</p>
 
-<p>Questions, comments or sugestions, leave below. :)</p>
+<p>You can easily find many lists with excellent sublime plugins just googling.</p>
+
+<p>Take a look at the post that I wrote about Emmet. If you write HTML and CSS, this should be your first plugin.</p>
+
+<p>And you that already knew Sublime, which plugins do you use?</p>
+
+<p>Questions, comments or suggestions, leave below. :)</p>
 
 
 		</article>
 
 		<div class="pagination">
 		
-			<a href="/en/offtopic/2015/01/19/ano-novo-vida-nova.html" rel="prev" class="prev">Previous</a>
-		
-		
-			<a href="/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html" rel="next" class="next">Next</a>
 		
 		</div>
 
@@ -176,6 +153,9 @@ Works in a similar way that I showed above.</p>
 	    <script type="text/javascript">
 		    /* * * CONFIGURATION VARIABLES * * */
 		    var disqus_shortname = 'viniciusdacalcom';
+		    var disqus_config = function () {
+			  this.language = "pt_BR";
+			};
 
 		    /* * * DON'T EDIT BELOW THIS LINE * * */
 		    (function() {
