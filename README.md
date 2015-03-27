@@ -7,6 +7,6 @@ You can check it online on [viniciusdacal.com](http://viniciusdacal.com)
 
 ##To Do
 
-- [ ] Create an english version.
+- [x] Create an english version.
 - [ ] Create a search bar.
-- [ ] Fix the responsivity.
+- [x] Fix the responsivity.
