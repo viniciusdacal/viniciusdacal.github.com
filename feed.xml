@@ -3,59 +3,62 @@
   <channel>
     <title>vinicius.dacal</title>
     <description>Tutoriais, artigos e materiais para estudos de desenvolvimento web.</description>
-    <link>http://viniciusdacal.com/</link>
-    <atom:link href="http://viniciusdacal.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 28 Mar 2015 21:30:00 -0300</pubDate>
-    <lastBuildDate>Sat, 28 Mar 2015 21:30:00 -0300</lastBuildDate>
+    <link>http://www.viniciusdacal.com/</link>
+    <atom:link href="http://www.viniciusdacal.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 28 Mar 2015 22:09:06 -0300</pubDate>
+    <lastBuildDate>Sat, 28 Mar 2015 22:09:06 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Se eu soubesse aos 18 - Faculdade.</title>
         <description>
-&lt;p&gt;O que você deveria saber antes de entrar na faculdade e também durante o curso. Neste post darei dicas que acho relevantes, informações que gostaria de ter antes de ter entrado na faculdade.&lt;/p&gt;
+&lt;p&gt;O que você deveria saber antes de entrar na faculdade e também durante o curso? Neste post darei dicas que acho relevantes, informações que gostaria de ter antes de ter entrado na faculdade.&lt;/p&gt;
 
 &lt;p&gt;Recentemente ministrei uma palestra com o tema “A profissão além do diploma, mitos e verdades sobre o sucesso profissional”, a partir dela decidi escrever dois posts aqui pro blog, um abordando somente sobre a faculdade e outro sobre profissão, e como está no próprio título, esse aqui é sobre a faculdade.&lt;/p&gt;
 
-&lt;p&gt;Quando você está planejando entrar em uma faculdade você tem uma imagem bem distorcida dela. Eu antes de começar o curso de Sistemas para internet, achei que na faculdade eu aprenderia TUDO para ser um excelente profissional, e que somente com as aulas eu seria um ótimo programador.&lt;/p&gt;
+&lt;h3 id=&quot;introduo&quot;&gt;Introdução&lt;/h3&gt;
+&lt;p&gt;Quando você está planejando entrar em uma faculdade você tem uma imagem bem distorcida dela. Eu antes de começar o curso de Sistemas para internet, achei que na faculdade eu aprenderia TUDO para ser um excelente profissional, e que somente com o conteúdo das aulas eu seria um ótimo programador.&lt;/p&gt;
 
-&lt;p&gt;Ao entrar na faculdade, comecei a sofrer logo no primeiro bimestre, nas primeiras semanas de aulas já veio aquela enchorrada de trabalhos, e como eu não era nada acostumado a fazê-los, eu acabei ficando com nota vermelha em uma das matérias.&lt;/p&gt;
+&lt;p&gt;Ao entrar na faculdade, comecei a sofrer logo no primeiro bimestre, nas primeiras semanas de aulas já veio aquela enxurrada de trabalhos, e como eu não era nada acostumado a fazê-los, eu acabei ficando com nota vermelha em uma das matérias.&lt;/p&gt;
 
 &lt;p&gt;Aos poucos você percebe que um curso ou uma faculdade são tão bons quanto ao tamanho da sua dedicação. Faculdade é apenas informação, cabe a você absorver essa informação e convertê-la em conhecimento.&lt;/p&gt;
 
 &lt;h3 id=&quot;dicas&quot;&gt;Dicas&lt;/h3&gt;
 
-&lt;p&gt;&lt;strong&gt;Leia seus E-mails frequentemente&lt;/strong&gt;
-Talvez isso seja obvio para a maioria das pessoas, mas para mim não era.
+&lt;h4 id=&quot;leia-seus-e-mails-frequentemente&quot;&gt;Leia seus E-mails frequentemente&lt;/h4&gt;
+&lt;p&gt;Talvez isso seja obvio para a maioria das pessoas, mas para mim não era.
 Eu tinha um e-mail profissional, o qual eu acompanhava todos os dias, mas como eu quase não movimentava o e-mail pessoal, eu lia ele no máximo uma vez por semana. Isso me prejudicou um pouco no início e logo peguei o costume de conferir no mínimo duas vezes ao dia. Naquela época eu não tinha smartphone, hoje está muito mais fácil.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Se aprofunde nos seus interesses&lt;/strong&gt;
-Assistiu uma aula e se interessou pelo assunto? Chegue em casa e estude mais sobre, as vezes você pode ter acabado de encontrar um seguimento interessante para trabalhar e não sabe. Na próxima aula, leve suas dúvidas sobre esse estudo para o professor. Sempre que estudamos e temos pouca base, surgem muitas dúvidas, e esse é um dos papeis do professor, tirar suas dúvidas!&lt;/p&gt;
+&lt;h4 id=&quot;se-aprofunde-nos-seus-interesses&quot;&gt;Se aprofunde nos seus interesses&lt;/h4&gt;
+&lt;p&gt;Assistiu uma aula e se interessou pelo assunto? Chegue em casa e estude mais sobre! As vezes você pode ter acabado de encontrar um seguimento interessante para trabalhar e não sabe. Na próxima aula, leve suas dúvidas sobre esse estudo para o professor. Sempre que estudamos e temos pouca base, surgem muitas dúvidas e esse é um dos papeis do professor, tirar suas dúvidas!&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Tenha um bom relacionamento com os professores&lt;/strong&gt;
-Troque uma ideia com o professor antes ou depois da aula, tire suas dúvidas, dê sugestões, tente absorver o máximo de informação que puder. Demonstre interesse no assunto.&lt;/p&gt;
+&lt;h4 id=&quot;tenha-um-bom-relacionamento-com-os-professores&quot;&gt;Tenha um bom relacionamento com os professores&lt;/h4&gt;
+&lt;p&gt;Troque uma ideia com o professor antes ou depois da aula, tire suas dúvidas, dê sugestões, tente absorver o máximo de informação que puder. Demonstre interesse no assunto.&lt;/p&gt;
 
 &lt;p&gt;O bom relacionamento com o professor é uma via de mão dupla, o professor pode lhe ajudar a achar uma vaga de emprego que se identifique com você. Olhando pelo lado do professor, nada melhor do que ver um aluno exercendo a profissão que você ensinou à ele.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Faça amizades&lt;/strong&gt;
-Conheça pessoas que tenham o mesmo interesse que você e se reunam para trocar uma ideia. Chame os amigos para ir em um barzinho tomar uma e discutir sobre orientação à objetos. Essa troca de experiência não tem dinheiro que pague.&lt;/p&gt;
+&lt;h4 id=&quot;faa-amizades&quot;&gt;Faça amizades&lt;/h4&gt;
+&lt;p&gt;Conheça pessoas que tenham o mesmo interesse que você e se reunam para trocar uma ideia. Essa troca de experiência não tem dinheiro que pague.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Faça networking&lt;/strong&gt;
-Quer lugar melhor que a faculdade para conhecer gente que atua na sua área, que você pode vir a precisar da ajuda um dia, as vezes com prestações de serviços ou até quem sabe, indicação para alguma vaga.&lt;/p&gt;
+&lt;h4 id=&quot;faa-networking&quot;&gt;Faça networking&lt;/h4&gt;
+&lt;p&gt;Quer lugar melhor que a faculdade para conhecer gente que atua na sua área. Que você pode vir a precisar da ajuda um dia, as vezes com prestações de serviços ou até quem sabe, indicação para alguma vaga.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Aproveite o hoje!&lt;/strong&gt;
-Muitas vezes dentro da faculdade eu me preocupava mais com o que eu poderia fazer depois que o curso acabasse, do que com o que eu poderia fazer para aproveitar mais o curso.&lt;/p&gt;
+&lt;h4 id=&quot;aproveite-o-hoje&quot;&gt;Aproveite o hoje!&lt;/h4&gt;
+&lt;p&gt;Muitas vezes eu me preocupava mais com o que eu poderia fazer depois da graduação do que com o que eu poderia fazer para aproveitar mais o curso.&lt;/p&gt;
 
-&lt;p&gt;Chega de ficar fazendo planos somente para quando concluir o curso, faça planos que você possa cumprir durante o curso. Esse tempo vai acabar e não voltará mais!&lt;/p&gt;
+&lt;p&gt;Chega de ficar fazendo planos somente para quando concluir o curso. Faça planos que você possa cumprir durante a faculdade. Esse tempo vai acabar e não voltará mais!&lt;/p&gt;
 
 &lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
-&lt;p&gt;A faculdade vai lhe apenas caminhos a serem seguidos, você precisará escolher um deles e seguir por conta própria, ninguém vai lhe ensinar a ser o melhor em algo, isso deve vir de você!&lt;/p&gt;
+&lt;p&gt;A faculdade vai lhe mostrasr apenas caminhos a serem seguidos, você precisará escolher um deles e seguir por conta própria. Ninguém vai lhe ensinar a ser o melhor em algo, isso deve vir de você!&lt;/p&gt;
+
+&lt;p&gt;Tem alguma dica sobre faculdade? Contribua com um comentário!&lt;/p&gt;
 
 &lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 27 Mar 2015 17:00:00 -0300</pubDate>
-        <link>http://viniciusdacal.com/pt/faculdade/2015/03/27/se-eu-soubesse-aos-18-faculdade.html</link>
-        <guid isPermaLink="true">http://viniciusdacal.com/pt/faculdade/2015/03/27/se-eu-soubesse-aos-18-faculdade.html</guid>
+        <link>http://www.viniciusdacal.com/pt/faculdade/2015/03/27/se-eu-soubesse-aos-18-faculdade.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/faculdade/2015/03/27/se-eu-soubesse-aos-18-faculdade.html</guid>
         
         
         <category>pt</category>
@@ -104,8 +107,8 @@ Muitas vezes dentro da faculdade eu me preocupava mais com o que eu poderia faze
 
 </description>
         <pubDate>Thu, 26 Mar 2015 17:00:00 -0300</pubDate>
-        <link>http://viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html</link>
-        <guid isPermaLink="true">http://viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html</guid>
+        <link>http://www.viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html</guid>
         
         
         <category>en</category>
@@ -174,8 +177,8 @@ Eu gosto de usar o Dracula &lt;a href=&quot;https://github.com/zenorocha/dracula
 &lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
 </description>
         <pubDate>Mon, 09 Feb 2015 13:00:00 -0200</pubDate>
-        <link>http://viniciusdacal.com/pt/iniciante/2015/02/09/como-deixar-o-terminal-do-mac-colorido.html</link>
-        <guid isPermaLink="true">http://viniciusdacal.com/pt/iniciante/2015/02/09/como-deixar-o-terminal-do-mac-colorido.html</guid>
+        <link>http://www.viniciusdacal.com/pt/iniciante/2015/02/09/como-deixar-o-terminal-do-mac-colorido.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/iniciante/2015/02/09/como-deixar-o-terminal-do-mac-colorido.html</guid>
         
         
         <category>pt</category>
@@ -269,8 +272,8 @@ Digamos que você fez um Fork em um projeto, descobriu um bug nele e acabou corr
 &lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
 </description>
         <pubDate>Thu, 29 Jan 2015 21:40:00 -0200</pubDate>
-        <link>http://viniciusdacal.com/pt/iniciante/2015/01/29/o-basico-do-basico-do-git-e-do-github.html</link>
-        <guid isPermaLink="true">http://viniciusdacal.com/pt/iniciante/2015/01/29/o-basico-do-basico-do-git-e-do-github.html</guid>
+        <link>http://www.viniciusdacal.com/pt/iniciante/2015/01/29/o-basico-do-basico-do-git-e-do-github.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/iniciante/2015/01/29/o-basico-do-basico-do-git-e-do-github.html</guid>
         
         
         <category>pt</category>
@@ -322,8 +325,8 @@ Ficou interessado? Corre lá &lt;a href=&quot;http://www.codecademy.com/pt-BR/le
 &lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Jan 2015 21:00:00 -0200</pubDate>
-        <link>http://viniciusdacal.com/pt/iniciante/2015/01/23/codecademy-o-que-voce-pode-aprender-com-ele.html</link>
-        <guid isPermaLink="true">http://viniciusdacal.com/pt/iniciante/2015/01/23/codecademy-o-que-voce-pode-aprender-com-ele.html</guid>
+        <link>http://www.viniciusdacal.com/pt/iniciante/2015/01/23/codecademy-o-que-voce-pode-aprender-com-ele.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/iniciante/2015/01/23/codecademy-o-que-voce-pode-aprender-com-ele.html</guid>
         
         
         <category>pt</category>
@@ -377,8 +380,8 @@ Ficou interessado? Corre lá &lt;a href=&quot;http://www.codecademy.com/pt-BR/le
 
 </description>
         <pubDate>Thu, 22 Jan 2015 08:00:00 -0200</pubDate>
-        <link>http://viniciusdacal.com/pt/ingles/2015/01/22/ingles-sim-voce-precisa-aprender.html</link>
-        <guid isPermaLink="true">http://viniciusdacal.com/pt/ingles/2015/01/22/ingles-sim-voce-precisa-aprender.html</guid>
+        <link>http://www.viniciusdacal.com/pt/ingles/2015/01/22/ingles-sim-voce-precisa-aprender.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/ingles/2015/01/22/ingles-sim-voce-precisa-aprender.html</guid>
         
         
         <category>pt</category>
@@ -424,8 +427,8 @@ Feito isso, pesquise o nome do Plugin que você deseja instalar, selecione-o e p
 
 </description>
         <pubDate>Wed, 21 Jan 2015 18:30:00 -0200</pubDate>
-        <link>http://viniciusdacal.com/pt/frontend/html/css/2015/01/21/instalando-plugins-no-sublime-text.html</link>
-        <guid isPermaLink="true">http://viniciusdacal.com/pt/frontend/html/css/2015/01/21/instalando-plugins-no-sublime-text.html</guid>
+        <link>http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/21/instalando-plugins-no-sublime-text.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/21/instalando-plugins-no-sublime-text.html</guid>
         
         
         <category>pt</category>
@@ -500,8 +503,8 @@ Works in a similar way that I showed above.&lt;/p&gt;
 
 </description>
         <pubDate>Tue, 20 Jan 2015 20:50:00 -0200</pubDate>
-        <link>http://viniciusdacal.com/en/frontend/html/css/2015/01/20/know-emmet-and-you-will-never-be-the-same.html</link>
-        <guid isPermaLink="true">http://viniciusdacal.com/en/frontend/html/css/2015/01/20/know-emmet-and-you-will-never-be-the-same.html</guid>
+        <link>http://www.viniciusdacal.com/en/frontend/html/css/2015/01/20/know-emmet-and-you-will-never-be-the-same.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/en/frontend/html/css/2015/01/20/know-emmet-and-you-will-never-be-the-same.html</guid>
         
         
         <category>en</category>
@@ -577,8 +580,8 @@ Funciona de uma forma muito parecida com a que eu mostrei nos códigos acima, va
 
 </description>
         <pubDate>Tue, 20 Jan 2015 20:50:00 -0200</pubDate>
-        <link>http://viniciusdacal.com/pt/frontend/html/css/2015/01/20/conheca-o-emmet-e-voce-nunca-mais-sera-o-mesmo.html</link>
-        <guid isPermaLink="true">http://viniciusdacal.com/pt/frontend/html/css/2015/01/20/conheca-o-emmet-e-voce-nunca-mais-sera-o-mesmo.html</guid>
+        <link>http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/20/conheca-o-emmet-e-voce-nunca-mais-sera-o-mesmo.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/20/conheca-o-emmet-e-voce-nunca-mais-sera-o-mesmo.html</guid>
         
         
         <category>pt</category>
@@ -609,8 +612,8 @@ Da mesma forma que eu espero contribuir para o aprendizado de algumas pessoas, e
 &lt;p&gt;Dúvidas, comen†ários ou sugestões, envie um e-mail para &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#118;&amp;#105;&amp;#110;&amp;#105;&amp;#099;&amp;#105;&amp;#117;&amp;#115;&amp;#108;&amp;#100;&amp;#097;&amp;#099;&amp;#097;&amp;#108;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#118;&amp;#105;&amp;#110;&amp;#105;&amp;#099;&amp;#105;&amp;#117;&amp;#115;&amp;#108;&amp;#100;&amp;#097;&amp;#099;&amp;#097;&amp;#108;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;, ou no Twitter &lt;a href=&quot;https://twitter.com/vinicius_dacal&quot;&gt;@vinicius_dacal&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 19 Jan 2015 21:27:00 -0200</pubDate>
-        <link>http://viniciusdacal.com/pt/offtopic/2015/01/19/ano-novo-vida-nova.html</link>
-        <guid isPermaLink="true">http://viniciusdacal.com/pt/offtopic/2015/01/19/ano-novo-vida-nova.html</guid>
+        <link>http://www.viniciusdacal.com/pt/offtopic/2015/01/19/ano-novo-vida-nova.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/offtopic/2015/01/19/ano-novo-vida-nova.html</guid>
         
         
         <category>pt</category>
