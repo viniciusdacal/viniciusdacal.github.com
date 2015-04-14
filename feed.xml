@@ -5,9 +5,38 @@
     <description>Tutoriais, artigos e materiais para estudos de desenvolvimento web.</description>
     <link>http://www.viniciusdacal.com/</link>
     <atom:link href="http://www.viniciusdacal.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 30 Mar 2015 09:01:41 -0300</pubDate>
-    <lastBuildDate>Mon, 30 Mar 2015 09:01:41 -0300</lastBuildDate>
+    <pubDate>Mon, 13 Apr 2015 22:31:36 -0300</pubDate>
+    <lastBuildDate>Mon, 13 Apr 2015 22:31:36 -0300</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Curso introdução ao Javascript - Faculdade Alfa</title>
+        <description>&lt;p&gt;No último sábado ministrei a primeira parte do minicurso de Javascript na Faculdade Alfa Umuarama. Estou disponibilizando aqui os slides e links para os exemplos criados no curso.&lt;/p&gt;
+
+&lt;p&gt;Os slides utilizados foram esses:&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/46876327&quot; width=&quot;100%&quot; height=&quot;355&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+
+&lt;h2 id=&quot;exemplos-criados&quot;&gt;Exemplos criados&lt;/h2&gt;
+&lt;p&gt;É possível acessar os arquivos direto no &lt;a href=&quot;https://github.com/viniciusdacal/mini-curso-javascript-alfa&quot;&gt;repositório do github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.viniciusdacal.com/mini-curso-javascript-alfa/ball/&quot;&gt;Confira um dos exemplos criados no curso utilizando Canvas&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;contatos&quot;&gt;Contatos&lt;/h3&gt;
+&lt;p&gt;Dúvidas, comen†ários ou sugestões, envie um e-mail para &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#118;&amp;#105;&amp;#110;&amp;#105;&amp;#099;&amp;#105;&amp;#117;&amp;#115;&amp;#108;&amp;#100;&amp;#097;&amp;#099;&amp;#097;&amp;#108;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#118;&amp;#105;&amp;#110;&amp;#105;&amp;#099;&amp;#105;&amp;#117;&amp;#115;&amp;#108;&amp;#100;&amp;#097;&amp;#099;&amp;#097;&amp;#108;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;, ou no Twitter &lt;a href=&quot;https://twitter.com/vinicius_dacal&quot;&gt;@vinicius_dacal&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Apr 2015 19:00:00 -0300</pubDate>
+        <link>http://www.viniciusdacal.com/pt/javascript/talk/2015/04/13/talk-introducao-ao-javascript.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/javascript/talk/2015/04/13/talk-introducao-ao-javascript.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>javascript</category>
+        
+        <category>talk</category>
+        
+      </item>
     
       <item>
         <title>Se eu soubesse aos 18 - Faculdade.</title>
@@ -591,34 +620,6 @@ Funciona de uma forma muito parecida com a que eu mostrei nos códigos acima, va
         <category>html</category>
         
         <category>css</category>
-        
-      </item>
-    
-      <item>
-        <title>Ano novo, vida nova!</title>
-        <description>&lt;p&gt;Fazendo planos no último ano, decidi que esse ano algumas coisas iriam mudar (ou não). Decidi que estudaria ainda mais e além de estudar iria compartilhar um pouco do conhecimento adquirido. Nada melhor do que começar a escrever um blog, acho que é a maneira mais fácil de compartilhar conhecimento, receber feedback e conseguir mensurar o impacto do conteúdo produzido.&lt;/p&gt;
-
-&lt;h3 id=&quot;contedo-do-blog&quot;&gt;Conteúdo do blog&lt;/h3&gt;
-
-&lt;p&gt;Neste blog vou postar sobre tecnologias web. Como tenho mais domínio sobre assuntos de front-end, provavelmente vai ser o conteúdo que vocês mais irão ver por aqui. Mas como vou postar conteúdos que estarei estudando, vocês podem acabar encontrando alguns posts falando sobre linguagens de back-end, como PHP, Python, Scala e outras mais que vocês já devem ter ouvido falar (Se for ficar listando linguagens server side, vamos ficar aqui até amanhã né).&lt;/p&gt;
-
-&lt;h3 id=&quot;comentrios-e-feedbacks&quot;&gt;Comentários e Feedbacks&lt;/h3&gt;
-
-&lt;p&gt;Todo comentário e feedback será muito bem vindo :)
-Só peço que não me xinguem caso eu escrever alguma asneira. Faz um comentário bacana, falando onde está o erro e como eu poderia melhorar.
-Da mesma forma que eu espero contribuir para o aprendizado de algumas pessoas, espero que vocês também possam contribuir com o meu.&lt;/p&gt;
-
-&lt;h3 id=&quot;contatos&quot;&gt;Contatos&lt;/h3&gt;
-&lt;p&gt;Dúvidas, comen†ários ou sugestões, envie um e-mail para &lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#118;&amp;#105;&amp;#110;&amp;#105;&amp;#099;&amp;#105;&amp;#117;&amp;#115;&amp;#108;&amp;#100;&amp;#097;&amp;#099;&amp;#097;&amp;#108;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&quot;&gt;&amp;#118;&amp;#105;&amp;#110;&amp;#105;&amp;#099;&amp;#105;&amp;#117;&amp;#115;&amp;#108;&amp;#100;&amp;#097;&amp;#099;&amp;#097;&amp;#108;&amp;#064;&amp;#103;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#046;&amp;#099;&amp;#111;&amp;#109;&lt;/a&gt;, ou no Twitter &lt;a href=&quot;https://twitter.com/vinicius_dacal&quot;&gt;@vinicius_dacal&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 19 Jan 2015 21:27:00 -0200</pubDate>
-        <link>http://www.viniciusdacal.com/pt/offtopic/2015/01/19/ano-novo-vida-nova.html</link>
-        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/offtopic/2015/01/19/ano-novo-vida-nova.html</guid>
-        
-        
-        <category>pt</category>
-        
-        <category>offtopic</category>
         
       </item>
     
