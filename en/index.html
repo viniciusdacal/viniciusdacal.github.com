@@ -1,0 +1,30 @@
+---
+layout: default
+permalink: /en/
+---
+
+<div class="home">
+  {% assign posts = site.posts | where:"lang", page.lang %}
+  <ul class="post-list">
+    {% for post in posts %}
+      {% assign month = post.date | date: "%b" %}
+      {% assign day = post.date | date: "%-d" %}
+      {% assign year = post.date | date: "%-Y" %}
+      <li>
+
+        <img src="{{site.baseurl}}/assets/{{post.bg}}" alt="" class="bg">
+        <div class="wrapper">
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          <span class="post-meta">{{ post.date | date: '%B %d, %Y' }} </span>
+          {{post.excerpt}}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  <div class="wrapper">
+    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+
+</div>
