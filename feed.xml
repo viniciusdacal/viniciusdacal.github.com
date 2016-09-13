@@ -5,8 +5,8 @@
     <description>Tutoriais, artigos e materiais para estudos de desenvolvimento web.</description>
     <link>http://www.viniciusdacal.com/</link>
     <atom:link href="http://www.viniciusdacal.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Sep 2016 23:01:44 -0300</pubDate>
-    <lastBuildDate>Mon, 12 Sep 2016 23:01:44 -0300</lastBuildDate>
+    <pubDate>Mon, 12 Sep 2016 23:24:14 -0300</pubDate>
+    <lastBuildDate>Mon, 12 Sep 2016 23:24:14 -0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -24,7 +24,7 @@
 
 &lt;p&gt;Nessa fase, eu decidi que já que eu não poderia trabalhar por conta própria, eu iria ao menos procurar uma vaga na minha área de estudo, então preparei meu currículo e levei nas empresas que eu conhecia na cidade.&lt;/p&gt;
 
-&lt;p&gt;Aps um ms de procura, obtive uma resposta da &lt;a href=&quot;http://adnmultipla.com&quot;&gt;ADN Múltipla&lt;/a&gt;uma agência de publicidade, propaganda e tecnologia.&lt;/p&gt;
+&lt;p&gt;Após um mês de procura, obtive uma resposta da &lt;a href=&quot;http://adnmultipla.com&quot;&gt;ADN Múltipla&lt;/a&gt;uma agência de publicidade, propaganda e tecnologia.&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Eu obtive muitos NÃOs antes de obter um SIM, não desanimem.&lt;/p&gt;
@@ -40,17 +40,17 @@
 
 &lt;h3 id=&quot;primeiro-evento&quot;&gt;Primeiro Evento&lt;/h3&gt;
 
-&lt;p&gt;Em novembro de 2011 fiquei sabendo atravs da faculdade, que teria um evento sobre web dev no Paran, o Fr&lt;a href=&quot;https://twitter.com/hashtag/frontinlondrina&quot;&gt;ontin Londrina. &lt;/a&gt;Como eu já conhecia a cidade e tenho familiares lá, decidi ir no evento.&lt;/p&gt;
+&lt;p&gt;Em novembro de 2011 fiquei sabendo através da faculdade, que teria um evento sobre web dev no Paraná, o &lt;a href=&quot;https://twitter.com/hashtag/frontinlondrina&quot;&gt;Frontin Londrina.&lt;/a&gt;Como eu já conhecia a cidade e tenho familiares lá, decidi ir no evento.&lt;/p&gt;
 
 &lt;p&gt;10 de dezembro de 2011, primeiro dia de evento. Auditório lotado, e eu impressionado de ver aquele tanto de gente interessados em web.&lt;/p&gt;
 
-&lt;p&gt;Logo na primeira palestra, com o tema “A nova semântica do HTML5”, eu já comecei a ficar perdido, em meio a tantos termos que eu nunca tinha ouvido falar na vida, e foi ai que eu tive aquele MOMENTO! Aquele que você se da conta que você não sabe NADA.&lt;/p&gt;
+&lt;p&gt;Logo na primeira palestra, com o tema “A nova semântica do HTML5”, eu já comecei a ficar perdido, em meio a tantos termos que eu nunca tinha ouvido falar na vida, foi ai que eu tive aquele MOMENTO! Aquele que você se da conta que você não sabe NADA.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*Rxzl4-Lnch76TmIdtPqehw.gif&quot; width=&quot;500&quot; height=&quot;200&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Isso mesmo, NADA, se você ainda não teve esse momento, você ainda terá!&lt;/p&gt;
 
-&lt;p&gt;Esse é um dos melhores, mais necessários e esclarecedores momentos da sua vida, é a hora que você se da conta que a única coisa que você sabe, é que você NADA sabe, e que não importa o quanto você estude, sempre haverá algo a ser estudado ou descoberto.&lt;/p&gt;
+&lt;p&gt;Esse é um dos melhores, mais necessários e esclarecedores momentos da sua vida. É a hora que você se da conta que a única coisa que você sabe, é que você NADA sabe, e que não importa o quanto você estude, sempre haverá algo a ser estudado ou descoberto.&lt;/p&gt;
 
 &lt;p&gt;Lembra que eu falei que eu me achava o “super experiente”? Aquela visão que eu tinha, caiu por terra nesta hora.&lt;/p&gt;
 
@@ -58,9 +58,9 @@
 
 &lt;p&gt;O Frontin Londrina foi crucial para minha carreira, abriu meus olhos para este mundo de comunidade, boas práticas, padrões, Javascript, HTML5, CSS3 e etc.&lt;/p&gt;
 
-&lt;p&gt;Gostaria de falar que cheguei em casa no outro dia e criei uma framework que abalou o mundo web. Porem, mesmo com todo esse ânimo e decidido que iria estudar e me especializar nessa área, minha evolução foi a baby steps.&lt;/p&gt;
+&lt;p&gt;Gostaria de falar que cheguei em casa no outro dia e criei uma framework que abalou o mundo web. Porém, mesmo com todo esse ânimo e decidido que iria estudar e me especializar nessa área, minha evolução foi à baby steps.&lt;/p&gt;
 
-&lt;p&gt;Comecei a aprender Javascript, passei pela fase de ser o programador jQuery, de pesquisar por “jQuery Carousel plugin” no google e me sentir o máximo por conseguir implementar um deles em um site, e continuei assim por um bom tempo.&lt;/p&gt;
+&lt;p&gt;Comecei a aprender Javascript, passei pela fase de ser o programador jQuery, de pesquisar por “jQuery Carousel plugin” no Google e me sentir o máximo por conseguir implementar um deles em um site, e continuei assim por um bom tempo.f&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*0G-uU5pAdgSAwlEk44BBzg.jpeg&quot; width=&quot;400&quot; height=&quot;304&quot; /&gt;&lt;/p&gt;
 
@@ -70,17 +70,17 @@
 
 &lt;p&gt;Encontrei uma vaga em Curitiba, especificamente para Frontend developer, o que em 2013 era um pouco raro se comparado a hoje, e pra trabalhar principalmente com canvas. Pedi demissão, me organizei para mudar e ao mesmo tempo estava me preparando para ir para o meu primeiro BrazilJS.&lt;/p&gt;
 
-&lt;p&gt;Indo de nibus de &lt;a href=&quot;https://www.google.com.br/maps/dir/Umuarama,+PR/Cascavel+-+PR/Porto+Alegre,+RS/@-26.8292161,-56.9521053,6z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x94f2d6aad88f12b7:0x62e741a44bc7bfc7!2m2!1d-53.3206105!2d-23.7661064!1m5!1m1!1s0x94f17f64f7507c29:0xfa1220399425243c!2m2!1d-53.459544!2d-24.9578832!1m5!1m1!1s0x9519784e88e1007d:0xc7011777424f60bd!2m2!1d-51.2176584!2d-30.0346564!3e0?hl=pt-BR&quot;&gt;Umuarama-PR para Porto Alegre-&lt;/a&gt;RS recebo um e-mail da empresa de Curitiba, me avisando que a contratao havia sido cancelada e que novas contrataes s seriam efetuadas no prximo ano. Fiquei um pouco desnorteado, mas ainda estava na animao para o BrazilJS.&lt;/p&gt;
+&lt;p&gt;Indo de ônibus de &lt;a href=&quot;https://www.google.com.br/maps/dir/Umuarama,+PR/Cascavel+-+PR/Porto+Alegre,+RS/@-26.8292161,-56.9521053,6z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x94f2d6aad88f12b7:0x62e741a44bc7bfc7!2m2!1d-53.3206105!2d-23.7661064!1m5!1m1!1s0x94f17f64f7507c29:0xfa1220399425243c!2m2!1d-53.459544!2d-24.9578832!1m5!1m1!1s0x9519784e88e1007d:0xc7011777424f60bd!2m2!1d-51.2176584!2d-30.0346564!3e0?hl=pt-BR&quot;&gt;Umuarama-PR para Porto Alegre-RS&lt;/a&gt; recebo um e-mail da empresa de Curitiba, me avisando que a contratação havia sido cancelada e que novas contratações só seriam efetuadas no próximo ano. Fiquei um pouco desnorteado, mas ainda estava na animação para o BrazilJS.&lt;/p&gt;
 
 &lt;h3 id=&quot;braziljs-2013&quot;&gt;BrazilJS 2013&lt;/h3&gt;
 
-&lt;p&gt;Sem palavras para descrever o que foi participar &lt;a href=&quot;https://www.youtube.com/watch?v=93Awzbla0yc&amp;amp;list=PLg2lQYZDBwOSyKzM1_nH-jrBGnwjG6JDt&quot;&gt;desse evento&lt;/a&gt;, mais um marco histrico para mim. Aprender que Javascript ia MUITO ALM do que eu conseguia imaginar e que sim, havia vida ps jQuery.&lt;/p&gt;
+&lt;p&gt;Sem palavras para descrever o que foi participar &lt;a href=&quot;https://www.youtube.com/watch?v=93Awzbla0yc&amp;amp;list=PLg2lQYZDBwOSyKzM1_nH-jrBGnwjG6JDt&quot;&gt;desse evento&lt;/a&gt;, mais um marco histórico para mim. Aprender que Javascript ia MUITO ALÉM do que eu conseguia imaginar e que sim, havia vida pós jQuery.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*AGQZhIFbfxYpzJA-rYiQmg.jpeg&quot; width=&quot;300&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Após o evento, acabei indo para Curitiba, já que eu tinha combinado de ficar no meu tio por um tempo e eu estava sem emprego anyway.&lt;/p&gt;
 
-&lt;p&gt;A história se repete, novamente começo a procurar vagas, enviar currículos e esperar respostas. O tempo foi passando, o desespero do desemprego aumentando e eu mandando currículos a torto e a direita.&lt;/p&gt;
+&lt;p&gt;A história se repete, novamente começo a procurar vagas, enviar currículos e esperar respostas. O tempo foi passando, o desespero do desemprego aumentando e eu mandando currículos a torto e a direito.&lt;/p&gt;
 
 &lt;p&gt;Dessa vez, infelizmente, o destino foi desfavorável, não obtive respostas e acabei voltando para Umuarama, com aquele sentimento de incapacidade e derrota.&lt;/p&gt;
 
@@ -92,7 +92,7 @@
 
 &lt;h3 id=&quot;braziljs-2014&quot;&gt;BrazilJS 2014&lt;/h3&gt;
 
-&lt;p&gt;Consegui participar novamente no ano de 2014 e mais uma vez foi um &lt;a href=&quot;https://www.youtube.com/watch?v=AgZJQT1-ixg&amp;amp;list=PLg2lQYZDBwORBD0dC7hCtwpVkIuMx573N&quot;&gt;evento incrvel &lt;/a&gt;e inesquecvel e me lembrou de como eu tinha vontade de me aprofundar no mundo do desenvolvimento web e me especializar cada dia mais.&lt;/p&gt;
+&lt;p&gt;Consegui participar novamente no ano de 2014 e mais uma vez foi um &lt;a href=&quot;https://www.youtube.com/watch?v=AgZJQT1-ixg&amp;amp;list=PLg2lQYZDBwORBD0dC7hCtwpVkIuMx573N&quot;&gt;evento incrível&lt;/a&gt;e inesquecível e me lembrou de como eu tinha vontade de me aprofundar no mundo do desenvolvimento web e me especializar cada dia mais.&lt;/p&gt;
 
 &lt;p&gt;Deixei as coisas seguirem seu fluxo natural, continuei trabalhando, estudando e aos poucos foram surgindo algumas oportunidades.&lt;/p&gt;
 
@@ -114,17 +114,17 @@
 
 &lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*0KU2cyOgiPLRRcKZtS4RMA.jpeg&quot; width=&quot;960&quot; height=&quot;640&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Em termos de carreira, sou um completo iniciante, a minha está ainda em seu início, mas, se eu pudesse enviar uma carta a mim mesmo quando estava com 18 anos, as seguintes dicas estariam nela:&lt;/p&gt;
+&lt;p&gt;Em termos de carreira, sou um completo iniciante, a minha está ainda em seu início. Porém, se eu pudesse enviar uma carta a mim mesmo quando estava com 18 anos, as seguintes dicas estariam nela:&lt;/p&gt;
 
 &lt;h4 id=&quot;comparea-ao-maior-nmeros-de-eventos-que-puder&quot;&gt;1 — Compareça ao maior números de eventos que puder.&lt;/h4&gt;
 
-&lt;p&gt;Recentemente fui no Frontin Floripa junto com o &lt;a href=&quot;http://jeancarlomachado.com.br/#!/post/137&quot;&gt;Jean Carlo Machado&lt;/a&gt;, e acabou surgindo o assunto sobre como eventos assim trazem um Feeling bom para ns desenvolvedores. Essa proximidade com a comunidade faz muita diferena, agrega muito conhecimento e sem dvidas voc volta para casa com outro nimo.&lt;/p&gt;
+&lt;p&gt;Recentemente fui no Frontin Floripa junto com o &lt;a href=&quot;http://jeancarlomachado.com.br/#!/post/137&quot;&gt;Jean Carlo Machado&lt;/a&gt;, e acabou surgindo o assunto sobre como eventos assim trazem um Feeling bom para ns desenvolvedores. Essa proximidade com a comunidade faz muita diferença, agrega muito conhecimento e sem dúvidas você volta para casa com outro ânimo.&lt;/p&gt;
 
-&lt;h4 id=&quot;compartilhe-conhecimento&quot;&gt;2- Compartilhe conhecimento.&lt;/h4&gt;
+&lt;h4 id=&quot;compartilhe-conhecimento&quot;&gt;2 - Compartilhe conhecimento.&lt;/h4&gt;
 
 &lt;p&gt;Compartilhe conhecimento, o máximo que puder, quanto mais você compartilha, mais você cresce. Por trás de um post de 5 parágrafos, vão-se muitas horas de leitura. É uma Win win situation, você ganha porque aprende muito no processo de reunir conteúdo e escrever sobre o assunto e a comunidade ganha com o conteúdo produzido.&lt;/p&gt;
 
-&lt;h4 id=&quot;contribua-com-projetos-open-source&quot;&gt;3- Contribua com projetos open source.&lt;/h4&gt;
+&lt;h4 id=&quot;contribua-com-projetos-open-source&quot;&gt;3 - Contribua com projetos open source.&lt;/h4&gt;
 
 &lt;p&gt;Quando você escreve algo sabendo que outros irão ler, com certeza você fará com mais esmero. O Github é o portfólio do programador, é fácil para um contratante entrar no seu perfil do Github e ver a forma como você coda, quais projetos você segue e quais são seus principais interesses.&lt;/p&gt;
 
@@ -134,15 +134,15 @@
 
 &lt;p&gt;De quebra, você ganha expertise em GIT.&lt;/p&gt;
 
-&lt;h4 id=&quot;aprenda-ingls&quot;&gt;4- Aprenda inglês&lt;/h4&gt;
+&lt;h4 id=&quot;aprenda-ingls&quot;&gt;4 - Aprenda inglês&lt;/h4&gt;
 
 &lt;p&gt;Quanto mais cedo, melhor!&lt;/p&gt;
 
-&lt;p&gt;Nesse &lt;a href=&quot;http://www.viniciusdacal.com/pt/ingles/2015/01/22/ingles-sim-voce-precisa-aprender.html&quot;&gt;post&lt;/a&gt; eu abordo um pouco mais o tema, mas sim, quanto antes voc aprender, melhor.&lt;/p&gt;
+&lt;p&gt;Nesse &lt;a href=&quot;http://www.viniciusdacal.com/pt/ingles/2015/01/22/ingles-sim-voce-precisa-aprender.html&quot;&gt;post&lt;/a&gt; eu abordo um pouco mais o tema, mas sim, quanto antes você aprender, melhor.&lt;/p&gt;
 
 &lt;p&gt;Se você não gosta, aprenda a gostar, não lute contra, inglês é inevitável.&lt;/p&gt;
 
-&lt;h4 id=&quot;seja-um-eterno-junior&quot;&gt;5- Seja um eterno Junior.&lt;/h4&gt;
+&lt;h4 id=&quot;seja-um-eterno-junior&quot;&gt;5 - Seja um eterno Junior.&lt;/h4&gt;
 
 &lt;p&gt;Em termos de APRENDER, seja um eterno Jr. Sempre esteja disposto a aprender aquela nova framework, aquele novo conceito ou até mesmo aquela nova linguagem.&lt;/p&gt;
 
