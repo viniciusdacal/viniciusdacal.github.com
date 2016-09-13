@@ -1,0 +1,710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vinicius.dacal</title>
+    <description>Tutoriais, artigos e materiais para estudos de desenvolvimento web.</description>
+    <link>http://www.viniciusdacal.com/</link>
+    <atom:link href="http://www.viniciusdacal.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 12 Sep 2016 22:59:29 -0300</pubDate>
+    <lastBuildDate>Mon, 12 Sep 2016 22:59:29 -0300</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Se eu soubesse aos 18 - Profissão.</title>
+        <description>
+&lt;p&gt;Há 9 meses atrás escrevi um &lt;a href=&quot;https://medium.com/@viniciusdacal/se-eu-soubesse-aos-18-faculdade-9ee973342620#.wtxv5x2e4&quot;&gt;post semelhante falando sobre a faculdade, &lt;/a&gt;nele eu prometi escrever um post abordando o tema profissão, e aqui estou, cumprindo com a promessa; Antes tarde do que nunca.&lt;/p&gt;
+
+&lt;p&gt;A intensão desse post não é falar nenhuma verdade absoluta ou mostrar um caminho definitivo para o sucesso profissional, e sim, apenas relatar um pouco da experiência que tive nesses quatro anos trabalhando com web, e contribuir com algumas dicas que acredito que teriam sido úteis la no início.&lt;/p&gt;
+
+&lt;h3 id=&quot;o-incio&quot;&gt;O início&lt;/h3&gt;
+
+&lt;p&gt;Em Umuarama-PR, em meados de 2011, cursando o segundo semestre da faculdade, decidi sair do emprego que eu estava para me aventurar a desenvolver websites. Na época, com um conhecimento básico de HTML e CSS, achei que daria conta de vender, desenhar e desenvolver sites, eu só não sabia o péssimo vendedor que eu era.&lt;/p&gt;
+
+&lt;p&gt;Resumindo: um mês depois eu estava desesperado atrás de emprego, eu precisava de dinheiro para pagar a faculdade e minhas economias, bem, eu nunca tive economias.&lt;/p&gt;
+
+&lt;p&gt;Nessa fase, eu decidi que já que eu não poderia trabalhar por conta própria, eu iria ao menos procurar uma vaga na minha área de estudo, então preparei meu currículo e levei nas empresas que eu conhecia na cidade.&lt;/p&gt;
+
+&lt;p&gt;Aps um ms de procura, obtive uma resposta da &lt;a href=&quot;http://adnmultipla.com&quot;&gt;ADN Múltipla&lt;/a&gt;uma agência de publicidade, propaganda e tecnologia.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Eu obtive muitos NÃOs antes de obter um SIM, não desanimem.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Ainda hoje, lembro do meu primeiro dia de trabalho (01/09/2011), eu estava super empolgado para saber como era um “Ambiente de desenvolvimento”&lt;/p&gt;
+
+&lt;p&gt;A primeira semana não foi fácil, tinha muita coisa nova pra assimilar, e ao mesmo tempo, tinha que saber administrar meu tempo entre faculdade e emprego.&lt;/p&gt;
+
+&lt;p&gt;Aos poucos comecei a evoluir no meu trabalho e logo comecei a ver os benefícios de cursar uma faculdade e ao mesmo tempo trabalhar na área. Minha experiência do dia a dia começou a facilitar minha vida dentro da sala de aula, todas aquelas teorias faziam muito mais sentido quando unidas a prática. Ao mesmo tempo, muitas teorias e conceitos aprendidos na faculdade, acabavam me auxiliando no trabalho.&lt;/p&gt;
+
+&lt;p&gt;A cada dia eu aprendia mais e mais. Nessa fase eu me sentia o máximo e me achava o super experiente quando o assunto era desenvolvimento web.&lt;/p&gt;
+
+&lt;h3 id=&quot;primeiro-evento&quot;&gt;Primeiro Evento&lt;/h3&gt;
+
+&lt;p&gt;Em novembro de 2011 fiquei sabendo atravs da faculdade, que teria um evento sobre web dev no Paran, o Fr&lt;a href=&quot;https://twitter.com/hashtag/frontinlondrina&quot;&gt;ontin Londrina. &lt;/a&gt;Como eu já conhecia a cidade e tenho familiares lá, decidi ir no evento.&lt;/p&gt;
+
+&lt;p&gt;10 de dezembro de 2011, primeiro dia de evento. Auditório lotado, e eu impressionado de ver aquele tanto de gente interessados em web.&lt;/p&gt;
+
+&lt;p&gt;Logo na primeira palestra, com o tema “A nova semântica do HTML5”, eu já comecei a ficar perdido, em meio a tantos termos que eu nunca tinha ouvido falar na vida, e foi ai que eu tive aquele MOMENTO! Aquele que você se da conta que você não sabe NADA.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*Rxzl4-Lnch76TmIdtPqehw.gif&quot; width=&quot;500&quot; height=&quot;200&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Isso mesmo, NADA, se você ainda não teve esse momento, você ainda terá!&lt;/p&gt;
+
+&lt;p&gt;Esse é um dos melhores, mais necessários e esclarecedores momentos da sua vida, é a hora que você se da conta que a única coisa que você sabe, é que você NADA sabe, e que não importa o quanto você estude, sempre haverá algo a ser estudado ou descoberto.&lt;/p&gt;
+
+&lt;p&gt;Lembra que eu falei que eu me achava o “super experiente”? Aquela visão que eu tinha, caiu por terra nesta hora.&lt;/p&gt;
+
+&lt;p&gt;BTW, O evento foi incrível, tive a oportunidade de conhecer alguns nomes do mundo frontendiano e voltei pra casa com uma infinidade de conteúdo para estudar.&lt;/p&gt;
+
+&lt;p&gt;O Frontin Londrina foi crucial para minha carreira, abriu meus olhos para este mundo de comunidade, boas práticas, padrões, Javascript, HTML5, CSS3 e etc.&lt;/p&gt;
+
+&lt;p&gt;Gostaria de falar que cheguei em casa no outro dia e criei uma framework que abalou o mundo web. Porem, mesmo com todo esse ânimo e decidido que iria estudar e me especializar nessa área, minha evolução foi a baby steps.&lt;/p&gt;
+
+&lt;p&gt;Comecei a aprender Javascript, passei pela fase de ser o programador jQuery, de pesquisar por “jQuery Carousel plugin” no google e me sentir o máximo por conseguir implementar um deles em um site, e continuei assim por um bom tempo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*0G-uU5pAdgSAwlEk44BBzg.jpeg&quot; width=&quot;400&quot; height=&quot;304&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Nunca parei de procurar conteúdo novo para estudar, mas aos poucos vi que todas as coisas novas que eu estava aprendendo, não se aplicavam ao meu local de trabalho, pelo próprio ritmo de agência.&lt;/p&gt;
+
+&lt;p&gt;Logo que terminei a faculdade, julho de 2013, decidi procurar uma vaga pra fora da cidade, onde eu tivesse a oportunidade de desenvolver ainda mais minhas skills.&lt;/p&gt;
+
+&lt;p&gt;Encontrei uma vaga em Curitiba, especificamente para Frontend developer, o que em 2013 era um pouco raro se comparado a hoje, e pra trabalhar principalmente com canvas. Pedi demissão, me organizei para mudar e ao mesmo tempo estava me preparando para ir para o meu primeiro BrazilJS.&lt;/p&gt;
+
+&lt;p&gt;Indo de nibus de &lt;a href=&quot;https://www.google.com.br/maps/dir/Umuarama,+PR/Cascavel+-+PR/Porto+Alegre,+RS/@-26.8292161,-56.9521053,6z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x94f2d6aad88f12b7:0x62e741a44bc7bfc7!2m2!1d-53.3206105!2d-23.7661064!1m5!1m1!1s0x94f17f64f7507c29:0xfa1220399425243c!2m2!1d-53.459544!2d-24.9578832!1m5!1m1!1s0x9519784e88e1007d:0xc7011777424f60bd!2m2!1d-51.2176584!2d-30.0346564!3e0?hl=pt-BR&quot;&gt;Umuarama-PR para Porto Alegre-&lt;/a&gt;RS recebo um e-mail da empresa de Curitiba, me avisando que a contratao havia sido cancelada e que novas contrataes s seriam efetuadas no prximo ano. Fiquei um pouco desnorteado, mas ainda estava na animao para o BrazilJS.&lt;/p&gt;
+
+&lt;h3 id=&quot;braziljs-2013&quot;&gt;BrazilJS 2013&lt;/h3&gt;
+
+&lt;p&gt;Sem palavras para descrever o que foi participar &lt;a href=&quot;https://www.youtube.com/watch?v=93Awzbla0yc&amp;amp;list=PLg2lQYZDBwOSyKzM1_nH-jrBGnwjG6JDt&quot;&gt;desse evento&lt;/a&gt;, mais um marco histrico para mim. Aprender que Javascript ia MUITO ALM do que eu conseguia imaginar e que sim, havia vida ps jQuery.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*AGQZhIFbfxYpzJA-rYiQmg.jpeg&quot; width=&quot;300&quot; height=&quot;300&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Após o evento, acabei indo para Curitiba, já que eu tinha combinado de ficar no meu tio por um tempo e eu estava sem emprego anyway.&lt;/p&gt;
+
+&lt;p&gt;A história se repete, novamente começo a procurar vagas, enviar currículos e esperar respostas. O tempo foi passando, o desespero do desemprego aumentando e eu mandando currículos a torto e a direita.&lt;/p&gt;
+
+&lt;p&gt;Dessa vez, infelizmente, o destino foi desfavorável, não obtive respostas e acabei voltando para Umuarama, com aquele sentimento de incapacidade e derrota.&lt;/p&gt;
+
+&lt;p&gt;Um tempo depois recebi três propostas, uma para trabalhar com JAVA outra com PHP(Magento) e outra como “Fullstack” (com foco em Frontend), na mesma agência que eu trabalhava antes.&lt;/p&gt;
+
+&lt;p&gt;Mesmo as propostas salariais de Java e Magento sendo melhores, eu optei pela experiência de continuar trabalhando com Frontend, e no fim acabei voltando para meu antigo emprego.&lt;/p&gt;
+
+&lt;p&gt;O tempo passou mais uma vez e muito do que eu estudava eu ainda não conseguia aplicar no trabalho. Nesse meio tempo, aproveitei para evoluir minhas skills de web designer, que mesmo ainda não sendo meu forte me ajudam quando preciso.&lt;/p&gt;
+
+&lt;h3 id=&quot;braziljs-2014&quot;&gt;BrazilJS 2014&lt;/h3&gt;
+
+&lt;p&gt;Consegui participar novamente no ano de 2014 e mais uma vez foi um &lt;a href=&quot;https://www.youtube.com/watch?v=AgZJQT1-ixg&amp;amp;list=PLg2lQYZDBwORBD0dC7hCtwpVkIuMx573N&quot;&gt;evento incrvel &lt;/a&gt;e inesquecvel e me lembrou de como eu tinha vontade de me aprofundar no mundo do desenvolvimento web e me especializar cada dia mais.&lt;/p&gt;
+
+&lt;p&gt;Deixei as coisas seguirem seu fluxo natural, continuei trabalhando, estudando e aos poucos foram surgindo algumas oportunidades.&lt;/p&gt;
+
+&lt;p&gt;Em uma palestra que fui assistir na &lt;a href=&quot;http://www.alfaumuarama.com.br/faculdade/&quot;&gt;Faculdade Alfa&lt;/a&gt;, acabei sendo apresentado, pelo professor e amigo Anderson Fernandes, ao Elton Minetto.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nunca esqueçam, networking, networking, networking!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Alguns meses depois, apliquei para uma vaga de Frontend Developer na &lt;a href=&quot;http://www.coderockr.com&quot;&gt;Coderockr&lt;/a&gt;, passei pelo processo seletivo e acabei sendo chamado para trabalhar.&lt;/p&gt;
+
+&lt;p&gt;Em 10 meses de trabalho, nunca faltou oportunidade para aplicar todo o conhecimento adquirido durante esses anos, e todos os dias eu vou para casa já pensando no que vou estudar para trazer no dia seguinte pro trabalho.&lt;/p&gt;
+
+&lt;p&gt;Mas, aqueles três anos de experiência dentro de uma agência, foram fundamentais!&lt;/p&gt;
+
+&lt;h3 id=&quot;brazil-js-2015&quot;&gt;Brazil JS 2015&lt;/h3&gt;
+
+&lt;p&gt;Comemorando 20 anos do Javascript, acho que nem tem muito o que falar né? &lt;a href=&quot;https://www.youtube.com/watch?v=p1EdfnnPn28&amp;amp;list=PLg2lQYZDBwORUpJTu5MxI71iEQIyc_Lno&amp;amp;index=2&quot;&gt;Best event ever!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*0KU2cyOgiPLRRcKZtS4RMA.jpeg&quot; width=&quot;960&quot; height=&quot;640&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Em termos de carreira, sou um completo iniciante, a minha está ainda em seu início, mas, se eu pudesse enviar uma carta a mim mesmo quando estava com 18 anos, as seguintes dicas estariam nela:&lt;/p&gt;
+
+&lt;h4 id=&quot;comparea-ao-maior-nmeros-de-eventos-que-puder&quot;&gt;1 — Compareça ao maior números de eventos que puder.&lt;/h4&gt;
+
+&lt;p&gt;Recentemente fui no Frontin Floripa junto com o &lt;a href=&quot;http://jeancarlomachado.com.br/#!/post/137&quot;&gt;Jean Carlo Machado&lt;/a&gt;, e acabou surgindo o assunto sobre como eventos assim trazem um Feeling bom para ns desenvolvedores. Essa proximidade com a comunidade faz muita diferena, agrega muito conhecimento e sem dvidas voc volta para casa com outro nimo.&lt;/p&gt;
+
+&lt;h4 id=&quot;compartilhe-conhecimento&quot;&gt;2- Compartilhe conhecimento.&lt;/h4&gt;
+
+&lt;p&gt;Compartilhe conhecimento, o máximo que puder, quanto mais você compartilha, mais você cresce. Por trás de um post de 5 parágrafos, vão-se muitas horas de leitura. É uma Win win situation, você ganha porque aprende muito no processo de reunir conteúdo e escrever sobre o assunto e a comunidade ganha com o conteúdo produzido.&lt;/p&gt;
+
+&lt;h4 id=&quot;contribua-com-projetos-open-source&quot;&gt;3- Contribua com projetos open source.&lt;/h4&gt;
+
+&lt;p&gt;Quando você escreve algo sabendo que outros irão ler, com certeza você fará com mais esmero. O Github é o portfólio do programador, é fácil para um contratante entrar no seu perfil do Github e ver a forma como você coda, quais projetos você segue e quais são seus principais interesses.&lt;/p&gt;
+
+&lt;p&gt;Projetos open source são capazes de te fornecer bagagem necessária para entrar em qualquer empresa.&lt;/p&gt;
+
+&lt;p&gt;Comece do básico, abrindo issues, contribuindo com documentações, fazendo review em PRs e assim por diante.&lt;/p&gt;
+
+&lt;p&gt;De quebra, você ganha expertise em GIT.&lt;/p&gt;
+
+&lt;h4 id=&quot;aprenda-ingls&quot;&gt;4- Aprenda inglês&lt;/h4&gt;
+
+&lt;p&gt;Quanto mais cedo, melhor!&lt;/p&gt;
+
+&lt;p&gt;Nesse &lt;a href=&quot;http://www.viniciusdacal.com/pt/ingles/2015/01/22/ingles-sim-voce-precisa-aprender.html&quot;&gt;post&lt;/a&gt; eu abordo um pouco mais o tema, mas sim, quanto antes voc aprender, melhor.&lt;/p&gt;
+
+&lt;p&gt;Se você não gosta, aprenda a gostar, não lute contra, inglês é inevitável.&lt;/p&gt;
+
+&lt;h4 id=&quot;seja-um-eterno-junior&quot;&gt;5- Seja um eterno Junior.&lt;/h4&gt;
+
+&lt;p&gt;Em termos de APRENDER, seja um eterno Jr. Sempre esteja disposto a aprender aquela nova framework, aquele novo conceito ou até mesmo aquela nova linguagem.&lt;/p&gt;
+
+&lt;p&gt;Sempre considere a possibilidade de você estar errado, isso no mínimo evita muitas horas de debug.&lt;/p&gt;
+
+&lt;p&gt;Acolha as novas ideias e analise-as ao invés de simplesmente descartá-las.&lt;/p&gt;
+
+&lt;p&gt;Mantenha sempre essa vontade de aprender.&lt;/p&gt;
+
+&lt;p&gt;Seja humilde, quanto antes você conseguir enxergar o quão pouco você sabe, mais fácil será o processo de evolução.&lt;/p&gt;
+
+&lt;p&gt;Tem alguma dica sobre carreira? deixe nos comentários abaixo :)&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 18 Dec 2015 18:00:00 -0200</pubDate>
+        <link>http://www.viniciusdacal.com/pt/profissao/2015/12/18/se-eu-soubesse-aos-18-profissao.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/profissao/2015/12/18/se-eu-soubesse-aos-18-profissao.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>profissao</category>
+        
+      </item>
+    
+      <item>
+        <title>Curso introdução ao Javascript - Faculdade Alfa</title>
+        <description>&lt;p&gt;No último sábado ministrei a primeira parte do minicurso de Javascript na Faculdade Alfa Umuarama. Estou disponibilizando aqui os slides e links para os exemplos criados no curso.&lt;/p&gt;
+
+&lt;p&gt;Os slides utilizados foram esses:&lt;/p&gt;
+
+&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/46876327&quot; width=&quot;100%&quot; height=&quot;355&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
+
+&lt;h2 id=&quot;exemplos-criados&quot;&gt;Exemplos criados&lt;/h2&gt;
+&lt;p&gt;É possível acessar os arquivos direto no &lt;a href=&quot;https://github.com/viniciusdacal/mini-curso-javascript-alfa&quot;&gt;repositório do github&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.viniciusdacal.com/mini-curso-javascript-alfa/ball/&quot;&gt;Confira um dos exemplos criados no curso utilizando Canvas&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;contatos&quot;&gt;Contatos&lt;/h3&gt;
+&lt;p&gt;Dúvidas, comen†ários ou sugestões, envie um e-mail para &lt;a href=&quot;mailto:viniciusldacal@gmail.com&quot;&gt;viniciusldacal@gmail.com&lt;/a&gt;, ou no Twitter &lt;a href=&quot;https://twitter.com/vinicius_dacal&quot;&gt;@vinicius_dacal&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Apr 2015 19:00:00 -0300</pubDate>
+        <link>http://www.viniciusdacal.com/pt/javascript/talk/2015/04/13/talk-introducao-ao-javascript.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/javascript/talk/2015/04/13/talk-introducao-ao-javascript.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>javascript</category>
+        
+        <category>talk</category>
+        
+      </item>
+    
+      <item>
+        <title>Se eu soubesse aos 18 - Faculdade.</title>
+        <description>
+&lt;p&gt;O que você deveria saber antes de entrar na faculdade e também durante o curso? Neste post darei dicas que acho relevantes, informações que gostaria de ter antes de ter entrado na faculdade.&lt;/p&gt;
+
+&lt;p&gt;Recentemente ministrei uma palestra com o tema “A profissão além do diploma, mitos e verdades sobre o sucesso profissional”, a partir dela decidi escrever dois posts aqui pro blog, um abordando somente sobre a faculdade e outro sobre profissão, e como está no próprio título, esse aqui é sobre a faculdade.&lt;/p&gt;
+
+&lt;h3 id=&quot;introduo&quot;&gt;Introdução&lt;/h3&gt;
+&lt;p&gt;Quando você está planejando entrar em uma faculdade você tem uma imagem bem distorcida dela. Eu antes de começar o curso de Sistemas para internet, achei que na faculdade eu aprenderia TUDO para ser um excelente profissional, e que somente com o conteúdo das aulas eu seria um ótimo programador.&lt;/p&gt;
+
+&lt;p&gt;Ao entrar na faculdade, comecei a sofrer logo no primeiro bimestre, nas primeiras semanas de aulas já veio aquela enxurrada de trabalhos, e como eu não era nada acostumado a fazê-los, eu acabei ficando com nota vermelha em uma das matérias.&lt;/p&gt;
+
+&lt;p&gt;Aos poucos você percebe que um curso ou uma faculdade são tão bons quanto ao tamanho da sua dedicação. Faculdade é apenas informação, cabe a você absorver essa informação e convertê-la em conhecimento.&lt;/p&gt;
+
+&lt;h3 id=&quot;dicas&quot;&gt;Dicas&lt;/h3&gt;
+
+&lt;h4 id=&quot;leia-seus-e-mails-frequentemente&quot;&gt;Leia seus E-mails frequentemente&lt;/h4&gt;
+&lt;p&gt;Talvez isso seja obvio para a maioria das pessoas, mas para mim não era.
+Eu tinha um e-mail profissional, o qual eu acompanhava todos os dias, mas como eu quase não movimentava o e-mail pessoal, eu lia ele no máximo uma vez por semana. Isso me prejudicou um pouco no início e logo peguei o costume de conferir no mínimo duas vezes ao dia. Naquela época eu não tinha smartphone, hoje está muito mais fácil.&lt;/p&gt;
+
+&lt;h4 id=&quot;se-aprofunde-nos-seus-interesses&quot;&gt;Se aprofunde nos seus interesses&lt;/h4&gt;
+&lt;p&gt;Assistiu uma aula e se interessou pelo assunto? Chegue em casa e estude mais sobre! As vezes você pode ter acabado de encontrar um seguimento interessante para trabalhar e não sabe. Na próxima aula, leve suas dúvidas sobre esse estudo para o professor. Sempre que estudamos e temos pouca base, surgem muitas dúvidas e esse é um dos papeis do professor, tirar suas dúvidas!&lt;/p&gt;
+
+&lt;h4 id=&quot;tenha-um-bom-relacionamento-com-os-professores&quot;&gt;Tenha um bom relacionamento com os professores&lt;/h4&gt;
+&lt;p&gt;Troque uma ideia com o professor antes ou depois da aula, tire suas dúvidas, dê sugestões, tente absorver o máximo de informação que puder. Demonstre interesse no assunto.&lt;/p&gt;
+
+&lt;p&gt;O bom relacionamento com o professor é uma via de mão dupla, o professor pode lhe ajudar a achar uma vaga de emprego que se identifique com você. Olhando pelo lado do professor, nada melhor do que ver um aluno exercendo a profissão que você ensinou à ele.&lt;/p&gt;
+
+&lt;h4 id=&quot;faa-amizades&quot;&gt;Faça amizades&lt;/h4&gt;
+&lt;p&gt;Conheça pessoas que tenham o mesmo interesse que você e se reunam para trocar uma ideia. Essa troca de experiência não tem dinheiro que pague.&lt;/p&gt;
+
+&lt;h4 id=&quot;faa-networking&quot;&gt;Faça networking&lt;/h4&gt;
+&lt;p&gt;Quer lugar melhor que a faculdade para conhecer gente que atua na sua área. Que você pode vir a precisar da ajuda um dia, as vezes com prestações de serviços ou até quem sabe, indicação para alguma vaga.&lt;/p&gt;
+
+&lt;h4 id=&quot;aproveite-o-hoje&quot;&gt;Aproveite o hoje!&lt;/h4&gt;
+&lt;p&gt;Muitas vezes eu me preocupava mais com o que eu poderia fazer depois da graduação do que com o que eu poderia fazer para aproveitar mais o curso.&lt;/p&gt;
+
+&lt;p&gt;Chega de ficar fazendo planos somente para quando concluir o curso. Faça planos que você possa cumprir durante a faculdade. Esse tempo vai acabar e não voltará mais!&lt;/p&gt;
+
+&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
+&lt;p&gt;A faculdade vai lhe mostrasr apenas caminhos a serem seguidos, você precisará escolher um deles e seguir por conta própria. Ninguém vai lhe ensinar a ser o melhor em algo, isso deve vir de você!&lt;/p&gt;
+
+&lt;p&gt;Tem alguma dica sobre faculdade? Contribua com um comentário!&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 27 Mar 2015 17:00:00 -0300</pubDate>
+        <link>http://www.viniciusdacal.com/pt/faculdade/2015/03/27/se-eu-soubesse-aos-18-faculdade.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/faculdade/2015/03/27/se-eu-soubesse-aos-18-faculdade.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>faculdade</category>
+        
+      </item>
+    
+      <item>
+        <title>Install plugins on Sublime Text!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; is a free text editor that gives you freedom to code in many programming languages. Above that, It is a very lightweight program and it is also possible install some plugins, that is particularly the best part.&lt;/p&gt;
+
+&lt;p&gt;###Package Control&lt;/p&gt;
+
+&lt;p&gt;As the name says, Package Control is your Package Controller, with it, you can search, install and remove snippets, plugins, etc…&lt;/p&gt;
+
+&lt;p&gt;Package Control doesn’t come with sublime installer, but it’s very simple to install it:&lt;/p&gt;
+
+&lt;p&gt;Go to menu program and select &lt;code class=&quot;highlighter-rouge&quot;&gt;View &amp;gt; Show Console&lt;/code&gt;, in the console that will appears, paste the text below:&lt;/p&gt;
+
+&lt;p&gt;If you are in Sublime Text 2:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;import urllib2,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')&quot;&lt;/span&gt; | escape&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;If you are in Sublime Text 3:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)&quot;&lt;/span&gt; | escape&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;When It done, press &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt; and wait the installation finish.&lt;/p&gt;
+
+&lt;p&gt;Restart Sublime Text and press &lt;code class=&quot;highlighter-rouge&quot;&gt;Cmd+Shift+P&lt;/code&gt;. In the input that appears, type “Install Package” and press &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Search for the plugin name that you want to install, select it, press &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt; again and wait for the installation.&lt;/p&gt;
+
+&lt;p&gt;###Conclusion&lt;/p&gt;
+
+&lt;p&gt;Plugins were made to make your life easier, they are very effective if you would know to use them. Try to find the plugins that best fit in your workflow.&lt;/p&gt;
+
+&lt;p&gt;You can easily find many lists with excellent sublime plugins just googling.&lt;/p&gt;
+
+&lt;p&gt;Take a look at the &lt;a href=&quot;/en/frontend/html/css/2015/01/20/know-emmet-and-you-will-never-be-the-same.html&quot;&gt;post that I wrote about Emmet&lt;/a&gt;. If you write HTML and CSS, this should be your first plugin.&lt;/p&gt;
+
+&lt;p&gt;And you that already knew Sublime, which plugins do you use?&lt;/p&gt;
+
+&lt;p&gt;Questions, comments or suggestions, leave below. :)&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 26 Mar 2015 17:00:00 -0300</pubDate>
+        <link>http://www.viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html</guid>
+        
+        
+        <category>en</category>
+        
+        <category>frontend</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+      </item>
+    
+      <item>
+        <title>Como deixar o terminal do Mac Colorido.</title>
+        <description>
+&lt;p&gt;Quando você começa a usar o terminal (linha de comando), sente aquela dificuldade de apenas bater o olho e saber o que está acontecendo ali. Bem, que tal se você pudesse adicionar um pouco de cor para diferenciar mais facilmente uma coisa da outra?&lt;/p&gt;
+
+&lt;p&gt;Se você precisa usar muito o terminal, nada melhor do que tonar ele o mais amigável possível, abaixo vou explicar algumas coisas que podem tonar sua experiência muito mais agradável.&lt;/p&gt;
+
+&lt;h3 id=&quot;habilitando-as-cores&quot;&gt;Habilitando as cores&lt;/h3&gt;
+&lt;p&gt;Por padrão, o terminal não vem com as cores abilitadas, para abilitá-las, faça o seguinte:
+Abra o terminal e digite &lt;code class=&quot;highlighter-rouge&quot;&gt;vim .bash_profile&lt;/code&gt;
+Cole as seguintes linhas:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PS1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\[\0&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;33[36m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\]\u\[\0&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;33[m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\]&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\[\0&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;33[32m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\]\h&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\[\0&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;33[33;1m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\]\w\[\0&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;33[m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\]\$&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &quot;&lt;/span&gt;
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;CLICOLOR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;LSCOLORS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;ExFxBxDxCxegedabagacad
+&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ls&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'ls -GFh'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Pressione &lt;code class=&quot;highlighter-rouge&quot;&gt;ESC&lt;/code&gt;, depois &lt;code class=&quot;highlighter-rouge&quot;&gt;:wq&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;ENTER&lt;/code&gt; para salvar a alteração.
+Feito isso, basta reiniciar seu terminal para ver o resultado.&lt;/p&gt;
+
+&lt;h3 id=&quot;temas&quot;&gt;Temas&lt;/h3&gt;
+&lt;p&gt;Se as cores padrão não lhe agradarem muito, pesquise outros temas.
+Eu gosto de usar o Dracula &lt;a href=&quot;https://github.com/zenorocha/dracula-theme#terminalapp&quot;&gt;https://github.com/zenorocha/dracula-theme&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;A instalação é bem simples:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Terminal&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Baixe o arquivo .ZIP&lt;/li&gt;
+  &lt;li&gt;No Terminal, selecione a aba &lt;code class=&quot;highlighter-rouge&quot;&gt;Terminal &amp;gt; preferências&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Seleciona acaba &lt;code class=&quot;highlighter-rouge&quot;&gt;Perfis&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Clique no ícone &lt;span class=&quot;fa fa-cog&quot;&gt;&lt;/span&gt;&lt;/li&gt;
+  &lt;li&gt;Clique em &lt;code class=&quot;highlighter-rouge&quot;&gt;Importar&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Selecione o arquivo terminal/Dracula.terminal&lt;/li&gt;
+  &lt;li&gt;Selecione ele na lista e clique no botão &lt;code class=&quot;highlighter-rouge&quot;&gt;Padrão&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;iTerm2&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Baixe o arquivo .ZIP&lt;/li&gt;
+  &lt;li&gt;No iTerm2 vá em  &lt;code class=&quot;highlighter-rouge&quot;&gt;Preferences &amp;gt; Profiles&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Selecione a aba &lt;code class=&quot;highlighter-rouge&quot;&gt;Colors&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Clique no botão &lt;code class=&quot;highlighter-rouge&quot;&gt;Load Presets&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Clique em &lt;code class=&quot;highlighter-rouge&quot;&gt;Import&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Selecione o arquivo &lt;code class=&quot;highlighter-rouge&quot;&gt;iterm/Dracula.itermcolors&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Selecione o  Dracula em  &lt;code class=&quot;highlighter-rouge&quot;&gt;Load Presets&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Se você quiser mais temas para o iTerm2, acesse o link
+&lt;a href=&quot;http://iterm2colorschemes.com/&quot;&gt;http://iterm2colorschemes.com/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Feb 2015 13:00:00 -0200</pubDate>
+        <link>http://www.viniciusdacal.com/pt/iniciante/2015/02/09/como-deixar-o-terminal-do-mac-colorido.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/iniciante/2015/02/09/como-deixar-o-terminal-do-mac-colorido.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>iniciante</category>
+        
+      </item>
+    
+      <item>
+        <title>O básico do básico do Git e do Github.</title>
+        <description>
+&lt;p&gt;Acredito que muitas pessoas, como eu, quando começaram a estudar  Git e Github se sentiram confusas com os termos e comandos utilizados pelo sistema. Neste breve post, vou simplificar (ou não) o dialeto deste mundo do versionamento.&lt;/p&gt;
+
+&lt;h3 id=&quot;o-que--o-git&quot;&gt;O que é o git?&lt;/h3&gt;
+&lt;p&gt;Git é um sistema de controle de versão, criado por Linus Torvalds, para desenvolver o Kernel do Linux. Com ele você  pode fazer e salvar cada alteração em seu projeto e futuramente essas alterações poderão ser consultadas ou revertidas. É como se você criasse um ponto de restauração no seu sistema, só que no Git realmente funciona!&lt;/p&gt;
+
+&lt;p&gt;Com o Git você consegue saber a data, a hora, quem alterou e o que foi alterado. Fantástico não?&lt;/p&gt;
+
+&lt;p&gt;Nesta &lt;a href=&quot;https://www.youtube.com/watch?v=R7NYx8wRrWg&quot;&gt;ótima palestra do BrazilJS2014&lt;/a&gt;, o Mauricio Wolff da Booking, demonstra um case fantástico de como ele conseguiu limpar CSS gigantes com a ajuda do Git e do Github, vale a pena assistir (Fica tranquilo, está em português).&lt;/p&gt;
+
+&lt;h3 id=&quot;o-que--o-github&quot;&gt;O que é o Github?&lt;/h3&gt;
+&lt;p&gt;Github é um site que funciona em cima do Git. Nele você consegue criar seus projetos e mantê-los online, mas mais do que isso, ele também funciona como uma rede social, onde as pessoas conseguem ver seus projetos e contribuir para eles. Além de tudo isso, ele também é o melhor portfolio que você pode ter. Olhar para o código que você escreve é uma das melhores maneiras de conhecer seu trabalho.&lt;/p&gt;
+
+&lt;h3 id=&quot;termos-frequentemente-usados&quot;&gt;Termos frequentemente usados&lt;/h3&gt;
+&lt;p&gt;Para você que está começando agora, nada melhor do que ficar por dentro de algumas palavras frequentemente usadas nesse dialeto “versionístico”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Commit&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Um Commit é um pacote de alterações do seu projeto. Digamos que você já tenha uma pasta com os arquivos do seu projeto, você acabou de editar um arquivo e precisa salvar essas alterações no Git, nesse caso você precisará fazer um Commit.&lt;/p&gt;
+
+&lt;p&gt;Vamos supor que o arquivo alterado tenha sido o “arquivo.txt” que está dentro da pasta textos, nesse caso você executará o seguinte comando:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add textos/arquivo.txt&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Feito isso você terá adicionado o arquivo “arquivo.txt” ao Stage, que é onde ele fica antes de ser “comitado”.&lt;/p&gt;
+
+&lt;p&gt;Digamos que sua alteração foi somente essa e você quer “comitar” ela  para o Git, é só executar o seguinte comando:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit –m “Mensagem descrevendo o que foi alterado”&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Você acaba de criar um commit, um pacote de alterações que contem apenas um arquivo.
+Caso você tenha alterado vários arquivos e deseja incluir todos eles ao mesmo commit,  troque apenas o caminho do arquivo para “.”, fica assim:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;O comando do commit vai continuar o mesmo.
+ O que você precisa entender é que ao executar o git add você está adicionando arquivos ao Stage, e que ao executar o git commit, tudo que estiver no Stage vai para o HEAD do seu projeto Git local.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Fork, Forkar, Forkado&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/o-basico-do-basico-do-git-e-do-github/print-fork.jpg&quot; alt=&quot;Print fork&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Quando você coloca seu projeto publico lá no Github, as pessoas podem “Forkar” ele, o que seria o mesmo que tirar uma cópia, só que essa cópia fará referência ao projeto original, e carregará com ela todo o histórico de alterações anteriores ao “Fork”.
+Nessa cópia, é possível você fazer alterações e trabalhar de forma independente do projeto original.&lt;/p&gt;
+
+&lt;p&gt;Digamos que você queira fazer um blog, é possível você “Forkar” o projeto do Jekyll e fazer as alterações, customizações e postagens em cima da sua própria “cópia” (Fork).&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Pull request&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;É uma proposta de alteração ao projeto.
+Digamos que você fez um Fork em um projeto, descobriu um bug nele e acabou corrigindo, ou encontrou uma forma de melhorá-lo. Se a alteração efetuada for interessante para o projeto original, você pode enviar um Pull request, propondo que sua alteração seja anexada à ele.&lt;/p&gt;
+
+&lt;p&gt;Tem dúvida de como fazer um Pull request, confira &lt;a href=&quot;https://www.youtube.com/watch?v=E8MPe6tCMo8&quot;&gt;este vídeo do Suíssa&lt;/a&gt;, exemplificando um pull request em 3min.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Issues&lt;/strong&gt;
+&lt;img src=&quot;/assets/o-basico-do-basico-do-git-e-do-github/print-issues.jpg&quot; alt=&quot;print issues&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Issues podem ser erros, bugs, dúvidas, sugestões de novas  features e etc.&lt;/p&gt;
+
+&lt;p&gt;A parte de Issues é o seu canal de comunicação com os colaboradores e desenvolvedores do projeto.&lt;/p&gt;
+
+&lt;p&gt;Digamos que algo no projeto esteja com erro, você pode abrir uma issue e descrever o erro.&lt;/p&gt;
+
+&lt;p&gt;A issue deve ser aberta no projeto original, caso você abrir uma Issue no seu Fork, somente as pessoas que Forkaram essa sua versão irão acompanhar a discussão.&lt;/p&gt;
+
+&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
+&lt;p&gt;A intenção do post não é lhe ensinar todos os comandos e todas as possibilidades que o git lhe dá, mas sim lhe introduzir nesse mundo para que você possa ler e estudar outros artigos com mais facilidade.&lt;/p&gt;
+
+&lt;p&gt;abaixo segue alguns links para você começar a estudar.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tableless.com.br/iniciando-no-git-parte-1/&quot;&gt;http://tableless.com.br/iniciando-no-git-parte-1/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tableless.com.br/iniciando-no-git-parte-2/&quot;&gt;http://tableless.com.br/iniciando-no-git-parte-2/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://rogerdudler.github.io/git-guide/index.pt_BR.html&quot;&gt;http://rogerdudler.github.io/git-guide/index.pt_BR.html&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codeschool.com/courses/try-git&quot;&gt;https://www.codeschool.com/courses/try-git&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://tableless.com.br/alguns-comandos-git/&quot;&gt;http://tableless.com.br/alguns-comandos-git/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Se você tiver sugestão de mais algum termo, deixe nos comentários que eu anexo ao post.&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
+</description>
+        <pubDate>Thu, 29 Jan 2015 21:40:00 -0200</pubDate>
+        <link>http://www.viniciusdacal.com/pt/iniciante/2015/01/29/o-basico-do-basico-do-git-e-do-github.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/iniciante/2015/01/29/o-basico-do-basico-do-git-e-do-github.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>iniciante</category>
+        
+      </item>
+    
+      <item>
+        <title>Codecademy. O que você pode aprender com ele.</title>
+        <description>
+&lt;p&gt;Codecademy é um website &lt;strong&gt;gratuito&lt;/strong&gt;, que lhe permite aprender várias linguagens de programação de uma forma muito prática.
+Se você pretende aprender uma nova linguagem, este é o lugar certo para começar.&lt;/p&gt;
+
+&lt;h3 id=&quot;qual-o-motivo-desse-post&quot;&gt;Qual o motivo desse post?&lt;/h3&gt;
+&lt;p&gt;O mercado atual valoriza muito um profissional especializado, mas também valoriza muito um profissional com conhecimento em várias linguagens de programação. Me entenda bem, eu disse conhecimento, não disse que você precisa ser um master ninja sr. em todas as linguagens da terra, mas saber pelo menos o básico de algumas linguagens pode lhe trazer alguns benefícios.&lt;/p&gt;
+
+&lt;p&gt;Digamos que você é um desenvolvedor front-end, manja muito de html, css e javascript e certo dia você resolve criar um blog, você ouve falar a respeito do &lt;a href=&quot;http://www.jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; e decide utilizar ele. Até ai tudo bem, se você souber o básico de um terminal não vai ter o menor problema. Mas digamos que você precise de algum plugin muito específico para o seu blog e precise desenvolver um você mesmo, nesse caso você precisará saber pelo menos o básico de ruby.&lt;/p&gt;
+
+&lt;p&gt;Coisas do tipo podem acontecer com outras linguagens também.&lt;/p&gt;
+
+&lt;h3 id=&quot;beleza-mas-o-que-o-codecademy-tem-a-ver-com-isso&quot;&gt;Beleza! Mas o que o Codecademy tem a ver com isso?&lt;/h3&gt;
+
+&lt;p&gt;Quando você quer aprender uma nova linguagem, as vezes fica meio perdido e confuso por onde começar, e é exatamente ai que o Codecademy entra. Ele começa a te ensinar desde o básico da linguagem como váriaveis, estruturas de condiçoes, laços de repetição, funções e até orientação à objetos. Tudo isso com exercícios práticos, o que é mais divertido.&lt;/p&gt;
+
+&lt;h3 id=&quot;cursos&quot;&gt;Cursos&lt;/h3&gt;
+
+&lt;p&gt;Atualmente seus principais cursos são de HTML, CSS, Javascript, Jquery, PHP, Python e Ruby, mas também ele possui outros cursos que te ensinam a consumir algumas APIs de terceiros, como Youtube, Deezer, Github, entre outros.&lt;/p&gt;
+
+&lt;h3 id=&quot;como-comear&quot;&gt;Como começar&lt;/h3&gt;
+&lt;p&gt;Você pode fazer seu cadastro no site utilizando sua conta do Facebook, Google ou preenchendo o formulário com os seus dados.
+&lt;img src=&quot;/assets/codecademy-o-que-voce-pode-aprender-com-ele/cadastro-codecademy.jpg&quot; alt=&quot;&amp;quot;Cadastro Codecademy&amp;quot;&quot; title=&quot;Cadastro Codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;depois--s-selecionar-o-curso-que-tiver-interesse&quot;&gt;Depois é só selecionar o curso que tiver interesse:&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/codecademy-o-que-voce-pode-aprender-com-ele/cursos-codecademy.jpg&quot; alt=&quot;&amp;quot;Cursos Codecademy&amp;quot;&quot; title=&quot;Cursos Codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;e-voc-ser-encaminhado-para-a-primeira-lio&quot;&gt;E você será encaminhado para a primeira lição&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/codecademy-o-que-voce-pode-aprender-com-ele/licao-codecademy.jpg&quot; alt=&quot;&amp;quot;Lição Codecademy&amp;quot;&quot; title=&quot;Lição Codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Essa é a tela da lição. Na lateral esquerda, você possui um bloco com as instruções necessárias para concluir a tarefa. No centro você tem seu editor de texto e na lateral direita o console com o resultado do código que você executou.&lt;/p&gt;
+
+&lt;p&gt;Depois que você salvar e sair de uma lição, é possível ver seu progresso no curso conforme o print abaixo.
+&lt;img src=&quot;/assets/codecademy-o-que-voce-pode-aprender-com-ele/progresso-codecademy.jpg&quot; alt=&quot;&amp;quot;Progresso Codecademy&amp;quot;&quot; title=&quot;Progresso Codecademy&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
+&lt;p&gt;Como eu já expliquei, este site não tornará você um ninja, mas pode lhe ajudar a entrar no caminho para se tornar um.
+Ficou interessado? Corre lá &lt;a href=&quot;http://www.codecademy.com/pt-BR/learn&quot;&gt;codecademy.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Jan 2015 21:00:00 -0200</pubDate>
+        <link>http://www.viniciusdacal.com/pt/iniciante/2015/01/23/codecademy-o-que-voce-pode-aprender-com-ele.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/iniciante/2015/01/23/codecademy-o-que-voce-pode-aprender-com-ele.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>iniciante</category>
+        
+      </item>
+    
+      <item>
+        <title>Inglês. Sim, você precisa saber.</title>
+        <description>&lt;p&gt;Neste post eu falarei um pouco sobre a importância do Inglês e darei algumas dicas de como você pode estudar sozinho. Vamos quebrar o paradigma de que a única forma de aprender Inglês é nas escolas de idioma.&lt;/p&gt;
+
+&lt;h3 id=&quot;ingls-mas-o-blog-no--sobre-programao&quot;&gt;Inglês? Mas o blog não é sobre programação?&lt;/h3&gt;
+&lt;p&gt;Sim, eu sei que o blog é voltado pra área de desenvolvimento, mas é &lt;strong&gt;IMPOSSÍVEL&lt;/strong&gt; você seguir carreira nessa área sem saber o mínimo de inglês.&lt;/p&gt;
+
+&lt;h3 id=&quot;no-gosto-de-ingls-por-que-eu-devo-aprender&quot;&gt;Não gosto de inglês, por que eu devo aprender?&lt;/h3&gt;
+&lt;p&gt;Como todo mundo sabe, o inglês é o idioma universal (Tanto que em Star Wars ele é falado até pelos alienígenas), sendo universal, a maioria dos materiais de estudo em diversas áreas está em inglês. Vídeos, documentações, blogs, tutoriais e etc. Tudo em Inglês!&lt;/p&gt;
+
+&lt;p&gt;A primeira matéria da nova tecnologia que está para sair será em inglês, a documentação sairá primeiro em inglês, tudo sobre ela será primeiro em inglês. Assim acontece com frameworks, linguagens de programação, plataformas e afins, ou seja, se você não sabe inglês, vai ficar dependendo da boa vontade de alguém traduzir o conteúdo e postar num blog ou em outras mídias.&lt;/p&gt;
+
+&lt;p&gt;Viu só como o Inglês é importante pra você se manter atualizado?&lt;/p&gt;
+
+&lt;p&gt;Outro fator é que até aqui no Brasil, as melhores empresas para se trabalhar exigem Inglês avançado ou fluente, não tem pra onde correr!&lt;/p&gt;
+
+&lt;h3 id=&quot;ok-voc-me-convenceu-como-eu-posso-comear&quot;&gt;Ok, você me convenceu! Como eu posso começar?&lt;/h3&gt;
+&lt;p&gt;Uma maneira muito bacana de começar é utilizando Apps! Se você possui um Smartphone, pesquise pelo aplicativo &lt;a href=&quot;https://www.duolingo.com/mobile&quot;&gt;Duolingo&lt;/a&gt;. Este app funciona como um jogo onde você consegue disputar com seus amigos pra ver quem fica com o primeiro lugar no ranking. Com ele você vai ganhar vocabulário, vai aprender gramática, escuta e pronúncia.&lt;/p&gt;
+
+&lt;p&gt;Não tem Smartphone? Fica tranquilo, você também pode acessar a versão online em &lt;a href=&quot;https://www.duolingo.com&quot;&gt;duolingo.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Depois que você estiver em um nível “Intermediário”, sugiro que procure por podcasts sobre inglês.&lt;/p&gt;
+
+&lt;p&gt;Se você usa o iTunes, fica fácil, vá até a iTunes Store, selecione a opção podcasts, depois selecione a categoria “Educação” e a subcategoria  ”Cursos de línguas”, selecione um podcast que lhe chamar a atenção e comece a ouvir.&lt;/p&gt;
+
+&lt;p&gt;Eu sugiro começar por podcasts com episódios curtos, como o “Happy English” e o “Dayli Easy English Expressions” que possuem episódios que variam de 5 a 10 minutos.&lt;/p&gt;
+
+&lt;p&gt;Caso você não use o iTunes, sugiro o site &lt;a href=&quot;http://www.inglesonline.com.br/category/podcast-inglesonline/&quot;&gt;inglesonline.com.br&lt;/a&gt; para você começar a ouvir.&lt;/p&gt;
+
+&lt;p&gt;Através de podcasts você vai melhorar muito o seu entendimento e automaticamente a sua conversação.&lt;/p&gt;
+
+&lt;h3 id=&quot;outra-dica-muito-importante-&quot;&gt;Outra dica muito importante é&lt;/h3&gt;
+&lt;p&gt;Se você não gosta, comece a gostar! Faça uma imersão total no idioma. Assista filmes legendados, ouça músicas, e consuma o máximo de coisas que puder no idioma (Não estou falando de comida, vocês entenderam né).&lt;/p&gt;
+
+&lt;h3 id=&quot;finalizando&quot;&gt;Finalizando&lt;/h3&gt;
+&lt;p&gt;Essas foram as metodologias que mais funcionaram pra mim, espero que funcionem para você  também.&lt;/p&gt;
+
+&lt;p&gt;Se você ainda não consegue entender muita coisa, continue estudando que você chegará lá. &lt;strong&gt;O que não pode é ficar parado!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Tem alguma dica legal que quer dividir comigo e com a galera? Deixa nos comentários, todas as dicas serão bem vindas.&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 22 Jan 2015 08:00:00 -0200</pubDate>
+        <link>http://www.viniciusdacal.com/pt/ingles/2015/01/22/ingles-sim-voce-precisa-aprender.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/ingles/2015/01/22/ingles-sim-voce-precisa-aprender.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>ingles</category>
+        
+      </item>
+    
+      <item>
+        <title>Instalando plugins no Sublime Text!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; é um editor de textos gratuito que lhe permite escrever código em várias linguagens. Além de ser um programa extremamente leve, ele também lhe da a opção de instalar plugins, o que é &lt;del&gt;a cereja&lt;/del&gt;  o morango do bolo.&lt;/p&gt;
+
+&lt;h3 id=&quot;package-control&quot;&gt;Package Control&lt;/h3&gt;
+
+&lt;p&gt;Como o próprio nome já diz, o Package Control será o seu controlador de pacotes. Com ele você poderá pesquisar, instalar e remover snippets, plug-ins e etc. Porém, o Package Control não vem junto com o sublime, mas instalá-lo é muito simples:&lt;/p&gt;
+
+&lt;p&gt;Vá no menu do programa e selecione &lt;code class=&quot;highlighter-rouge&quot;&gt;View &amp;gt; Show Console&lt;/code&gt;. No console que será aberto cole o seguinte texto:&lt;/p&gt;
+
+&lt;p&gt;Se você estiver usando Sublime Text 2:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;import urllib2,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')&quot;&lt;/span&gt; | escape&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Caso esteja usando o Sublime Text 3:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)&quot;&lt;/span&gt; | escape&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Feito isso, pressione &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt; e aguarde até o fim da instalação.&lt;/p&gt;
+
+&lt;p&gt;Terminado a instalação, reinicie o Sublime e pressione &lt;code class=&quot;highlighter-rouge&quot;&gt;Cmd+Shift+P&lt;/code&gt; . No campo que será aberto, digite “Install Package” e pressione  &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt;.
+Feito isso, pesquise o nome do Plugin que você deseja instalar, selecione-o e pressione  &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt; novamente e aguarde até o fim da instalação.&lt;/p&gt;
+
+&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
+
+&lt;p&gt;Plugins foram feitos para facilitar sua vida, eles são muito eficazes nisso se você souber usá-los. Procure achar os plugins que melhor se encaixam no seu workflow.&lt;/p&gt;
+
+&lt;p&gt;Várias listas com excelentes plugins podem ser facilmente encontradas fazendo uma simples pesquisa no Google.&lt;/p&gt;
+
+&lt;p&gt;Confira o post que eu fiz falando sobre o Emmet. Se você escreve HTML e CSS, esse deve ser seu primeiro plugin.&lt;/p&gt;
+
+&lt;p&gt;E vocês que já conheciam o Sublime e seus plugins, quais plugins vocês usam?&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo :)&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 21 Jan 2015 18:30:00 -0200</pubDate>
+        <link>http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/21/instalando-plugins-no-sublime-text.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/21/instalando-plugins-no-sublime-text.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>frontend</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+      </item>
+    
+      <item>
+        <title>Conheça o Emmet e você nunca mais será o mesmo!</title>
+        <description>&lt;p&gt;&lt;a href=&quot;http://emmet.io/&quot;&gt;Emmet&lt;/a&gt;, anteriormente conhecido como Zen Coding, é um plugin para editores de texto que adianta sua vida na hora de escrever HTML e CSS.&lt;/p&gt;
+
+&lt;h3 id=&quot;pode-explicar-melhor&quot;&gt;Pode explicar melhor?&lt;/h3&gt;
+&lt;p&gt;Ele é um plugin que você pode instalar no seu editor de texto favorito e lhe dá o superpoder de escrever HTML através de seletores CSS. Isso mesmo, seletores CSS!&lt;/p&gt;
+
+&lt;p&gt;Você vai escrever div&amp;gt;img, vai apertar a tecla “TAB” e vai ver o seguinte código:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Maravilha, não é? Ele também funciona com classes e ids conforme o exemplo abaixo:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;div.wrapper&amp;gt;div#picture&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;wrapper&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;picture&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Além de funcionar com seletores CSS, ele também possui algumas outras opções, como o operador “*”. Com ele você pode informar quantas vezes um determinado elemento deve se repetir, conforme o exemplo abaixo:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ul&amp;gt;li*3&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Há também o operador “$”, que funciona como um enumerador:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ul&amp;gt;li.item$*3&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item3&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Você também consegue inserir texto dentro das tags utilizando chaves “{}”, conforme este exemplo:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ul&amp;gt;li.item${Este é o item $}*3&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Este é o item 1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Este é o item 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item3&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Este é o item 3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
+&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h2 id=&quot;instalao&quot;&gt;Instalação&lt;/h2&gt;
+&lt;p&gt;Confira a &lt;a href=&quot;http://emmet.io/download/&quot;&gt;lista&lt;/a&gt; de editores suportados. É só clicar em cima do editor que você usa e você será levado a uma página no github ensinando a instalar.&lt;/p&gt;
+
+&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
+&lt;p&gt;Emmet lhe poupa um tempo considerável, que você passaria escrevendo linhas e linhas de HTML.
+Mas ele não para por ai, essas são apenas as principais features, além delas há muitas mais que você pode conferir aqui: &lt;a href=&quot;http://docs.emmet.io/abbreviations/syntax/&quot;&gt;docs.emmet.io/abbreviations/syntax/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Para usar as abreviações dele para css, confira a documentação: &lt;a href=&quot;http://docs.emmet.io/css-abbreviations/&quot;&gt;docs.emmet.io/css-abbreviations/&lt;/a&gt;.
+Funciona de uma forma muito parecida com a que eu mostrei nos códigos acima, vai ser fácil de você assimilar.&lt;/p&gt;
+
+&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo :)&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 20 Jan 2015 20:50:00 -0200</pubDate>
+        <link>http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/20/conheca-o-emmet-e-voce-nunca-mais-sera-o-mesmo.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/20/conheca-o-emmet-e-voce-nunca-mais-sera-o-mesmo.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>frontend</category>
+        
+        <category>html</category>
+        
+        <category>css</category>
+        
+      </item>
+    
+  </channel>
+</rss>

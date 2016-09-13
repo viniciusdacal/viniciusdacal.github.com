@@ -1,24 +1,29 @@
 /**
  * Site header
  */
+ body {
+  min-width: 430px;
+ }
 .site-header {
   border-bottom: 1px solid $grey-color-light;
   box-shadow: 0 1px 13px rgba(100,100,100,0.1);
-  // Positioning context for the mobile navigation icon
-  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .site-title {
+  margin-right: 50px;
   font-family: $titles-font-family;
   font-size: 35px;
   letter-spacing: -1px;
-  margin-bottom: 10px;
-  margin-top:10px;
   margin-left:30px;
   float: left;
   &,
   &:visited {
     color: $grey-color-dark;
+  }
+  @include media-query($on-palm) {
+    margin-right: 15px;
   }
 
   .title-picture{
@@ -28,6 +33,7 @@
     border-radius:50%;
     @include media-query($on-palm) {
       margin-top:0;
+      display: none;
     }
   }
 
@@ -53,9 +59,8 @@
 }
 
 .site-nav {
-  line-height: 56px;
-  float: left;
-
+  height: 69px;
+  display: flex;
   .menu-icon {
     display: none;
   }
@@ -64,7 +69,7 @@
     color: $text-color;
     line-height: $base-line-height;
     border-bottom: 3px solid transparent;
-    padding: 27px 0;
+    padding: 20px 0;
     color: #777;
     &:hover, &.active{
       color: #333;
@@ -80,52 +85,19 @@
   }
 
   @include media-query($on-palm) {
-    position: absolute;
-    top: 9px;
-    right: 15px;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
-    text-align: right;
-
-    .menu-icon {
-      display: block;
-      float: right;
-      width: 36px;
-      height: 26px;
-      line-height: 0;
-      padding-top: 10px;
-      text-align: center;
-
-      > svg {
-        width: 18px;
-        height: 15px;
-
-        path {
-          fill: $grey-color-dark;
-        }
-      }
-    }
-
-    .trigger {
-      clear: both;
+    img {
       display: none;
-    }
-
-    &:hover .trigger {
-      display: block;
-      padding-bottom: 5px;
-    }
-
-    .page-link {
-      display: block;
-      padding: 5px 10px;
     }
   }
 }
 
 .language-menu {
-  float: right;
+  margin-left: auto;
+  margin-right: 30px;
+  min-width: 76px;
+  @include media-query($on-palm) {
+    margin-right: 15px;
+  }
   a {
     padding: 22px 8px;
     display: block;
