@@ -10,7 +10,7 @@ I make websites for fun since I was 14, when I took a course in web design.
 
 When I was 18, I started working in a digital agency called [ADN Múltipla](http://adnmultipla.com), where I used to work with websites and mobile apps. I worked mainly with Front End development but also with Back End and some programming languages like JAVA and Objective C.
 
-Currently I'm working as Front End Developer in a very cool company called [Coderockr](http://coderockr.com). I have been working with interesting technologies like AngularJS and RESTful APIs.
+Currently I'm working as Front End Developer in a very cool company called [Coderockr](http://coderockr.com). I have been working with interesting technologies like ReactJS and I have the opportunity to work with cool projects such as [planrockr](http://planrockr.com).
 
 I made some experiments like [Pure CSS3 Bender Futurama](https://github.com/viniciusdacal/bender-css3) and [Pure CSS3 Iron Man Marvel](https://github.com/viniciusdacal/ironman).
 

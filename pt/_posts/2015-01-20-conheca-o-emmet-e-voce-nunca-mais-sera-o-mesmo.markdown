@@ -10,8 +10,8 @@ bg: "conheca-o-emmet.jpg"
 [Emmet](http://emmet.io/), anteriormente conhecido como Zen Coding, é um plugin para editores de texto que adianta sua vida na hora de escrever HTML e CSS.
 
 
-###Pode explicar melhor?
- Ele é um plugin que você pode instalar no seu editor de texto favorito e lhe dá o superpoder de escrever HTML através de seletores CSS. Isso mesmo, seletores CSS! 
+### Pode explicar melhor?
+ Ele é um plugin que você pode instalar no seu editor de texto favorito e lhe dá o superpoder de escrever HTML através de seletores CSS. Isso mesmo, seletores CSS!
 
 Você vai escrever div>img, vai apertar a tecla "TAB" e vai ver o seguinte código:
 
@@ -72,10 +72,10 @@ ul>li.item${Este é o item $}*3
 </ul>
 {% endhighlight %}
 
-##Instalação
+## Instalação
 Confira a [lista](http://emmet.io/download/) de editores suportados. É só clicar em cima do editor que você usa e você será levado a uma página no github ensinando a instalar.
 
-###Conclusão
+### Conclusão
 Emmet lhe poupa um tempo considerável, que você passaria escrevendo linhas e linhas de HTML.
 Mas ele não para por ai, essas são apenas as principais features, além delas há muitas mais que você pode conferir aqui: [docs.emmet.io/abbreviations/syntax/](http://docs.emmet.io/abbreviations/syntax/).
 

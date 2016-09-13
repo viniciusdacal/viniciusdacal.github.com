@@ -9,7 +9,7 @@ bg: "instalando-plugins-no-sublime-text.jpg"
 
 [Sublime Text](http://www.sublimetext.com/) é um editor de textos gratuito que lhe permite escrever código em várias linguagens. Além de ser um programa extremamente leve, ele também lhe da a opção de instalar plugins, o que é <del>a cereja</del>  o morango do bolo.
 
-###Package Control
+### Package Control
 
 Como o próprio nome já diz, o Package Control será o seu controlador de pacotes. Com ele você poderá pesquisar, instalar e remover snippets, plug-ins e etc. Porém, o Package Control não vem junto com o sublime, mas instalá-lo é muito simples:
 
@@ -29,7 +29,7 @@ Feito isso, pressione `Enter` e aguarde até o fim da instalação.
 Terminado a instalação, reinicie o Sublime e pressione `Cmd+Shift+P` . No campo que será aberto, digite “Install Package” e pressione  `Enter`.
 Feito isso, pesquise o nome do Plugin que você deseja instalar, selecione-o e pressione  `Enter` novamente e aguarde até o fim da instalação.
 
-###Conclusão
+### Conclusão
 
 Plugins foram feitos para facilitar sua vida, eles são muito eficazes nisso se você souber usá-los. Procure achar os plugins que melhor se encaixam no seu workflow.
 

@@ -1,0 +1,43 @@
+---
+layout: default
+---
+{% assign month = page.date | date: "%b" %}
+{% assign day = page.date | date: "%-d" %}
+{% assign year = page.date | date: "%-Y" %}
+<div class="wrapper">
+	<div class="post">
+
+		<header class="post-header">
+			<h1 class="post-title">{{ page.title }}</h1>
+			<p class="post-meta">{{day}} de {{site.months[month]}} de {{year}} {% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+		</header>
+
+		<article class="post-content">
+			{{ content }}
+		</article>
+
+		<div class="pagination">
+		{% if page.pt_prev %}<a href="{{page.pt_prev.url}}" rel="prev" class="prev">Anterior</a>{% endif %}
+		{% if page.pt_next %}<a href="{{page.pt_next.url}}" rel="next" class="next">Próximo</a>{% endif %}
+		</div>
+
+	   	<div id="disqus_thread"></div>
+	    <script type="text/javascript">
+		    /* * * CONFIGURATION VARIABLES * * */
+		    var disqus_shortname = 'viniciusdacalcom';
+		    var disqus_config = function () {
+			  this.language = "pt_BR";
+			};
+
+		    /* * * DON'T EDIT BELOW THIS LINE * * */
+		    (function() {
+		        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+		        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+		    })();
+		</script>
+	    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+	</div>
+</div>

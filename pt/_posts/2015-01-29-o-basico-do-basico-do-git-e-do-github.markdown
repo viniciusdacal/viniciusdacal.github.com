@@ -2,26 +2,25 @@
 layout: post
 title:  "O básico do básico do Git e do Github."
 date:   2015-01-29 23:40:00
-categories: iniciante 
+categories: iniciante
 uglyTitle : "o-basico-do-basico-do-git-e-do-github"
 bg: "o-basico-do-basico-do-git-e-do-github.jpg"
 
 ---
 {% assign assets = "/assets/" | append: page.uglyTitle  | prepend: site.baseurl%}
- 
 Acredito que muitas pessoas, como eu, quando começaram a estudar  Git e Github se sentiram confusas com os termos e comandos utilizados pelo sistema. Neste breve post, vou simplificar (ou não) o dialeto deste mundo do versionamento.
 
-###O que é o git?
+### O que é o git?
 Git é um sistema de controle de versão, criado por Linus Torvalds, para desenvolver o Kernel do Linux. Com ele você  pode fazer e salvar cada alteração em seu projeto e futuramente essas alterações poderão ser consultadas ou revertidas. É como se você criasse um ponto de restauração no seu sistema, só que no Git realmente funciona!
 
 Com o Git você consegue saber a data, a hora, quem alterou e o que foi alterado. Fantástico não?
 
 Nesta [ótima palestra do BrazilJS2014](https://www.youtube.com/watch?v=R7NYx8wRrWg), o Mauricio Wolff da Booking, demonstra um case fantástico de como ele conseguiu limpar CSS gigantes com a ajuda do Git e do Github, vale a pena assistir (Fica tranquilo, está em português).
 
-###O que é o Github?
+### O que é o Github?
 Github é um site que funciona em cima do Git. Nele você consegue criar seus projetos e mantê-los online, mas mais do que isso, ele também funciona como uma rede social, onde as pessoas conseguem ver seus projetos e contribuir para eles. Além de tudo isso, ele também é o melhor portfolio que você pode ter. Olhar para o código que você escreve é uma das melhores maneiras de conhecer seu trabalho.
 
-###Termos frequentemente usados
+### Termos frequentemente usados
 Para você que está começando agora, nada melhor do que ficar por dentro de algumas palavras frequentemente usadas nesse dialeto “versionístico”.
 
 **Commit**
@@ -71,13 +70,13 @@ Issues podem ser erros, bugs, dúvidas, sugestões de novas  features e etc.
 A parte de Issues é o seu canal de comunicação com os colaboradores e desenvolvedores do projeto.
 
 Digamos que algo no projeto esteja com erro, você pode abrir uma issue e descrever o erro.
- 
+
 A issue deve ser aberta no projeto original, caso você abrir uma Issue no seu Fork, somente as pessoas que Forkaram essa sua versão irão acompanhar a discussão.
 
 
 
 
-###Conclusão
+### Conclusão
 A intenção do post não é lhe ensinar todos os comandos e todas as possibilidades que o git lhe dá, mas sim lhe introduzir nesse mundo para que você possa ler e estudar outros artigos com mais facilidade.
 
 abaixo segue alguns links para você começar a estudar.
