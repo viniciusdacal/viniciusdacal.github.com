@@ -5,9 +5,104 @@
     <description>Tutoriais, artigos e materiais para estudos de desenvolvimento web.</description>
     <link>http://www.viniciusdacal.com/</link>
     <atom:link href="http://www.viniciusdacal.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 12 Sep 2016 23:24:14 -0300</pubDate>
-    <lastBuildDate>Mon, 12 Sep 2016 23:24:14 -0300</lastBuildDate>
+    <pubDate>Thu, 15 Sep 2016 11:07:30 -0300</pubDate>
+    <lastBuildDate>Thu, 15 Sep 2016 11:07:30 -0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>O sentimento de propriedade do código</title>
+        <description>
+&lt;p&gt;Todo programador, uma hora ou outra, ou quase sempre passa por isso. Você
+escreve código e as vezes sente que aquilo faz parte de você, e por isso, a
+partir desse sentimento, você quer escrever o melhor código do mundo, pelo menos
+o que você considera ser o melhor código do mundo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/800/1*PH89drcTxwIVDHjx1B56gA.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Isso é uma coisa muito boa, partindo do principio que você quer cuidar do
+projeto cada vez mais, estabelecer padrões e pensar formas cada vez melhores de
+escrever o código e escalar o sistema. Porém, é comum se sobressair o outro lado
+desse mesmo sentimento, que iremos observar alguns aspectos abaixo.&lt;/p&gt;
+
+&lt;p&gt;Imagine que você trabalhe em equipe e que não só você, mas que mais pessoas
+estarão fazendo alterações em um projeto. Por mais que você estabeleça padrões
+de escrita de código, padrões de estrutura para testes e escreva cem páginas de
+docs com boas práticas, os outros programadores nunca irão escrever exatamente
+da mesma maneira que você, ou utilizar a mesma abordagem que você usaria. Nessa
+hora, esse sentimento de propriedade do código pode começar a te incomodar.&lt;/p&gt;
+
+&lt;p&gt;O fato disso te incomodar não chega a ser um problema, mas é preciso pensar nas
+atitudes que você toma frente à uma diferente forma de pensar.&lt;/p&gt;
+
+&lt;p&gt;É importante você conseguir analisar o que é bom ou não para o projeto e não o
+que é diferente ou igual ao que você pensa, &lt;strong&gt;ou que fere o seu ego&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Acho válido nós nos questionarmos, para que não nos tornemos pessoas
+autoritárias, mas sim pessoas colaborativas:&lt;/p&gt;
+
+&lt;h3 id=&quot;quando-algum-trs-uma-soluo-diferente-da-sua-voc-considera-a&quot;&gt;Quando alguém trás uma solução diferente da sua, você considera a&lt;/h3&gt;
+&lt;p&gt;possibilidade de essa solução ser melhor, ou você discorda, achando que a sua já
+é boa o suficiente?&lt;/p&gt;
+
+&lt;p&gt;Se você costuma discordar logo de cara, você já está fazendo isso errado.
+Considere a possibilidade de você estar errado ou de a outra ideia ser melhor.
+Pessoas pensam de maneiras diferentes e soluções mais simples podem vir das
+pessoas mais inesperadas, saiba dar espaço para os outros falarem e saiba
+&lt;strong&gt;ouvir o que os outros dizem&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;voc-costuma-pedir-que-as-pessoas-faam-as-coisas-sem-explicar-o-porqu&quot;&gt;Você costuma pedir que as pessoas façam as coisas sem explicar o porquê?&lt;/h3&gt;
+
+&lt;p&gt;Se você delega uma tarefa que não tem um motivo explícito e não explica o porque
+de a tarefa ser feita, você está desincentivando a pessoa a pensar. Eu mesmo,
+simplesmente não consigo fazer uma tarefa se eu não entender o escopo e a razão
+da mesma. Eu preciso entender o que eu estou fazendo, para que eu elabore a
+minha maneira de fazer aquilo, a maneira que eu acho melhor e que posteriormente
+será revisada por outros. Como desenvolvedor de software, eu sou pago também
+para &lt;strong&gt;PENSAR&lt;/strong&gt; e não somente para escrever código!&lt;/p&gt;
+
+&lt;h3 id=&quot;quando-voc-vai-dar-uma-opinio-contrria-a-algo-voc-costuma-ser-vago&quot;&gt;Quando você vai dar uma opinião contrária a algo, você costuma ser vago?&lt;/h3&gt;
+
+&lt;p&gt;Quando alguém trouxer uma solução e você discordar da mesma, você deve ser claro
+e objetivo do porque discorda. Se você costuma discordar sem argumentos, apenas
+utilizando frases vagas como: “Eu não acho legal assim”, pode dar a impressão
+que você não quer que faça de tal maneira apenas porque não é do seu jeito.&lt;/p&gt;
+
+&lt;h3 id=&quot;voc-costuma-ser-fechado-a-novas-opinies-e-idias&quot;&gt;Você costuma ser fechado a novas opiniões e idéias?&lt;/h3&gt;
+
+&lt;p&gt;Esteja sempre aberto a novas ideias, principalmente de pessoas novas no time.
+Essas pessoas vem com uma outra visão, não tem os “vícios de grupo” como os
+outros que já estão no projeto.&lt;/p&gt;
+
+&lt;p&gt;Isso não quer dizer que você irá fazer tudo da maneira que os outros disserem,
+mas a mescla das ideias pode chegar à uma solução nunca antes pensada.&lt;/p&gt;
+
+&lt;p&gt;Falando sobre &lt;strong&gt;vícios de grupo&lt;/strong&gt;, o vídeo abaixo mostra um experimento sobre
+&lt;strong&gt;Análise comportamental em grupo.&lt;/strong&gt; É essencial assistir!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Devemos nos fazer essas perguntas com frequência e não podemos nos permitir
+achar que, possuindo uma experiência menor, uma pessoa não tenha nada a
+ensinar.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;E só pra não esquecer: &lt;strong&gt;Código não é escrito em pedra, código é um organismo
+vivo que constantemente muda.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Gostou do post e achou útil? Ajude na divulgação para que mais pessoas tenham acesso :)&lt;/p&gt;
+
+&lt;p&gt;Tem alguma dica sobre carreira? deixe nos comentários abaixo :)&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 15 Sep 2016 09:00:00 -0300</pubDate>
+        <link>http://www.viniciusdacal.com/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>profissao</category>
+        
+      </item>
     
       <item>
         <title>Se eu soubesse aos 18 - Profissão.</title>
@@ -617,83 +712,6 @@ Feito isso, pesquise o nome do Plugin que você deseja instalar, selecione-o e p
         <pubDate>Wed, 21 Jan 2015 18:30:00 -0200</pubDate>
         <link>http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/21/instalando-plugins-no-sublime-text.html</link>
         <guid isPermaLink="true">http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/21/instalando-plugins-no-sublime-text.html</guid>
-        
-        
-        <category>pt</category>
-        
-        <category>frontend</category>
-        
-        <category>html</category>
-        
-        <category>css</category>
-        
-      </item>
-    
-      <item>
-        <title>Conheça o Emmet e você nunca mais será o mesmo!</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://emmet.io/&quot;&gt;Emmet&lt;/a&gt;, anteriormente conhecido como Zen Coding, é um plugin para editores de texto que adianta sua vida na hora de escrever HTML e CSS.&lt;/p&gt;
-
-&lt;h3 id=&quot;pode-explicar-melhor&quot;&gt;Pode explicar melhor?&lt;/h3&gt;
-&lt;p&gt;Ele é um plugin que você pode instalar no seu editor de texto favorito e lhe dá o superpoder de escrever HTML através de seletores CSS. Isso mesmo, seletores CSS!&lt;/p&gt;
-
-&lt;p&gt;Você vai escrever div&amp;gt;img, vai apertar a tecla “TAB” e vai ver o seguinte código:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;img&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;src=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;alt=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Maravilha, não é? Ele também funciona com classes e ids conforme o exemplo abaixo:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;div.wrapper&amp;gt;div#picture&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;wrapper&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;picture&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/div&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Além de funcionar com seletores CSS, ele também possui algumas outras opções, como o operador “*”. Com ele você pode informar quantas vezes um determinado elemento deve se repetir, conforme o exemplo abaixo:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ul&amp;gt;li*3&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Há também o operador “$”, que funciona como um enumerador:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ul&amp;gt;li.item$*3&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item3&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Você também consegue inserir texto dentro das tags utilizando chaves “{}”, conforme este exemplo:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;ul&amp;gt;li.item${Este é o item $}*3&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;&lt;span class=&quot;nt&quot;&gt;&amp;lt;ul&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item1&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Este é o item 1&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item2&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Este é o item 2&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;nt&quot;&gt;&amp;lt;li&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;class=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;item3&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Este é o item 3&lt;span class=&quot;nt&quot;&gt;&amp;lt;/li&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;nt&quot;&gt;&amp;lt;/ul&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;instalao&quot;&gt;Instalação&lt;/h2&gt;
-&lt;p&gt;Confira a &lt;a href=&quot;http://emmet.io/download/&quot;&gt;lista&lt;/a&gt; de editores suportados. É só clicar em cima do editor que você usa e você será levado a uma página no github ensinando a instalar.&lt;/p&gt;
-
-&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
-&lt;p&gt;Emmet lhe poupa um tempo considerável, que você passaria escrevendo linhas e linhas de HTML.
-Mas ele não para por ai, essas são apenas as principais features, além delas há muitas mais que você pode conferir aqui: &lt;a href=&quot;http://docs.emmet.io/abbreviations/syntax/&quot;&gt;docs.emmet.io/abbreviations/syntax/&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Para usar as abreviações dele para css, confira a documentação: &lt;a href=&quot;http://docs.emmet.io/css-abbreviations/&quot;&gt;docs.emmet.io/css-abbreviations/&lt;/a&gt;.
-Funciona de uma forma muito parecida com a que eu mostrei nos códigos acima, vai ser fácil de você assimilar.&lt;/p&gt;
-
-&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo :)&lt;/p&gt;
-
-</description>
-        <pubDate>Tue, 20 Jan 2015 20:50:00 -0200</pubDate>
-        <link>http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/20/conheca-o-emmet-e-voce-nunca-mais-sera-o-mesmo.html</link>
-        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/20/conheca-o-emmet-e-voce-nunca-mais-sera-o-mesmo.html</guid>
         
         
         <category>pt</category>
