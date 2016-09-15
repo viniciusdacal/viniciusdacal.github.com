@@ -84,5 +84,5 @@ vivo que constantemente muda.**
 
 Gostou do post e achou útil? Ajude na divulgação para que mais pessoas tenham acesso :)
 
-Tem alguma dica sobre carreira? deixe nos comentários abaixo :)
+Tem alguma dica sobre trabalho em time? deixe nos comentários abaixo :)
 
