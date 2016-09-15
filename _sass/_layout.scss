@@ -58,6 +58,7 @@
 
 }
 
+
 .site-nav {
   height: 69px;
   display: flex;
@@ -310,6 +311,8 @@
 
 .post-content {
   margin-bottom: $spacing-unit;
+  font-size: 20px;
+  line-height: 1.58;
 
   h2 {
     font-size: 32px;
