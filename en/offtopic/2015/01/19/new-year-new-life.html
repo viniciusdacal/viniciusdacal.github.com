@@ -6,17 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Install plugins on Sublime Text!</title>
-  <meta name="description" content="Sublime Text is a free text editor that gives you freedom to code in many programming languages. Above that, It is a very lightweight program and it is also ...">
+  <title>New year, new life!</title>
+  <meta name="description" content="Making plans last year, I decided that this year some things would change (or not). I decided I’d study more and beyond to study, I’d share a bit of aquired ...">
 
   <meta name="keywords" content="frontend, web development, tecnologia web, css, html, javascript, php, python, ruby, java, backend, programming">
   <meta property="og:site_name" content="Vinicius Dacal - Front End Developer"/>
-  <meta property="og:title" content="Install plugins on Sublime Text!" />
-  <meta property="og:url" content="http://www.viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html" />
+  <meta property="og:title" content="New year, new life!" />
+  <meta property="og:url" content="http://www.viniciusdacal.com/en/offtopic/2015/01/19/new-year-new-life.html" />
   <meta property="fb:app_id" content="684221391686656" />
-  <meta property="og:description" content="Sublime Text is a free text editor that gives you freedom to code in many programming languages. Above that, It is a very lightweight program and it is also ..." />
+  <meta property="og:description" content="Making plans last year, I decided that this year some things would change (or not). I decided I’d study more and beyond to study, I’d share a bit of aquired ..." />
   <meta property="article:author" content="https://www.facebook.com/viniciusdacal" />
-  <meta property="og:image" content="http://www.viniciusdacal.com/assets/instalando-plugins-no-sublime-text.jpg" />
+  <meta property="og:image" content="http://www.viniciusdacal.com/assets/ano-novo-vida-nova.jpg" />
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:locale:alternate" content="en_US" />
   <meta property="og:type" content="article" />
@@ -24,7 +24,7 @@
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html">
+  <link rel="canonical" href="http://www.viniciusdacal.com/en/offtopic/2015/01/19/new-year-new-life.html">
   <link rel="alternate" type="application/rss+xml" title="vinicius.dacal" href="http://www.viniciusdacal.com/feed.xml" />
 </head>
 
@@ -76,56 +76,31 @@
 	<div class="post">
 
 		<header class="post-header">
-			<h1 class="post-title">Install plugins on Sublime Text!</h1>
-			<p class="post-meta">March 26, 2015 </p>
+			<h1 class="post-title">New year, new life!</h1>
+			<p class="post-meta">January 19, 2015 </p>
 		</header>
 
 		<article class="post-content">
-			<p><a href="http://www.sublimetext.com/">Sublime Text</a> is a free text editor that gives you freedom to code in many programming languages. Above that, It is a very lightweight program and it is also possible install some plugins, that is particularly the best part.</p>
+			<p>Making plans last year, I decided that this year some things would change (or not). I decided I’d study more and beyond to study, I’d share a bit of aquired knowledge. Nothing better than start to write a blog, I think this is the easiest way to share knowledge, receive feedback e measure the impact of the produced content.</p>
 
-<p>###Package Control</p>
+<p>###Blog Content</p>
 
-<p>As the name says, Package Control is your Package Controller, with it, you can search, install and remove snippets, plugins, etc…</p>
+<p>On this blog, I will post about web technologies. As I know more about Front end development, probably that will be the subject that you will see more here.
+But, I will post about stuff that I will be studying, then you could find some posts about Back end development, as PHP, Python, Scala and others.</p>
 
-<p>Package Control doesn’t come with sublime installer, but it’s very simple to install it:</p>
+<p>###Comments and Feedbacks
+Every comment and feedback will be welcome :)
+I just want to remember this is not just the place where I share knowledge, but also where I learn. As a human in constantly evolution, I make some mistakes, so, if I write something wrong here, please, correct me.</p>
 
-<p>Go to menu program and select <code class="highlighter-rouge">View &gt; Show Console</code>, in the console that will appears, paste the text below:</p>
-
-<p>If you are in Sublime Text 2:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">{</span> <span class="s2">"import urllib2,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"</span> | escape<span class="o">}</span></code></pre></figure>
-
-<p>If you are in Sublime Text 3:</p>
-
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="o">{</span> <span class="s2">"import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"</span> | escape<span class="o">}</span></code></pre></figure>
-
-<p>When It done, press <code class="highlighter-rouge">Enter</code> and wait the installation finish.</p>
-
-<p>Restart Sublime Text and press <code class="highlighter-rouge">Cmd+Shift+P</code>. In the input that appears, type “Install Package” and press <code class="highlighter-rouge">Enter</code>.</p>
-
-<p>Search for the plugin name that you want to install, select it, press <code class="highlighter-rouge">Enter</code> again and wait for the installation.</p>
-
-<p>###Conclusion</p>
-
-<p>Plugins were made to make your life easier, they are very effective if you would know to use them. Try to find the plugins that best fit in your workflow.</p>
-
-<p>You can easily find many lists with excellent sublime plugins just googling.</p>
-
-<p>Take a look at the <a href="/en/frontend/html/css/2015/01/20/know-emmet-and-you-will-never-be-the-same.html">post that I wrote about Emmet</a>. If you write HTML and CSS, this should be your first plugin.</p>
-
-<p>And you that already knew Sublime, which plugins do you use?</p>
-
-<p>Questions, comments or suggestions, leave below. :)</p>
-
+<p>###Get in touch
+Questions, comments or suggestions, send me an e-mail <a href="mailto:viniciusldacal@gmail.com">viniciusldacal@gmail.com</a>, ou no Twitter <a href="https://twitter.com/vinicius_dacal">@vinicius_dacal</a></p>
 
 		</article>
 
 		<div class="pagination">
 		
-			<a href="/en/frontend/html/css/2015/01/20/know-emmet-and-you-will-never-be-the-same.html" rel="prev" class="prev">Previous</a>
 		
-		
-			<a href="/en/profession/2016/06/22/learning-the-basics-about-redux.html" rel="next" class="next">Next</a>
+			<a href="/en/frontend/html/css/2015/01/20/know-emmet-and-you-will-never-be-the-same.html" rel="next" class="next">Next</a>
 		
 		</div>
 

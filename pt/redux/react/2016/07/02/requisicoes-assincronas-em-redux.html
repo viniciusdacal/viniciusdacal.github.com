@@ -6,15 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>O sentimento de propriedade do código</title>
-  <meta name="description" content="Todo programador, uma hora ou outra, ou quase sempre passa por isso. Vocêescreve código e as vezes sente que aquilo faz parte de você, e por isso, apartir de...">
+  <title>Requisições assíncronas em Redux</title>
+  <meta name="description" content="Quando se está começando a aprender Redux, uma das dúvidas mais comuns écomo fazer requisições assíncronas.">
 
   <meta name="keywords" content="frontend, web development, tecnologia web, css, html, javascript, php, python, ruby, java, backend, programming">
   <meta property="og:site_name" content="Vinicius Dacal - Front End Developer"/>
-  <meta property="og:title" content="O sentimento de propriedade do código" />
-  <meta property="og:url" content="http://www.viniciusdacal.com/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html" />
+  <meta property="og:title" content="Requisições assíncronas em Redux" />
+  <meta property="og:url" content="http://www.viniciusdacal.com/pt/redux/react/2016/07/02/requisicoes-assincronas-em-redux.html" />
   <meta property="fb:app_id" content="684221391686656" />
-  <meta property="og:description" content="Todo programador, uma hora ou outra, ou quase sempre passa por isso. Vocêescreve código e as vezes sente que aquilo faz parte de você, e por isso, apartir de..." />
+  <meta property="og:description" content="Quando se está começando a aprender Redux, uma das dúvidas mais comuns écomo fazer requisições assíncronas." />
   <meta property="article:author" content="https://www.facebook.com/viniciusdacal" />
   <meta property="og:image" content="http://www.viniciusdacal.com/assets/" />
   <meta property="og:locale" content="pt_BR" />
@@ -24,7 +24,7 @@
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.viniciusdacal.com/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html">
+  <link rel="canonical" href="http://www.viniciusdacal.com/pt/redux/react/2016/07/02/requisicoes-assincronas-em-redux.html">
   <link rel="alternate" type="application/rss+xml" title="vinicius.dacal" href="http://www.viniciusdacal.com/feed.xml" />
 </head>
 
@@ -79,98 +79,158 @@
 	<div class="post">
 
 		<header class="post-header">
-			<h1 class="post-title">O sentimento de propriedade do código</h1>
-			<p class="post-meta">15 de Setembro de 2016 </p>
+			<h1 class="post-title">Requisições assíncronas em Redux</h1>
+			<p class="post-meta">2 de  de 2016 </p>
 		</header>
 
 		<article class="post-content">
-			
-<p>Todo programador, uma hora ou outra, ou quase sempre passa por isso. Você
-escreve código e as vezes sente que aquilo faz parte de você, e por isso, a
-partir desse sentimento, você quer escrever o melhor código do mundo, pelo menos
-o que você considera ser o melhor código do mundo.</p>
+			<p>Quando se está começando a aprender <strong>Redux</strong>, uma das dúvidas mais comuns é
+como fazer requisições assíncronas.</p>
 
-<p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*PH89drcTxwIVDHjx1B56gA.png" alt="" /></p>
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*ecCWySugfp5sfmR3WW_1yw.jpeg" alt="" /></p>
 
-<p>Isso é uma coisa muito boa, partindo do principio que você quer cuidar do
-projeto cada vez mais, estabelecer padrões e pensar formas cada vez melhores de
-escrever o código e escalar o sistema. Porém, é comum se sobressair o outro lado
-desse mesmo sentimento, que iremos observar alguns aspectos abaixo.</p>
+<p>Observando os exemplos básicos, que implementam apenas actions comuns, não fica
+tão óbvio qual abordagem utilizar ao fazer uma integração com uma API.</p>
 
-<p>Imagine que você trabalhe em equipe e que não só você, mas que mais pessoas
-estarão fazendo alterações em um projeto. Por mais que você estabeleça padrões
-de escrita de código, padrões de estrutura para testes e escreva cem páginas de
-docs com boas práticas, os outros programadores nunca irão escrever exatamente
-da mesma maneira que você, ou utilizar a mesma abordagem que você usaria. Nessa
-hora, esse sentimento de propriedade do código pode começar a te incomodar.</p>
+<p>Neste post, mostrarei como implementar um <strong>middleware,</strong> que ficará responsável
+por interpretar um padrão de específico de <strong>action</strong>(async action) e gerenciar
+nossas requisições, disparando uma <strong>action</strong> correspondente para cada momento
+das mesmas.</p>
 
-<p>O fato disso te incomodar não chega a ser um problema, mas é preciso pensar nas
-atitudes que você toma frente à uma diferente forma de pensar.</p>
+<h3 id="actions">Actions</h3>
 
-<p>É importante você conseguir analisar o que é bom ou não para o projeto e não o
-que é diferente ou igual ao que você pensa, <strong>ou que fere o seu ego</strong>.</p>
+<p>Quando estamos fazendo uma requisição assíncrona há dois momentos importantes
+que comumente alteram o estado a aplicação: O momento em que uma requisição se
+inicia, e o momento que você recebe um resultado.</p>
 
-<p>Acho válido nós nos questionarmos, para que não nos tornemos pessoas
-autoritárias, mas sim pessoas colaborativas:</p>
+<p>Esses dois momentos podem ser divididos em três <strong>actions</strong> distintas: Uma
+action para o inicio da requisição, outra para o caso de sucesso e uma terceira
+para o caso de falha. Poderíamos chamá-las de <strong>CALL_API_REQUEST</strong>,
+<strong>CALL_API_SUCCESS</strong> e <strong>CALL_API_FAILURE.</strong></p>
 
-<h3 id="quando-algum-trs-uma-soluo-diferente-da-sua-voc-considera-a">Quando alguém trás uma solução diferente da sua, você considera a</h3>
-<p>possibilidade de essa solução ser melhor, ou você discorda, achando que a sua já
-é boa o suficiente?</p>
+<p>De uma maneira simples, mas não muito elegante, poderíamos aplicar esse conceito
+sem utilizar um middleware, como no exemplo abaixo:</p>
 
-<p>Se você costuma discordar logo de cara, você já está fazendo isso errado.
-Considere a possibilidade de você estar errado ou de a outra ideia ser melhor.
-Pessoas pensam de maneiras diferentes e soluções mais simples podem vir das
-pessoas mais inesperadas, saiba dar espaço para os outros falarem e saiba
-<strong>ouvir o que os outros dizem</strong>.</p>
+<p>O código acima teria que ser utilizado em um local onde tivéssemos acesso ao
+método <strong>dispatch</strong>, que normalmente, é dentro de um <strong>container component</strong>.
+Poderíamos tentar melhorar esse código abstraindo as actions para um <strong>action
+creator</strong>, mas é notável que esse modelo não escala. Para cada endpoint da nossa
+API, precisaríamos ter três <strong>action creators</strong> diferentes, o que é
+impraticável.</p>
 
-<h3 id="voc-costuma-pedir-que-as-pessoas-faam-as-coisas-sem-explicar-o-porqu">Você costuma pedir que as pessoas façam as coisas sem explicar o porquê?</h3>
+<p>Poderíamos tentar levar toda essa lógica para dentro do <strong>action creator</strong>, mas
+não teríamos acesso ao método <strong>dispatch</strong>.</p>
 
-<p>Se você delega uma tarefa que não tem um motivo explícito e não explica o porque
-de a tarefa ser feita, você está desincentivando a pessoa a pensar. Eu mesmo,
-simplesmente não consigo fazer uma tarefa se eu não entender o escopo e a razão
-da mesma. Eu preciso entender o que eu estou fazendo, para que eu elabore a
-minha maneira de fazer aquilo, a maneira que eu acho melhor e que posteriormente
-será revisada por outros. Como desenvolvedor de software, eu sou pago também
-para <strong>PENSAR</strong> e não somente para escrever código!</p>
+<p>Uma forma muito mais simples, seria termos uma <strong>action</strong> que descrevesse como
+será o request, um padrão de action diferente que chamaremos de <strong>async
+action:</strong></p>
 
-<h3 id="quando-voc-vai-dar-uma-opinio-contrria-a-algo-voc-costuma-ser-vago">Quando você vai dar uma opinião contrária a algo, você costuma ser vago?</h3>
+<p>No exemplo acima, as principais diferenças que podemos notar entre uma action
+comum e nossa <strong>async action</strong>, é o fato de termos <strong>types</strong> ao invés de
+<strong>type</strong>, e de retornarmos uma função <strong>callApi</strong> junto com o objeto.</p>
 
-<p>Quando alguém trouxer uma solução e você discordar da mesma, você deve ser claro
-e objetivo do porque discorda. Se você costuma discordar sem argumentos, apenas
-utilizando frases vagas como: “Eu não acho legal assim”, pode dar a impressão
-que você não quer que faça de tal maneira apenas porque não é do seu jeito.</p>
+<p>Os <strong>types</strong> serão utilizados nos três momentos distintos da requisição e é
+importante que eles sejam fornecidos na seguinte ordem:</p>
 
-<h3 id="voc-costuma-ser-fechado-a-novas-opinies-e-idias">Você costuma ser fechado a novas opiniões e idéias?</h3>
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">types</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="nx">action</span> <span class="nx">type</span> <span class="nx">indicando</span> <span class="nx">inicio</span> <span class="k">do</span> <span class="nx">request</span>
+<span class="nx">types</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="nx">action</span> <span class="nx">type</span> <span class="nx">indicando</span> <span class="nx">sucesso</span>
+<span class="nx">types</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="nx">action</span> <span class="nx">type</span> <span class="nx">indicando</span> <span class="nx">falha</span></code></pre></figure>
 
-<p>Esteja sempre aberto a novas ideias, principalmente de pessoas novas no time.
-Essas pessoas vem com uma outra visão, não tem os “vícios de grupo” como os
-outros que já estão no projeto.</p>
+<p>A <strong>callApi</strong> será utilizada futuramente para fazer o request.</p>
 
-<p>Isso não quer dizer que você irá fazer tudo da maneira que os outros disserem,
-mas a mescla das ideias pode chegar à uma solução nunca antes pensada.</p>
+<p>Para interpretar essa action e gerenciar as requisições, nós utilizaremos um
+<strong>Middleware.</strong></p>
 
-<p>Falando sobre <strong>vícios de grupo</strong>, o vídeo abaixo mostra um experimento sobre
-<strong>Análise comportamental em grupo.</strong> É essencial assistir!</p>
+<h3 id="middlewares">Middlewares</h3>
 
-<p><strong>Devemos nos fazer essas perguntas com frequência e não podemos nos permitir
-achar que, possuindo uma experiência menor, uma pessoa não tenha nada a
-ensinar.</strong></p>
+<p>Em suma, <a href="http://redux.js.org/docs/advanced/Middleware.html">middlewares</a> são
+funções que ficam entre o disparo de uma <strong>action</strong> e a chegada dela no **Root
+Reducer, **sendo capazes de alterar o seu conteúdo ou até mesmo cancelá-la.</p>
 
-<p>E só pra não esquecer: <strong>Código não é escrito em pedra, código é um organismo
-vivo que constantemente muda.</strong></p>
+<p>Abaixo segue um exemplo básico de um middleware de logs:</p>
+
+<p>No exemplo acima, nós não modificamos o conteúdo da <strong>action</strong>, apenas fazemos
+log dela e do <strong>state</strong> da aplicação após o seu disparo<strong>. **É importante
+observar que nós chamamos o método **next **passando para ele a **action</strong>
+atual, a fim de deixar a <strong>action</strong> seguir seu fluxo, até o próximo
+<strong>middleware</strong> ou até o <strong>Root Reducer</strong>.</p>
+
+<p>O middleware que implementaremos irá interceptar as <strong>async actions,</strong> e as
+substituirá por três <strong>actions</strong> diferentes, correspondendo os três momentos do
+request.</p>
+
+<p>Dadas estas informações, vamos para a implementação do nosso middleware:</p>
+
+<p>Logo no início da função, na linha 13, nós verificamos se a action recebida se
+trata de uma <strong>async action</strong>, verificando se existe a propriedade <strong>types</strong>
+dentro dela. Caso se trate de uma action comum, nós apenas passamos ela a
+diante, sem efetuar nenhuma alteração.</p>
+
+<p>Caso se trate de uma <strong>async action</strong>, nós extraímos os <strong>types</strong> para
+respectivas variáveis e disparamos uma <strong>action</strong>, contendo o primeiro <strong>type</strong>,
+indicando que o request irá iniciar.</p>
+
+<p>Em seguida, nós chamamos a função <strong>callApi</strong>, que veio junto com a <strong>async
+action</strong>, e passamos para a promise as funções handlers, que lidarão com os
+responses em caso de sucesso e em caso de falha.</p>
+
+<p>Dentro dos handlers, nós disparamos uma <strong>action</strong> indicando que foi finalizado
+o request, colocando no atributo <strong>body</strong> o resultado do request.</p>
+
+<p>Em caso de sucesso, nós incluímos um atributo <strong>lastFetched</strong>, com o timestamp
+do momento em que o request foi finalizado.</p>
+
+<p>Junto a cada action, foi incluído o <strong>payload</strong> da <strong>async action</strong>, para que os
+reducers tenham acesso ao mesmo.</p>
+
+<h3 id="incluindo-o-middleware-na-store">Incluindo o Middleware na store</h3>
+
+<p>Com o middleware implementado, nós precisamos incluí-lo na nossa store. Para
+isso, nós utilizaremos o método <strong>applyMiddleware</strong> do redux, conforme o exemplo
+abaixo:</p>
+
+<p>Feito isso, todas as actions passarão pelo nosso <strong>callAPIMiddleware</strong>, as que
+forem <strong>async actions</strong> serão interceptadas e convertidas em actions comuns.</p>
+
+<p>Dessa forma, conseguimos deixar por conta do middleware o disparo das
+requisições e podemos manter apenas um <strong>action creator</strong> para cada endpoint.</p>
+
+<p>Com o <strong>middleware</strong>, agora é possível termos actions assim:</p>
+
+<p><span class="figcaption_hack"><strong>Async action</strong> que irá disparar uma requisição para o endpoint “user/contacts”
+passando como parâmetro um <strong>userId</strong></span></p>
+
+<p>Async action que irá disparar uma requisição para o endpoint “user/contacts”
+passando como parâmetro um userId</p>
+
+<p>Os <strong>middlewares</strong> não se limitam a controlar requisições, eles são uma das
+features mais poderosas do redux e pretendo abordá-los em futuros posts. Para
+quem tem interesse em se aprofundar, sugiro que comece pela
+<a href="http://redux.js.org/docs/advanced/Middleware.html">documentação</a>.</p>
+
+<hr />
+
+<p>Se você está começando com Redux agora e chegou direto neste post, indico ler
+meu post anterior: <a href="https://medium.com/coderockr-way/conhecendo-o-bÃ¡sico-do-redux-7315bcf09cef#.fdvpjz4g3">Conhecendo o básico do
+Redux</a>.</p>
+
+<p>Estou começando uma série de posts sobre <strong>Redux</strong> e <strong>React</strong>, gostaria de
+receber um feedback de vocês sobre as dúvidas mais comuns de quem está
+começando. Pode ser enviando para o email:
+<a href="mailto:viniciusldacal@gmail.com">viniciusldacal@gmail.com</a></p>
 
 <hr />
 
 <p>Gostou do post e achou útil? Ajude na divulgação para que mais pessoas tenham acesso :)</p>
 
-<p>Tem alguma dica sobre trabalho em time? deixe nos comentários abaixo :)</p>
+<p>Tem alguma dica ou dúvida sobre o tema? deixe nos comentários abaixo :)</p>
 
 
 		</article>
 
 		<div class="pagination">
-		<a href="/pt/redux/react/2016/07/02/requisicoes-assincronas-em-redux.html" rel="prev" class="prev">Anterior</a>
-		
+		<a href="/pt/profession/2016/06/22/conhecendo-o-basico-do-redux.html" rel="prev" class="prev">Anterior</a>
+		<a href="/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html" rel="next" class="next">Próximo</a>
 		</div>
 
 	   	<div id="disqus_thread"></div>
