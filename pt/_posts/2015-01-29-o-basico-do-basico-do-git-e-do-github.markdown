@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "O básico do básico do Git e do Github."
-date:   2015-01-29 23:40:00
+date:   2015-01-29 20:00:00
 categories: iniciante
 uglyTitle : "o-basico-do-basico-do-git-e-do-github"
 bg: "o-basico-do-basico-do-git-e-do-github.jpg"

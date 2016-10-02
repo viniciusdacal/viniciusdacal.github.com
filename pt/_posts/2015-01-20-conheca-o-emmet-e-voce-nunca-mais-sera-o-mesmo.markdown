@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Conheça o Emmet e você nunca mais será o mesmo!"
-date:   2015-01-20 22:50:00
+date:   2015-01-20 20:00:00
 categories: frontend html css
 bg: "conheca-o-emmet.jpg"
 

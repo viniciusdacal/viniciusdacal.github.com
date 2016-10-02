@@ -5,8 +5,8 @@
     <description>Tutoriais, artigos e materiais para estudos de desenvolvimento web.</description>
     <link>http://www.viniciusdacal.com/</link>
     <atom:link href="http://www.viniciusdacal.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Sep 2016 11:16:03 -0300</pubDate>
-    <lastBuildDate>Thu, 15 Sep 2016 11:16:03 -0300</lastBuildDate>
+    <pubDate>Sun, 02 Oct 2016 19:58:45 -0300</pubDate>
+    <lastBuildDate>Sun, 02 Oct 2016 19:58:45 -0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -93,9 +93,670 @@ vivo que constantemente muda.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Tem alguma dica sobre trabalho em time? deixe nos comentários abaixo :)&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 15 Sep 2016 09:00:00 -0300</pubDate>
+        <pubDate>Thu, 15 Sep 2016 17:00:00 -0300</pubDate>
         <link>http://www.viniciusdacal.com/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html</link>
         <guid isPermaLink="true">http://www.viniciusdacal.com/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>profissao</category>
+        
+      </item>
+    
+      <item>
+        <title>The Code ownership feeling</title>
+        <description>&lt;p&gt;Every developer, sometime in their lives, or very often pass through this
+feeling. You write code and it feels like it’s a part of you, thus motivating
+you to write the best code in the world, or at least what you consider it to be&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/800/1*PH89drcTxwIVDHjx1B56gA.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s a good thing if we take into account that you increasingly want to take
+care of the project, establish patterns and think about more ways of improving
+your code and scaling the system. However, this feeling of ownership can usually
+have some negative aspects as well.&lt;/p&gt;
+
+&lt;p&gt;Imagine that you work in a team and not only you, but more people will be
+modifying the project. Even if you set code writing patterns, structure patterns
+for testing and write a hundred pages of documentation with good practices, the
+other developers will not write exactly the same way as you do, or use the same
+approach you would. These are the moments when that code ownership feeling will
+start to bother you.&lt;/p&gt;
+
+&lt;p&gt;The fact that it bothers you, is not a problem, but it’s important to evaluate
+your attitudes toward different ways of thinking.&lt;/p&gt;
+
+&lt;p&gt;It’s important that you analyze what is good or not for the project, and not
+what is different from your opinion, or what hurts &lt;strong&gt;your ego&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;I think it’s valid we ask ourselves some questions, to not become authoritarian,
+but &lt;strong&gt;collaborative people:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;when-someone-brings-up-a-solution-different-than-yours-do-you-consider-the&quot;&gt;When someone brings up a solution different than yours, do you consider the&lt;/h3&gt;
+&lt;p&gt;possibility that this solution can be better, or do you disagree, thinking that
+your solution is already good enough?&lt;/p&gt;
+
+&lt;p&gt;If you are used to disagreeing right away, you are doing this wrong. You have to
+consider the possibility that you are are wrong or that the other idea can be
+better. There are many different ways to think about a problem and simpler
+solutions can come from the people you least expect. You have to make room for
+others to talk and &lt;strong&gt;listen to what others have to say&lt;/strong&gt; if you want to be a
+better team player.&lt;/p&gt;
+
+&lt;h3 id=&quot;do-you-usually-ask-people-to-do-tasks-without-explaining-the-reasons&quot;&gt;Do you usually ask people to do tasks without explaining the reasons?&lt;/h3&gt;
+
+&lt;p&gt;If you delegate a task that has no explicit reason and you don’t explain why
+that task should be done, you are discouraging the person to think. Talking for
+myself, I just can’t do a task without knowing the scope and the reason for it.
+I need to understand what is the expected outcome, so I can figure out the best
+way of accomplishing the task, which will later be reviewed by others in my
+team. As a developer, I get paid to **THINK **and not only to write code!&lt;/p&gt;
+
+&lt;h3 id=&quot;when-you-give-a-opposite-opinion-are-you-usually-vague&quot;&gt;When you give a opposite opinion, are you usually vague?&lt;/h3&gt;
+
+&lt;p&gt;When someone suggests a solution and you disagree with it, you should be clear
+and objective on why you disagree. If you usually disagree without arguments,
+just using vague phrases like it: “I just don’t like this way, it’s not cool”,
+it may seem that you don’t agree just because it’s not your way of doing that.&lt;/p&gt;
+
+&lt;h3 id=&quot;are-you-usually-not-open-to-different-opinions-and-new-ideas&quot;&gt;Are you usually not open to different opinions and new ideas?&lt;/h3&gt;
+
+&lt;p&gt;Always be open to new ideas, especially from new people in the team. Those
+people come with another vision, they don’t have the “Group addictions” as the
+others, who have been in the project for a longer time.&lt;/p&gt;
+
+&lt;p&gt;That doesn’t mean that you should always do everything they suggest, but the
+&lt;strong&gt;merge of ideas&lt;/strong&gt; can create a solution that was never thought before.&lt;/p&gt;
+
+&lt;p&gt;Talking about &lt;strong&gt;Group addictions&lt;/strong&gt;, the video below shows an experiment about
+**Behavioral analysis. **It’s essential to watch.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;We should ask those questions frequently to not allow us to think that, a
+person with lower experience has nothing to teach.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And always remember: &lt;strong&gt;Code is not written in stone, code is something alive
+that changes frequently.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For anyone who would like to read more about this topic, I highly recommend this
+article from &lt;a href=&quot;https://medium.com/u/a9cf8b3432bf&quot;&gt;Tiago Garcia&lt;/a&gt;, explaining the
+concept of collective code ownership: &lt;a href=&quot;https://www.infoq.com/articles/revisit-p-collective&quot;&gt;Be a thoughtful programmer by exercising
+more collective ownership&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Did you enjoy the post and think it’s useful? Share this article, to help
+us spread the word :)&lt;/p&gt;
+</description>
+        <pubDate>Thu, 15 Sep 2016 17:00:00 -0300</pubDate>
+        <link>http://www.viniciusdacal.com/en/profession/2016/09/15/the-code-ownership-feeling.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/en/profession/2016/09/15/the-code-ownership-feeling.html</guid>
+        
+        
+        <category>en</category>
+        
+        <category>profession</category>
+        
+      </item>
+    
+      <item>
+        <title>Requisições assíncronas em Redux</title>
+        <description>&lt;p&gt;Quando se está começando a aprender &lt;strong&gt;Redux&lt;/strong&gt;, uma das dúvidas mais comuns é
+como fazer requisições assíncronas.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/800/1*ecCWySugfp5sfmR3WW_1yw.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Observando os exemplos básicos, que implementam apenas actions comuns, não fica
+tão óbvio qual abordagem utilizar ao fazer uma integração com uma API.&lt;/p&gt;
+
+&lt;p&gt;Neste post, mostrarei como implementar um &lt;strong&gt;middleware,&lt;/strong&gt; que ficará responsável
+por interpretar um padrão de específico de &lt;strong&gt;action&lt;/strong&gt;(async action) e gerenciar
+nossas requisições, disparando uma &lt;strong&gt;action&lt;/strong&gt; correspondente para cada momento
+das mesmas.&lt;/p&gt;
+
+&lt;h3 id=&quot;actions&quot;&gt;Actions&lt;/h3&gt;
+
+&lt;p&gt;Quando estamos fazendo uma requisição assíncrona há dois momentos importantes
+que comumente alteram o estado a aplicação: O momento em que uma requisição se
+inicia, e o momento que você recebe um resultado.&lt;/p&gt;
+
+&lt;p&gt;Esses dois momentos podem ser divididos em três &lt;strong&gt;actions&lt;/strong&gt; distintas: Uma
+action para o inicio da requisição, outra para o caso de sucesso e uma terceira
+para o caso de falha. Poderíamos chamá-las de &lt;strong&gt;CALL_API_REQUEST&lt;/strong&gt;,
+&lt;strong&gt;CALL_API_SUCCESS&lt;/strong&gt; e &lt;strong&gt;CALL_API_FAILURE.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;De uma maneira simples, mas não muito elegante, poderíamos aplicar esse conceito
+sem utilizar um middleware, como no exemplo abaixo:&lt;/p&gt;
+
+&lt;p&gt;O código acima teria que ser utilizado em um local onde tivéssemos acesso ao
+método &lt;strong&gt;dispatch&lt;/strong&gt;, que normalmente, é dentro de um &lt;strong&gt;container component&lt;/strong&gt;.
+Poderíamos tentar melhorar esse código abstraindo as actions para um &lt;strong&gt;action
+creator&lt;/strong&gt;, mas é notável que esse modelo não escala. Para cada endpoint da nossa
+API, precisaríamos ter três &lt;strong&gt;action creators&lt;/strong&gt; diferentes, o que é
+impraticável.&lt;/p&gt;
+
+&lt;p&gt;Poderíamos tentar levar toda essa lógica para dentro do &lt;strong&gt;action creator&lt;/strong&gt;, mas
+não teríamos acesso ao método &lt;strong&gt;dispatch&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Uma forma muito mais simples, seria termos uma &lt;strong&gt;action&lt;/strong&gt; que descrevesse como
+será o request, um padrão de action diferente que chamaremos de &lt;strong&gt;async
+action:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;No exemplo acima, as principais diferenças que podemos notar entre uma action
+comum e nossa &lt;strong&gt;async action&lt;/strong&gt;, é o fato de termos &lt;strong&gt;types&lt;/strong&gt; ao invés de
+&lt;strong&gt;type&lt;/strong&gt;, e de retornarmos uma função &lt;strong&gt;callApi&lt;/strong&gt; junto com o objeto.&lt;/p&gt;
+
+&lt;p&gt;Os &lt;strong&gt;types&lt;/strong&gt; serão utilizados nos três momentos distintos da requisição e é
+importante que eles sejam fornecidos na seguinte ordem:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;types&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;action&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;indicando&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;inicio&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;do&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;types&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;action&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;indicando&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sucesso&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;types&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;action&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;indicando&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;falha&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;A &lt;strong&gt;callApi&lt;/strong&gt; será utilizada futuramente para fazer o request.&lt;/p&gt;
+
+&lt;p&gt;Para interpretar essa action e gerenciar as requisições, nós utilizaremos um
+&lt;strong&gt;Middleware.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;middlewares&quot;&gt;Middlewares&lt;/h3&gt;
+
+&lt;p&gt;Em suma, &lt;a href=&quot;http://redux.js.org/docs/advanced/Middleware.html&quot;&gt;middlewares&lt;/a&gt; são
+funções que ficam entre o disparo de uma &lt;strong&gt;action&lt;/strong&gt; e a chegada dela no **Root
+Reducer, **sendo capazes de alterar o seu conteúdo ou até mesmo cancelá-la.&lt;/p&gt;
+
+&lt;p&gt;Abaixo segue um exemplo básico de um middleware de logs:&lt;/p&gt;
+
+&lt;p&gt;No exemplo acima, nós não modificamos o conteúdo da &lt;strong&gt;action&lt;/strong&gt;, apenas fazemos
+log dela e do &lt;strong&gt;state&lt;/strong&gt; da aplicação após o seu disparo&lt;strong&gt;. **É importante
+observar que nós chamamos o método **next **passando para ele a **action&lt;/strong&gt;
+atual, a fim de deixar a &lt;strong&gt;action&lt;/strong&gt; seguir seu fluxo, até o próximo
+&lt;strong&gt;middleware&lt;/strong&gt; ou até o &lt;strong&gt;Root Reducer&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;O middleware que implementaremos irá interceptar as &lt;strong&gt;async actions,&lt;/strong&gt; e as
+substituirá por três &lt;strong&gt;actions&lt;/strong&gt; diferentes, correspondendo os três momentos do
+request.&lt;/p&gt;
+
+&lt;p&gt;Dadas estas informações, vamos para a implementação do nosso middleware:&lt;/p&gt;
+
+&lt;p&gt;Logo no início da função, na linha 13, nós verificamos se a action recebida se
+trata de uma &lt;strong&gt;async action&lt;/strong&gt;, verificando se existe a propriedade &lt;strong&gt;types&lt;/strong&gt;
+dentro dela. Caso se trate de uma action comum, nós apenas passamos ela a
+diante, sem efetuar nenhuma alteração.&lt;/p&gt;
+
+&lt;p&gt;Caso se trate de uma &lt;strong&gt;async action&lt;/strong&gt;, nós extraímos os &lt;strong&gt;types&lt;/strong&gt; para
+respectivas variáveis e disparamos uma &lt;strong&gt;action&lt;/strong&gt;, contendo o primeiro &lt;strong&gt;type&lt;/strong&gt;,
+indicando que o request irá iniciar.&lt;/p&gt;
+
+&lt;p&gt;Em seguida, nós chamamos a função &lt;strong&gt;callApi&lt;/strong&gt;, que veio junto com a &lt;strong&gt;async
+action&lt;/strong&gt;, e passamos para a promise as funções handlers, que lidarão com os
+responses em caso de sucesso e em caso de falha.&lt;/p&gt;
+
+&lt;p&gt;Dentro dos handlers, nós disparamos uma &lt;strong&gt;action&lt;/strong&gt; indicando que foi finalizado
+o request, colocando no atributo &lt;strong&gt;body&lt;/strong&gt; o resultado do request.&lt;/p&gt;
+
+&lt;p&gt;Em caso de sucesso, nós incluímos um atributo &lt;strong&gt;lastFetched&lt;/strong&gt;, com o timestamp
+do momento em que o request foi finalizado.&lt;/p&gt;
+
+&lt;p&gt;Junto a cada action, foi incluído o &lt;strong&gt;payload&lt;/strong&gt; da &lt;strong&gt;async action&lt;/strong&gt;, para que os
+reducers tenham acesso ao mesmo.&lt;/p&gt;
+
+&lt;h3 id=&quot;incluindo-o-middleware-na-store&quot;&gt;Incluindo o Middleware na store&lt;/h3&gt;
+
+&lt;p&gt;Com o middleware implementado, nós precisamos incluí-lo na nossa store. Para
+isso, nós utilizaremos o método &lt;strong&gt;applyMiddleware&lt;/strong&gt; do redux, conforme o exemplo
+abaixo:&lt;/p&gt;
+
+&lt;p&gt;Feito isso, todas as actions passarão pelo nosso &lt;strong&gt;callAPIMiddleware&lt;/strong&gt;, as que
+forem &lt;strong&gt;async actions&lt;/strong&gt; serão interceptadas e convertidas em actions comuns.&lt;/p&gt;
+
+&lt;p&gt;Dessa forma, conseguimos deixar por conta do middleware o disparo das
+requisições e podemos manter apenas um &lt;strong&gt;action creator&lt;/strong&gt; para cada endpoint.&lt;/p&gt;
+
+&lt;p&gt;Com o &lt;strong&gt;middleware&lt;/strong&gt;, agora é possível termos actions assim:&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;figcaption_hack&quot;&gt;&lt;strong&gt;Async action&lt;/strong&gt; que irá disparar uma requisição para o endpoint “user/contacts”
+passando como parâmetro um &lt;strong&gt;userId&lt;/strong&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Async action que irá disparar uma requisição para o endpoint “user/contacts”
+passando como parâmetro um userId&lt;/p&gt;
+
+&lt;p&gt;Os &lt;strong&gt;middlewares&lt;/strong&gt; não se limitam a controlar requisições, eles são uma das
+features mais poderosas do redux e pretendo abordá-los em futuros posts. Para
+quem tem interesse em se aprofundar, sugiro que comece pela
+&lt;a href=&quot;http://redux.js.org/docs/advanced/Middleware.html&quot;&gt;documentação&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Se você está começando com Redux agora e chegou direto neste post, indico ler
+meu post anterior: &lt;a href=&quot;https://medium.com/coderockr-way/conhecendo-o-bÃ¡sico-do-redux-7315bcf09cef#.fdvpjz4g3&quot;&gt;Conhecendo o básico do
+Redux&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Estou começando uma série de posts sobre &lt;strong&gt;Redux&lt;/strong&gt; e &lt;strong&gt;React&lt;/strong&gt;, gostaria de
+receber um feedback de vocês sobre as dúvidas mais comuns de quem está
+começando. Pode ser enviando para o email:
+&lt;a href=&quot;mailto:viniciusldacal@gmail.com&quot;&gt;viniciusldacal@gmail.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Gostou do post e achou útil? Ajude na divulgação para que mais pessoas tenham acesso :)&lt;/p&gt;
+
+&lt;p&gt;Tem alguma dica ou dúvida sobre o tema? deixe nos comentários abaixo :)&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 02 Jul 2016 17:00:00 -0300</pubDate>
+        <link>http://www.viniciusdacal.com/pt/redux/react/2016/07/02/requisicoes-assincronas-em-redux.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/redux/react/2016/07/02/requisicoes-assincronas-em-redux.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>redux</category>
+        
+        <category>react</category>
+        
+      </item>
+    
+      <item>
+        <title>Conhecendo o básico do Redux</title>
+        <description>&lt;p&gt;Redux é um container de estados previsível para aplicações javascript, mas o que
+isso significa?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/600/1*deNSjC7XD-DA3w4wNK7XEQ.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Concebido por &lt;a href=&quot;https://medium.com/u/a3a8af6addc1&quot;&gt;Dan Abramov&lt;/a&gt;, redux é um
+padrão de arquitetura de aplicação, inspirado no
+&lt;a href=&quot;http://facebook.github.io/flux/&quot;&gt;Flux&lt;/a&gt; do Facebook e simplificado com ajuda de
+algumas práticas do &lt;a href=&quot;https://github.com/evancz/elm-architecture-tutorial/&quot;&gt;Elm&lt;/a&gt;.
+Redux lhe da o poder de construir aplicações consistentes e controlar a forma
+como os dados fluem e são transformados, seguindo três princípios:&lt;/p&gt;
+
+&lt;h4 id=&quot;single-source-of-truth&quot;&gt;1. Single source of truth&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Single_source_of_truth&quot;&gt;(SSOT)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Todo o estado da sua aplicação é armazenado em uma única árvore de objetos,
+dentro de uma única store. Qualquer acesso ao state, é feito através de
+referência ao dado armazenado na store. Essa prática evita que você tenha dados
+duplicados, e uma vez que um dado é atualizado, a alteração se propaga para toda
+a aplicação.&lt;/p&gt;
+
+&lt;h4 id=&quot;state-is-read-only&quot;&gt;2. State is Read-only&lt;/h4&gt;
+
+&lt;p&gt;A única forma de alterar o estado da sua aplicação é emitindo uma &lt;strong&gt;action&lt;/strong&gt;, um
+objeto descrevendo o que aconteceu.&lt;/p&gt;
+
+&lt;p&gt;Para acessar o state, você pode utilizar o método **getState **da store, o mesmo
+retorna todo o estado da aplicação, mas somente para a leitura.&lt;/p&gt;
+
+&lt;p&gt;Para escutarmos as alterações do state, utilizamos o método &lt;strong&gt;subscribe&lt;/strong&gt; da
+store, passando como parâmetro um listener, da seguinte forma:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;unsubscribe&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;store&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;subscribe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;//execute every time the state change&lt;/span&gt;
+  &lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;store&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;unsubscribe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//canceling listener&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Como podemos ver no exemplo acima, quando quisermos cancelar o listener, basta
+chamar o retorno do método &lt;strong&gt;subscribe&lt;/strong&gt; como uma função.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Quando precisamos fazer uma alteração no &lt;strong&gt;state&lt;/strong&gt;, a mesma precisa ser
+“solicitada” através de uma &lt;strong&gt;action&lt;/strong&gt;, um objeto contendo obrigatoriamente um
+&lt;strong&gt;type **e opcionalmente um **payload&lt;/strong&gt;(conteúdo).** &lt;strong&gt;O **type&lt;/strong&gt; é um
+identificador para a &lt;strong&gt;action&lt;/strong&gt; e o &lt;strong&gt;payload&lt;/strong&gt; é o conteúdo a ser enviado junto
+a ela, conforme o exemplo abaixo:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;action&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ADD_CONTACT'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Jon Snow'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'youknownothing@jonsnow.com'&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;como é possível observar acima, essa é uma &lt;strong&gt;action&lt;/strong&gt; to tipo ADD_CONTACT, e
+leva com ela os dados necessários para incluir esse contato ao nosso &lt;strong&gt;state&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;É comum utilizarmos &lt;strong&gt;action creators&lt;/strong&gt; para criarmos nossas actions, que são
+simplesmente funções que esperam parâmetros específicos e devolvem um objeto
+formatado, conforme o exemplo abaixo:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;addContact&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ADD_CONTACT'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;email&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;para disparar uma &lt;strong&gt;action&lt;/strong&gt;, utilizamos o método &lt;strong&gt;dispatch&lt;/strong&gt; da store:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;dispatch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addContact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Jon Snow'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'youknownothing@jonsnow.com'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h4 id=&quot;changes-are-made-with-pure-functions&quot;&gt;3. Changes are made with Pure functions&lt;/h4&gt;
+
+&lt;p&gt;Para descrever como o &lt;strong&gt;state **da aplicação será alterado pelas **actions&lt;/strong&gt;,
+nós escrevemos pure
+&lt;a href=&quot;http://redux.js.org/docs/Glossary.html#reducer&quot;&gt;reducers&lt;/a&gt;&lt;strong&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reducers **são funções que são chamadas toda vez que uma action é disparada e
+recebem como parâmetros o **state&lt;/strong&gt; atual e a &lt;strong&gt;action&lt;/strong&gt;, e devolvem um novo
+&lt;strong&gt;state.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;É importante ressaltar que um &lt;strong&gt;reducer&lt;/strong&gt; deve ser, obrigatoriamente, uma função
+pura. Dado os mesmos parâmetros, um reducer deve sempre devolver o mesmo
+resultado e não pode se basear em nada que esteja além do seu próprio escopo
+para chegar nesse resultado. Para quem quiser se aprofundar um pouco mais em
+conceitos funcionais, eu indicaria dar uma conferida no post do &lt;a href=&quot;https://medium.com/u/fb33cb80b669&quot;&gt;Matheus
+Lima&lt;/a&gt; sobre &lt;a href=&quot;https://medium.com/@matheusml/entendendo-programaÃ§Ã£o-funcional-em-javascript-de-uma-vez-c676489be08b#.9l123fghs&quot;&gt;programação funcional em
+Javascript&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Considerando que nossos reducers devem ser funções puras, vamos implementar
+nossa lógica de adicionar um novo contato ao nosso &lt;strong&gt;state&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;reducer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{},&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ADD_CONTACT'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;contactCollection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;contactCollection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;email&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;como é possível ver no exemplo acima, nosso reducer verifica se a action é tipo
+ADD_CONTACT, e se ela realmente for, ele retorna um novo state, incluindo o novo
+contato.&lt;/p&gt;
+
+&lt;p&gt;É importante que, para poder aproveitar ao máximo do redux, você trabalhe com
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Immutable_object&quot;&gt;imutabilidade&lt;/a&gt;. No exemplo
+acima, nós não fazemos um &lt;strong&gt;push&lt;/strong&gt; do novo contato dentro da
+&lt;strong&gt;contactCollection&lt;/strong&gt;, e sim retornamos uma nova contactCollection. Esta possui
+os mesmos contatos da anterior, mas contém o novo contato. Desta forma
+preservamos o state anterior e nos mantemos dentro da premissa de &lt;strong&gt;read-only
+state&lt;/strong&gt;. Como **Imutabilidade **é um dos princípios base dos redux, aconselho
+assistir a palestra do &lt;a href=&quot;https://medium.com/u/226857fe8d86&quot;&gt;William Huang&lt;/a&gt; no
+RSJS2016 &lt;a href=&quot;https://www.youtube.com/watch?v=8-R9C3yerPo&amp;amp;list=PLg2lQYZDBwORWkiAe6L9Ah-L2JxJ6froI&amp;amp;index=8&quot;&gt;Quando os dados imutáveis mudam
+tudo&lt;/a&gt;,
+que explica de uma forma prática imutabilidade em Javascript.&lt;/p&gt;
+
+&lt;p&gt;Seguindo esses três princípios da forma correta, você conseguirá escrever
+aplicações previsíveis de uma forma simples.&lt;/p&gt;
+
+&lt;p&gt;Nesse post arranhamos apenas a superfície do redux, nos próximos posts vou
+aprofundar mais em cada conceito.&lt;/p&gt;
+
+&lt;p&gt;O &lt;a href=&quot;http://redux.js.org/&quot;&gt;ReduxJS&lt;/a&gt; é uma lib em JS que implementa o redux em
+apenas 2kb. Ele conta com uma ótima documentação, onde é descrito em detalhe
+cada feature do redux. Se você pretende se aprofundar, a documentação é um bom
+lugar para começar.&lt;/p&gt;
+
+&lt;p&gt;No próximo post vou abordar uma forma de trabalhar com actions assíncronas, para
+fazer requisições para APIs.&lt;/p&gt;
+
+&lt;p&gt;A princípio, redux pode parecer complicado por ser diferente dos padrões de
+arquitetura que estamos acostumados, mas assim que você aprende, o céu é o
+limite.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Gostou do post? Dê um &lt;strong&gt;like(&lt;/strong&gt;❤&lt;strong&gt;)&lt;/strong&gt; abaixo para ajudar na divulgação e para
+que mais pessoas tenham acesso :)&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Did you enjoy the post and think it’s useful? Share this article, to help
+us spread the word :)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Jun 2016 17:00:00 -0300</pubDate>
+        <link>http://www.viniciusdacal.com/pt/profession/2016/06/22/conhecendo-o-basico-do-redux.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/profession/2016/06/22/conhecendo-o-basico-do-redux.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>profession</category>
+        
+      </item>
+    
+      <item>
+        <title>Learning the Basics About Redux</title>
+        <description>&lt;p&gt;Redux is a predictable state container for JavaScript Applications, but what
+does that mean?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/600/1*deNSjC7XD-DA3w4wNK7XEQ.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Created by &lt;a href=&quot;https://medium.com/u/a3a8af6addc1&quot;&gt;Dan Abramov&lt;/a&gt;, Redux is an
+application architecture pattern based on
+&lt;a href=&quot;http://facebook.github.io/flux/&quot;&gt;Flux&lt;/a&gt; ideas and simplified with concepts from
+&lt;a href=&quot;https://github.com/evancz/elm-architecture-tutorial/&quot;&gt;Elm&lt;/a&gt;. Redux gives you the
+power to build consistent applications and to control the way your data flows
+and is transformed, following three principles:&lt;/p&gt;
+
+&lt;h3 id=&quot;single-source-of-truth&quot;&gt;1. Single Source of Truth&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Single_source_of_truth&quot;&gt;(SSOT)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The entire state of your application is stored in an object tree within a
+single** **&lt;a href=&quot;http://redux.js.org/docs/Glossary.html#store&quot;&gt;store&lt;/a&gt;. Any access to
+the state is done by referencing the original data, in the store. This way, when
+information is updated it gets propagated throughout the application, thus
+preventing duplicate data.&lt;/p&gt;
+
+&lt;h3 id=&quot;state-is-read-only&quot;&gt;2. State is Read-only&lt;/h3&gt;
+
+&lt;p&gt;The only way to change the state of your application is by emitting an
+&lt;strong&gt;action&lt;/strong&gt;, an object that describes what happened.&lt;/p&gt;
+
+&lt;p&gt;To access the state you can use the method &lt;strong&gt;getState&lt;/strong&gt; from the store. It
+returns the whole application state, but as read-only.&lt;/p&gt;
+
+&lt;p&gt;To listen to changes on the state we use the store’s method &lt;strong&gt;subscribe&lt;/strong&gt;, and
+pass a listener as a parameter in the following way:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;unsubscribe&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;store&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;subscribe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(()&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;c1&quot;&gt;//execute every time the state change&lt;/span&gt;
+  &lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;store&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;unsubscribe&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;//canceling listener&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As we can see in the above example, when we want to cancel the listener we just
+call the value returned from the method subscribe, as a function.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When we need to modify the &lt;strong&gt;state&lt;/strong&gt;, the change needs to be requested by an
+&lt;strong&gt;action&lt;/strong&gt;, an object containing a &lt;strong&gt;type **(required) and a **payload
+**(optional). The **type&lt;/strong&gt; is an identifier for the action and the &lt;strong&gt;payload&lt;/strong&gt;
+is the content to be sent with the &lt;strong&gt;action&lt;/strong&gt;, as seen in the following example:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;action&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ADD_CONTACT'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Jon Snow'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;na&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'youknownothing@jonsnow.com'&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;In the example above, the &lt;strong&gt;action&lt;/strong&gt; has type ADD_CONTACT and the necessary data
+to include this contact in the &lt;strong&gt;state.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s common to create actions using &lt;strong&gt;action creators&lt;/strong&gt;, which are functions
+that expect specific parameters and return a formatted object, as in the
+following example:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;addContact&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ADD_CONTACT'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;email&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;To dispatch an &lt;strong&gt;action&lt;/strong&gt;, we use the method &lt;strong&gt;dispatch&lt;/strong&gt; from the store:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;dispatch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addContact&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Jon Snow'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'youknownothing@jonsnow.com'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;));&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;changes-are-made-with-pure-functions&quot;&gt;3. Changes are made with Pure functions&lt;/h3&gt;
+
+&lt;p&gt;To describe the way the state will be changed by the actions, we write pure
+&lt;a href=&quot;http://redux.js.org/docs/Glossary.html#reducer&quot;&gt;reducers&lt;/a&gt;&lt;strong&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reducers&lt;/strong&gt; are functions that are called every time an action is dispatched.
+They receive the current state and the &lt;strong&gt;action&lt;/strong&gt; as parameters, and return the
+new &lt;strong&gt;state.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s important to highlight that a &lt;strong&gt;reducer&lt;/strong&gt; must be a &lt;a href=&quot;https://en.wikipedia.org/wiki/Pure_function&quot;&gt;pure
+function&lt;/a&gt;. Given the same
+parameters, a reducer should always return the same result, and to do that, it
+has to be based on its own scope.&lt;/p&gt;
+
+&lt;p&gt;To learn and understand more about pure functions, I suggest you read the post
+&lt;a href=&quot;https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976#.q8sxpapvy&quot;&gt;What is a pure
+function&lt;/a&gt;
+from &lt;a href=&quot;https://medium.com/u/c359511de780&quot;&gt;Eric Elliott&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Considering our reducers must be pure functions, we are going to implement our
+logic to include a new contact in the &lt;strong&gt;state&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kr&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;reducer&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{},&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;===&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'ADD_CONTACT'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+
+    &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;..&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;na&quot;&gt;contactCollection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;state&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;contactCollection&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+          &lt;span class=&quot;na&quot;&gt;email&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;action&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;email&lt;/span&gt;
+        &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+      &lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;As we can see in the above example, our reducer checks if the action is of type
+ADD_CONTACT. If it is, it returns a new state, including the new contact.&lt;/p&gt;
+
+&lt;p&gt;To get the most out of &lt;strong&gt;Redux, **you must understand the concept of
+immutability. In the above example, we don’t use the **push **method&lt;/strong&gt; &lt;strong&gt;to
+include the new contact in the **contactCollection&lt;/strong&gt;, instead, we return a new
+contactCollection. This one has the same contacts as the previous collection,
+but contains the new contact. This way we preserve the previous state and stay
+in the premise of &lt;strong&gt;read-only state.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;By following these three principles, you can write a predictable application
+very easily.&lt;/p&gt;
+
+&lt;p&gt;In this post, we only scratched the surface of Redux. In the next posts, I
+intend to go deeper in each concept.&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://redux.js.org/&quot;&gt;ReduxJS&lt;/a&gt; is a Javascript lib that implements Redux in
+only 2kb. It has great documentation, where you can find information about each
+Redux feature. If you intend to go deeper, the documentation is a good place to
+start.&lt;/p&gt;
+
+&lt;p&gt;At the beginning, Redux can seem a little complicated because it is different
+from what we are used to. Nevertheless, as soon as you learn the basics, the sky
+is the limit.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Did you enjoy the post and think it’s useful? Share this article, to help
+us spread the word :)&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Jun 2016 17:00:00 -0300</pubDate>
+        <link>http://www.viniciusdacal.com/en/profession/2016/06/22/learning-the-basics-about-redux.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/en/profession/2016/06/22/learning-the-basics-about-redux.html</guid>
+        
+        
+        <category>en</category>
+        
+        <category>profession</category>
+        
+      </item>
+    
+      <item>
+        <title>Aprenda a dizer NÃO, você precisará disso</title>
+        <description>&lt;p&gt;Uma das habilidades mais importantes e que muitas pessoas não a tem, e quando
+digo muitas pessoas também me incluo entre elas. Acredito que o texto abaixo se
+encaixa em qualquer área, mas como trabalho com desenvolvimento de software é
+nesse contexto que o texto será desenvolvido.&lt;/p&gt;
+
+&lt;p&gt;Em sua grande maioria, quem trabalha com computadores está acostumado com o
+título “Garoto do computador”, não importa se você é técnico em informática, se
+você é programador, arquiteto de software ou CTO de alguma startup, algumas
+pessoas ainda recorrerão a você quando perderem a senha do Facebook.&lt;/p&gt;
+
+&lt;p&gt;Se você trabalha com desenvolvimento de websites ou software, por ser uma área
+relativamente nova e que contem uma certa complexidade, as pessoas não conseguem
+imaginar todos os processos que englobam um simples “desenvolvimento de um
+site”.&lt;/p&gt;
+
+&lt;p&gt;Quando você fala que trabalha com desenvolvimento de websites, é natural as
+pessoas próximas, recorrerem primeiro a ti antes de procurar outra
+pessoa/empresa.&lt;/p&gt;
+
+&lt;p&gt;Muitas vezes, você sabe que você não é a pessoa certa para o serviço, e cabe a
+você dizer não a elas. Dizer não e explicar o por quê, que seja por você ter
+habilidades só com programação e não com design, por você já trabalhar oito
+horas por dia e esse ser o seu limite de trabalho, ou por simplesmente você não
+querer trabalhar com o serviço em específico. É nessa hora que o poder do NÃO
+fará falta.&lt;/p&gt;
+
+&lt;h3 id=&quot;dizer-no--necessrio&quot;&gt;Dizer NÃO é necessário&lt;/h3&gt;
+
+&lt;p&gt;É necessário e você pagará pela omissão do mesmo. Uma característica evidente de
+pessoas que não sabem dizer não, é a sobrecarga de responsabilidades. Esses
+indivíduos estão sempre sobrecarregados de tarefas e isso os afeta muito.&lt;/p&gt;
+
+&lt;p&gt;Uma das situações que ocorrem com frequência é você lembrar de todas as coisas
+que precisa fazer, de todos os compromissos que acabou assumindo, lembrar de
+todos os prazos que estão atrasados, e ao invés de pegar uma única coisa e
+tentar resolver, você desiste de tudo e vai assistir uma série, jogar video-game
+ou fazer qualquer coisa que não esteja relacionada com nenhuma das tarefas, é
+você entrando em crise e seu cérebro tentando desesperadamente te tirar dela.&lt;/p&gt;
+
+&lt;p&gt;Com isso, seus principais objetivos nunca são concluídos, porque eles se
+misturam as coisas que você não soube dizer não.&lt;/p&gt;
+
+&lt;h3 id=&quot;dizer-no--sua-obrigao&quot;&gt;Dizer não é sua Obrigação&lt;/h3&gt;
+
+&lt;p&gt;Sim, é sua obrigação, é ser honesto, porque o que mais acontece nessas situações
+é você atrasar a entrega, demorar em dar respostas ou até mesmo não entregar.&lt;/p&gt;
+
+&lt;h3 id=&quot;reserve-os-seus-sims&quot;&gt;Reserve os seus SIM’s&lt;/h3&gt;
+
+&lt;p&gt;você conhece seus limites e sabe o máximo de tarefas que pode fazer durante a
+semana, estabeleça seus objetivos e reserve tempo necessário a eles, você não
+conseguirá abraçar o mundo, então escolha com cautela a quem e ao que você dará
+o seu SIM.&lt;/p&gt;
+
+&lt;p&gt;Completar pequenos objetivos te trará mais satisfação do que você estabelecer
+inúmeros objetivos e deixar todos pela metade, ou não tão bem feitos como você
+imaginava.&lt;/p&gt;
+
+&lt;h3 id=&quot;no-tenha-medo-de-dizer-no&quot;&gt;Não tenha medo de dizer NÃO&lt;/h3&gt;
+
+&lt;p&gt;Explicando a situação a pessoa provavelmente irá entender. O mais importante é
+ser sincero, principalmente com você mesmo.&lt;/p&gt;
+
+&lt;p&gt;Com o tempo você pega o jeito.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/800/1*_K6fJiY1rznIUhcyvywPig.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Gostou do post e achou útil? Ajude na divulgação para que mais pessoas tenham acesso :)&lt;/p&gt;
+
+&lt;p&gt;Tem alguma dica sobre o tema? deixe nos comentários abaixo :)&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 02 Apr 2016 17:00:00 -0300</pubDate>
+        <link>http://www.viniciusdacal.com/pt/profissao/2016/04/02/aprenda-a-dizer-nao-voce-precisara-disso.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/profissao/2016/04/02/aprenda-a-dizer-nao-voce-precisara-disso.html</guid>
         
         
         <category>pt</category>
@@ -279,7 +940,7 @@ vivo que constantemente muda.&lt;/strong&gt;&lt;/p&gt;
 &lt;h3 id=&quot;contatos&quot;&gt;Contatos&lt;/h3&gt;
 &lt;p&gt;Dúvidas, comen†ários ou sugestões, envie um e-mail para &lt;a href=&quot;mailto:viniciusldacal@gmail.com&quot;&gt;viniciusldacal@gmail.com&lt;/a&gt;, ou no Twitter &lt;a href=&quot;https://twitter.com/vinicius_dacal&quot;&gt;@vinicius_dacal&lt;/a&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 13 Apr 2015 19:00:00 -0300</pubDate>
+        <pubDate>Mon, 13 Apr 2015 17:00:00 -0300</pubDate>
         <link>http://www.viniciusdacal.com/pt/javascript/talk/2015/04/13/talk-introducao-ao-javascript.html</link>
         <guid isPermaLink="true">http://www.viniciusdacal.com/pt/javascript/talk/2015/04/13/talk-introducao-ao-javascript.html</guid>
         
@@ -395,326 +1056,6 @@ Eu tinha um e-mail profissional, o qual eu acompanhava todos os dias, mas como e
         
         
         <category>en</category>
-        
-        <category>frontend</category>
-        
-        <category>html</category>
-        
-        <category>css</category>
-        
-      </item>
-    
-      <item>
-        <title>Como deixar o terminal do Mac Colorido.</title>
-        <description>
-&lt;p&gt;Quando você começa a usar o terminal (linha de comando), sente aquela dificuldade de apenas bater o olho e saber o que está acontecendo ali. Bem, que tal se você pudesse adicionar um pouco de cor para diferenciar mais facilmente uma coisa da outra?&lt;/p&gt;
-
-&lt;p&gt;Se você precisa usar muito o terminal, nada melhor do que tonar ele o mais amigável possível, abaixo vou explicar algumas coisas que podem tonar sua experiência muito mais agradável.&lt;/p&gt;
-
-&lt;h3 id=&quot;habilitando-as-cores&quot;&gt;Habilitando as cores&lt;/h3&gt;
-&lt;p&gt;Por padrão, o terminal não vem com as cores abilitadas, para abilitá-las, faça o seguinte:
-Abra o terminal e digite &lt;code class=&quot;highlighter-rouge&quot;&gt;vim .bash_profile&lt;/code&gt;
-Cole as seguintes linhas:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PS1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\[\0&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;33[36m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\]\u\[\0&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;33[m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\]&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;@&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\[\0&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;33[32m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\]\h&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\[\0&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;33[33;1m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\]\w\[\0&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;33[m&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;\]\$&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &quot;&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;CLICOLOR&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1
-&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;LSCOLORS&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;ExFxBxDxCxegedabagacad
-&lt;span class=&quot;nb&quot;&gt;alias &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;ls&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'ls -GFh'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Pressione &lt;code class=&quot;highlighter-rouge&quot;&gt;ESC&lt;/code&gt;, depois &lt;code class=&quot;highlighter-rouge&quot;&gt;:wq&lt;/code&gt; e &lt;code class=&quot;highlighter-rouge&quot;&gt;ENTER&lt;/code&gt; para salvar a alteração.
-Feito isso, basta reiniciar seu terminal para ver o resultado.&lt;/p&gt;
-
-&lt;h3 id=&quot;temas&quot;&gt;Temas&lt;/h3&gt;
-&lt;p&gt;Se as cores padrão não lhe agradarem muito, pesquise outros temas.
-Eu gosto de usar o Dracula &lt;a href=&quot;https://github.com/zenorocha/dracula-theme#terminalapp&quot;&gt;https://github.com/zenorocha/dracula-theme&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;A instalação é bem simples:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Terminal&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Baixe o arquivo .ZIP&lt;/li&gt;
-  &lt;li&gt;No Terminal, selecione a aba &lt;code class=&quot;highlighter-rouge&quot;&gt;Terminal &amp;gt; preferências&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Seleciona acaba &lt;code class=&quot;highlighter-rouge&quot;&gt;Perfis&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Clique no ícone &lt;span class=&quot;fa fa-cog&quot;&gt;&lt;/span&gt;&lt;/li&gt;
-  &lt;li&gt;Clique em &lt;code class=&quot;highlighter-rouge&quot;&gt;Importar&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Selecione o arquivo terminal/Dracula.terminal&lt;/li&gt;
-  &lt;li&gt;Selecione ele na lista e clique no botão &lt;code class=&quot;highlighter-rouge&quot;&gt;Padrão&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;&lt;strong&gt;iTerm2&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Baixe o arquivo .ZIP&lt;/li&gt;
-  &lt;li&gt;No iTerm2 vá em  &lt;code class=&quot;highlighter-rouge&quot;&gt;Preferences &amp;gt; Profiles&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Selecione a aba &lt;code class=&quot;highlighter-rouge&quot;&gt;Colors&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Clique no botão &lt;code class=&quot;highlighter-rouge&quot;&gt;Load Presets&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Clique em &lt;code class=&quot;highlighter-rouge&quot;&gt;Import&lt;/code&gt;.&lt;/li&gt;
-  &lt;li&gt;Selecione o arquivo &lt;code class=&quot;highlighter-rouge&quot;&gt;iterm/Dracula.itermcolors&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Selecione o  Dracula em  &lt;code class=&quot;highlighter-rouge&quot;&gt;Load Presets&lt;/code&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Se você quiser mais temas para o iTerm2, acesse o link
-&lt;a href=&quot;http://iterm2colorschemes.com/&quot;&gt;http://iterm2colorschemes.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
-</description>
-        <pubDate>Mon, 09 Feb 2015 13:00:00 -0200</pubDate>
-        <link>http://www.viniciusdacal.com/pt/iniciante/2015/02/09/como-deixar-o-terminal-do-mac-colorido.html</link>
-        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/iniciante/2015/02/09/como-deixar-o-terminal-do-mac-colorido.html</guid>
-        
-        
-        <category>pt</category>
-        
-        <category>iniciante</category>
-        
-      </item>
-    
-      <item>
-        <title>O básico do básico do Git e do Github.</title>
-        <description>
-&lt;p&gt;Acredito que muitas pessoas, como eu, quando começaram a estudar  Git e Github se sentiram confusas com os termos e comandos utilizados pelo sistema. Neste breve post, vou simplificar (ou não) o dialeto deste mundo do versionamento.&lt;/p&gt;
-
-&lt;h3 id=&quot;o-que--o-git&quot;&gt;O que é o git?&lt;/h3&gt;
-&lt;p&gt;Git é um sistema de controle de versão, criado por Linus Torvalds, para desenvolver o Kernel do Linux. Com ele você  pode fazer e salvar cada alteração em seu projeto e futuramente essas alterações poderão ser consultadas ou revertidas. É como se você criasse um ponto de restauração no seu sistema, só que no Git realmente funciona!&lt;/p&gt;
-
-&lt;p&gt;Com o Git você consegue saber a data, a hora, quem alterou e o que foi alterado. Fantástico não?&lt;/p&gt;
-
-&lt;p&gt;Nesta &lt;a href=&quot;https://www.youtube.com/watch?v=R7NYx8wRrWg&quot;&gt;ótima palestra do BrazilJS2014&lt;/a&gt;, o Mauricio Wolff da Booking, demonstra um case fantástico de como ele conseguiu limpar CSS gigantes com a ajuda do Git e do Github, vale a pena assistir (Fica tranquilo, está em português).&lt;/p&gt;
-
-&lt;h3 id=&quot;o-que--o-github&quot;&gt;O que é o Github?&lt;/h3&gt;
-&lt;p&gt;Github é um site que funciona em cima do Git. Nele você consegue criar seus projetos e mantê-los online, mas mais do que isso, ele também funciona como uma rede social, onde as pessoas conseguem ver seus projetos e contribuir para eles. Além de tudo isso, ele também é o melhor portfolio que você pode ter. Olhar para o código que você escreve é uma das melhores maneiras de conhecer seu trabalho.&lt;/p&gt;
-
-&lt;h3 id=&quot;termos-frequentemente-usados&quot;&gt;Termos frequentemente usados&lt;/h3&gt;
-&lt;p&gt;Para você que está começando agora, nada melhor do que ficar por dentro de algumas palavras frequentemente usadas nesse dialeto “versionístico”.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Commit&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Um Commit é um pacote de alterações do seu projeto. Digamos que você já tenha uma pasta com os arquivos do seu projeto, você acabou de editar um arquivo e precisa salvar essas alterações no Git, nesse caso você precisará fazer um Commit.&lt;/p&gt;
-
-&lt;p&gt;Vamos supor que o arquivo alterado tenha sido o “arquivo.txt” que está dentro da pasta textos, nesse caso você executará o seguinte comando:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add textos/arquivo.txt&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Feito isso você terá adicionado o arquivo “arquivo.txt” ao Stage, que é onde ele fica antes de ser “comitado”.&lt;/p&gt;
-
-&lt;p&gt;Digamos que sua alteração foi somente essa e você quer “comitar” ela  para o Git, é só executar o seguinte comando:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git commit –m “Mensagem descrevendo o que foi alterado”&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Você acaba de criar um commit, um pacote de alterações que contem apenas um arquivo.
-Caso você tenha alterado vários arquivos e deseja incluir todos eles ao mesmo commit,  troque apenas o caminho do arquivo para “.”, fica assim:&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git add .&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;O comando do commit vai continuar o mesmo.
- O que você precisa entender é que ao executar o git add você está adicionando arquivos ao Stage, e que ao executar o git commit, tudo que estiver no Stage vai para o HEAD do seu projeto Git local.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Fork, Forkar, Forkado&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/o-basico-do-basico-do-git-e-do-github/print-fork.jpg&quot; alt=&quot;Print fork&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Quando você coloca seu projeto publico lá no Github, as pessoas podem “Forkar” ele, o que seria o mesmo que tirar uma cópia, só que essa cópia fará referência ao projeto original, e carregará com ela todo o histórico de alterações anteriores ao “Fork”.
-Nessa cópia, é possível você fazer alterações e trabalhar de forma independente do projeto original.&lt;/p&gt;
-
-&lt;p&gt;Digamos que você queira fazer um blog, é possível você “Forkar” o projeto do Jekyll e fazer as alterações, customizações e postagens em cima da sua própria “cópia” (Fork).&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Pull request&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;É uma proposta de alteração ao projeto.
-Digamos que você fez um Fork em um projeto, descobriu um bug nele e acabou corrigindo, ou encontrou uma forma de melhorá-lo. Se a alteração efetuada for interessante para o projeto original, você pode enviar um Pull request, propondo que sua alteração seja anexada à ele.&lt;/p&gt;
-
-&lt;p&gt;Tem dúvida de como fazer um Pull request, confira &lt;a href=&quot;https://www.youtube.com/watch?v=E8MPe6tCMo8&quot;&gt;este vídeo do Suíssa&lt;/a&gt;, exemplificando um pull request em 3min.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Issues&lt;/strong&gt;
-&lt;img src=&quot;/assets/o-basico-do-basico-do-git-e-do-github/print-issues.jpg&quot; alt=&quot;print issues&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Issues podem ser erros, bugs, dúvidas, sugestões de novas  features e etc.&lt;/p&gt;
-
-&lt;p&gt;A parte de Issues é o seu canal de comunicação com os colaboradores e desenvolvedores do projeto.&lt;/p&gt;
-
-&lt;p&gt;Digamos que algo no projeto esteja com erro, você pode abrir uma issue e descrever o erro.&lt;/p&gt;
-
-&lt;p&gt;A issue deve ser aberta no projeto original, caso você abrir uma Issue no seu Fork, somente as pessoas que Forkaram essa sua versão irão acompanhar a discussão.&lt;/p&gt;
-
-&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
-&lt;p&gt;A intenção do post não é lhe ensinar todos os comandos e todas as possibilidades que o git lhe dá, mas sim lhe introduzir nesse mundo para que você possa ler e estudar outros artigos com mais facilidade.&lt;/p&gt;
-
-&lt;p&gt;abaixo segue alguns links para você começar a estudar.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://tableless.com.br/iniciando-no-git-parte-1/&quot;&gt;http://tableless.com.br/iniciando-no-git-parte-1/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://tableless.com.br/iniciando-no-git-parte-2/&quot;&gt;http://tableless.com.br/iniciando-no-git-parte-2/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://rogerdudler.github.io/git-guide/index.pt_BR.html&quot;&gt;http://rogerdudler.github.io/git-guide/index.pt_BR.html&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.codeschool.com/courses/try-git&quot;&gt;https://www.codeschool.com/courses/try-git&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://tableless.com.br/alguns-comandos-git/&quot;&gt;http://tableless.com.br/alguns-comandos-git/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Se você tiver sugestão de mais algum termo, deixe nos comentários que eu anexo ao post.&lt;/p&gt;
-
-&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
-</description>
-        <pubDate>Thu, 29 Jan 2015 21:40:00 -0200</pubDate>
-        <link>http://www.viniciusdacal.com/pt/iniciante/2015/01/29/o-basico-do-basico-do-git-e-do-github.html</link>
-        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/iniciante/2015/01/29/o-basico-do-basico-do-git-e-do-github.html</guid>
-        
-        
-        <category>pt</category>
-        
-        <category>iniciante</category>
-        
-      </item>
-    
-      <item>
-        <title>Codecademy. O que você pode aprender com ele.</title>
-        <description>
-&lt;p&gt;Codecademy é um website &lt;strong&gt;gratuito&lt;/strong&gt;, que lhe permite aprender várias linguagens de programação de uma forma muito prática.
-Se você pretende aprender uma nova linguagem, este é o lugar certo para começar.&lt;/p&gt;
-
-&lt;h3 id=&quot;qual-o-motivo-desse-post&quot;&gt;Qual o motivo desse post?&lt;/h3&gt;
-&lt;p&gt;O mercado atual valoriza muito um profissional especializado, mas também valoriza muito um profissional com conhecimento em várias linguagens de programação. Me entenda bem, eu disse conhecimento, não disse que você precisa ser um master ninja sr. em todas as linguagens da terra, mas saber pelo menos o básico de algumas linguagens pode lhe trazer alguns benefícios.&lt;/p&gt;
-
-&lt;p&gt;Digamos que você é um desenvolvedor front-end, manja muito de html, css e javascript e certo dia você resolve criar um blog, você ouve falar a respeito do &lt;a href=&quot;http://www.jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; e decide utilizar ele. Até ai tudo bem, se você souber o básico de um terminal não vai ter o menor problema. Mas digamos que você precise de algum plugin muito específico para o seu blog e precise desenvolver um você mesmo, nesse caso você precisará saber pelo menos o básico de ruby.&lt;/p&gt;
-
-&lt;p&gt;Coisas do tipo podem acontecer com outras linguagens também.&lt;/p&gt;
-
-&lt;h3 id=&quot;beleza-mas-o-que-o-codecademy-tem-a-ver-com-isso&quot;&gt;Beleza! Mas o que o Codecademy tem a ver com isso?&lt;/h3&gt;
-
-&lt;p&gt;Quando você quer aprender uma nova linguagem, as vezes fica meio perdido e confuso por onde começar, e é exatamente ai que o Codecademy entra. Ele começa a te ensinar desde o básico da linguagem como váriaveis, estruturas de condiçoes, laços de repetição, funções e até orientação à objetos. Tudo isso com exercícios práticos, o que é mais divertido.&lt;/p&gt;
-
-&lt;h3 id=&quot;cursos&quot;&gt;Cursos&lt;/h3&gt;
-
-&lt;p&gt;Atualmente seus principais cursos são de HTML, CSS, Javascript, Jquery, PHP, Python e Ruby, mas também ele possui outros cursos que te ensinam a consumir algumas APIs de terceiros, como Youtube, Deezer, Github, entre outros.&lt;/p&gt;
-
-&lt;h3 id=&quot;como-comear&quot;&gt;Como começar&lt;/h3&gt;
-&lt;p&gt;Você pode fazer seu cadastro no site utilizando sua conta do Facebook, Google ou preenchendo o formulário com os seus dados.
-&lt;img src=&quot;/assets/codecademy-o-que-voce-pode-aprender-com-ele/cadastro-codecademy.jpg&quot; alt=&quot;&amp;quot;Cadastro Codecademy&amp;quot;&quot; title=&quot;Cadastro Codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;depois--s-selecionar-o-curso-que-tiver-interesse&quot;&gt;Depois é só selecionar o curso que tiver interesse:&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/codecademy-o-que-voce-pode-aprender-com-ele/cursos-codecademy.jpg&quot; alt=&quot;&amp;quot;Cursos Codecademy&amp;quot;&quot; title=&quot;Cursos Codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;e-voc-ser-encaminhado-para-a-primeira-lio&quot;&gt;E você será encaminhado para a primeira lição&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&quot;/assets/codecademy-o-que-voce-pode-aprender-com-ele/licao-codecademy.jpg&quot; alt=&quot;&amp;quot;Lição Codecademy&amp;quot;&quot; title=&quot;Lição Codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Essa é a tela da lição. Na lateral esquerda, você possui um bloco com as instruções necessárias para concluir a tarefa. No centro você tem seu editor de texto e na lateral direita o console com o resultado do código que você executou.&lt;/p&gt;
-
-&lt;p&gt;Depois que você salvar e sair de uma lição, é possível ver seu progresso no curso conforme o print abaixo.
-&lt;img src=&quot;/assets/codecademy-o-que-voce-pode-aprender-com-ele/progresso-codecademy.jpg&quot; alt=&quot;&amp;quot;Progresso Codecademy&amp;quot;&quot; title=&quot;Progresso Codecademy&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
-&lt;p&gt;Como eu já expliquei, este site não tornará você um ninja, mas pode lhe ajudar a entrar no caminho para se tornar um.
-Ficou interessado? Corre lá &lt;a href=&quot;http://www.codecademy.com/pt-BR/learn&quot;&gt;codecademy.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
-</description>
-        <pubDate>Fri, 23 Jan 2015 21:00:00 -0200</pubDate>
-        <link>http://www.viniciusdacal.com/pt/iniciante/2015/01/23/codecademy-o-que-voce-pode-aprender-com-ele.html</link>
-        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/iniciante/2015/01/23/codecademy-o-que-voce-pode-aprender-com-ele.html</guid>
-        
-        
-        <category>pt</category>
-        
-        <category>iniciante</category>
-        
-      </item>
-    
-      <item>
-        <title>Inglês. Sim, você precisa saber.</title>
-        <description>&lt;p&gt;Neste post eu falarei um pouco sobre a importância do Inglês e darei algumas dicas de como você pode estudar sozinho. Vamos quebrar o paradigma de que a única forma de aprender Inglês é nas escolas de idioma.&lt;/p&gt;
-
-&lt;h3 id=&quot;ingls-mas-o-blog-no--sobre-programao&quot;&gt;Inglês? Mas o blog não é sobre programação?&lt;/h3&gt;
-&lt;p&gt;Sim, eu sei que o blog é voltado pra área de desenvolvimento, mas é &lt;strong&gt;IMPOSSÍVEL&lt;/strong&gt; você seguir carreira nessa área sem saber o mínimo de inglês.&lt;/p&gt;
-
-&lt;h3 id=&quot;no-gosto-de-ingls-por-que-eu-devo-aprender&quot;&gt;Não gosto de inglês, por que eu devo aprender?&lt;/h3&gt;
-&lt;p&gt;Como todo mundo sabe, o inglês é o idioma universal (Tanto que em Star Wars ele é falado até pelos alienígenas), sendo universal, a maioria dos materiais de estudo em diversas áreas está em inglês. Vídeos, documentações, blogs, tutoriais e etc. Tudo em Inglês!&lt;/p&gt;
-
-&lt;p&gt;A primeira matéria da nova tecnologia que está para sair será em inglês, a documentação sairá primeiro em inglês, tudo sobre ela será primeiro em inglês. Assim acontece com frameworks, linguagens de programação, plataformas e afins, ou seja, se você não sabe inglês, vai ficar dependendo da boa vontade de alguém traduzir o conteúdo e postar num blog ou em outras mídias.&lt;/p&gt;
-
-&lt;p&gt;Viu só como o Inglês é importante pra você se manter atualizado?&lt;/p&gt;
-
-&lt;p&gt;Outro fator é que até aqui no Brasil, as melhores empresas para se trabalhar exigem Inglês avançado ou fluente, não tem pra onde correr!&lt;/p&gt;
-
-&lt;h3 id=&quot;ok-voc-me-convenceu-como-eu-posso-comear&quot;&gt;Ok, você me convenceu! Como eu posso começar?&lt;/h3&gt;
-&lt;p&gt;Uma maneira muito bacana de começar é utilizando Apps! Se você possui um Smartphone, pesquise pelo aplicativo &lt;a href=&quot;https://www.duolingo.com/mobile&quot;&gt;Duolingo&lt;/a&gt;. Este app funciona como um jogo onde você consegue disputar com seus amigos pra ver quem fica com o primeiro lugar no ranking. Com ele você vai ganhar vocabulário, vai aprender gramática, escuta e pronúncia.&lt;/p&gt;
-
-&lt;p&gt;Não tem Smartphone? Fica tranquilo, você também pode acessar a versão online em &lt;a href=&quot;https://www.duolingo.com&quot;&gt;duolingo.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Depois que você estiver em um nível “Intermediário”, sugiro que procure por podcasts sobre inglês.&lt;/p&gt;
-
-&lt;p&gt;Se você usa o iTunes, fica fácil, vá até a iTunes Store, selecione a opção podcasts, depois selecione a categoria “Educação” e a subcategoria  ”Cursos de línguas”, selecione um podcast que lhe chamar a atenção e comece a ouvir.&lt;/p&gt;
-
-&lt;p&gt;Eu sugiro começar por podcasts com episódios curtos, como o “Happy English” e o “Dayli Easy English Expressions” que possuem episódios que variam de 5 a 10 minutos.&lt;/p&gt;
-
-&lt;p&gt;Caso você não use o iTunes, sugiro o site &lt;a href=&quot;http://www.inglesonline.com.br/category/podcast-inglesonline/&quot;&gt;inglesonline.com.br&lt;/a&gt; para você começar a ouvir.&lt;/p&gt;
-
-&lt;p&gt;Através de podcasts você vai melhorar muito o seu entendimento e automaticamente a sua conversação.&lt;/p&gt;
-
-&lt;h3 id=&quot;outra-dica-muito-importante-&quot;&gt;Outra dica muito importante é&lt;/h3&gt;
-&lt;p&gt;Se você não gosta, comece a gostar! Faça uma imersão total no idioma. Assista filmes legendados, ouça músicas, e consuma o máximo de coisas que puder no idioma (Não estou falando de comida, vocês entenderam né).&lt;/p&gt;
-
-&lt;h3 id=&quot;finalizando&quot;&gt;Finalizando&lt;/h3&gt;
-&lt;p&gt;Essas foram as metodologias que mais funcionaram pra mim, espero que funcionem para você  também.&lt;/p&gt;
-
-&lt;p&gt;Se você ainda não consegue entender muita coisa, continue estudando que você chegará lá. &lt;strong&gt;O que não pode é ficar parado!&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Tem alguma dica legal que quer dividir comigo e com a galera? Deixa nos comentários, todas as dicas serão bem vindas.&lt;/p&gt;
-
-&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 22 Jan 2015 08:00:00 -0200</pubDate>
-        <link>http://www.viniciusdacal.com/pt/ingles/2015/01/22/ingles-sim-voce-precisa-aprender.html</link>
-        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/ingles/2015/01/22/ingles-sim-voce-precisa-aprender.html</guid>
-        
-        
-        <category>pt</category>
-        
-        <category>ingles</category>
-        
-      </item>
-    
-      <item>
-        <title>Instalando plugins no Sublime Text!</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; é um editor de textos gratuito que lhe permite escrever código em várias linguagens. Além de ser um programa extremamente leve, ele também lhe da a opção de instalar plugins, o que é &lt;del&gt;a cereja&lt;/del&gt;  o morango do bolo.&lt;/p&gt;
-
-&lt;h3 id=&quot;package-control&quot;&gt;Package Control&lt;/h3&gt;
-
-&lt;p&gt;Como o próprio nome já diz, o Package Control será o seu controlador de pacotes. Com ele você poderá pesquisar, instalar e remover snippets, plug-ins e etc. Porém, o Package Control não vem junto com o sublime, mas instalá-lo é muito simples:&lt;/p&gt;
-
-&lt;p&gt;Vá no menu do programa e selecione &lt;code class=&quot;highlighter-rouge&quot;&gt;View &amp;gt; Show Console&lt;/code&gt;. No console que será aberto cole o seguinte texto:&lt;/p&gt;
-
-&lt;p&gt;Se você estiver usando Sublime Text 2:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;import urllib2,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')&quot;&lt;/span&gt; | escape&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Caso esteja usando o Sublime Text 3:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)&quot;&lt;/span&gt; | escape&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Feito isso, pressione &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt; e aguarde até o fim da instalação.&lt;/p&gt;
-
-&lt;p&gt;Terminado a instalação, reinicie o Sublime e pressione &lt;code class=&quot;highlighter-rouge&quot;&gt;Cmd+Shift+P&lt;/code&gt; . No campo que será aberto, digite “Install Package” e pressione  &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt;.
-Feito isso, pesquise o nome do Plugin que você deseja instalar, selecione-o e pressione  &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt; novamente e aguarde até o fim da instalação.&lt;/p&gt;
-
-&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
-
-&lt;p&gt;Plugins foram feitos para facilitar sua vida, eles são muito eficazes nisso se você souber usá-los. Procure achar os plugins que melhor se encaixam no seu workflow.&lt;/p&gt;
-
-&lt;p&gt;Várias listas com excelentes plugins podem ser facilmente encontradas fazendo uma simples pesquisa no Google.&lt;/p&gt;
-
-&lt;p&gt;Confira o post que eu fiz falando sobre o Emmet. Se você escreve HTML e CSS, esse deve ser seu primeiro plugin.&lt;/p&gt;
-
-&lt;p&gt;E vocês que já conheciam o Sublime e seus plugins, quais plugins vocês usam?&lt;/p&gt;
-
-&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo :)&lt;/p&gt;
-
-</description>
-        <pubDate>Wed, 21 Jan 2015 18:30:00 -0200</pubDate>
-        <link>http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/21/instalando-plugins-no-sublime-text.html</link>
-        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/frontend/html/css/2015/01/21/instalando-plugins-no-sublime-text.html</guid>
-        
-        
-        <category>pt</category>
         
         <category>frontend</category>
         

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Como deixar o terminal do Mac Colorido."
-date:   2015-02-09 15:00:00
+date:   2015-02-09 20:00:00
 categories: iniciante
 uglyTitle : "como-deixar-o-terminal-do-mac-colorido"
 bg: "como-deixar-o-terminal-do-mac-colorido.jpg"

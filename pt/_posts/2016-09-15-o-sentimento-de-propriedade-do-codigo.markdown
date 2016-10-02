@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "O sentimento de propriedade do código"
-date:   2016-09-15 12:00:00
+date:   2016-09-15 20:00:00
 categories: profissao
 uglyTitle: "o-sentimento-de-propriedade-do-codigo"
 ---

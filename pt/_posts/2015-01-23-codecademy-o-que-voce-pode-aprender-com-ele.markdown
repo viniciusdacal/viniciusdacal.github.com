@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Codecademy. O que você pode aprender com ele."
-date:   2015-01-23 23:00:00
+date:   2015-01-23 20:00:00
 categories: iniciante
 uglyTitle : "codecademy-o-que-voce-pode-aprender-com-ele"
 bg: "codecademy-o-que-voce-pode-aprender-com-ele.jpg"

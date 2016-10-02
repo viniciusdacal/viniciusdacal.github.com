@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Instalando plugins no Sublime Text!"
-date:   2015-01-21 20:30:00
+date:   2015-01-21 20:00:00
 categories: frontend html css
 bg: "instalando-plugins-no-sublime-text.jpg"
 

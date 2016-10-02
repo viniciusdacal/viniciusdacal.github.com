@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Curso introdução ao Javascript - Faculdade Alfa"
-date:   2015-04-13 22:00:00
+date:   2015-04-13 20:00:00
 categories: javascript talk
 bg: "javascript.jpg"
 ---

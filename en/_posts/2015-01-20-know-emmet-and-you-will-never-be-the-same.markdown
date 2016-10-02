@@ -1,7 +1,7 @@
 ---
 layout: post_en
 title:  "Know Emmet and you will never be the same!"
-date:   2015-01-20 22:50:00
+date:   2015-01-20 20:00:00
 categories: frontend html css
 bg: "conheca-o-emmet.jpg"
 
@@ -11,7 +11,7 @@ Previously known as Zen Coding,[Emmet](http://emmet.io/) is a plugin for text ed
 
 
 ###Could you explain?
-It is a plugin that you can install in your favorite text editor and gives you a superpower to write HTML by CSS selectors. That's it, CSS selectors!
+It is a plugin that you can install in your favorite text editor and it gives you a superpower to write HTML by CSS selectors. That's it, CSS selectors!
 
 You'll write `div>img`, hit `TAB` and the follow HTML appears:
 
