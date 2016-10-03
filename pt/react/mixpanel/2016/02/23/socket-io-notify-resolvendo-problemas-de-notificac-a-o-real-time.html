@@ -6,15 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>O sentimento de propriedade do código</title>
-  <meta name="description" content="Todo programador, uma hora ou outra, ou quase sempre passa por isso. Vocêescreve código e as vezes sente que aquilo faz parte de você, e por isso, apartir de...">
+  <title>Socket.IO Notify — Resolvendo problemas de notificação real-time</title>
+  <meta name="description" content="No final do ano passado, em dois de nossos projetos naCoderockr, surgiu a necessidade de termos umacomunicação real-time entre o servidor e o browser.">
 
   <meta name="keywords" content="frontend, web development, tecnologia web, css, html, javascript, php, python, ruby, java, backend, programming">
   <meta property="og:site_name" content="Vinicius Dacal - Front End Developer"/>
-  <meta property="og:title" content="O sentimento de propriedade do código" />
-  <meta property="og:url" content="http://www.viniciusdacal.com/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html" />
+  <meta property="og:title" content="Socket.IO Notify — Resolvendo problemas de notificação real-time" />
+  <meta property="og:url" content="http://www.viniciusdacal.com/pt/react/mixpanel/2016/02/23/socket-io-notify-resolvendo-problemas-de-notificac-a-o-real-time.html" />
   <meta property="fb:app_id" content="684221391686656" />
-  <meta property="og:description" content="Todo programador, uma hora ou outra, ou quase sempre passa por isso. Vocêescreve código e as vezes sente que aquilo faz parte de você, e por isso, apartir de..." />
+  <meta property="og:description" content="No final do ano passado, em dois de nossos projetos naCoderockr, surgiu a necessidade de termos umacomunicação real-time entre o servidor e o browser." />
   <meta property="article:author" content="https://www.facebook.com/viniciusdacal" />
   <meta property="og:image" content="http://www.viniciusdacal.com/assets/" />
   <meta property="og:locale" content="pt_BR" />
@@ -24,7 +24,7 @@
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.viniciusdacal.com/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html">
+  <link rel="canonical" href="http://www.viniciusdacal.com/pt/react/mixpanel/2016/02/23/socket-io-notify-resolvendo-problemas-de-notificac-a-o-real-time.html">
   <link rel="alternate" type="application/rss+xml" title="vinicius.dacal" href="http://www.viniciusdacal.com/feed.xml" />
 </head>
 
@@ -79,98 +79,109 @@
 	<div class="post">
 
 		<header class="post-header">
-			<h1 class="post-title">O sentimento de propriedade do código</h1>
-			<p class="post-meta">15 de Setembro de 2016 </p>
+			<h1 class="post-title">Socket.IO Notify — Resolvendo problemas de notificação real-time</h1>
+			<p class="post-meta">23 de Fevereiro de 2016 </p>
 		</header>
 
 		<article class="post-content">
-			
-<p>Todo programador, uma hora ou outra, ou quase sempre passa por isso. Você
-escreve código e as vezes sente que aquilo faz parte de você, e por isso, a
-partir desse sentimento, você quer escrever o melhor código do mundo, pelo menos
-o que você considera ser o melhor código do mundo.</p>
+			<p>No final do ano passado, em dois de nossos projetos na
+<a href="http://www.coderockr.com/">Coderockr</a>, surgiu a necessidade de termos uma
+comunicação real-time entre o servidor e o browser.</p>
 
-<p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*PH89drcTxwIVDHjx1B56gA.png" alt="" /></p>
+<p>A primeira tecnologia que veio em mente foi
+<a href="https://developer.mozilla.org/pt-BR/docs/WebSockets">websockets</a>, que
+possibilita a comunicação bidirecional entre server e client.</p>
 
-<p>Isso é uma coisa muito boa, partindo do principio que você quer cuidar do
-projeto cada vez mais, estabelecer padrões e pensar formas cada vez melhores de
-escrever o código e escalar o sistema. Porém, é comum se sobressair o outro lado
-desse mesmo sentimento, que iremos observar alguns aspectos abaixo.</p>
+<p>Por questões de suporte à browsers e facilidade na implementação optamos por
+utilizar <a href="http://socket.io/">socket.io</a>, uma lib client/server que utiliza
+websockets e fornece uma api bem amigável, além de fallbacks para browsers
+legados.</p>
 
-<p>Imagine que você trabalhe em equipe e que não só você, mas que mais pessoas
-estarão fazendo alterações em um projeto. Por mais que você estabeleça padrões
-de escrita de código, padrões de estrutura para testes e escreva cem páginas de
-docs com boas práticas, os outros programadores nunca irão escrever exatamente
-da mesma maneira que você, ou utilizar a mesma abordagem que você usaria. Nessa
-hora, esse sentimento de propriedade do código pode começar a te incomodar.</p>
+<p>Para o servidor, criamos um script em nodeJS que é todo configurado através de
+variáveis de ambiente, e publicamos ele open source no github com o nome de
+<a href="https://github.com/viniciusdacal/socket.io-notify">Socket.io-notify</a>.</p>
 
-<p>O fato disso te incomodar não chega a ser um problema, mas é preciso pensar nas
-atitudes que você toma frente à uma diferente forma de pensar.</p>
+<h3 id="instalao">Instalação</h3>
 
-<p>É importante você conseguir analisar o que é bom ou não para o projeto e não o
-que é diferente ou igual ao que você pensa, <strong>ou que fere o seu ego</strong>.</p>
+<p>Para utilizá-lo, basta clonar o repositório, ir até a pasta do projeto e com o
+<strong>node &gt;= 4.3.1</strong> instalado, rodar:</p>
 
-<p>Acho válido nós nos questionarmos, para que não nos tornemos pessoas
-autoritárias, mas sim pessoas colaborativas:</p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">npm install</code></pre></figure>
 
-<h3 id="quando-algum-trs-uma-soluo-diferente-da-sua-voc-considera-a">Quando alguém trás uma solução diferente da sua, você considera a</h3>
-<p>possibilidade de essa solução ser melhor, ou você discorda, achando que a sua já
-é boa o suficiente?</p>
+<p>As seguintes variáveis de ambientes devem ser configuradas:</p>
 
-<p>Se você costuma discordar logo de cara, você já está fazendo isso errado.
-Considere a possibilidade de você estar errado ou de a outra ideia ser melhor.
-Pessoas pensam de maneiras diferentes e soluções mais simples podem vir das
-pessoas mais inesperadas, saiba dar espaço para os outros falarem e saiba
-<strong>ouvir o que os outros dizem</strong>.</p>
+<p><strong>PORT: **a porta que será executada o node<br /> **NOTIFICATION_SECRET:</strong> uma
+chave única que será utilizada para disparar as notificações.<br />
+<strong>NOTIFICATION_KEY:</strong> uma chave pública que será utilizada para habilitar a
+conexão entre browser e o websocket.</p>
 
-<h3 id="voc-costuma-pedir-que-as-pessoas-faam-as-coisas-sem-explicar-o-porqu">Você costuma pedir que as pessoas façam as coisas sem explicar o porquê?</h3>
+<p>Em caso de <strong>HTTPS</strong>:</p>
 
-<p>Se você delega uma tarefa que não tem um motivo explícito e não explica o porque
-de a tarefa ser feita, você está desincentivando a pessoa a pensar. Eu mesmo,
-simplesmente não consigo fazer uma tarefa se eu não entender o escopo e a razão
-da mesma. Eu preciso entender o que eu estou fazendo, para que eu elabore a
-minha maneira de fazer aquilo, a maneira que eu acho melhor e que posteriormente
-será revisada por outros. Como desenvolvedor de software, eu sou pago também
-para <strong>PENSAR</strong> e não somente para escrever código!</p>
+<p><strong>SSL_CERT:</strong> Caminho do certificado SSL<br /> <strong>SSL_KEY:</strong> Chave SSL</p>
 
-<h3 id="quando-voc-vai-dar-uma-opinio-contrria-a-algo-voc-costuma-ser-vago">Quando você vai dar uma opinião contrária a algo, você costuma ser vago?</h3>
+<p>Após configuradas as variáveis de ambiente, vá até a pasta do projeto e execute:</p>
 
-<p>Quando alguém trouxer uma solução e você discordar da mesma, você deve ser claro
-e objetivo do porque discorda. Se você costuma discordar sem argumentos, apenas
-utilizando frases vagas como: “Eu não acho legal assim”, pode dar a impressão
-que você não quer que faça de tal maneira apenas porque não é do seu jeito.</p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">node .</code></pre></figure>
 
-<h3 id="voc-costuma-ser-fechado-a-novas-opinies-e-idias">Você costuma ser fechado a novas opiniões e idéias?</h3>
+<p>Com o servidor executando, basta configurar a integração com o seu projeto.</p>
 
-<p>Esteja sempre aberto a novas ideias, principalmente de pessoas novas no time.
-Essas pessoas vem com uma outra visão, não tem os “vícios de grupo” como os
-outros que já estão no projeto.</p>
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nb">document</span><span class="p">.</span><span class="nx">addEventListener</span><span class="p">(</span><span class="s2">"DOMContentLoaded"</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span> <span class="p">{</span>
+  <span class="kd">var</span> <span class="nx">socket</span> <span class="o">=</span> <span class="nx">io</span><span class="p">.</span><span class="nx">connect</span><span class="p">(</span><span class="s1">'127.0.0.1:3000'</span><span class="p">,</span> <span class="p">{</span>
+    <span class="na">query</span><span class="p">:</span> <span class="s1">'notificationKey=NOTIFICATION_KEY'</span>
+  <span class="p">});</span>
+  <span class="nx">socket</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">'NEW_NOTIFICATION'</span><span class="p">,</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">notification</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">notification</span><span class="p">);</span>
+  <span class="p">});</span>
 
-<p>Isso não quer dizer que você irá fazer tudo da maneira que os outros disserem,
-mas a mescla das ideias pode chegar à uma solução nunca antes pensada.</p>
+  <span class="nx">socket</span><span class="p">.</span><span class="nx">emit</span><span class="p">(</span><span class="s1">'join'</span><span class="p">,</span> <span class="s1">'SOME_CHANNEL'</span><span class="p">);</span>
+<span class="p">});</span></code></pre></figure>
 
-<p>Falando sobre <strong>vícios de grupo</strong>, o vídeo abaixo mostra um experimento sobre
-<strong>Análise comportamental em grupo.</strong> É essencial assistir!</p>
+<p>No exemplo acima, estamos considerando que a aplicação está rodando no host
+<strong>127.0.0.1</strong> e na porta <strong>3000</strong></p>
 
-<p><strong>Devemos nos fazer essas perguntas com frequência e não podemos nos permitir
-achar que, possuindo uma experiência menor, uma pessoa não tenha nada a
-ensinar.</strong></p>
+<p>Também estamos considerando que a <strong>NOTIFICATION_KEY</strong> do servidor seja
+“<strong>NOTIFICATION_KEY”</strong> que é o valor default.</p>
 
-<p>E só pra não esquecer: <strong>Código não é escrito em pedra, código é um organismo
-vivo que constantemente muda.</strong></p>
+<p><strong>NEW_NOTIFICATION</strong> é o nome do evento disparado pelo server quando envia a
+notificação e não deve ser alterado.</p>
+
+<p><strong>SOME_CHANNEL</strong> é o nome do canal que estamos conectando, que poderia ser o
+email ou nome de usuário, ou uma HASH feita a partir desses dados. Sua aplicação
+no client e no server precisarão ter conhecimento desse valor.</p>
+
+<h3 id="disparando-as-notificaes">Disparando as notificações</h3>
+
+<p>para disparar as notificações, basta fazer uma requisição <strong>POST</strong> para o
+socket.io-notify, com o channel que pode ser uma string ou um array de strings,
+e o conteúdo da notificação, que pode ser uma string ou um objeto JSON</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js">  <span class="nx">$</span> <span class="nx">curl</span> <span class="o">--</span><span class="nx">request</span> <span class="nx">POST</span> <span class="s1">'http://127.0.0.1:3000/send'</span> <span class="o">--</span><span class="nx">header</span> <span class="nx">notification_secret</span><span class="err">:</span><span class="nx">NOTIFICATION_SECRET</span> <span class="o">--</span><span class="nx">data</span> <span class="s1">'notification=notificationexample&amp;channel=SOME_CHANNEL'</span></code></pre></figure>
+
+<p>No caso de enviar para múltiplos canais, basta enviar channel como array</p>
+
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="nx">$</span> <span class="nx">curl</span> <span class="o">--</span><span class="nx">request</span> <span class="nx">POST</span> <span class="s1">'http://127.0.0.1:3000/send'</span> <span class="o">--</span><span class="nx">header</span> <span class="nx">notification_secret</span><span class="err">:</span><span class="nx">NOTIFICATION_SECRET</span> <span class="o">--</span><span class="nx">data</span> <span class="s1">'notification=notificationexample&amp;channel[]=SOME_CHANNEL&amp;channel[]=ANOTHER_CHANNEL'</span></code></pre></figure>
+
+<h3 id="angular">Angular</h3>
+
+<p>Se você utiliza angular, é possível utilizar o
+<a href="https://github.com/btford/angular-socket-io">angular-socket.io</a> para facilitar
+a integração no Frontend.</p>
+
+<p>Sugestões são bem vindas, basta abrir uma issue no <a href="https://github.com/viniciusdacal/socket.io-notify">repositório do
+projeto</a></p>
 
 <hr />
 
 <p>Gostou do post e achou útil? Ajude na divulgação para que mais pessoas tenham acesso :)</p>
 
-<p>Tem alguma dica sobre trabalho em time? deixe nos comentários abaixo :)</p>
+<p>Tem alguma dica sobre o tema? deixe nos comentários abaixo :)</p>
 
 
 		</article>
 
 		<div class="pagination">
-		<a href="/pt/react/redux/d3/2016/08/22/recharts-construa-gra-ficos-com-react-e-d3.html" rel="prev" class="prev">Anterior</a>
-		
+		<a href="/pt/profissao/2015/12/18/se-eu-soubesse-aos-18-profissao.html" rel="prev" class="prev">Anterior</a>
+		<a href="/pt/profissao/2016/04/02/aprenda-a-dizer-nao-voce-precisara-disso.html" rel="next" class="next">Próximo</a>
 		</div>
 
 	   	<div id="disqus_thread"></div>

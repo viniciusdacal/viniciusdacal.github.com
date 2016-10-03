@@ -5,8 +5,8 @@
     <description>Tutoriais, artigos e materiais para estudos de desenvolvimento web.</description>
     <link>http://www.viniciusdacal.com/</link>
     <atom:link href="http://www.viniciusdacal.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 02 Oct 2016 19:58:45 -0300</pubDate>
-    <lastBuildDate>Sun, 02 Oct 2016 19:58:45 -0300</lastBuildDate>
+    <pubDate>Sun, 02 Oct 2016 23:10:07 -0300</pubDate>
+    <lastBuildDate>Sun, 02 Oct 2016 23:10:07 -0300</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -196,6 +196,230 @@ us spread the word :)&lt;/p&gt;
         <category>en</category>
         
         <category>profession</category>
+        
+      </item>
+    
+      <item>
+        <title>Recharts, construa gráficos com React e D3</title>
+        <description>&lt;p&gt;Recentemente iniciamos o desenvolvimento de &lt;a href=&quot;https://blog.planrockr.com/novo-plano-novos-conteÃºdos-e-grÃ¡ficos-no-planrockr-f2b4ab0c9d18#.vudj5kkkc&quot;&gt;mais cinco
+widgets&lt;/a&gt;
+no &lt;a href=&quot;http://planrockr.com/&quot;&gt;iMasters Planrockr&lt;/a&gt;, todos de gráficos. Para a
+renderização dos mesmos, optamos por usar o &lt;a href=&quot;https://d3js.org/&quot;&gt;D3JS&lt;/a&gt;, que é uma
+das libs mais robustas para a implementação de gráficos atualmente.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/800/1*ZgC94F4tfJswDIq2WoeUdg.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Seria possível implementá-los utilizando somente &lt;strong&gt;D3&lt;/strong&gt; e foi dessa forma que
+começamos a implementar o primeiro gráfico. No entanto, aprender a lib do zero
+pode exigir um tempo e esforço considerável, não sendo nada produtivo no estado
+inicial. No meio do caminho, acabamos conhecendo uma outra lib para React que
+abstrai o &lt;strong&gt;D3JS&lt;/strong&gt;, a &lt;a href=&quot;http://recharts.org/&quot;&gt;Recharts&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Essa lib possui uma excelente documentação e conta com vários exemplos. Os
+gráficos são altamente customizáveis, tanto pelos próprios parâmetros dos
+components quanto pelo CSS.&lt;/p&gt;
+
+&lt;p&gt;Para instalar ela em seu projeto é bem simples.&lt;/p&gt;
+
+&lt;p&gt;Utilizando o npm:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;npm install recharts --save&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;No nosso componente, importamos os componentes do &lt;strong&gt;Recharts&lt;/strong&gt; que iremos
+utilizar para montar o gráfico. Abaixo segue o exemplo de como ficaria o código
+para um gráfico de linhas:&lt;/p&gt;
+
+&lt;p&gt;Com o código acima, obtemos o seguinte resultado:&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;figcaption_hack&quot;&gt;Gráfico de linha renderizado pelo Recharts.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;Na imagem abaixo conseguimos observar quais são os elementos que compõem o
+gráfico:&lt;/p&gt;
+
+&lt;p&gt;Cada tipo de gráfico possui seu respectivo componente raiz, que no caso do
+gráfico acima, é o &lt;strong&gt;LineChart&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cada tag interna ao &lt;strong&gt;LineChart&lt;/strong&gt; representa um componente do gráfico, que
+normalmente são mais genéricos e são utilizados por mais de um tipo de gráfico.
+Cada um desses componentes possui seus respectivos parâmetros de configuração,
+fazendo com que o gráfico fique fácil de ser customizado. Os mesmos podem ser
+consultados na sessão &lt;a href=&quot;http://recharts.org/api&quot;&gt;API&lt;/a&gt; da documentação.&lt;/p&gt;
+
+&lt;p&gt;Além do &lt;a href=&quot;http://recharts.org/api#LineChart&quot;&gt;LineChart&lt;/a&gt;, a lib possui outros
+tipos de gráficos, como:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://recharts.org/api#AreaChart&quot;&gt;AreaChart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://recharts.org/api#BarChart&quot;&gt;BarChart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://recharts.org/api#PieChart&quot;&gt;PieChart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://recharts.org/api#RadarChart&quot;&gt;RadarChart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://recharts.org/api#RadialBarChart&quot;&gt;RadialBarChart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://recharts.org/api#ScatterChart&quot;&gt;ScatterChart&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://recharts.org/api#Treemap&quot;&gt;Treemap&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ainda é possível mesclar alguns desses gráficos entre si, utilizando o
+&lt;a href=&quot;http://recharts.org/api#ComposedChart&quot;&gt;ComposedChart&lt;/a&gt;, que permite mesclar um
+gráfico de linhas, com um de área e com um de barra por exemplo, como podemos
+ver na imagem abaixo:&lt;/p&gt;
+
+&lt;h3 id=&quot;customizao-por-css&quot;&gt;Customização por CSS&lt;/h3&gt;
+
+&lt;p&gt;Cada um dos componentes do gráfico possui suas classes, o que permite que você
+os customize através de css, sobrescrevendo os estilos globais. Alguns deles
+permitem que você forneça um &lt;strong&gt;className&lt;/strong&gt;, tornando o trabalho ainda mais
+fácil.&lt;/p&gt;
+
+&lt;p&gt;Abaixo segue o exemplo de dois gráficos customizados, que foram implementados
+utilizando a lib:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;responsividade&quot;&gt;Responsividade&lt;/h3&gt;
+
+&lt;p&gt;Ainda é possível construir gráficos responsivos utilizando o componente
+&lt;a href=&quot;http://recharts.org/api#ResponsiveContainer&quot;&gt;ResponsiveContainer&lt;/a&gt;, que ainda
+aceita os parametros &lt;strong&gt;width&lt;/strong&gt; e &lt;strong&gt;height&lt;/strong&gt; em percentagem ou em pixel. Para
+utilizá-lo, basta colocá-lo como wrapper do componente pai do gráfico, conforme
+abaixo:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-jsx&quot; data-lang=&quot;jsx&quot;&gt;&amp;lt;ResponsiveContainer&amp;gt;
+  &amp;lt;LineChart&amp;gt;
+   ...
+  &amp;lt;/LineChart&amp;gt;
+&amp;lt;/ResponsiveContainer&amp;gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Clique &lt;a href=&quot;http://recharts.org/examples#AreaResponsiveContainer&quot;&gt;aqui&lt;/a&gt; para ver
+alguns exemplos.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Gostaria de finalizar o post deixando os parabéns para &lt;a href=&quot;https://github.com/recharts/recharts/graphs/contributors&quot;&gt;essa
+equipe&lt;/a&gt; que criou e
+que mantém a lib. Nunca foi tão fácil construir gráficos!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Gostou do post e achou útil? Ajude na divulgação para que mais pessoas tenham acesso :)&lt;/p&gt;
+
+&lt;p&gt;Tem alguma dica ou dúvida sobre o tema? Deixe nos comentários abaixo :)&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 22 Aug 2016 17:00:00 -0300</pubDate>
+        <link>http://www.viniciusdacal.com/pt/react/redux/d3/2016/08/22/recharts-construa-gra-ficos-com-react-e-d3.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/react/redux/d3/2016/08/22/recharts-construa-gra-ficos-com-react-e-d3.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>react</category>
+        
+        <category>redux</category>
+        
+        <category>d3</category>
+        
+      </item>
+    
+      <item>
+        <title>Integrando Mixpanel com React</title>
+        <description>&lt;p&gt;Recentemente lançamos a nova interface do &lt;a href=&quot;http://planrockr.com/&quot;&gt;Planrockr&lt;/a&gt;,
+feita em ReactJS. Nesse produto nós estamos utilizando o
+&lt;a href=&quot;https://mixpanel.com/&quot;&gt;MixPanel&lt;/a&gt; para fazer tracking de ações do usuário.
+Anteriormente nós fazíamos o tracking apenas pelo backend, já que a interface
+era experimental e sabíamos que as chances eram grandes de o código dela ser
+descartado.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://d262ilb51hltx0.cloudfront.net/max/800/1*aw4IJt8TzFe9PimVPZxoYw.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Para essa nova versão do Planrockr, nós decidimos levar o tracking de alguns
+eventos para o frontend, já que no backend nós não tínhamos acesso a algumas
+informações, como: Browser, localização, resolução de tela e etc…&lt;/p&gt;
+
+&lt;p&gt;Procurei algumas abordagens em react e acabei encontrando o
+&lt;a href=&quot;https://www.npmjs.com/package/react-mixpanel&quot;&gt;react-mixpanel&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;É possível fazer a integração em vanillaJS, sem utilizar uma lib própria para o
+React. Por conveniência e pela abordagem da lib, eu optei por utilizar o
+react-mixpanel&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A abordagem dele é bem interessante, por fornecer acesso à &lt;strong&gt;API&lt;/strong&gt; do mixpanel
+através do &lt;strong&gt;context&lt;/strong&gt; dos components.&lt;/p&gt;
+
+&lt;p&gt;A instalação é bem simples. Antes de tudo, é preciso instalar as dependências:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;npm i mixpanel-browser --save
+npm i react-mixpanel --save&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Após instalar as dependências, precisamos importar os módulos e colocar o código
+de inicialização na nossa aplicação:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;mixpanel&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'mixpanel-browser'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kr&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;MixpanelProvider&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'react-mixpanel'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;mixpanel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;init&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'YOUR_TOKEN'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Caso você já tenha um id para o seu usuário, utilize o método &lt;strong&gt;identify&lt;/strong&gt; para
+fazer o vínculo entre a sessão e o usuário cadastrado:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;mixpanel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;people&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;_identify_called&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;())&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;mixpanel&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;identify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;userId&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Em seguida, nós precisamos colocar o &lt;strong&gt;MixpanelProvider&lt;/strong&gt; como um wrapper da
+aplicação, passando para ele o nosso objeto &lt;strong&gt;mixpanel&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-jsx&quot; data-lang=&quot;jsx&quot;&gt;ReactDOM.render(
+  &amp;lt;MixpanelProvider mixpanel={mixpanel}&amp;gt;
+    &amp;lt;App/&amp;gt;
+  &amp;lt;/MixpanelProvider&amp;gt;,
+  document.getElementById('app')
+);&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Em cada componente que você for utilizar, é necessário declarar o mixpanel no
+contextTypes:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-jsx&quot; data-lang=&quot;jsx&quot;&gt;class App extends React.Component {
+  componentDidMount() {
+    this.context.mixpanel.track('App did mount.');
+  }
+
+  render() {
+    return &amp;lt;span&amp;gt;This is the app!&amp;lt;/span&amp;gt;;
+  }
+}
+
+App.contextTypes = {
+  mixpanel: PropTypes.object.isRequired
+};&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;O disparo de eventos não se limita ao método &lt;strong&gt;componentDidMount&lt;/strong&gt;. É possível
+dispará-los dentro de outro método, ou na resposta de uma &lt;strong&gt;promise&lt;/strong&gt; por
+exemplo.&lt;/p&gt;
+
+&lt;p&gt;O objeto &lt;strong&gt;mixpanel&lt;/strong&gt; que recebemos pelo &lt;strong&gt;context&lt;/strong&gt; é o mesmo da docs do
+próprio mixpanel, assim como o método &lt;strong&gt;track&lt;/strong&gt; que estamos chamando para
+disparar o evento. Para mais detalhes sobre o método &lt;strong&gt;track&lt;/strong&gt;, acesse a
+&lt;a href=&quot;https://mixpanel.com/help/reference/javascript&quot;&gt;docs&lt;/a&gt; do mixpanel.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Gostou do post e achou útil? Ajude na divulgação para que mais pessoas tenham acesso :)&lt;/p&gt;
+
+&lt;p&gt;Tem alguma dica ou dúvida sobre o tema? deixe nos comentários abaixo :)&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 02 Jul 2016 17:00:00 -0300</pubDate>
+        <link>http://www.viniciusdacal.com/pt/redux/react/2016/07/02/integrando-mixpanel-com-react.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/redux/react/2016/07/02/integrando-mixpanel-com-react.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>redux</category>
+        
+        <category>react</category>
         
       </item>
     
@@ -766,6 +990,114 @@ ser sincero, principalmente com você mesmo.&lt;/p&gt;
       </item>
     
       <item>
+        <title>Socket.IO Notify — Resolvendo problemas de notificação real-time</title>
+        <description>&lt;p&gt;No final do ano passado, em dois de nossos projetos na
+&lt;a href=&quot;http://www.coderockr.com/&quot;&gt;Coderockr&lt;/a&gt;, surgiu a necessidade de termos uma
+comunicação real-time entre o servidor e o browser.&lt;/p&gt;
+
+&lt;p&gt;A primeira tecnologia que veio em mente foi
+&lt;a href=&quot;https://developer.mozilla.org/pt-BR/docs/WebSockets&quot;&gt;websockets&lt;/a&gt;, que
+possibilita a comunicação bidirecional entre server e client.&lt;/p&gt;
+
+&lt;p&gt;Por questões de suporte à browsers e facilidade na implementação optamos por
+utilizar &lt;a href=&quot;http://socket.io/&quot;&gt;socket.io&lt;/a&gt;, uma lib client/server que utiliza
+websockets e fornece uma api bem amigável, além de fallbacks para browsers
+legados.&lt;/p&gt;
+
+&lt;p&gt;Para o servidor, criamos um script em nodeJS que é todo configurado através de
+variáveis de ambiente, e publicamos ele open source no github com o nome de
+&lt;a href=&quot;https://github.com/viniciusdacal/socket.io-notify&quot;&gt;Socket.io-notify&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;instalao&quot;&gt;Instalação&lt;/h3&gt;
+
+&lt;p&gt;Para utilizá-lo, basta clonar o repositório, ir até a pasta do projeto e com o
+&lt;strong&gt;node &amp;gt;= 4.3.1&lt;/strong&gt; instalado, rodar:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;npm install&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;As seguintes variáveis de ambientes devem ser configuradas:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;PORT: **a porta que será executada o node&lt;br /&gt; **NOTIFICATION_SECRET:&lt;/strong&gt; uma
+chave única que será utilizada para disparar as notificações.&lt;br /&gt;
+&lt;strong&gt;NOTIFICATION_KEY:&lt;/strong&gt; uma chave pública que será utilizada para habilitar a
+conexão entre browser e o websocket.&lt;/p&gt;
+
+&lt;p&gt;Em caso de &lt;strong&gt;HTTPS&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SSL_CERT:&lt;/strong&gt; Caminho do certificado SSL&lt;br /&gt; &lt;strong&gt;SSL_KEY:&lt;/strong&gt; Chave SSL&lt;/p&gt;
+
+&lt;p&gt;Após configuradas as variáveis de ambiente, vá até a pasta do projeto e execute:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;node .&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Com o servidor executando, basta configurar a integração com o seu projeto.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;addEventListener&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;DOMContentLoaded&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;event&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;socket&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;io&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;connect&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'127.0.0.1:3000'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;na&quot;&gt;query&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'notificationKey=NOTIFICATION_KEY'&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;socket&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;on&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'NEW_NOTIFICATION'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;notification&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;notification&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
+
+  &lt;span class=&quot;nx&quot;&gt;socket&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;emit&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'join'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'SOME_CHANNEL'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;No exemplo acima, estamos considerando que a aplicação está rodando no host
+&lt;strong&gt;127.0.0.1&lt;/strong&gt; e na porta &lt;strong&gt;3000&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Também estamos considerando que a &lt;strong&gt;NOTIFICATION_KEY&lt;/strong&gt; do servidor seja
+“&lt;strong&gt;NOTIFICATION_KEY”&lt;/strong&gt; que é o valor default.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;NEW_NOTIFICATION&lt;/strong&gt; é o nome do evento disparado pelo server quando envia a
+notificação e não deve ser alterado.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;SOME_CHANNEL&lt;/strong&gt; é o nome do canal que estamos conectando, que poderia ser o
+email ou nome de usuário, ou uma HASH feita a partir desses dados. Sua aplicação
+no client e no server precisarão ter conhecimento desse valor.&lt;/p&gt;
+
+&lt;h3 id=&quot;disparando-as-notificaes&quot;&gt;Disparando as notificações&lt;/h3&gt;
+
+&lt;p&gt;para disparar as notificações, basta fazer uma requisição &lt;strong&gt;POST&lt;/strong&gt; para o
+socket.io-notify, com o channel que pode ser uma string ou um array de strings,
+e o conteúdo da notificação, que pode ser uma string ou um objeto JSON&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;  &lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;POST&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'http://127.0.0.1:3000/send'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;notification_secret&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;NOTIFICATION_SECRET&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'notification=notificationexample&amp;amp;channel=SOME_CHANNEL'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;No caso de enviar para múltiplos canais, basta enviar channel como array&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;nx&quot;&gt;$&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;curl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;request&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;POST&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'http://127.0.0.1:3000/send'&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;header&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;notification_secret&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;NOTIFICATION_SECRET&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;--&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'notification=notificationexample&amp;amp;channel[]=SOME_CHANNEL&amp;amp;channel[]=ANOTHER_CHANNEL'&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;angular&quot;&gt;Angular&lt;/h3&gt;
+
+&lt;p&gt;Se você utiliza angular, é possível utilizar o
+&lt;a href=&quot;https://github.com/btford/angular-socket-io&quot;&gt;angular-socket.io&lt;/a&gt; para facilitar
+a integração no Frontend.&lt;/p&gt;
+
+&lt;p&gt;Sugestões são bem vindas, basta abrir uma issue no &lt;a href=&quot;https://github.com/viniciusdacal/socket.io-notify&quot;&gt;repositório do
+projeto&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Gostou do post e achou útil? Ajude na divulgação para que mais pessoas tenham acesso :)&lt;/p&gt;
+
+&lt;p&gt;Tem alguma dica sobre o tema? deixe nos comentários abaixo :)&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 23 Feb 2016 17:00:00 -0300</pubDate>
+        <link>http://www.viniciusdacal.com/pt/react/mixpanel/2016/02/23/socket-io-notify-resolvendo-problemas-de-notificac-a-o-real-time.html</link>
+        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/react/mixpanel/2016/02/23/socket-io-notify-resolvendo-problemas-de-notificac-a-o-real-time.html</guid>
+        
+        
+        <category>pt</category>
+        
+        <category>react</category>
+        
+        <category>mixpanel</category>
+        
+      </item>
+    
+      <item>
         <title>Se eu soubesse aos 18 - Profissão.</title>
         <description>
 &lt;p&gt;Há 9 meses atrás escrevi um &lt;a href=&quot;https://medium.com/@viniciusdacal/se-eu-soubesse-aos-18-faculdade-9ee973342620#.wtxv5x2e4&quot;&gt;post semelhante falando sobre a faculdade, &lt;/a&gt;nele eu prometi escrever um post abordando o tema profissão, e aqui estou, cumprindo com a promessa; Antes tarde do que nunca.&lt;/p&gt;
@@ -921,147 +1253,6 @@ ser sincero, principalmente com você mesmo.&lt;/p&gt;
         <category>pt</category>
         
         <category>profissao</category>
-        
-      </item>
-    
-      <item>
-        <title>Curso introdução ao Javascript - Faculdade Alfa</title>
-        <description>&lt;p&gt;No último sábado ministrei a primeira parte do minicurso de Javascript na Faculdade Alfa Umuarama. Estou disponibilizando aqui os slides e links para os exemplos criados no curso.&lt;/p&gt;
-
-&lt;p&gt;Os slides utilizados foram esses:&lt;/p&gt;
-
-&lt;iframe src=&quot;//www.slideshare.net/slideshow/embed_code/46876327&quot; width=&quot;100%&quot; height=&quot;355&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; style=&quot;border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;&quot; allowfullscreen=&quot;&quot;&gt; &lt;/iframe&gt;
-
-&lt;h2 id=&quot;exemplos-criados&quot;&gt;Exemplos criados&lt;/h2&gt;
-&lt;p&gt;É possível acessar os arquivos direto no &lt;a href=&quot;https://github.com/viniciusdacal/mini-curso-javascript-alfa&quot;&gt;repositório do github&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.viniciusdacal.com/mini-curso-javascript-alfa/ball/&quot;&gt;Confira um dos exemplos criados no curso utilizando Canvas&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;contatos&quot;&gt;Contatos&lt;/h3&gt;
-&lt;p&gt;Dúvidas, comen†ários ou sugestões, envie um e-mail para &lt;a href=&quot;mailto:viniciusldacal@gmail.com&quot;&gt;viniciusldacal@gmail.com&lt;/a&gt;, ou no Twitter &lt;a href=&quot;https://twitter.com/vinicius_dacal&quot;&gt;@vinicius_dacal&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 13 Apr 2015 17:00:00 -0300</pubDate>
-        <link>http://www.viniciusdacal.com/pt/javascript/talk/2015/04/13/talk-introducao-ao-javascript.html</link>
-        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/javascript/talk/2015/04/13/talk-introducao-ao-javascript.html</guid>
-        
-        
-        <category>pt</category>
-        
-        <category>javascript</category>
-        
-        <category>talk</category>
-        
-      </item>
-    
-      <item>
-        <title>Se eu soubesse aos 18 - Faculdade.</title>
-        <description>
-&lt;p&gt;O que você deveria saber antes de entrar na faculdade e também durante o curso? Neste post darei dicas que acho relevantes, informações que gostaria de ter antes de ter entrado na faculdade.&lt;/p&gt;
-
-&lt;p&gt;Recentemente ministrei uma palestra com o tema “A profissão além do diploma, mitos e verdades sobre o sucesso profissional”, a partir dela decidi escrever dois posts aqui pro blog, um abordando somente sobre a faculdade e outro sobre profissão, e como está no próprio título, esse aqui é sobre a faculdade.&lt;/p&gt;
-
-&lt;h3 id=&quot;introduo&quot;&gt;Introdução&lt;/h3&gt;
-&lt;p&gt;Quando você está planejando entrar em uma faculdade você tem uma imagem bem distorcida dela. Eu antes de começar o curso de Sistemas para internet, achei que na faculdade eu aprenderia TUDO para ser um excelente profissional, e que somente com o conteúdo das aulas eu seria um ótimo programador.&lt;/p&gt;
-
-&lt;p&gt;Ao entrar na faculdade, comecei a sofrer logo no primeiro bimestre, nas primeiras semanas de aulas já veio aquela enxurrada de trabalhos, e como eu não era nada acostumado a fazê-los, eu acabei ficando com nota vermelha em uma das matérias.&lt;/p&gt;
-
-&lt;p&gt;Aos poucos você percebe que um curso ou uma faculdade são tão bons quanto ao tamanho da sua dedicação. Faculdade é apenas informação, cabe a você absorver essa informação e convertê-la em conhecimento.&lt;/p&gt;
-
-&lt;h3 id=&quot;dicas&quot;&gt;Dicas&lt;/h3&gt;
-
-&lt;h4 id=&quot;leia-seus-e-mails-frequentemente&quot;&gt;Leia seus E-mails frequentemente&lt;/h4&gt;
-&lt;p&gt;Talvez isso seja obvio para a maioria das pessoas, mas para mim não era.
-Eu tinha um e-mail profissional, o qual eu acompanhava todos os dias, mas como eu quase não movimentava o e-mail pessoal, eu lia ele no máximo uma vez por semana. Isso me prejudicou um pouco no início e logo peguei o costume de conferir no mínimo duas vezes ao dia. Naquela época eu não tinha smartphone, hoje está muito mais fácil.&lt;/p&gt;
-
-&lt;h4 id=&quot;se-aprofunde-nos-seus-interesses&quot;&gt;Se aprofunde nos seus interesses&lt;/h4&gt;
-&lt;p&gt;Assistiu uma aula e se interessou pelo assunto? Chegue em casa e estude mais sobre! As vezes você pode ter acabado de encontrar um seguimento interessante para trabalhar e não sabe. Na próxima aula, leve suas dúvidas sobre esse estudo para o professor. Sempre que estudamos e temos pouca base, surgem muitas dúvidas e esse é um dos papeis do professor, tirar suas dúvidas!&lt;/p&gt;
-
-&lt;h4 id=&quot;tenha-um-bom-relacionamento-com-os-professores&quot;&gt;Tenha um bom relacionamento com os professores&lt;/h4&gt;
-&lt;p&gt;Troque uma ideia com o professor antes ou depois da aula, tire suas dúvidas, dê sugestões, tente absorver o máximo de informação que puder. Demonstre interesse no assunto.&lt;/p&gt;
-
-&lt;p&gt;O bom relacionamento com o professor é uma via de mão dupla, o professor pode lhe ajudar a achar uma vaga de emprego que se identifique com você. Olhando pelo lado do professor, nada melhor do que ver um aluno exercendo a profissão que você ensinou à ele.&lt;/p&gt;
-
-&lt;h4 id=&quot;faa-amizades&quot;&gt;Faça amizades&lt;/h4&gt;
-&lt;p&gt;Conheça pessoas que tenham o mesmo interesse que você e se reunam para trocar uma ideia. Essa troca de experiência não tem dinheiro que pague.&lt;/p&gt;
-
-&lt;h4 id=&quot;faa-networking&quot;&gt;Faça networking&lt;/h4&gt;
-&lt;p&gt;Quer lugar melhor que a faculdade para conhecer gente que atua na sua área. Que você pode vir a precisar da ajuda um dia, as vezes com prestações de serviços ou até quem sabe, indicação para alguma vaga.&lt;/p&gt;
-
-&lt;h4 id=&quot;aproveite-o-hoje&quot;&gt;Aproveite o hoje!&lt;/h4&gt;
-&lt;p&gt;Muitas vezes eu me preocupava mais com o que eu poderia fazer depois da graduação do que com o que eu poderia fazer para aproveitar mais o curso.&lt;/p&gt;
-
-&lt;p&gt;Chega de ficar fazendo planos somente para quando concluir o curso. Faça planos que você possa cumprir durante a faculdade. Esse tempo vai acabar e não voltará mais!&lt;/p&gt;
-
-&lt;h3 id=&quot;concluso&quot;&gt;Conclusão&lt;/h3&gt;
-&lt;p&gt;A faculdade vai lhe mostrasr apenas caminhos a serem seguidos, você precisará escolher um deles e seguir por conta própria. Ninguém vai lhe ensinar a ser o melhor em algo, isso deve vir de você!&lt;/p&gt;
-
-&lt;p&gt;Tem alguma dica sobre faculdade? Contribua com um comentário!&lt;/p&gt;
-
-&lt;p&gt;Dúvidas, comentários ou sugestões, deixe logo abaixo. :)&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 27 Mar 2015 17:00:00 -0300</pubDate>
-        <link>http://www.viniciusdacal.com/pt/faculdade/2015/03/27/se-eu-soubesse-aos-18-faculdade.html</link>
-        <guid isPermaLink="true">http://www.viniciusdacal.com/pt/faculdade/2015/03/27/se-eu-soubesse-aos-18-faculdade.html</guid>
-        
-        
-        <category>pt</category>
-        
-        <category>faculdade</category>
-        
-      </item>
-    
-      <item>
-        <title>Install plugins on Sublime Text!</title>
-        <description>&lt;p&gt;&lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; is a free text editor that gives you freedom to code in many programming languages. Above that, It is a very lightweight program and it is also possible install some plugins, that is particularly the best part.&lt;/p&gt;
-
-&lt;p&gt;###Package Control&lt;/p&gt;
-
-&lt;p&gt;As the name says, Package Control is your Package Controller, with it, you can search, install and remove snippets, plugins, etc…&lt;/p&gt;
-
-&lt;p&gt;Package Control doesn’t come with sublime installer, but it’s very simple to install it:&lt;/p&gt;
-
-&lt;p&gt;Go to menu program and select &lt;code class=&quot;highlighter-rouge&quot;&gt;View &amp;gt; Show Console&lt;/code&gt;, in the console that will appears, paste the text below:&lt;/p&gt;
-
-&lt;p&gt;If you are in Sublime Text 2:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;import urllib2,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')&quot;&lt;/span&gt; | escape&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;If you are in Sublime Text 3:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)&quot;&lt;/span&gt; | escape&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;When It done, press &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt; and wait the installation finish.&lt;/p&gt;
-
-&lt;p&gt;Restart Sublime Text and press &lt;code class=&quot;highlighter-rouge&quot;&gt;Cmd+Shift+P&lt;/code&gt;. In the input that appears, type “Install Package” and press &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Search for the plugin name that you want to install, select it, press &lt;code class=&quot;highlighter-rouge&quot;&gt;Enter&lt;/code&gt; again and wait for the installation.&lt;/p&gt;
-
-&lt;p&gt;###Conclusion&lt;/p&gt;
-
-&lt;p&gt;Plugins were made to make your life easier, they are very effective if you would know to use them. Try to find the plugins that best fit in your workflow.&lt;/p&gt;
-
-&lt;p&gt;You can easily find many lists with excellent sublime plugins just googling.&lt;/p&gt;
-
-&lt;p&gt;Take a look at the &lt;a href=&quot;/en/frontend/html/css/2015/01/20/know-emmet-and-you-will-never-be-the-same.html&quot;&gt;post that I wrote about Emmet&lt;/a&gt;. If you write HTML and CSS, this should be your first plugin.&lt;/p&gt;
-
-&lt;p&gt;And you that already knew Sublime, which plugins do you use?&lt;/p&gt;
-
-&lt;p&gt;Questions, comments or suggestions, leave below. :)&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 26 Mar 2015 17:00:00 -0300</pubDate>
-        <link>http://www.viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html</link>
-        <guid isPermaLink="true">http://www.viniciusdacal.com/en/frontend/html/css/2015/03/26/install-plugins-on-sublime-text.html</guid>
-        
-        
-        <category>en</category>
-        
-        <category>frontend</category>
-        
-        <category>html</category>
-        
-        <category>css</category>
         
       </item>
     
