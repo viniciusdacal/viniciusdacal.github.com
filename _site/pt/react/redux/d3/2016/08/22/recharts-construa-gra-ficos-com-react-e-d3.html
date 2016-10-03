@@ -6,15 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>O sentimento de propriedade do código</title>
-  <meta name="description" content="Todo programador, uma hora ou outra, ou quase sempre passa por isso. Vocêescreve código e as vezes sente que aquilo faz parte de você, e por isso, apartir de...">
+  <title>Recharts, construa gráficos com React e D3</title>
+  <meta name="description" content="Recentemente iniciamos o desenvolvimento de mais cincowidgetsno iMasters Planrockr, todos de gráficos. Para arenderização dos mesmos, optamos por usar o D3JS...">
 
   <meta name="keywords" content="frontend, web development, tecnologia web, css, html, javascript, php, python, ruby, java, backend, programming">
   <meta property="og:site_name" content="Vinicius Dacal - Front End Developer"/>
-  <meta property="og:title" content="O sentimento de propriedade do código" />
-  <meta property="og:url" content="http://www.viniciusdacal.com/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html" />
+  <meta property="og:title" content="Recharts, construa gráficos com React e D3" />
+  <meta property="og:url" content="http://www.viniciusdacal.com/pt/react/redux/d3/2016/08/22/recharts-construa-gra-ficos-com-react-e-d3.html" />
   <meta property="fb:app_id" content="684221391686656" />
-  <meta property="og:description" content="Todo programador, uma hora ou outra, ou quase sempre passa por isso. Vocêescreve código e as vezes sente que aquilo faz parte de você, e por isso, apartir de..." />
+  <meta property="og:description" content="Recentemente iniciamos o desenvolvimento de mais cincowidgetsno iMasters Planrockr, todos de gráficos. Para arenderização dos mesmos, optamos por usar o D3JS..." />
   <meta property="article:author" content="https://www.facebook.com/viniciusdacal" />
   <meta property="og:image" content="http://www.viniciusdacal.com/assets/" />
   <meta property="og:locale" content="pt_BR" />
@@ -24,7 +24,7 @@
 
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://www.viniciusdacal.com/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html">
+  <link rel="canonical" href="http://www.viniciusdacal.com/pt/react/redux/d3/2016/08/22/recharts-construa-gra-ficos-com-react-e-d3.html">
   <link rel="alternate" type="application/rss+xml" title="vinicius.dacal" href="http://www.viniciusdacal.com/feed.xml" />
 </head>
 
@@ -79,98 +79,120 @@
 	<div class="post">
 
 		<header class="post-header">
-			<h1 class="post-title">O sentimento de propriedade do código</h1>
-			<p class="post-meta">15 de Setembro de 2016 </p>
+			<h1 class="post-title">Recharts, construa gráficos com React e D3</h1>
+			<p class="post-meta">22 de Agosto de 2016 </p>
 		</header>
 
 		<article class="post-content">
-			
-<p>Todo programador, uma hora ou outra, ou quase sempre passa por isso. Você
-escreve código e as vezes sente que aquilo faz parte de você, e por isso, a
-partir desse sentimento, você quer escrever o melhor código do mundo, pelo menos
-o que você considera ser o melhor código do mundo.</p>
+			<p>Recentemente iniciamos o desenvolvimento de <a href="https://blog.planrockr.com/novo-plano-novos-conteÃºdos-e-grÃ¡ficos-no-planrockr-f2b4ab0c9d18#.vudj5kkkc">mais cinco
+widgets</a>
+no <a href="http://planrockr.com/">iMasters Planrockr</a>, todos de gráficos. Para a
+renderização dos mesmos, optamos por usar o <a href="https://d3js.org/">D3JS</a>, que é uma
+das libs mais robustas para a implementação de gráficos atualmente.</p>
 
-<p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*PH89drcTxwIVDHjx1B56gA.png" alt="" /></p>
+<p><img src="https://d262ilb51hltx0.cloudfront.net/max/800/1*ZgC94F4tfJswDIq2WoeUdg.png" alt="" /></p>
 
-<p>Isso é uma coisa muito boa, partindo do principio que você quer cuidar do
-projeto cada vez mais, estabelecer padrões e pensar formas cada vez melhores de
-escrever o código e escalar o sistema. Porém, é comum se sobressair o outro lado
-desse mesmo sentimento, que iremos observar alguns aspectos abaixo.</p>
+<p>Seria possível implementá-los utilizando somente <strong>D3</strong> e foi dessa forma que
+começamos a implementar o primeiro gráfico. No entanto, aprender a lib do zero
+pode exigir um tempo e esforço considerável, não sendo nada produtivo no estado
+inicial. No meio do caminho, acabamos conhecendo uma outra lib para React que
+abstrai o <strong>D3JS</strong>, a <a href="http://recharts.org/">Recharts</a>.</p>
 
-<p>Imagine que você trabalhe em equipe e que não só você, mas que mais pessoas
-estarão fazendo alterações em um projeto. Por mais que você estabeleça padrões
-de escrita de código, padrões de estrutura para testes e escreva cem páginas de
-docs com boas práticas, os outros programadores nunca irão escrever exatamente
-da mesma maneira que você, ou utilizar a mesma abordagem que você usaria. Nessa
-hora, esse sentimento de propriedade do código pode começar a te incomodar.</p>
+<p>Essa lib possui uma excelente documentação e conta com vários exemplos. Os
+gráficos são altamente customizáveis, tanto pelos próprios parâmetros dos
+components quanto pelo CSS.</p>
 
-<p>O fato disso te incomodar não chega a ser um problema, mas é preciso pensar nas
-atitudes que você toma frente à uma diferente forma de pensar.</p>
+<p>Para instalar ela em seu projeto é bem simples.</p>
 
-<p>É importante você conseguir analisar o que é bom ou não para o projeto e não o
-que é diferente ou igual ao que você pensa, <strong>ou que fere o seu ego</strong>.</p>
+<p>Utilizando o npm:</p>
 
-<p>Acho válido nós nos questionarmos, para que não nos tornemos pessoas
-autoritárias, mas sim pessoas colaborativas:</p>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">npm install recharts --save</code></pre></figure>
 
-<h3 id="quando-algum-trs-uma-soluo-diferente-da-sua-voc-considera-a">Quando alguém trás uma solução diferente da sua, você considera a</h3>
-<p>possibilidade de essa solução ser melhor, ou você discorda, achando que a sua já
-é boa o suficiente?</p>
+<p>No nosso componente, importamos os componentes do <strong>Recharts</strong> que iremos
+utilizar para montar o gráfico. Abaixo segue o exemplo de como ficaria o código
+para um gráfico de linhas:</p>
 
-<p>Se você costuma discordar logo de cara, você já está fazendo isso errado.
-Considere a possibilidade de você estar errado ou de a outra ideia ser melhor.
-Pessoas pensam de maneiras diferentes e soluções mais simples podem vir das
-pessoas mais inesperadas, saiba dar espaço para os outros falarem e saiba
-<strong>ouvir o que os outros dizem</strong>.</p>
+<p>Com o código acima, obtemos o seguinte resultado:</p>
 
-<h3 id="voc-costuma-pedir-que-as-pessoas-faam-as-coisas-sem-explicar-o-porqu">Você costuma pedir que as pessoas façam as coisas sem explicar o porquê?</h3>
+<p><span class="figcaption_hack">Gráfico de linha renderizado pelo Recharts.</span></p>
 
-<p>Se você delega uma tarefa que não tem um motivo explícito e não explica o porque
-de a tarefa ser feita, você está desincentivando a pessoa a pensar. Eu mesmo,
-simplesmente não consigo fazer uma tarefa se eu não entender o escopo e a razão
-da mesma. Eu preciso entender o que eu estou fazendo, para que eu elabore a
-minha maneira de fazer aquilo, a maneira que eu acho melhor e que posteriormente
-será revisada por outros. Como desenvolvedor de software, eu sou pago também
-para <strong>PENSAR</strong> e não somente para escrever código!</p>
+<p>Na imagem abaixo conseguimos observar quais são os elementos que compõem o
+gráfico:</p>
 
-<h3 id="quando-voc-vai-dar-uma-opinio-contrria-a-algo-voc-costuma-ser-vago">Quando você vai dar uma opinião contrária a algo, você costuma ser vago?</h3>
+<p>Cada tipo de gráfico possui seu respectivo componente raiz, que no caso do
+gráfico acima, é o <strong>LineChart</strong>.</p>
 
-<p>Quando alguém trouxer uma solução e você discordar da mesma, você deve ser claro
-e objetivo do porque discorda. Se você costuma discordar sem argumentos, apenas
-utilizando frases vagas como: “Eu não acho legal assim”, pode dar a impressão
-que você não quer que faça de tal maneira apenas porque não é do seu jeito.</p>
+<p>Cada tag interna ao <strong>LineChart</strong> representa um componente do gráfico, que
+normalmente são mais genéricos e são utilizados por mais de um tipo de gráfico.
+Cada um desses componentes possui seus respectivos parâmetros de configuração,
+fazendo com que o gráfico fique fácil de ser customizado. Os mesmos podem ser
+consultados na sessão <a href="http://recharts.org/api">API</a> da documentação.</p>
 
-<h3 id="voc-costuma-ser-fechado-a-novas-opinies-e-idias">Você costuma ser fechado a novas opiniões e idéias?</h3>
+<p>Além do <a href="http://recharts.org/api#LineChart">LineChart</a>, a lib possui outros
+tipos de gráficos, como:</p>
 
-<p>Esteja sempre aberto a novas ideias, principalmente de pessoas novas no time.
-Essas pessoas vem com uma outra visão, não tem os “vícios de grupo” como os
-outros que já estão no projeto.</p>
+<ul>
+  <li><a href="http://recharts.org/api#AreaChart">AreaChart</a></li>
+  <li><a href="http://recharts.org/api#BarChart">BarChart</a></li>
+  <li><a href="http://recharts.org/api#PieChart">PieChart</a></li>
+  <li><a href="http://recharts.org/api#RadarChart">RadarChart</a></li>
+  <li><a href="http://recharts.org/api#RadialBarChart">RadialBarChart</a></li>
+  <li><a href="http://recharts.org/api#ScatterChart">ScatterChart</a></li>
+  <li><a href="http://recharts.org/api#Treemap">Treemap</a></li>
+</ul>
 
-<p>Isso não quer dizer que você irá fazer tudo da maneira que os outros disserem,
-mas a mescla das ideias pode chegar à uma solução nunca antes pensada.</p>
+<p>Ainda é possível mesclar alguns desses gráficos entre si, utilizando o
+<a href="http://recharts.org/api#ComposedChart">ComposedChart</a>, que permite mesclar um
+gráfico de linhas, com um de área e com um de barra por exemplo, como podemos
+ver na imagem abaixo:</p>
 
-<p>Falando sobre <strong>vícios de grupo</strong>, o vídeo abaixo mostra um experimento sobre
-<strong>Análise comportamental em grupo.</strong> É essencial assistir!</p>
+<h3 id="customizao-por-css">Customização por CSS</h3>
 
-<p><strong>Devemos nos fazer essas perguntas com frequência e não podemos nos permitir
-achar que, possuindo uma experiência menor, uma pessoa não tenha nada a
-ensinar.</strong></p>
+<p>Cada um dos componentes do gráfico possui suas classes, o que permite que você
+os customize através de css, sobrescrevendo os estilos globais. Alguns deles
+permitem que você forneça um <strong>className</strong>, tornando o trabalho ainda mais
+fácil.</p>
 
-<p>E só pra não esquecer: <strong>Código não é escrito em pedra, código é um organismo
-vivo que constantemente muda.</strong></p>
+<p>Abaixo segue o exemplo de dois gráficos customizados, que foram implementados
+utilizando a lib:</p>
+
+<hr />
+
+<h3 id="responsividade">Responsividade</h3>
+
+<p>Ainda é possível construir gráficos responsivos utilizando o componente
+<a href="http://recharts.org/api#ResponsiveContainer">ResponsiveContainer</a>, que ainda
+aceita os parametros <strong>width</strong> e <strong>height</strong> em percentagem ou em pixel. Para
+utilizá-lo, basta colocá-lo como wrapper do componente pai do gráfico, conforme
+abaixo:</p>
+
+<figure class="highlight"><pre><code class="language-jsx" data-lang="jsx">&lt;ResponsiveContainer&gt;
+  &lt;LineChart&gt;
+   ...
+  &lt;/LineChart&gt;
+&lt;/ResponsiveContainer&gt;</code></pre></figure>
+
+<p>Clique <a href="http://recharts.org/examples#AreaResponsiveContainer">aqui</a> para ver
+alguns exemplos.</p>
+
+<hr />
+
+<p>Gostaria de finalizar o post deixando os parabéns para <a href="https://github.com/recharts/recharts/graphs/contributors">essa
+equipe</a> que criou e
+que mantém a lib. Nunca foi tão fácil construir gráficos!</p>
 
 <hr />
 
 <p>Gostou do post e achou útil? Ajude na divulgação para que mais pessoas tenham acesso :)</p>
 
-<p>Tem alguma dica sobre trabalho em time? deixe nos comentários abaixo :)</p>
+<p>Tem alguma dica ou dúvida sobre o tema? Deixe nos comentários abaixo :)</p>
 
 
 		</article>
 
 		<div class="pagination">
-		<a href="/pt/react/redux/d3/2016/08/22/recharts-construa-gra-ficos-com-react-e-d3.html" rel="prev" class="prev">Anterior</a>
-		
+		<a href="/pt/redux/react/2016/07/02/integrando-mixpanel-com-react.html" rel="prev" class="prev">Anterior</a>
+		<a href="/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html" rel="next" class="next">Próximo</a>
 		</div>
 
 	   	<div id="disqus_thread"></div>
