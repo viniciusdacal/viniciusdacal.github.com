@@ -1,5 +1,5 @@
 /**
- * Site header _layout
+ * Site header
  */
 .site-header {
     border-bottom: 1px solid $grey-color-light;
@@ -246,7 +246,7 @@
 }
 
 @include media-query($on-palm) {
-
+    
 
     .footer-col {
         float: none;
@@ -289,7 +289,7 @@
             left: 0;
             width: 100%;
             min-height:100%;
-
+            
             opacity:0;
             transition: opacity 0.3s ease;
 
@@ -396,7 +396,7 @@
     display: block;
     margin: 20px 0;
     float: left;
-
+    
     .prev{
         float: left;
         @extend .button;
@@ -406,7 +406,7 @@
         float: right;
         @extend .button;
     }
-
+    
 }
 
 
