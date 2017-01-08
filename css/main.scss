@@ -3,19 +3,6 @@
 ---
 @charset "utf-8";
 
-@font-face {
-    font-family: 'chunkfiveroman';
-    src: url('fonts/chunkfive-webfont.eot');
-    src: url('fonts/chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/chunkfive-webfont.woff2') format('woff2'),
-         url('fonts/chunkfive-webfont.woff') format('woff'),
-         url('fonts/chunkfive-webfont.ttf') format('truetype'),
-         url('fonts/chunkfive-webfont.svg#chunkfiveroman') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 
 // Our variables
 
@@ -24,7 +11,7 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$titles-font-family: 'chunkfiveroman', Helvetica, Arial, sans-serif;
+$titles-font-family: 'Fjalla One', sans-serif;
 
 $spacing-unit:     30px;
 
@@ -37,7 +24,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    760px;
+$content-width:    700px;
 
 $on-palm:          600px;
 $on-laptop:        700px;
@@ -61,7 +48,7 @@ $on-laptop:        700px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-    "base",
-    "layout",
-    "syntax-highlighting"
+        "base",
+        "layout",
+        "syntax-highlighting"
 ;
