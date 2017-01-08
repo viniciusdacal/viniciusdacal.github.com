@@ -11,6 +11,8 @@ permalink: /
       {% assign day = post.date | date: "%-d" %}
       {% assign year = post.date | date: "%-Y" %}
       <li>
+
+        <img src="{{site.baseurl}}/assets/{{post.bg}}" alt="" class="bg">
         <div class="wrapper">
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
