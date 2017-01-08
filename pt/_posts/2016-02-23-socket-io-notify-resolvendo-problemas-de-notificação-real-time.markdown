@@ -3,7 +3,7 @@ layout: post
 title:  "Socket.IO Notify — Resolvendo problemas de notificação real-time"
 date:   2016-02-23 20:00:00
 categories: react mixpanel
-bg: "code-ownership-feeling.jpg"
+bg: "socket-io-notify.jpg"
 ---
 No final do ano passado, em dois de nossos projetos na
 [Coderockr](http://www.coderockr.com/), surgiu a necessidade de termos uma

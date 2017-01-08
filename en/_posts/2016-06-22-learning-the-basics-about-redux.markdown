@@ -4,6 +4,7 @@ title:  "Learning the Basics About Redux"
 date:   2016-06-22 20:00:00
 categories: profession
 uglyTitle: "learning-the-basics-about-redux"
+bg: "basic-redux.jpg"
 ---
 Redux is a predictable state container for JavaScript Applications, but what
 does that mean?

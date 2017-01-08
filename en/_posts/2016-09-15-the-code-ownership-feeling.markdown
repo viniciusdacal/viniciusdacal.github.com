@@ -4,6 +4,7 @@ title:  "The Code ownership feeling"
 date:   2016-09-15 20:00:00
 categories: profession
 uglyTitle: "the-code-ownership-feeling"
+bg: "code-ownership-feeling.jpg"
 ---
 Every developer, sometime in their lives, or very often pass through this
 feeling. You write code and it feels like it’s a part of you, thus motivating

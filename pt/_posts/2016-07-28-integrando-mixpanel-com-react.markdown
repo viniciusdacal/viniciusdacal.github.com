@@ -3,7 +3,7 @@ layout: post
 title:  "Integrando Mixpanel com React"
 date:   2016-07-02 20:00:00
 categories: redux react
-bg: "code-ownership-feeling.jpg"
+bg: "react-mixpanel.jpg"
 ---
 Recentemente lançamos a nova interface do [Planrockr](http://planrockr.com/),
 feita em ReactJS. Nesse produto nós estamos utilizando o

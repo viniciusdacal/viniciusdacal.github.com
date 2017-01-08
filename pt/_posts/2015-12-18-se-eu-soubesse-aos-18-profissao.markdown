@@ -4,7 +4,7 @@ title:  "Se eu soubesse aos 18 - Profissão."
 date:   2015-12-18 20:00:00
 categories: profissao
 uglyTitle: "se-eu-soubesse-aos-18-profissao"
-bg: "se-eu-soubesse-aos-18-profissao.jpg"
+bg: "18-profession.jpg"
 ---
 {% assign assets = "/assets/" | append: page.uglyTitle  | prepend: site.baseurl%}
 Há 9 meses atrás escrevi um [post semelhante falando sobre a faculdade, ](https://medium.com/@viniciusdacal/se-eu-soubesse-aos-18-faculdade-9ee973342620#.wtxv5x2e4)nele eu prometi escrever um post abordando o tema profissão, e aqui estou, cumprindo com a promessa; Antes tarde do que nunca.
