@@ -4,6 +4,7 @@ title:  "Aprenda a dizer NÃO, você precisará disso"
 date:   2016-04-02 20:00:00
 categories: profissao
 uglyTitle: "aprenda-a-dizer-nao-voce-precisara-disso"
+bg: "code-ownership-feeling.jpg"
 ---
 Uma das habilidades mais importantes e que muitas pessoas não a tem, e quando
 digo muitas pessoas também me incluo entre elas. Acredito que o texto abaixo se

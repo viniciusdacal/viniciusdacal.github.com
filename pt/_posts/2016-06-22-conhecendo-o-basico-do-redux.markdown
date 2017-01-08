@@ -4,6 +4,7 @@ title:  "Conhecendo o básico do Redux"
 date:   2016-06-22 20:00:00
 categories: profession
 uglyTitle: "conhecendo-o-basico-do-redux"
+bg: "code-ownership-feeling.jpg"
 ---
 Redux é um container de estados previsível para aplicações javascript, mas o que
 isso significa?

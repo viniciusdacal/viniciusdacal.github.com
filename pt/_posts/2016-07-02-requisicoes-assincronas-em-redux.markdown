@@ -3,6 +3,7 @@ layout: post
 title:  "Requisições assíncronas em Redux"
 date:   2016-07-02 20:00:00
 categories: redux react
+bg: "code-ownership-feeling.jpg"
 ---
 Quando se está começando a aprender **Redux**, uma das dúvidas mais comuns é
 como fazer requisições assíncronas.

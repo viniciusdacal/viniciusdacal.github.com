@@ -3,6 +3,7 @@ layout: post
 title:  "Recharts, construa gráficos com React e D3"
 date:   2016-08-22 20:00:00
 categories: react redux d3
+bg: "code-ownership-feeling.jpg"
 ---
 
 Recentemente iniciamos o desenvolvimento de [mais cinco

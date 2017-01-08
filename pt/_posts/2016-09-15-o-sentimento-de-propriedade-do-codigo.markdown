@@ -4,6 +4,7 @@ title:  "O sentimento de propriedade do código"
 date:   2016-09-15 20:00:00
 categories: profissao
 uglyTitle: "o-sentimento-de-propriedade-do-codigo"
+bg: "code-ownership-feeling.jpg"
 ---
 {% assign assets = "/assets/" | append: page.uglyTitle  | prepend: site.baseurl%}
 Todo programador, uma hora ou outra, ou quase sempre passa por isso. Você
