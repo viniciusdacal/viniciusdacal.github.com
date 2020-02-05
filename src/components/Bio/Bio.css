@@ -1,0 +1,20 @@
+.bio__bio {
+
+}
+
+.bio__bio__name {
+  color: #ffa700;
+  font-size: 18px;
+  font-family: Montserrat, sans-serif;
+}
+
+.bio__social-links {
+  display: flex;
+}
+
+.bio__social-links__link {
+  margin-left: 10px;
+}
+.bio__social-links__link svg {
+  fill: #ffa700;
+}
