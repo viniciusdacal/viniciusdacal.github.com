@@ -17,9 +17,9 @@ const Layout = ({
 }) => (
   <header>
     {language === 'pt-BR' ? (
-      <Link className="layout__translation-link" to="/en/">EN 🇬🇧</Link>
+      <Link className="layout__translation-link" to="/en/">EN <span role="img">🇬🇧</span></Link>
     ) : (
-      <Link className="layout__translation-link" to="/">PT 🇧🇷</Link>
+      <Link className="layout__translation-link" to="/">PT <span role="img">🇧🇷</span></Link>
     )}
     <div
       style={{

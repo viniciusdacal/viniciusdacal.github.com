@@ -2,4 +2,6 @@
 node_modules
 public
 .cache
-static/
+static/admin/*.bundle.*
+yarn-error.log
+

@@ -24,11 +24,17 @@ function trackPrevNextLink(dir) {
   });
 }
 
-const BlogPostTemplate = ({ data, pageContext, location }) => {
-  const post = data.markdownRemark;
-  const { language, title } = post.frontmatter;
-  const siteTitle = data.site.siteMetadata.title;
-  const { previous, next, translation } = pageContext;
+export const BlogPostTemplate = ({
+  isPreview,
+  next,
+  previous,
+  siteTitle,
+  translation,
+  post,
+  location,
+}) => {
+  const { language } = post.frontmatter;
+  const { title } = post.frontmatter;
 
   return (
     <Layout
@@ -38,7 +44,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
       language={language}
     >
       <SEO
-        title={post.frontmatter.title}
+        title={title}
         description={post.frontmatter.description || post.excerpt}
       />
       <article className="blog-post">
@@ -79,30 +85,51 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
         </footer>
       </article>
 
-      <nav>
-        <ul className="blog-post__next-prev-links">
-          <li>
-            {previous && (
-              <Link onClick={() => trackPrevNextLink('prev')} to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link onClick={() => trackPrevNextLink('next')} to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-      </nav>
-      <DisqusWrapper slug={post.fields.slug} title={title} />
+      {!isPreview && (
+        <>
+          <nav>
+            <ul className="blog-post__next-prev-links">
+              <li>
+                {previous && (
+                  <Link onClick={() => trackPrevNextLink('prev')} to={previous.fields.slug} rel="prev">
+                    ← {previous.frontmatter.title}
+                  </Link>
+                )}
+              </li>
+              <li>
+                {next && (
+                  <Link onClick={() => trackPrevNextLink('next')} to={next.fields.slug} rel="next">
+                    {next.frontmatter.title} →
+                  </Link>
+                )}
+              </li>
+            </ul>
+          </nav>
+          <DisqusWrapper slug={post.fields.slug} title={title} />
+        </>
+      )}
     </Layout>
   )
 }
 
-export default BlogPostTemplate
+const BlogPost = ({ data, pageContext, location }) => {
+  const post = data.markdownRemark;
+  const siteTitle = data.site.siteMetadata.title;
+  const { previous, next, translation } = pageContext;
+
+
+  return (
+    <BlogPostTemplate
+      siteTitle={siteTitle}
+      previous={previous}
+      next={next}
+      translation={translation}
+      post={post}
+    />
+  );
+};
+
+export default BlogPost
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
