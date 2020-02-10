@@ -12,8 +12,9 @@ const LayoutHeader = ({
   title,
   language,
 }) => {
+  const pathname = location ? location.pathname : '';
   const rootPath = `${__PATH_PREFIX__}/`
-  if ([rootPath, `${rootPath}en/`].includes(location.pathname)) {
+  if ([rootPath, `${rootPath}en/`].includes(pathname)) {
     return (
       <>
         <Image
