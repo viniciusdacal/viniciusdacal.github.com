@@ -51,7 +51,7 @@ export const BlogPostTemplate = ({
         <header>
           {translation && (
             <Link to={translation} onClick={() => trackLanguageChange(language)}>
-              {language === 'pt-BR' ? 'Read in English' : 'Leia em português'}
+              {language === 'pt-br' ? 'Read in English' : 'Leia em português'}
             </Link>
           )}
           <h1

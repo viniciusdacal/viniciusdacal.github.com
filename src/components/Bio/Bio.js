@@ -40,7 +40,7 @@ const Bio = ({ language }) => {
       <div>
         <p className="bio__bio">
           <strong className="bio__bio__name">Vinicius Dacal</strong><br/>
-          {language === 'pt-BR' ? (
+          {language === 'pt-br' ? (
             <>
               🇧🇷Brasileiro <br/>
               👨🏻‍💻Desenvolvedor de software <br/>

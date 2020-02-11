@@ -8,7 +8,7 @@
     <pubDate>Sun, 08 Jan 2017 16:04:42 -0200</pubDate>
     <lastBuildDate>Sun, 08 Jan 2017 16:04:42 -0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
-    
+
       <item>
         <title>O sentimento de propriedade do código</title>
         <description>
@@ -96,14 +96,14 @@ vivo que constantemente muda.&lt;/strong&gt;&lt;/p&gt;
         <pubDate>Thu, 15 Sep 2016 17:00:00 -0300</pubDate>
         <link>http://www.viniciusdacal.com/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html</link>
         <guid isPermaLink="true">http://www.viniciusdacal.com/pt/profissao/2016/09/15/o-sentimento-de-propriedade-do-codigo.html</guid>
-        
-        
+
+
         <category>pt</category>
-        
+
         <category>profissao</category>
-        
+
       </item>
-    
+
       <item>
         <title>The Code ownership feeling</title>
         <description>&lt;p&gt;Every developer, sometime in their lives, or very often pass through this
@@ -191,14 +191,14 @@ us spread the word :)&lt;/p&gt;
         <pubDate>Thu, 15 Sep 2016 17:00:00 -0300</pubDate>
         <link>http://www.viniciusdacal.com/en/profession/2016/09/15/the-code-ownership-feeling.html</link>
         <guid isPermaLink="true">http://www.viniciusdacal.com/en/profession/2016/09/15/the-code-ownership-feeling.html</guid>
-        
-        
+
+
         <category>en</category>
-        
+
         <category>profession</category>
-        
+
       </item>
-    
+
       <item>
         <title>Recharts, construa gráficos com React e D3</title>
         <description>&lt;p&gt;Recentemente iniciamos o desenvolvimento de &lt;a href=&quot;https://blog.planrockr.com/novo-plano-novos-conteÃºdos-e-grÃ¡ficos-no-planrockr-f2b4ab0c9d18#.vudj5kkkc&quot;&gt;mais cinco
@@ -308,18 +308,18 @@ que mantém a lib. Nunca foi tão fácil construir gráficos!&lt;/p&gt;
         <pubDate>Mon, 22 Aug 2016 17:00:00 -0300</pubDate>
         <link>http://www.viniciusdacal.com/pt/react/redux/d3/2016/08/22/recharts-construa-gra-ficos-com-react-e-d3.html</link>
         <guid isPermaLink="true">http://www.viniciusdacal.com/pt/react/redux/d3/2016/08/22/recharts-construa-gra-ficos-com-react-e-d3.html</guid>
-        
-        
+
+
         <category>pt</category>
-        
+
         <category>react</category>
-        
+
         <category>redux</category>
-        
+
         <category>d3</category>
-        
+
       </item>
-    
+
       <item>
         <title>Integrando Mixpanel com React</title>
         <description>&lt;p&gt;Recentemente lançamos a nova interface do &lt;a href=&quot;http://planrockr.com/&quot;&gt;Planrockr&lt;/a&gt;,
@@ -413,16 +413,16 @@ disparar o evento. Para mais detalhes sobre o método &lt;strong&gt;track&lt;/st
         <pubDate>Sat, 02 Jul 2016 17:00:00 -0300</pubDate>
         <link>http://www.viniciusdacal.com/pt/redux/react/2016/07/02/integrando-mixpanel-com-react.html</link>
         <guid isPermaLink="true">http://www.viniciusdacal.com/pt/redux/react/2016/07/02/integrando-mixpanel-com-react.html</guid>
-        
-        
+
+
         <category>pt</category>
-        
+
         <category>redux</category>
-        
+
         <category>react</category>
-        
+
       </item>
-    
+
       <item>
         <title>Requisições assíncronas em Redux</title>
         <description>&lt;p&gt;Quando se está começando a aprender &lt;strong&gt;Redux&lt;/strong&gt;, uma das dúvidas mais comuns é
@@ -570,16 +570,16 @@ começando. Pode ser enviando para o email:
         <pubDate>Sat, 02 Jul 2016 17:00:00 -0300</pubDate>
         <link>http://www.viniciusdacal.com/pt/redux/react/2016/07/02/requisicoes-assincronas-em-redux.html</link>
         <guid isPermaLink="true">http://www.viniciusdacal.com/pt/redux/react/2016/07/02/requisicoes-assincronas-em-redux.html</guid>
-        
-        
+
+
         <category>pt</category>
-        
+
         <category>redux</category>
-        
+
         <category>react</category>
-        
+
       </item>
-    
+
       <item>
         <title>Conhecendo o básico do Redux</title>
         <description>&lt;p&gt;Redux é um container de estados previsível para aplicações javascript, mas o que
@@ -740,14 +740,14 @@ us spread the word :)&lt;/p&gt;
         <pubDate>Wed, 22 Jun 2016 17:00:00 -0300</pubDate>
         <link>http://www.viniciusdacal.com/pt/profession/2016/06/22/conhecendo-o-basico-do-redux.html</link>
         <guid isPermaLink="true">http://www.viniciusdacal.com/pt/profession/2016/06/22/conhecendo-o-basico-do-redux.html</guid>
-        
-        
+
+
         <category>pt</category>
-        
+
         <category>profession</category>
-        
+
       </item>
-    
+
       <item>
         <title>Learning the Basics About Redux</title>
         <description>&lt;p&gt;Redux is a predictable state container for JavaScript Applications, but what
@@ -894,14 +894,14 @@ us spread the word :)&lt;/p&gt;
         <pubDate>Wed, 22 Jun 2016 17:00:00 -0300</pubDate>
         <link>http://www.viniciusdacal.com/en/profession/2016/06/22/learning-the-basics-about-redux.html</link>
         <guid isPermaLink="true">http://www.viniciusdacal.com/en/profession/2016/06/22/learning-the-basics-about-redux.html</guid>
-        
-        
+
+
         <category>en</category>
-        
+
         <category>profession</category>
-        
+
       </item>
-    
+
       <item>
         <title>Aprenda a dizer NÃO, você precisará disso</title>
         <description>&lt;p&gt;Uma das habilidades mais importantes e que muitas pessoas não a tem, e quando
@@ -981,14 +981,14 @@ ser sincero, principalmente com você mesmo.&lt;/p&gt;
         <pubDate>Sat, 02 Apr 2016 17:00:00 -0300</pubDate>
         <link>http://www.viniciusdacal.com/pt/profissao/2016/04/02/aprenda-a-dizer-nao-voce-precisara-disso.html</link>
         <guid isPermaLink="true">http://www.viniciusdacal.com/pt/profissao/2016/04/02/aprenda-a-dizer-nao-voce-precisara-disso.html</guid>
-        
-        
+
+
         <category>pt</category>
-        
+
         <category>profissao</category>
-        
+
       </item>
-    
+
       <item>
         <title>Socket.IO Notify — Resolvendo problemas de notificação real-time</title>
         <description>&lt;p&gt;No final do ano passado, em dois de nossos projetos na
@@ -996,7 +996,7 @@ ser sincero, principalmente com você mesmo.&lt;/p&gt;
 comunicação real-time entre o servidor e o browser.&lt;/p&gt;
 
 &lt;p&gt;A primeira tecnologia que veio em mente foi
-&lt;a href=&quot;https://developer.mozilla.org/pt-BR/docs/WebSockets&quot;&gt;websockets&lt;/a&gt;, que
+&lt;a href=&quot;https://developer.mozilla.org/pt-br/docs/WebSockets&quot;&gt;websockets&lt;/a&gt;, que
 possibilita a comunicação bidirecional entre server e client.&lt;/p&gt;
 
 &lt;p&gt;Por questões de suporte à browsers e facilidade na implementação optamos por
@@ -1087,16 +1087,16 @@ projeto&lt;/a&gt;&lt;/p&gt;
         <pubDate>Tue, 23 Feb 2016 17:00:00 -0300</pubDate>
         <link>http://www.viniciusdacal.com/pt/react/mixpanel/2016/02/23/socket-io-notify-resolvendo-problemas-de-notificac-a-o-real-time.html</link>
         <guid isPermaLink="true">http://www.viniciusdacal.com/pt/react/mixpanel/2016/02/23/socket-io-notify-resolvendo-problemas-de-notificac-a-o-real-time.html</guid>
-        
-        
+
+
         <category>pt</category>
-        
+
         <category>react</category>
-        
+
         <category>mixpanel</category>
-        
+
       </item>
-    
+
       <item>
         <title>Se eu soubesse aos 18 - Profissão.</title>
         <description>
@@ -1158,7 +1158,7 @@ projeto&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Encontrei uma vaga em Curitiba, especificamente para Frontend developer, o que em 2013 era um pouco raro se comparado a hoje, e pra trabalhar principalmente com canvas. Pedi demissão, me organizei para mudar e ao mesmo tempo estava me preparando para ir para o meu primeiro BrazilJS.&lt;/p&gt;
 
-&lt;p&gt;Indo de ônibus de &lt;a href=&quot;https://www.google.com.br/maps/dir/Umuarama,+PR/Cascavel+-+PR/Porto+Alegre,+RS/@-26.8292161,-56.9521053,6z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x94f2d6aad88f12b7:0x62e741a44bc7bfc7!2m2!1d-53.3206105!2d-23.7661064!1m5!1m1!1s0x94f17f64f7507c29:0xfa1220399425243c!2m2!1d-53.459544!2d-24.9578832!1m5!1m1!1s0x9519784e88e1007d:0xc7011777424f60bd!2m2!1d-51.2176584!2d-30.0346564!3e0?hl=pt-BR&quot;&gt;Umuarama-PR para Porto Alegre-RS&lt;/a&gt; recebo um e-mail da empresa de Curitiba, me avisando que a contratação havia sido cancelada e que novas contratações só seriam efetuadas no próximo ano. Fiquei um pouco desnorteado, mas ainda estava na animação para o BrazilJS.&lt;/p&gt;
+&lt;p&gt;Indo de ônibus de &lt;a href=&quot;https://www.google.com.br/maps/dir/Umuarama,+PR/Cascavel+-+PR/Porto+Alegre,+RS/@-26.8292161,-56.9521053,6z/data=!3m1!4b1!4m20!4m19!1m5!1m1!1s0x94f2d6aad88f12b7:0x62e741a44bc7bfc7!2m2!1d-53.3206105!2d-23.7661064!1m5!1m1!1s0x94f17f64f7507c29:0xfa1220399425243c!2m2!1d-53.459544!2d-24.9578832!1m5!1m1!1s0x9519784e88e1007d:0xc7011777424f60bd!2m2!1d-51.2176584!2d-30.0346564!3e0?hl=pt-br&quot;&gt;Umuarama-PR para Porto Alegre-RS&lt;/a&gt; recebo um e-mail da empresa de Curitiba, me avisando que a contratação havia sido cancelada e que novas contratações só seriam efetuadas no próximo ano. Fiquei um pouco desnorteado, mas ainda estava na animação para o BrazilJS.&lt;/p&gt;
 
 &lt;h3 id=&quot;braziljs-2013&quot;&gt;BrazilJS 2013&lt;/h3&gt;
 
@@ -1248,13 +1248,13 @@ projeto&lt;/a&gt;&lt;/p&gt;
         <pubDate>Fri, 18 Dec 2015 18:00:00 -0200</pubDate>
         <link>http://www.viniciusdacal.com/pt/profissao/2015/12/18/se-eu-soubesse-aos-18-profissao.html</link>
         <guid isPermaLink="true">http://www.viniciusdacal.com/pt/profissao/2015/12/18/se-eu-soubesse-aos-18-profissao.html</guid>
-        
-        
+
+
         <category>pt</category>
-        
+
         <category>profissao</category>
-        
+
       </item>
-    
+
   </channel>
 </rss>

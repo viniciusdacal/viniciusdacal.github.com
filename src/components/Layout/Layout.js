@@ -16,7 +16,7 @@ const Layout = ({
   title,
 }) => (
   <header>
-    {language === 'pt-BR' ? (
+    {language === 'pt-br' ? (
       <Link className="layout__translation-link" to="/en/">EN <span role="img">🇬🇧</span></Link>
     ) : (
       <Link className="layout__translation-link" to="/">PT <span role="img">🇧🇷</span></Link>

@@ -10,11 +10,38 @@ collections:
     label: "Blog"
     folder: "content/blog"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}/{{identifier}}/{{language}}"
     editor:
      preview: false
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Slug em português",
+          name: "identifier",
+          widget: "string",
+          pattern: "([A-Za-z-])",
+          hint: "Espaços ou acentos não são permitidos"
+        }
+      - {
+          label: "Idioma",
+          name: "language",
+          widget: "select",
+          default: "pt-br",
+          options: [
+            { label: "pt-br", value: "pt-br" },
+            { label: "EN", value: "en" },
+          ]
+        }
+      - {
+          label: "Capa",
+          name: "image",
+          widget: "image",
+          media_library: {
+            config: {
+              multiple: true
+            }
+          }
+        }
+      - { label: "Data", name: "date", widget: "datetime" }
+      - { label: "Título", name: "title", widget: "string" }
+      - { label: "Descrição", name: "description", widget: "string" }
+      - { label: "Conteúdo", name: "body", widget: "markdown" }

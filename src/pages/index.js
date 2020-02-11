@@ -18,7 +18,7 @@ const BlogIndex = ({ data, location }) => {
       author={author}
       social={social}
       avatar={avatar}
-      language="pt-BR"
+      language="pt-br"
     >
 
       <SEO title="All posts" />
@@ -80,7 +80,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { frontmatter: { language: { eq: "pt-BR" } } },
+      filter: { frontmatter: { language: { eq: "pt-br" } } },
       sort: { fields: [frontmatter___date], order: DESC }
     ) {
       edges {

@@ -56,7 +56,7 @@ const LayoutHeader = ({
           🇬🇧Trabalha remoto para BEN UK<br/>
           ❤️Ama aprender, criar e compartilhar */}
 
-          {language === 'pt-BR' ? (
+          {language === 'pt-br' ? (
             <>
             Brasileiro, desenvolvedor de software e trabalha remoto para BEN UK.<br />
             ❤️ Ama aprender, criar e compartilhar.
@@ -123,7 +123,7 @@ const LayoutHeader = ({
           textDecoration: `none`,
           color: `inherit`,
         }}
-        to={language === 'pt-BR' ? `/` : '/en/'}
+        to={language === 'pt-br' ? `/` : '/en/'}
       >
         ← {title}
       </Link>

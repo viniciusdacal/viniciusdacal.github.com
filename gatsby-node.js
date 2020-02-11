@@ -1,6 +1,23 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+function stringToSlug(title) {
+  let str = title.trim().toLowerCase(); // trim
+
+  // remove accents, swap ñ for n, etc
+  var from = "àáäâèéëêìíïîòóöôùúüûñç·/_,:;";
+  var to   = "aaaaeeeeiiiioooouuuunc------";
+  for (var i=0, l=from.length ; i<l ; i++) {
+    str = str.replace(new RegExp(from.charAt(i), 'g'), to.charAt(i));
+  }
+
+  str = str.replace(/[^a-z0-9 -]/g, '') // remove invalid chars
+      .replace(/\s+/g, '-') // collapse whitespace and replace by -
+      .replace(/-+/g, '-'); // collapse dashes
+
+  return str;
+}
+
 const getPosts = async (graphql, language) => {
   const result = await graphql(
     `
@@ -36,8 +53,8 @@ const getPosts = async (graphql, language) => {
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions
 
-  const blogPost = path.resolve(`./src/templates/blog-post.js`)
-  const ptPosts = await getPosts(graphql, 'pt-BR');
+  const blogPost = path.resolve(`./src/templates/blog-post.js`);
+  const ptPosts = await getPosts(graphql, 'pt-br');
   const enPosts = await getPosts(graphql, 'en');
 
   ptLinks = {};
@@ -96,8 +113,11 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     let value = createFilePath({ node, getNode })
     const isEN = node.frontmatter.language === 'en';
     const paths = value.split('/');
+
     if (isEN) {
-      value = '/en' + paths.slice(0, -3).join('/') + '/' + paths.slice(-2, -1) + '/';
+      value = '/en/blog' + paths.slice(0, -3).join('/') + '/' + stringToSlug(node.frontmatter.title) + '/';
+    } else {
+      value = '/blog' + paths.slice(0, -2).join('/') + '/';
     }
 
     createNodeField({
@@ -109,7 +129,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: `identifier`,
       node,
-      value: isEN ? paths.slice(0, -2).join('/') + '/' : value,
+      value: paths.slice(0, -2).join('/') + '/',
     });
   }
 }
