@@ -1,5 +1,6 @@
 ---
 title: Por que o Planrockr é uma Single Page Application?
+identifier: "por-que-o-planrockr-e-uma-single-page-application"
 description: >-
   Há uns dias atrás, foi feita uma pergunta para a equipe do Planrockr no
   twitter:
@@ -49,7 +50,7 @@ Porém, essa abordagem possui alguns pontos negativos:
 
 Construimos o Planrockr como uma _SPA_ para proporcionar ao usuário uma experiência mais próxima de uma aplicação _desktop_.
 
-![Dashboard de Projeto do Planrockr.](../__legacy-img/1____ZjbVlgyUSVUJx0sTvx8CA.png)
+![Dashboard de Projeto do Planrockr.](../../__legacy-img/1____ZjbVlgyUSVUJx0sTvx8CA.png)
 Dashboard de Projeto do Planrockr.
 
 A imagem acima apresenta o Dashboard de Projetos. Essa tela, é uma das principais do Planrockr e possui inúmeros _widgets_ com dados carregados independentemente. Conforme esses dados são carregados, os _widgets_ se tornam acessíveis ao usuário instantaneamente, o que possibilita uma melhor experiência. Além disso, os dados dos _widgets_ são recarregados de tempos em tempos e o controle desse fluxo se faz muito mais fácil em um _SPA_.

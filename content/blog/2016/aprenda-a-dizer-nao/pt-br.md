@@ -1,5 +1,6 @@
 ---
 title: 'Aprenda a dizer NÃO, você precisará disso.'
+identifier: "aprenda-a-dizer-nao"
 description: >-
   Uma das habilidades mais importantes e que muitas pessoas não a tem, e quando
   digo muitas pessoas também me incluo entre elas. Acredito que…
@@ -44,4 +45,4 @@ Explicando a situação a pessoa provavelmente irá entender. O mais importante 
 
 Com o tempo você pega o jeito.
 
-![](../__legacy-img/1____K6fJiY1rznIUhcyvywPig.gif)
+![](../../__legacy-img/1____K6fJiY1rznIUhcyvywPig.gif)

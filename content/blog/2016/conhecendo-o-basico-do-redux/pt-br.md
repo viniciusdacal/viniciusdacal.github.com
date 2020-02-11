@@ -1,5 +1,6 @@
 ---
 title: Conhecendo o básico do Redux.
+identifier: "conhecendo-o-basico-do-redux"
 description: >-
   Redux é um container de estados previsível para aplicações javascript, mas o
   que isso significa?

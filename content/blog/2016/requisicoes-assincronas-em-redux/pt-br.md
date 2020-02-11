@@ -1,5 +1,6 @@
 ---
 title: Requisições assíncronas em Redux
+identifier: "requisicoes-assincronas-em-redux"
 description: >-
   Quando se está começando a aprender Redux, uma das dúvidas mais comuns é como
   fazer requisições assíncronas.

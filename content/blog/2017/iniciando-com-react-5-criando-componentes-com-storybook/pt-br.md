@@ -1,5 +1,6 @@
 ---
 title: 'Iniciando com React - #5 Criando componentes com Storybook'
+identifier: iniciando-com-react-5-criando-componentes-com-storybook
 description: >-
   Quando estamos desenvolvendo um novo componente para um projeto, é comum o
   fazermos diretamente na aplicação. Essa abordagem pode nos levar…
@@ -19,7 +20,7 @@ Quando estamos desenvolvendo um novo componente para um projeto, é comum o faze
 
 O storybook é uma ferramenta que nos permite desenvolver e testar componentes fora da nossa aplicação. É possível criar componentes completos utilizando mocks de dados para simular diferentes estados e diferentes comportamentos. Observe o exemplo abaixo:
 
-![Exemplo do Storybook funcionando](../__legacy-img/1__TxuoKupMwNqsEKyrCdB9cQ.gif)
+![Exemplo do Storybook funcionando](../../__legacy-img/1__TxuoKupMwNqsEKyrCdB9cQ.gif)
 Exemplo do Storybook funcionando
 
 O exemplo acima da um bom overview de como é a ferramenta e qual é a sua proposta. Sem mais delongas, vamos para o processo de instalação.
@@ -48,11 +49,11 @@ npm run storybook
 
 E acessar a url indicada, que no meu caso é [http://localhost:9009/](http://localhost:9009/)
 
-![](../__legacy-img/1__2PBQEmkAm5hc8Uy5ChjCaw.png)
+![](../../__legacy-img/1__2PBQEmkAm5hc8Uy5ChjCaw.png)
 
 Ao acessar a url indicada, é possível visualizar o storybook com algumas stories de exemplo:
 
-![](../__legacy-img/1__1d3PtybwXhSjopYjnTZ89A.png)
+![](../../__legacy-img/1__1d3PtybwXhSjopYjnTZ89A.png)
 
 É possível navegar no menu lateral e ver o componente **Button** funcionando.
 
@@ -99,8 +100,8 @@ No arquivo acima, nós importamos o componente **Button** e criamos duas stories
 
 Feito isso, acesse novamente o storybook no seu navegador e veja o resultado.
 
-![](../__legacy-img/1__sF0FMX51biXcNGJ4OHYc9A.png)
-![](../__legacy-img/1____1kGCyQo7DWgmpxJS1Vz8Q.png)
+![](../../__legacy-img/1__sF0FMX51biXcNGJ4OHYc9A.png)
+![](../../__legacy-img/1____1kGCyQo7DWgmpxJS1Vz8Q.png)
 
 No geral, as stories funcionam basicamente assim: Você importa o componente, define uma story e utiliza o mesmo passando props e dados mocados para para simular um estado.
 

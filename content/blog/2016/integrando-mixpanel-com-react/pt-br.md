@@ -1,5 +1,6 @@
 ---
 title: Integrando Mixpanel com React
+identifier: "integrando-mixpanel-com-react"
 description: >-
   Recentemente lançamos a nova interface do Planrockr, feita em ReactJS. Nesse
   produto nós estamos utilizando o MixPanel para fazer tracking…

@@ -1,5 +1,6 @@
 ---
 title: O sentimento de propriedade do código
+identifier: "o-sentimento-de-propriedade-do-codigo"
 description: >-
   Todo programador, uma hora ou outra, ou quase sempre passa por isso. Você
   escreve código e as vezes sente que aquilo faz parte de você, e…

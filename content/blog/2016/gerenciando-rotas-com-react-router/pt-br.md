@@ -1,5 +1,6 @@
 ---
 title: Gerenciando rotas com React Router
+identifier: "gerenciando-rotas-com-react-router"
 description: >-
   Quando começamos a desenvolver um SPA, uma das primeiras coisas que precisamos
   definir é a forma como controlamos as rotas da aplicação. Em…
@@ -35,7 +36,7 @@ Teremos quatro componentes:
 
 No bloco abaixo, temos a definição de todas as nossas rotas. Os componentes que utilizamos para essa definição são o **Router** e o **Route.**
 
-![](../__legacy-img/1__GrvQBNGGAGXLtXkOWtUVOA.png)
+![](../../__legacy-img/1__GrvQBNGGAGXLtXkOWtUVOA.png)
 
 **Router**
 
@@ -99,7 +100,7 @@ Nossa rota raiz renderiza o componente **App**, que atualmente funciona apenas c
 
 Nele poderíamos colocar o rodapé, o menu e componentes que sempre estarão na tela, independentemente da rota em que estivermos.
 
-![](../__legacy-img/1__xgvUUvGHlGqlj1s2vOknHQ.png)
+![](../../__legacy-img/1__xgvUUvGHlGqlj1s2vOknHQ.png)
 
 Na imagem acima, na linha 7, acessamos a propriedade **children** que é inserida pelo **react router** no nosso componente. Nesse caso, **children** seria o componente respectivo a uma rota aninhada. Por exemplo:
 
@@ -114,7 +115,7 @@ Dada a url atual e a nossa configuração de rotas, o **children** do nosso comp
 
 Abaixo segue um layout que com frequência vemos em aplicações:
 
-![](../__legacy-img/1__U6i9FxBP9xFOmtCyv__XHvw.png)
+![](../../__legacy-img/1__U6i9FxBP9xFOmtCyv__XHvw.png)
 
 No layout acima, temos o menu superior e a sidebar que estarão em todas as telas e temos o conteúdo central, que mudará de uma rota para outra.
 
@@ -147,7 +148,7 @@ Quando a rota **calls** fizer matching, o componente **ContactCalls** estará di
 
 **ContactCall** fica como o children de **ContactDetail** que por sua vez é children de **App.**
 
-![Cat inception](../__legacy-img/1__7tUAfXw6SY4g6T61X9axRw.gif)
+![Cat inception](../../__legacy-img/1__7tUAfXw6SY4g6T61X9axRw.gif)
 Cat inception
 
 #### Link

@@ -1,5 +1,6 @@
 ---
 title: My impressions about React Conf BR
+identifier: minhas-impressoes-sobre-react-conf-br
 description: 'pt-br post: https://goo.gl/RvrTez'
 date: '2017-10-17T11:17:21.462Z'
 categories: []

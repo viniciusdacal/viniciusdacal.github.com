@@ -1,5 +1,6 @@
 ---
 title: 'Iniciando com React - #3 Criando componentes'
+identifier: iniciando-com-react-3-criando-componentes
 description: >-
   O React introduz uma nova maneira de construir interfaces, o que podemos
   chamar de “Interface baseada em componentes”. Componentes permitem…

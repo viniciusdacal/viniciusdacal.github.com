@@ -1,5 +1,6 @@
 ---
 title: Um novo horizonte
+identifier: um-novo-horizonte
 description: >-
   Há dois anos atrás, iniciei meus trabalhos na Coderockr, experiência que
   compartilhei em outro post recentemente. Trabalhar na Coderockr…
@@ -21,5 +22,5 @@ Há pouco mais de um mês atrás, eu recebi uma proposta da [BEN Group](http://b
 
 Eu nunca fui de me acomodar! Faz parte de mim estar em contínua mudança e buscar por constante evolução. Quando eu recebi a proposta, eu pensei muito antes de tomar uma decisão, mas no final, eu senti que era hora de seguir em frente e buscar um novo desafio.
 
-![Saia da zona de conforto](../__legacy-img/1__E1svijTSAnq5PcS5YZPV0Q.jpeg)
+![Saia da zona de conforto](../../__legacy-img/1__E1svijTSAnq5PcS5YZPV0Q.jpeg)
 Saia da zona de conforto

@@ -1,5 +1,6 @@
 ---
 title: Como migrar uma aplicação de AngularJS para React
+identifier: como-migrar-uma-aplicacao-de-angularjs-para-react
 description: >-
   Recentemente assisti uma palestra da Kete Martins Rufino e do Christiano
   Milfont na @ReactConfBR, sobre como migrar aplicações legadas para…

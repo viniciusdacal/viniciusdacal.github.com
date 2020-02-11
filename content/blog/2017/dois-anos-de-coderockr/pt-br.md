@@ -1,5 +1,6 @@
 ---
 title: Dois anos de Coderockr
+identifier: dois-anos-de-coderockr
 description: >-
   Este mês, estou completando oficialmente dois anos trabalhando para a
   Coderockr, e através desse post, gostaria de trazer um overview desta…

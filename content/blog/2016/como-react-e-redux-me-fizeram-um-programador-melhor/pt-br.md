@@ -1,5 +1,6 @@
 ---
 title: Como React e Redux me fizeram um programador melhor
+identifier: "como-react-e-redux-me-fizeram-um-programador-melhor"
 description: >-
   Há uns dias atrás, no primeiro hangout do React Cast, apareceu o assunto sobre
   como React e Redux nos faziam ser programadores melhores…
@@ -11,7 +12,7 @@ language: "pt-br"
 
 Há uns dias atrás, no [primeiro hangout](https://www.youtube.com/watch?v=2kJ-Ka-FzRk) do [React Cast](https://www.youtube.com/channel/UC4wkWQBqfo6zdJRt0IncFjw), apareceu o assunto sobre como [_React_](https://facebook.github.io/react/) e [_Redux_](http://redux.js.org/docs/introduction/) nos faziam ser programadores melhores. Nesse post vou esclarecer os pontos que me levam a acreditar nisso.
 
-![](../__legacy-img/1__SgIzRKXaGHYYpQzYuVLStQ.jpeg)
+![](../../__legacy-img/1__SgIzRKXaGHYYpQzYuVLStQ.jpeg)
 
 Quando começamos a trabalhar como programadores, é muito comum aprendermos a trabalhar com abstrações que facilitam nosso caminho e nossa curva de aprendizado. Um grande exemplo disso é o [_jQuery_](https://jquery.com/), que provavelmente é a primeira lib que os desenvolvedores Frontend tem contato.
 
@@ -19,7 +20,7 @@ Abstrações são ótimas, elas podem facilitar muito as nossas vidas e aumentar
 
 Existe esse meme clássico que exemplifica claramente isso:
 
-![](../__legacy-img/1__sfHJGjVXCvqQEm__O2ddNFQ.gif)
+![](../../__legacy-img/1__sfHJGjVXCvqQEm__O2ddNFQ.gif)
 
 É importante você saber pensar por fora das abstrações, para saber quando ou não utilizá-las.
 
@@ -27,7 +28,7 @@ Existe esse meme clássico que exemplifica claramente isso:
 
 Como é o caso de inúmeras animações ainda feitas em _jQuery_, mas que facilmente poderiam ser substituídas por CSS.
 
-![](../__legacy-img/1__7ZjdFUDfP4X__OdzsrRyXFw.jpeg)
+![](../../__legacy-img/1__7ZjdFUDfP4X__OdzsrRyXFw.jpeg)
 
 > **Disclaimer**: Antes de continuar este artigo, deixo claro que eu trabalhei mais de um ano com Angular, em grandes aplicações, antes de começar a trabalhar com React, e ainda trabalho com o mesmo em aplicações já em produção. Falo aqui como alguém que antes defendia muito o Framework e adorava trabalhar com ele.
 
@@ -57,7 +58,7 @@ Agora que conseguimos entender o que é um cenário totalmente acoplado, fica ma
 
 #### Separation of concerns(SoC)
 
-![Brinquedo de Lego](../__legacy-img/1__QaJLbOURQAugLzPHLqreuQ.jpeg)
+![Brinquedo de Lego](../../__legacy-img/1__QaJLbOURQAugLzPHLqreuQ.jpeg)
 Brinquedo de Lego
 
 [_Separation of Concerns_](https://en.wikipedia.org/wiki/Separation_of_concerns), ou _Separação de conceitos_, termo cunhado por [Edsger W. Dijkstra](https://en.wikipedia.org/wiki/Edsger_W._Dijkstra), em 1974.
@@ -106,7 +107,7 @@ Entre as três características que vimos, o React se propõe a ser o responsáv
 
 Ao contrário do _React_, o _Redux_ é alheio a sua camada de _View_, ele fica responsável apenas pelo _State_ e pelas _Actions_ da sua aplicação, dando a você total poder de escolha em relação a _View_.
 
-![](../__legacy-img/1__9i0TmROGf25Lqpbc98PnJQ.jpeg)
+![](../../__legacy-img/1__9i0TmROGf25Lqpbc98PnJQ.jpeg)
 
 A [_Store_](http://redux.js.org/docs/api/Store.html) do _Redux_ disponibiliza três métodos para interação com o _State_ através de sua [API pública](http://redux.js.org/docs/api/Store.html#store-methods):
 

@@ -1,5 +1,6 @@
 ---
 title: Socket.IO Notify — Resolvendo problemas de notificação real-time
+identifier: "socket-io-notify-resolvendo-problemas-de-notificacao-real-time"
 description: >-
   No final do ano passado, em dois de nossos projetos na Coderockr, surgiu a
   necessidade de termos uma comunicação real-time entre o servidor…

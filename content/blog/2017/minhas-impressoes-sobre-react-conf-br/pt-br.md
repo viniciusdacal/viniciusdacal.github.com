@@ -1,5 +1,6 @@
 ---
 title: Minhas impressões sobre React Conf BR
+identifier: minhas-impressoes-sobre-react-conf-br
 description: >-
   No último sábado eu estava em São Paulo para o React Conf BR. Eu estava bem
   empolgado com esse evento e estive planejando essa viagem por…

@@ -1,5 +1,6 @@
 ---
 title:  "Como deixar o terminal do Mac Colorido."
+identifier: "como-deixar-o-terminal-do-mac-colorido"
 date:   2015-02-09 20:00:00
 categories: iniciante
 language: "pt-br"

@@ -1,5 +1,6 @@
 ---
 title: How to migrate an application from AngularJS to React and Redux
+identifier: como-migrar-uma-aplicacao-de-angularjs-para-react
 description: >-
   Starting this year, I was hired by BEN Group, with the main goal of helping
   them migrate a legacy application from AngularJS to React and…

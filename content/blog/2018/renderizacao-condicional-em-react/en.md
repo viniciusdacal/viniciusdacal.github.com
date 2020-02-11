@@ -1,5 +1,6 @@
 ---
 title: React Conditional Rendering
+identifier: renderizacao-condicional-em-react
 description: >-
   When we are developing a React application, we often need to show or hide an
   element given a certain condition. Be it a user interaction…
@@ -24,7 +25,7 @@ There is nothing wrong with the above example, on the contrary, the code is simp
 
 Imagine that our List of users is more complex, that it has a title and a button to create a new user. In this case, the page should always show the title and button. Loading message would only appear in the place of the list, as shown below:
 
-![](../__legacy-img/1__urlZK7IVsyMj9VblOxbqkw.png)
+![](../../__legacy-img/1__urlZK7IVsyMj9VblOxbqkw.png)
 
 Considering the above image, we can not use the **IF** because we would need to repeat an entire block of code just to change the contents of the list.
 
@@ -90,7 +91,7 @@ Observe how all our logic got simpler by extracting the block to another compone
 
 Ternaries are also welcome in cases where two blocks alternate given a certain condition. Note the mockup below a form for user creation:
 
-![](../__legacy-img/1__H6stD5AbpDZvhMxx__L__qbw.jpeg)
+![](../../__legacy-img/1__H6stD5AbpDZvhMxx__L__qbw.jpeg)
 
 As the image above, we have the fields: Name, Email, Country and a place reserved for what would be the Province field. The Province field, requires you to select a country first. Once the country is selected, the status field will be available on the screen, according to the code below:
 

@@ -1,5 +1,6 @@
 ---
 title: React - Estruturando projetos e nomeando componentes
+identifier: react-estruturando-projetos-e-nomeando-componentes
 description: >-
   Por ser somente uma lib, o React não dita muitas regras em como você deve
   organizar e estruturar seus projetos. Isso é muito legal, pois…
@@ -20,7 +21,7 @@ Uma das dúvidas frequentes que vejo, é em relação a estruturação de arquiv
 
 O `create-react-app` gera para nós um projeto básico, contendo em sua raiz os arquivos _.gitinore_, _package.json_, _README.md_, _yarn.lock_, e também gera as pastas _public_ e _src_, onde manteremos o source code da nossa aplicação. Observe a imagem abaixo com a estrutura descrita:
 
-![](../__legacy-img/1__eXN1LlNnuZmosJ7n7EsJ__Q.png)
+![](../../__legacy-img/1__eXN1LlNnuZmosJ7n7EsJ__Q.png)
 
 Nesse post iremos focar na pasta _src_ e tudo que estiver fora dela permanecerá intacto.
 
@@ -99,11 +100,11 @@ Esse padrão possui alguns benefícios conforme listados abaixo:
 
 Se o seu editor possui fuzzy search, procurando o arquivo pelo nome `UserForm` você encontrará facilmente o arquivo correto:
 
-![](../__legacy-img/1__vZO9Ci9a__lrfi2yTP9OiMA.png)
+![](../../__legacy-img/1__vZO9Ci9a__lrfi2yTP9OiMA.png)
 
 Se você fosse procurar o arquivo navegando na arvore de pastas, você consegue encontrá-lo apenas se orientando pelo nome:
 
-![](../__legacy-img/1__DLndSrnMgIklk7tAhzgMWg.png)
+![](../../__legacy-img/1__DLndSrnMgIklk7tAhzgMWg.png)
 
 #### Evita repetição de nomes na importação
 

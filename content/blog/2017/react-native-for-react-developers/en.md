@@ -1,5 +1,6 @@
 ---
 title: React Native for React Developers
+identifier: react-native-for-react-developers
 description: >-
   React Native is becoming the definitive solution to create apps across
   multiple platforms. What React Native offers, is the possibility to…
@@ -26,7 +27,7 @@ To inform React Native about which component is the root in your Application, yo
 
 Usually, this code goes inside the index.ios.js or index.android.js file. The result will be as shown below:
 
-![](../__legacy-img/1__lpr7JI__vbC7c74mFroPkFw.png)
+![](../../__legacy-img/1__lpr7JI__vbC7c74mFroPkFw.png)
 
 ### Styling Components
 
@@ -38,7 +39,7 @@ Let’s focus on the main differences. On React Native, you are not able to use 
 
 See the code bellow and its result:
 
-![](../__legacy-img/1__Y62wFQmj9nNckXN__hAeHyw.png)
+![](../../__legacy-img/1__Y62wFQmj9nNckXN__hAeHyw.png)
 
 React Native does not support percentage, but it fully supports Flexbox Layout. So, you are able to create consistent layouts for different screen sizes.
 
@@ -46,7 +47,7 @@ React Native does not support percentage, but it fully supports Flexbox Layout. 
 
 Observe the code bellow using Flexbox:
 
-![](../__legacy-img/1__3246__lb____lwol9KyvKssAw.png)
+![](../../__legacy-img/1__3246__lb____lwol9KyvKssAw.png)
 
 Beyond particularities about dimension and default values, some components support only specific style attributes. For example, you cannot use font attributes(fontSize, FontFamily, color) in a **View** expecting the texts inside it to inherit the style. It’s possible to check all allowed attributes inside each component’s documentation. Check out the allowed attributes for the **View** component [here](https://facebook.github.io/react-native/docs/view.html#style).
 

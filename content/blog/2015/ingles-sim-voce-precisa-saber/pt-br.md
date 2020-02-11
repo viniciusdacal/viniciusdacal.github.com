@@ -1,5 +1,6 @@
 ---
 title: 'Inglês. Sim, você precisa saber.'
+identifier: "ingles-sim-voce-precisa-saber"
 description: >-
   Neste post eu falarei um pouco sobre a importância do Inglês e darei algumas
   dicas de como você pode estudar sozinho. Vamos quebrar o…

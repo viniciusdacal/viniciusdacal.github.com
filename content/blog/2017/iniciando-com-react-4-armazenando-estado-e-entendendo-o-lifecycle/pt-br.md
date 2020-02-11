@@ -1,5 +1,6 @@
 ---
 title: 'Iniciando com React - #4 Armazenando estado e entendendo o lifecycle'
+identifier: iniciando-com-react-4-armazenando-estado-e-entendendo-o-lifecycle
 description: >-
   Quando estamos desenvolvendo uma aplicação, é comum a necessidade de
   guardarmos estado. Juntamente com essa necessidade, é frequente…

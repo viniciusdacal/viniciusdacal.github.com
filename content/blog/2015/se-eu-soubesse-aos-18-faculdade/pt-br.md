@@ -1,5 +1,6 @@
 ---
 title: Se eu soubesse aos 18 — Faculdade.
+identifier: "se-eu-soubesse-aos-18-faculdade"
 description: >-
   O que você deveria saber antes de entrar na faculdade e também durante o
   curso? Neste post darei dicas que acho relevantes, informações que…
