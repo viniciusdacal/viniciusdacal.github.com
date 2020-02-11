@@ -1,12 +1,13 @@
 ---
 title: Learning the Basics About Redux
+identifier: "conhecendo-o-basico-do-redux"
 description: >-
   Redux is a predictable state container for JavaScript Applications, but what
   does that mean?
 date: '2016-06-22T19:47:33.133Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/basic-redux.jpg"
+image: "../../_imgs/basic-redux.jpg"
 language: "en"
 ---
 

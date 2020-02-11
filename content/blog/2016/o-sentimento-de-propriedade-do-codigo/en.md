@@ -1,12 +1,13 @@
 ---
 title: The Code Ownership Feeling
+identifier: "o-sentimento-de-propriedade-do-codigo"
 description: >-
   Every developer, sometime in their lives, or very often pass through this
   feeling. You write code and it feels like it’s a part of you…
 date: '2016-09-30T18:27:34.747Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1____5buv2kG9IK33mfEotfbUw.jpeg"
+image: "../../_imgs/1____5buv2kG9IK33mfEotfbUw.jpeg"
 language: "en"
 ---
 

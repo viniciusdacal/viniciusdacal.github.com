@@ -7,7 +7,7 @@ description: >-
 date: '2018-03-19T16:46:01.082Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1__CjhNSm6uGpVJteJ5OeHWWw.jpeg"
+image: "../../_imgs/1__CjhNSm6uGpVJteJ5OeHWWw.jpeg"
 language: "en"
 ---
 
@@ -114,7 +114,7 @@ The main idea about this approach, is having a handler for each kind of action. 
 
 As you can see, there’s no magic in the code, all we are doing is verifying if there’s a handler to the given action. If we do, we just call it providing the `state` and the `action`, if we don’t, we just return the previous `state`. The difference is that you have this abstracted and tested for you, with validation as a bonus, to reduce your debugging time in case you provide an invalid action type or an invalid handler:
 
-![](../../__legacy-img/1__P0uAIdhZK6__hvOj62hoykw.png)
+![](../../_imgs/1__P0uAIdhZK6__hvOj62hoykw.png)
 
 ### Creating Async Requests
 

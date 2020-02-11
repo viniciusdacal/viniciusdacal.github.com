@@ -5,7 +5,7 @@ description: 'pt-br post: https://goo.gl/RvrTez'
 date: '2017-10-17T11:17:21.462Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1__LIU78WKCmRdYwqyCmZizVA.png"
+image: "../../_imgs/1__LIU78WKCmRdYwqyCmZizVA.png"
 language: "en"
 ---
 

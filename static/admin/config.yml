@@ -9,8 +9,11 @@ collections:
   - name: "blog"
     label: "Blog"
     folder: "content/blog"
-    create: true
+    path: "{{year}}/{{identifier}}/{{language}}"
     slug: "{{year}}/{{identifier}}/{{language}}"
+    media_folder: '/content/blog/__imgs'
+    public_folder: '/blog/img'
+    create: true
     editor:
      preview: false
     fields:

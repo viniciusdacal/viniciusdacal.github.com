@@ -7,7 +7,7 @@ description: >-
 date: '2017-10-10T17:39:43.851Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1____lLRGp1g5biW5__yCcpTYZA.png"
+image: "../../_imgs/1____lLRGp1g5biW5__yCcpTYZA.png"
 language: "pt-br"
 ---
 

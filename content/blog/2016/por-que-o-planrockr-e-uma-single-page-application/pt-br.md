@@ -7,7 +7,7 @@ description: >-
 date: '2016-11-02T21:11:15.688Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1__6fwFlXE4xRD0pyXnqphKLg.png"
+image: "../../_imgs/1__6fwFlXE4xRD0pyXnqphKLg.png"
 language: "pt-br"
 ---
 
@@ -50,7 +50,7 @@ Porém, essa abordagem possui alguns pontos negativos:
 
 Construimos o Planrockr como uma _SPA_ para proporcionar ao usuário uma experiência mais próxima de uma aplicação _desktop_.
 
-![Dashboard de Projeto do Planrockr.](../../__legacy-img/1____ZjbVlgyUSVUJx0sTvx8CA.png)
+![Dashboard de Projeto do Planrockr.](../../_imgs/1____ZjbVlgyUSVUJx0sTvx8CA.png)
 Dashboard de Projeto do Planrockr.
 
 A imagem acima apresenta o Dashboard de Projetos. Essa tela, é uma das principais do Planrockr e possui inúmeros _widgets_ com dados carregados independentemente. Conforme esses dados são carregados, os _widgets_ se tornam acessíveis ao usuário instantaneamente, o que possibilita uma melhor experiência. Além disso, os dados dos _widgets_ são recarregados de tempos em tempos e o controle desse fluxo se faz muito mais fácil em um _SPA_.

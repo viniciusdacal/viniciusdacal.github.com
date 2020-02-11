@@ -7,7 +7,7 @@ description: >-
 date: '2016-06-02T04:45:08.552Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/basic-redux.jpg"
+image: "../../_imgs/basic-redux.jpg"
 
 language: "pt-br"
 ---

@@ -7,7 +7,7 @@ description: >-
 date: '2017-03-20T14:18:54.103Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1__0H0Ma7wwdowxYi96U0zl6g.png"
+image: "../../_imgs/1__0H0Ma7wwdowxYi96U0zl6g.png"
 language: "pt-br"
 ---
 
@@ -29,7 +29,7 @@ Posteriormente, veremos cada parte do build para entender melhor com o que estam
 
 > Caso você ainda não tenha o Node e o NPM instalados, faça [download](https://nodejs.org/en/) pelo site e siga os passos do instalador: [https://nodejs.org/en/](https://nodejs.org/en/)
 
-![output dos comandos node -v e npm -v](../../__legacy-img/1__AXOcEwch__O1PSlGHExevug.png)
+![output dos comandos node -v e npm -v](../../_imgs/1__AXOcEwch__O1PSlGHExevug.png)
 output dos comandos node -v e npm -v
 
 Com o **node** e o **npm** instalados, execute o seguinte comando:
@@ -58,7 +58,7 @@ Além de iniciar o build da aplicação, o comando acima levanta um servidor e f
 
 Já é possível acessar a url [**http://localhost:3000**](http://localhost:3000/)**/** no navegador e ver uma tela de boas vindas:
 
-![](../../__legacy-img/1__rGbFOCkAfwshq56M6__11Gw.png)
+![](../../_imgs/1__rGbFOCkAfwshq56M6__11Gw.png)
 
 ### Explorando a estrutura do projeto
 
@@ -141,7 +141,7 @@ Na linha #3, importamos nosso componente raiz, o **App.js** que acabamos de ver 
 
 O _bootstrap_ do React se baseia em você dizer para ele, o que renderizar e onde injetar o que ele renderizou. Estamos fazendo isso na linha #6, através do método render do **ReactDOM**, que espera como primeiro parâmetro um componente, e como segundo parâmetro, um elemento do _DOM_ que será utilizado para injetar todo o HTML renderizado.
 
-![O React renderiza os componentes e gera um output HTML](../../__legacy-img/1__2gZ3Z__hfr__9zaFkN474kUQ.png)
+![O React renderiza os componentes e gera um output HTML](../../_imgs/1__2gZ3Z__hfr__9zaFkN474kUQ.png)
 O React renderiza os componentes e gera um output HTML
 
 No nosso caso, estamos passando o componente **App** para ser o raiz e o elemento que possui o id=”**root**”  para ser o que conterá toda a aplicação. Lembra da nossa tag no arquivo **public/index.html**? Ela mesmo!

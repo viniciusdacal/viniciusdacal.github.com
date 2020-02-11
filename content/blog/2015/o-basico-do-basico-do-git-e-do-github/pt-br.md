@@ -8,7 +8,7 @@ date: '2015-01-29T00:00:00.000Z'
 categories: []
 keywords: []
 language: "pt-br"
-image: "../../__legacy-img/o-basico-do-basico-do-git-e-do-github.jpg"
+image: "../../_imgs/o-basico-do-basico-do-git-e-do-github.jpg"
 ---
 
 Acredito que muitas pessoas, como eu, quando começaram a estudar Git e Github se sentiram confusas com os termos e comandos utilizados pelo sistema. Neste breve post, vou simplificar (ou não)alguns termos utilizados neste mundo do versionamento.
@@ -51,7 +51,7 @@ O comando do commit vai continuar o mesmo. O que você precisa entender é que a
 
 **Fork, Forkar, Forkado**
 
-![](../../__legacy-img/0__VsjB4Wz6KbdSgc8o.jpg)
+![](../../_imgs/0__VsjB4Wz6KbdSgc8o.jpg)
 
 Quando você coloca seu projeto publico lá no Github, as pessoas podem “Forkar” ele, o que seria o mesmo que tirar uma cópia, só que essa cópia fará referência ao projeto original, e carregará com ela todo o histórico de alterações anteriores ao “Fork”. Nessa cópia, é possível você fazer alterações e trabalhar de forma independente do projeto original.
 
@@ -65,7 +65,7 @@ Tem dúvida de como fazer um Pull request, confira [este vídeo do Suíssa](http
 
 **Issues**
 
-![](../../__legacy-img/0__tPVTUpc2K7W8kjko.jpg)
+![](../../_imgs/0__tPVTUpc2K7W8kjko.jpg)
 
 Issues podem ser erros, bugs, dúvidas, sugestões de novas features e etc.
 

@@ -1,12 +1,13 @@
 ---
 title: Sobre padrões de escrita de código
+identifier: "por-que-o-planrockr-e-uma-single-page-application"
 description: >-
   Logo quando comecei a trabalhar no projeto Compufácil, há mais ou menos dois
   anos atrás, uma das coisas que me incomodava no Frontend era a…
 date: '2016-10-10T13:49:35.026Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1__fDCDg________xV7Zx6zeLgXMQ.jpeg"
+image: "../../_imgs/1__fDCDg________xV7Zx6zeLgXMQ.jpeg"
 language: "pt-br"
 ---
 

@@ -7,7 +7,7 @@ description: >-
 date: '2017-03-23T22:24:56.642Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1__Q__MyURiIgo0mwesuF9bFNg.png"
+image: "../../_imgs/1__Q__MyURiIgo0mwesuF9bFNg.png"
 language: "pt-br"
 ---
 
@@ -22,5 +22,5 @@ Há pouco mais de um mês atrás, eu recebi uma proposta da [BEN Group](http://b
 
 Eu nunca fui de me acomodar! Faz parte de mim estar em contínua mudança e buscar por constante evolução. Quando eu recebi a proposta, eu pensei muito antes de tomar uma decisão, mas no final, eu senti que era hora de seguir em frente e buscar um novo desafio.
 
-![Saia da zona de conforto](../../__legacy-img/1__E1svijTSAnq5PcS5YZPV0Q.jpeg)
+![Saia da zona de conforto](../../_imgs/1__E1svijTSAnq5PcS5YZPV0Q.jpeg)
 Saia da zona de conforto

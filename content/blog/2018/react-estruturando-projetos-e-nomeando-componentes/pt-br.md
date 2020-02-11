@@ -7,7 +7,7 @@ description: >-
 date: '2018-02-26T20:39:01.284Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1__RnfoUx35p__wHEv__cVGcV3Q.png"
+image: "../../_imgs/1__RnfoUx35p__wHEv__cVGcV3Q.png"
 language: "pt-br"
 ---
 
@@ -21,7 +21,7 @@ Uma das dúvidas frequentes que vejo, é em relação a estruturação de arquiv
 
 O `create-react-app` gera para nós um projeto básico, contendo em sua raiz os arquivos _.gitinore_, _package.json_, _README.md_, _yarn.lock_, e também gera as pastas _public_ e _src_, onde manteremos o source code da nossa aplicação. Observe a imagem abaixo com a estrutura descrita:
 
-![](../../__legacy-img/1__eXN1LlNnuZmosJ7n7EsJ__Q.png)
+![](../../_imgs/1__eXN1LlNnuZmosJ7n7EsJ__Q.png)
 
 Nesse post iremos focar na pasta _src_ e tudo que estiver fora dela permanecerá intacto.
 
@@ -100,11 +100,11 @@ Esse padrão possui alguns benefícios conforme listados abaixo:
 
 Se o seu editor possui fuzzy search, procurando o arquivo pelo nome `UserForm` você encontrará facilmente o arquivo correto:
 
-![](../../__legacy-img/1__vZO9Ci9a__lrfi2yTP9OiMA.png)
+![](../../_imgs/1__vZO9Ci9a__lrfi2yTP9OiMA.png)
 
 Se você fosse procurar o arquivo navegando na arvore de pastas, você consegue encontrá-lo apenas se orientando pelo nome:
 
-![](../../__legacy-img/1__DLndSrnMgIklk7tAhzgMWg.png)
+![](../../_imgs/1__DLndSrnMgIklk7tAhzgMWg.png)
 
 #### Evita repetição de nomes na importação
 

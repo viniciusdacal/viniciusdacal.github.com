@@ -4,7 +4,7 @@ identifier: "como-deixar-o-terminal-do-mac-colorido"
 date:   2015-02-09 20:00:00
 categories: iniciante
 language: "pt-br"
-image: "../../__legacy-img/como-deixar-o-terminal-do-mac-colorido.jpg"
+image: "../../_imgs/como-deixar-o-terminal-do-mac-colorido.jpg"
 ---
 
 Quando você começa a usar o terminal (linha de comando), sente aquela dificuldade de apenas bater o olho e saber o que está acontecendo ali. Bem, que tal se você pudesse adicionar um pouco de cor para diferenciar mais facilmente uma coisa da outra?

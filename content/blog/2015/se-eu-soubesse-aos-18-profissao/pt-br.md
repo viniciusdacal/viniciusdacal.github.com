@@ -8,7 +8,7 @@ date: '2015-12-18T13:57:13.149Z'
 categories: []
 keywords: []
 language: "pt-br"
-image: "../../__legacy-img/se-eu-soubesse-aos-18-profissao.jpg"
+image: "../../_imgs/se-eu-soubesse-aos-18-profissao.jpg"
 ---
 
 Há 9 meses atrás escrevi um [post semelhante falando sobre a faculdade](https://medium.com/@viniciusdacal/se-eu-soubesse-aos-18-faculdade-9ee973342620#.wtxv5x2e4), nele eu prometi escrever um post abordando o tema profissão, e aqui estou, cumprindo com a promessa; Antes tarde do que nunca.
@@ -43,7 +43,7 @@ Em novembro de 2011 fiquei sabendo através da faculdade, que teria um evento so
 
 Logo na primeira palestra, com o tema “A nova semântica do HTML5”, eu já comecei a ficar perdido, em meio a tantos termos que eu nunca tinha ouvido falar na vida, e foi ai que eu tive aquele MOMENTO! Aquele que você se da conta que você não sabe NADA.
 
-![](../../__legacy-img/1__Rxzl4__Lnch76TmIdtPqehw.gif)
+![](../../_imgs/1__Rxzl4__Lnch76TmIdtPqehw.gif)
 
 Isso mesmo, NADA, se você ainda não teve esse momento, você ainda terá!
 
@@ -59,7 +59,7 @@ Gostaria de falar que cheguei em casa no outro dia e criei uma framework que aba
 
 Comecei a aprender Javascript, passei pela fase de ser o programador jQuery, de pesquisar por “jQuery Carousel plugin” no google e me sentir o máximo por conseguir implementar um deles em um site, e continuei assim por um bom tempo.
 
-![](../../__legacy-img/1__0G__uU5pAdgSAwlEk44BBzg.jpeg)
+![](../../_imgs/1__0G__uU5pAdgSAwlEk44BBzg.jpeg)
 
 Nunca parei de procurar conteúdo novo para estudar, mas aos poucos vi que todas as coisas novas que eu estava aprendendo, não se aplicavam ao meu local de trabalho, pelo próprio ritmo de agência.
 
@@ -73,7 +73,7 @@ Indo de ônibus de [Umuarama-PR para Porto Alegre](https://www.google.com.br/map
 
 Sem palavras para descrever o que foi participar [desse evento](https://www.youtube.com/watch?v=93Awzbla0yc&list=PLg2lQYZDBwOSyKzM1_nH-jrBGnwjG6JDt), mais um marco histórico para mim. Aprender que Javascript ia MUITO ALÉM do que eu conseguia imaginar e que sim, havia vida pós jQuery.
 
-![](../../__legacy-img/1__AGQZhIFbfxYpzJA__rYiQmg.jpeg)
+![](../../_imgs/1__AGQZhIFbfxYpzJA__rYiQmg.jpeg)
 
 Após o evento, acabei indo para Curitiba, já que eu tinha combinado de ficar no meu tio por um tempo e eu estava sem emprego anyway.
 
@@ -107,7 +107,7 @@ Mas, aqueles três anos de experiência dentro de uma agência, foram fundamenta
 
 Comemorando 20 anos do Javascript, acho que nem tem muito o que falar né? [Best event ever](https://www.youtube.com/watch?v=p1EdfnnPn28&list=PLg2lQYZDBwORUpJTu5MxI71iEQIyc_Lno&index=2)!
 
-![](../../__legacy-img/1__0KU2cyOgiPLRRcKZtS4RMA.jpeg)
+![](../../_imgs/1__0KU2cyOgiPLRRcKZtS4RMA.jpeg)
 
 Em termos de carreira, sou um completo iniciante, a minha está ainda em seu início, mas, se eu pudesse enviar uma carta a mim mesmo quando estava com 18 anos, as seguintes dicas estariam nela:
 

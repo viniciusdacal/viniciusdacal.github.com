@@ -8,7 +8,7 @@ date: '2015-03-27T00:00:00.000Z'
 categories: []
 keywords: []
 language: "pt-br"
-image: "../../__legacy-img/se-eu-soubesse-aos-18-faculdade.jpg"
+image: "../../_imgs/se-eu-soubesse-aos-18-faculdade.jpg"
 ---
 
 O que você deveria saber antes de entrar na faculdade e também durante o curso? Neste post darei dicas que acho relevantes, informações que gostaria de ter antes de ter entrado na faculdade.

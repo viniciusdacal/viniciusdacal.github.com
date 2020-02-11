@@ -7,7 +7,7 @@ description: >-
 date: '2017-08-09T17:32:54.420Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1__qdwNNSaRoN1sgPTDSwhM3g.png"
+image: "../../_imgs/1__qdwNNSaRoN1sgPTDSwhM3g.png"
 language: "pt-br"
 ---
 
@@ -152,7 +152,7 @@ Se pararmos para observar, conseguimos encontrar inúmeros padrões que sempre s
 *   O nome do action creator é o nome da ação do request.
 *   O payload será sempre o conteúdo do request e ele que é o conteúdo dinâmico da action.
 
-![](../../__legacy-img/1__iNJQzsqZh8OkQ5K7bHBEhw.png)
+![](../../_imgs/1__iNJQzsqZh8OkQ5K7bHBEhw.png)
 
 A url também precisa ser dinâmica de certa forma, para podermos passar parâmetros nela quando necessário, como um `id`, por exemplo.
 
@@ -160,7 +160,7 @@ Levando os pontos acima em consideração e inpirado pelo [_redux-sauce_](https:
 
 No exemplo acima, temos a configuração de um request para a criação de um item de **to-do**. Definimos o nome da ação, a respectiva **url** e o **método** do request. Na imagem abaixo, podemos ver um exemplo do retorno da função **createApiActions**:
 
-![](../../__legacy-img/1__XOPmPggHtiQ4NMKT5oKr2A.png)
+![](../../_imgs/1__XOPmPggHtiQ4NMKT5oKr2A.png)
 
 > O nome da action e o namespace devem ser fornecidos sempre no padrão [lower camelcase.](http://wiki.c2.com/?LowerCamelCase)
 
@@ -185,13 +185,13 @@ Para converter os parâmetros que foram definidos na url, serão utilizados os v
 
 Acima, configuramos os requests: **read**, **update** e **otherDynamicUrl**. Depois de defini-los, nós os utilizamos passando para eles um objeto que contém os valores necessários para converter a url. Abaixo segue uma explicação detalhada da **action** **read**:
 
-![](../../__legacy-img/1__XzyvKoerlbJoq8__LFvW__uA.png)
+![](../../_imgs/1__XzyvKoerlbJoq8__LFvW__uA.png)
 
 Como podemos ver na imagem acima, o Arc utiliza o parâmetro `id` que foi passado para o **creator**, para converter a **url**. O Arc também pega todos os parâmetros, com excessão do **payload,** e os injeta dentro do **meta** da **action**. Por essa razão, é possível ver que dentro do **meta** da **action** disparada, além de termos a **url** e  o **method,** nós temos o **id**.
 
 Na imagem abaixo, podemos ver uma explicação da **action** **update**:
 
-![](../../__legacy-img/1__5eWOYf0n3vVXi866dCPWqA.png)
+![](../../_imgs/1__5eWOYf0n3vVXi866dCPWqA.png)
 
 Acima, é possível ver que podemos passar tanto um parâmetro para a url, quanto o payload da action.
 

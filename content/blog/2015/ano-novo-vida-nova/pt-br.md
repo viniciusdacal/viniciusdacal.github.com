@@ -3,7 +3,7 @@ identifier: "ano-novo-vida-nova"
 title:  "Ano novo, vida nova!"
 date:   2015-01-19 20:00:00
 categories: offtopic
-image: "../../__legacy-img/ano-novo-vida-nova.jpg"
+image: "../../_imgs/ano-novo-vida-nova.jpg"
 language: "pt-br"
 ---
 

@@ -7,7 +7,7 @@ description: >-
 date: '2017-09-12T23:36:22.529Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1__qdwNNSaRoN1sgPTDSwhM3g.png"
+image: "../../_imgs/1__qdwNNSaRoN1sgPTDSwhM3g.png"
 language: "en"
 ---
 
@@ -155,7 +155,7 @@ If we pay attention, we can find numerals patterns that keeps repeating. Lets ob
 *   The action creator name is the same as the action.
 *   The **payload** will be always the request’s content, and it will be the dynamic content for the action
 
-![](../../__legacy-img/1__iNJQzsqZh8OkQ5K7bHBEhw.png)
+![](../../_imgs/1__iNJQzsqZh8OkQ5K7bHBEhw.png)
 
 The url need to be dynamic in a certain manner, to allow us passing params to it when needed, as an `id`, for example.
 
@@ -165,7 +165,7 @@ Something that would be declarative and would allow our configs to be validated.
 
 In the above example, we have a config for a request that creates a to-do item. We define the action name and the respective **url** and **method** for the request. On the image bellow, we can see an example of what **createApiAction** returns to us:
 
-![](../../__legacy-img/1__XOPmPggHtiQ4NMKT5oKr2A.png)
+![](../../_imgs/1__XOPmPggHtiQ4NMKT5oKr2A.png)
 
 > The action name and the namespace must be always provided in [lower camelcase.](http://wiki.c2.com/?LowerCamelCase)
 
@@ -190,7 +190,7 @@ To parse the params that were defined in the **url**, will be used the values pa
 
 Above, we configured the requests: **read**, **update** e **otherDynamicUrl.** After define, we use them passing to them an object which contains the necessary values to parse the url. Bellow we have a detailed explanation about the **action read:**
 
-![](../../__legacy-img/1__XzyvKoerlbJoq8__LFvW__uA.png)
+![](../../_imgs/1__XzyvKoerlbJoq8__LFvW__uA.png)
 
 As we can notice in the above image, _Arc_ uses the parameter `id`, that was provided to the creator, to parse the **url**. It also takes any additional param, except the **payload**, and injects them in the **action**’s **meta**.
 
@@ -198,7 +198,7 @@ For that reason, it’s possible to see that beyond the **url** and **method**, 
 
 On the image bellow, we can se an explanation about the **action** **update**:
 
-![](../../__legacy-img/1__5eWOYf0n3vVXi866dCPWqA.png)
+![](../../_imgs/1__5eWOYf0n3vVXi866dCPWqA.png)
 
 Above, we can see that is possible to pass either params to the **url**, even the **payload** for the **action**.
 

@@ -8,7 +8,7 @@ date: '2016-04-02T14:36:34.822Z'
 categories: []
 keywords: []
 language: "pt-br"
-image: "../../__legacy-img/say-no.jpg"
+image: "../../_imgs/say-no.jpg"
 ---
 
 Uma das habilidades mais importantes e que muitas pessoas não a tem, e quando digo muitas pessoas também me incluo entre elas. Acredito que o texto abaixo se encaixa em qualquer área, mas como trabalho com desenvolvimento de software é nesse contexto que o texto será desenvolvido.
@@ -45,4 +45,4 @@ Explicando a situação a pessoa provavelmente irá entender. O mais importante 
 
 Com o tempo você pega o jeito.
 
-![](../../__legacy-img/1____K6fJiY1rznIUhcyvywPig.gif)
+![](../../_imgs/1____K6fJiY1rznIUhcyvywPig.gif)

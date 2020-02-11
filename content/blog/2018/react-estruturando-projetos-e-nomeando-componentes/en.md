@@ -5,7 +5,7 @@ description: How to organize and structure React projects
 date: '2018-03-02T11:51:01.061Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1__RnfoUx35p__wHEv__cVGcV3Q.png"
+image: "../../_imgs/1__RnfoUx35p__wHEv__cVGcV3Q.png"
 language: "en"
 ---
 
@@ -25,7 +25,7 @@ It also generates the folders: `public` and `src`. The last one is where we keep
 
 Take a look the image below, with the described structure:
 
-![](../../__legacy-img/1__eXN1LlNnuZmosJ7n7EsJ__Q.png)
+![](../../_imgs/1__eXN1LlNnuZmosJ7n7EsJ__Q.png)
 
 In this post, we are going to focus on `src` folder. Everything that is outside that, will remain intact.
 
@@ -106,11 +106,11 @@ The above pattern has some benefits we can see below:
 
 If you editor has support to fuzzy search, just searching for the name `UserForm` would make you find the correct file:
 
-![](../../__legacy-img/1__vZO9Ci9a__lrfi2yTP9OiMA.png)
+![](../../_imgs/1__vZO9Ci9a__lrfi2yTP9OiMA.png)
 
 If you want to search the file on the folder tree, you can easily find it just orienting yourself by the component name:
 
-![](../../__legacy-img/1__DLndSrnMgIklk7tAhzgMWg.png)
+![](../../_imgs/1__DLndSrnMgIklk7tAhzgMWg.png)
 
 #### Avoid repeating names on the imports
 

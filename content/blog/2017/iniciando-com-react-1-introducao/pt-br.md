@@ -7,7 +7,7 @@ description: >-
 date: '2017-03-13T11:26:39.782Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1__GkgwSxOKRJktwjI8SAo__WQ.png"
+image: "../../_imgs/1__GkgwSxOKRJktwjI8SAo__WQ.png"
 language: "pt-br"
 ---
 
@@ -25,7 +25,7 @@ O React permite que nós construamos interfaces interativas de uma maneira fáci
 Abaixo segue um exemplo da definição de um componente que chamaremos de **Button**:
 
 Definição de um componente chamado Button.
-![Componente Button renderizado.](../../__legacy-img/1__3Q2z7pDtYByN2CIl0QCAEQ.png)
+![Componente Button renderizado.](../../_imgs/1__3Q2z7pDtYByN2CIl0QCAEQ.png)
 Componente Button renderizado.
 
 > Em um próximo post, abordaremos [os passos para criar um componente](https://blog.coderockr.com/iniciando-com-react-3-criando-componentes-97f7023ca5ab) e explicaremos em detalhes cada item que compõe o código acima.
@@ -37,7 +37,7 @@ Somos levados a repensar o desenvolvimento de nossas aplicações de modo que to
 Segue abaixo um exemplo da definição de um componente **GroupButton**, que reutiliza o componente **Button** que vimos acima:
 
 Definição do componente GroupButton que reutiliza Button.
-![Componente GroupButton renderizado.](../../__legacy-img/1__fF3gVcC__INGvPhieNoGA3A.png)
+![Componente GroupButton renderizado.](../../_imgs/1__fF3gVcC__INGvPhieNoGA3A.png)
 Componente GroupButton renderizado.
 
 ### Desacoplamento

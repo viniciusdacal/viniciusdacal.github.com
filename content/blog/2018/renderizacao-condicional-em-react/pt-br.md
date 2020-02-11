@@ -7,7 +7,7 @@ description: >-
 date: '2018-02-12T19:54:17.488Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1__vitRNIHGSAbLJ7dfCXDOdQ.png"
+image: "../../_imgs/1__vitRNIHGSAbLJ7dfCXDOdQ.png"
 language: "pt-br"
 ---
 
@@ -25,7 +25,7 @@ Não há nada de errado com o exemplo acima, pelo contrário, o código ficou si
 
 Imagine que nossa Lista de usuários seja mais complexa, que ela possua um título e um botão para criar um novo usuário. Nesse caso, a página sempre deveria mostrar o título e o botão. Amensagem de carregamento ficaria aparecendo somente no lugar da lista, conforme a imagem abaixo:
 
-![](../../__legacy-img/1__urlZK7IVsyMj9VblOxbqkw.png)
+![](../../_imgs/1__urlZK7IVsyMj9VblOxbqkw.png)
 
 Levando a imagem acima em consideração, não podemos utilizar o **IF**, pois precisaríamos repetir um bloco inteiro de código só para trocar o conteúdo da lista.
 
@@ -89,7 +89,7 @@ Observe como toda nossa lógica ficou mais simples extraindo o bloco para outro 
 
 Ternários também são bem vindos em casos onde dois blocos se alternam dada uma certa condição. Observe o mockup abaixo de um formulário para a criação de usuário:
 
-![Formulário para criação de usuário](../../__legacy-img/1__HDJ4niB1HJ88O8GdYHPovw.png)
+![Formulário para criação de usuário](../../_imgs/1__HDJ4niB1HJ88O8GdYHPovw.png)
 Formulário para criação de usuário
 
 Conforme a imagem acima, temos os campos: Nome, E-mail, País e um lugar reservado para o que seria o campo estado. O campo estado(Provincy), exige que você selecione um país primeiro. Assim que o país é selecionado, o campo estado ficará disponível na tela, conforme o código abaixo:

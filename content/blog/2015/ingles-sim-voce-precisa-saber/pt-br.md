@@ -8,7 +8,7 @@ date: '2015-01-22T00:00:00.000Z'
 categories: []
 keywords: []
 language: "pt-br"
-image: "../../__legacy-img/ingles-sim-voce-precisa-saber.jpg"
+image: "../../_imgs/ingles-sim-voce-precisa-saber.jpg"
 ---
 
 Neste post eu falarei um pouco sobre a importância do Inglês e darei algumas dicas de como você pode estudar sozinho. Vamos quebrar o paradigma de que a única forma de aprender Inglês é nas escolas de idioma.

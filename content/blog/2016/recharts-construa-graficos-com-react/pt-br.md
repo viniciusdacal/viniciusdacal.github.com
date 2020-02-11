@@ -7,7 +7,7 @@ description: >-
 date: '2016-08-22T18:50:00.832Z'
 categories: []
 keywords: []
-image: "../../__legacy-img/1__ZgC94F4tfJswDIq2WoeUdg.png"
+image: "../../_imgs/1__ZgC94F4tfJswDIq2WoeUdg.png"
 language: "pt-br"
 ---
 
@@ -27,12 +27,12 @@ No nosso componente, importamos os componentes do **Recharts** que iremos utiliz
 
 Com o código acima, obtemos o seguinte resultado:
 
-![Gráfico de linha renderizado pelo Recharts.](../../__legacy-img/1__af9UjLpzsJ__PiMcmcTDEnQ.png)
+![Gráfico de linha renderizado pelo Recharts.](../../_imgs/1__af9UjLpzsJ__PiMcmcTDEnQ.png)
 Gráfico de linha renderizado pelo Recharts.
 
 Na imagem abaixo conseguimos observar quais são os elementos que compõem o gráfico:
 
-![](../../__legacy-img/1__WfFRIrgKGSM4aZr__RoGIyw.jpeg)
+![](../../_imgs/1__WfFRIrgKGSM4aZr__RoGIyw.jpeg)
 
 Cada tipo de gráfico possui seu respectivo componente raiz, que no caso do gráfico acima, é o **LineChart.**
 
@@ -50,7 +50,7 @@ Além do [LineChart](http://recharts.org/api#LineChart), a lib possui outros tip
 
 Ainda é possível mesclar alguns desses gráficos entre si, utilizando o [ComposedChart](http://recharts.org/api#ComposedChart), que permite mesclar um gráfico de linhas, com um de área e com um de barra por exemplo, como podemos ver na imagem abaixo:
 
-![](../../__legacy-img/1__dm0yQ0VfDXQ__5__I__vIpmIA.png)
+![](../../_imgs/1__dm0yQ0VfDXQ__5__I__vIpmIA.png)
 
 ### Customização por CSS
 
@@ -58,8 +58,8 @@ Cada um dos componentes do gráfico possui suas classes, o que permite que você
 
 Abaixo segue o exemplo de dois gráficos customizados, que foram implementados utilizando a lib:
 
-![](../../__legacy-img/1__Gi4ro0h4lX1dVk9cfp6ZOg.png)
-![](../../__legacy-img/1__fbvRI7kxAQzAxhlnroCr4Q.png)
+![](../../_imgs/1__Gi4ro0h4lX1dVk9cfp6ZOg.png)
+![](../../_imgs/1__fbvRI7kxAQzAxhlnroCr4Q.png)
 
 ### Responsividade
 

@@ -8,7 +8,7 @@ date: '2016-02-23T16:04:16.960Z'
 categories: []
 keywords: []
 language: "pt-br"
-image: "../../__legacy-img/socket-io-notify.jpg"
+image: "../../_imgs/socket-io-notify.jpg"
 ---
 
 No final do ano passado, em dois de nossos projetos na [Coderockr](http://www.coderockr.com), surgiu a necessidade de termos uma comunicação real-time entre o servidor e o browser.
