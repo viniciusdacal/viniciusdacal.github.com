@@ -34,7 +34,9 @@ In this post, we are going to focus on `src` folder. Everything that is outside 
 It’s likely that you already seen the separation between _Containers_ and _Presentation Components_ in the some project’s root folder. I mean, inside `src`, you have a folder named `components` and another folder named `containers`:
 
 ```
-src├─ components
+src
+├─ components
+└─ containers
 ```
 
 However, this kind of approach has some issues, as you can see below:
@@ -49,7 +51,10 @@ There’s also a variation of that approach, that keeps this separation, but ins
 Imagine that inside your application, you have the module User. Inside it, you would have two folders to separate your components:
 
 ```
-src└─ User  ├─ components  └─ containers
+src
+└─ User
+  ├─ components
+  └─ containers
 ```
 
 The above approach, minimize the problem about navigating between distant folders in the project tree. However, it adds a lot of noise. Depending on how many modules your application has, you would end up with dozens of `containers` and `components` folders.
@@ -65,13 +70,21 @@ Inside the `components` folder, we group the files by module/feature.
 In a [_CRUD_](https://pt.wikipedia.org/wiki/CRUD)  of user, we would have only the module User. So, our structure would be as the following:
 
 ```
-src└─ components  └─ User
+src
+└─ components
+  └─ User
+    ├─ Form.jsx
+    └─ List.jsx
 ```
 
 When a component is composed by more than one file, we put this component and its files in a folder with the same name. Eg: Let’s say you have a _Form.css_ containing the _Form.jsx’s styles._ In this case, your structure would be like that:
 
 ```
-src└─ components  └─ User    ├─ Form    │ ├─ Form.jsx    │
+src
+  └─ components
+  └─ User
+    ├─ Form
+      ├─ Form.jsx
 ```
 
 > The test files stay with the file that is being tested. In the above case, the test for **Form.jsx** would stay in its same folder and would be named as **Form.spec.jsx**
@@ -88,9 +101,11 @@ Above we saw how to structure folders and separate our components by modules. Ho
 
 > When we talk about naming a component, it’s regarding to the name we give to the **class** or to the **const** that defines the component:
 
-> class **MyComponent** extends Component {
-> }
-> const **MyComponent** () => {};
+```js
+  class MyComponent extends Component {};
+  // or
+  const MyComponent = () => {};
+```
 
 As mentioned before, the name we give to the components, should be clear and unique in the application, in order to make them being easier to find and to avoid possible confusions.
 
@@ -117,18 +132,25 @@ If you want to search the file on the folder tree, you can easily find it just o
 Following the pattern, you will always name the **file** accordingly to its context. Considering the above **form**, we know it is a **user form**, but as we are already inside the **User** folder, we don’t need to repeat that word in the component **file** name. So, we name it only as **Form.jsx**
 
 When I started working with _React_, I used to put the full name in the file. However, that makes you repeat a name a lot of times and the importation path becomes too big. Take a look at the difference between the approaches:
+```js
+import ScreensUserForm from './screens/User/UserForm';
+```
+<p class="centered highlight">VS</p>
 
-import **ScreensUserForm** from '**./screens/User/UserForm**';
-// vs
-import **ScreensUserForm** from '**./screens/User/Form**';
+```js
+import ScreensUserForm from './screens/User/Form';
+```
 
 In the above example, you can’t see the advantage from one approach to other. But the application growing a little, it’s possible to see the difference. Take a look in the example below, considering a component from the project that I work on:
 
+```js
 import MediaPlanViewChannel from '/MediaPlan/MediaPlanView/MediaPlanViewChannel.jsx';
+```
+<p class="centered highlight">VS</p>
 
-// vs
-
+```js
 import MediaPlanViewChannel from './MediaPlan/View/Channel';
+```
 
 Now imagine this multiplied by 5 or 10 times in a single file.
 
@@ -138,19 +160,24 @@ For that reasons, we always name the file accordingly to its context and the com
 
 Screens, as the name already describes, would be the screens that we have in the application.
 
-In a _CRUD_ of users, we would have a screen for the user list, a screen for create a new user and a screen for edit an existent user.
+In a `CRUD` of users, we would have a screen for the user list, a screen for create a new user and a screen for edit an existent user.
 
 A screen is where you use components to compose a page to the application. Ideally, the screen would’t contain any logic and would be a functional component.
 
 We keep the screens in a separated folder in the root of `src`, because they will be grouped accordingly to the route definition and not by modules:
 
 ```
-src├─ components
+src
+├─ components
+└─ screens
+  └─ User
+    ├─ Form.jsx
+    └─ List.jsx
 ```
 
-Considering that the project is using _react-router_, we keep the file _Root.jsx_ inside the `screens` folder, and we define in it all the application routes.
+Considering that the project is using `react-router`, we keep the file `Root.jsx` inside the `screens` folder, and we define in it all the application routes.
 
-The code for _Root.jsx_ would be similar to this:
+The code for `Root.jsx` would be similar to this:
 
 Notice that we put all the screens inside a folder with the same name of the route, `user/ -> User/`. Try to keep a folder for each parent route, and group the sub-routes in it. In this case, we created the folder `User` and we keep the screens List and screen Form in it. This pattern will help you find easily which screen is rendering each route, by just taking a look at the url.
 
@@ -158,10 +185,16 @@ A single screen could be used to render two different routes, as we did above wi
 
 You may notice that all the components contain the Screen as a prefix in it’s name. When the component is located outside the `components` folder, we should name it accordingly to its relative path to `src` folder. A component located at `src/screens/User/List.jsx` should be named as `ScreensUserList`.
 
-With the _Root.jsx_ created, our structure would be the following:
+With the `Root.jsx` created, our structure would be the following:
 
 ```
-src├─ components
+src
+├─ components
+└─ screens
+  ├─ User
+  │ ├─ Form.jsx
+  │ └─ List.jsx
+  └─ Root.jsx
 ```
 
 > Don’t forget to import Root.jsx inside index.js to be the application root component.
@@ -171,14 +204,27 @@ In case you still have a doubt about how a screen should look like, take a look 
 Finally, our application would be structured like that:
 
 ```
-src├─ components
+src
+├─ components
+│  ├─ User
+│  │ ├─ Form
+│  │ │ ├─ Form.jsx
+│  │ │ └─ Form.css
+│  │ └─ List.jsx
+│  └─ UI
+│
+└─ screens
+  ├─ User
+  │ ├─ Form.jsx
+  │ └─ List.jsx
+  └─ Root.jsx
 ```
 
 ### Recapping
 
-*   **Presentational** and **Container** components are kept at `src/**components**`
+*   **Presentational** and **Container** components are kept at `src/components`
 *   Group components by **module/feature.**
-*   Keep generic components inside `src/**components**/**UI**`
+*   Keep generic components inside `src/components/UI`
 *   Keep **screens** simple, with minimum structure and code.
 *   Group screens accordingly to route definition. For a route `/user/list` we would have a screen located at `/src/screens/User/List.jsx`.
 *   Components are named accordingly to its relative path to `components` or `src`. Given that, a component located at `src/components/User/List.jsx` would be named as `UserList`. A component located at `src/screens/User/List` would be named as `ScreensUserList`.
@@ -186,10 +232,8 @@ src├─ components
 
 ### Conclusion
 
-The above tips cover only a piece from organization and structure of a project. I tried to keep it only about _React_ and leave _Redux_ for a future post.
+The above tips cover only a piece from organization and structure of a project. I tried to keep it only about `React` and leave `Redux` for a future post.
 
 How about you? Do you have some approach that you would like to share with us? Write an answer below, I would love to read that!
 
 Did you enjoy the read? Help us spread the word by giving a like and sharing️️️️ ❤️️
-
-Don’t forget to follow me, to receive notifications about future posts!

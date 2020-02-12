@@ -35,6 +35,7 @@ const getPosts = async (graphql, language) => {
               }
               frontmatter {
                 title
+                date(formatString: "MMM DD, YYYY")
               }
             }
           }
@@ -104,7 +105,10 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 }
 
-
+function formatDate(date) {
+  const [y, m, d] = date.split('-');
+  return `${y}/${m}/${d.slice(0,2)}`;
+}
 
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
@@ -113,11 +117,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     let value = createFilePath({ node, getNode })
     const isEN = node.frontmatter.language === 'en';
     const paths = value.split('/');
+    const { date, title } = node.frontmatter;
+
+    value = `/blog/${formatDate(date)}/${stringToSlug(title)}`;
 
     if (isEN) {
-      value = '/en/blog' + paths.slice(0, -3).join('/') + '/' + stringToSlug(node.frontmatter.title) + '/';
-    } else {
-      value = '/blog' + paths.slice(0, -2).join('/') + '/';
+      value = '/en' + value;
     }
 
     createNodeField({

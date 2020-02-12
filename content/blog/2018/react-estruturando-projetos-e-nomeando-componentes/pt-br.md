@@ -19,7 +19,7 @@ Nesse post veremos algumas abordagens que venho utilizando há algum tempo e que
 
 Uma das dúvidas frequentes que vejo, é em relação a estruturação de arquivos e pastas. Neste post partiremos do ponto onde você possui uma estrutura mínima como a criada pelo `create-react-app`.
 
-O `create-react-app` gera para nós um projeto básico, contendo em sua raiz os arquivos _.gitinore_, _package.json_, _README.md_, _yarn.lock_, e também gera as pastas _public_ e _src_, onde manteremos o source code da nossa aplicação. Observe a imagem abaixo com a estrutura descrita:
+O `create-react-app` gera para nós um projeto básico, contendo em sua raiz os arquivos `.gitinore`, `package.json`, `README.md`, `yarn.lock`, e também gera as pastas `public` e `src`, onde manteremos o source code da nossa aplicação. Observe a imagem abaixo com a estrutura descrita:
 
 ![](../../_imgs/1__eXN1LlNnuZmosJ7n7EsJ__Q.png)
 
@@ -27,10 +27,12 @@ Nesse post iremos focar na pasta _src_ e tudo que estiver fora dela permanecerá
 
 ### Containers e Components
 
-Em inúmeros projetos, você já deve ter visto a separação entre _Containers_ e _presentational components_ na raiz do projeto. Ou seja, dentro de _src_, você tem uma pasta chamada _components_ e outra pasta chamada _containers:_
+Em inúmeros projetos, você já deve ter visto a separação entre `Containers` e `presentational components` na raiz do projeto. Ou seja, dentro de `src`, você tem uma pasta chamada `components` e outra pasta chamada `containers:`
 
 ```
-src├─ components
+src
+├─ components
+└─ containers
 ```
 
 Porém, esse tipo de abordagem tem alguns problemas, que listaremos abaixo:
@@ -45,7 +47,10 @@ Também existe uma variação da abordagem acima, que busca manter essa separaç
 Imagine que dentro da sua aplicação você possui o modulo User. Dentro dele, você teria as duas pastas para separar seus componentes:
 
 ```
-src└─ User  ├─ components  └─ containers
+src
+└─ User
+  ├─ components
+  └─ containers
 ```
 
 A abordagem acima reduz um pouco o problema de ficar navegando entre distintas arvores de pastas dentro do projeto. Por outro lado, ela gera muito ruído. Dependendo de quantos módulos a aplicação tiver, você vai acabar com dezenas de pastas com nomes _containers_ e _components._
@@ -61,13 +66,21 @@ Dentro da pasta components, nós agrupamos os arquivos por módulo/feature.
 Em um [_CRUD_](https://pt.wikipedia.org/wiki/CRUD) de usuários, teríamos apenas o módulo User. Sendo assim, nossa estrutura ficaria da seguinte maneira:
 
 ```
-src└─ components  └─ User
+src
+└─ components
+  └─ User
+    ├─ Form.jsx
+    └─ List.jsx
 ```
 
 Quando um componente é composto por mais de um arquivo, colocamos esse componente e seus arquivos em uma pasta com o mesmo nome. Por exemplo: Digamos que você possua um _Form.css_ com os estilos do _Form.jsx_. Nesse caso nossa estrutura ficaria assim:
 
 ```
-src└─ components  └─ User    ├─ Form    │ ├─ Form.jsx    │
+src
+  └─ components
+  └─ User
+    ├─ Form
+      ├─ Form.jsx
 ```
 
 > Os arquivos de testes sempre acompanham o arquivo que está sendo testado. No caso acima, o teste para o **Form.jsx** ficaria na mesma pasta do arquivo em questão e seria nomeado como: **Form.spec.jsx**
@@ -83,10 +96,12 @@ _UI Components_ são componentes genéricos o suficiente para não pertencer a n
 Acima nós vimos como estruturar nossas pastas e separar nossos componentes por módulos, porém, ainda há a questão de como nomear nossos componentes.
 
 > Quando estamos falando de nomear o componente, se trata apenas do nome que damos à **class** ou à **const** que define o componente:
+```js
+  class MyComponent extends Component {};
+  // ou
+  const MyComponent = () => {};
+```
 
-> class **MyComponent** extends Component {
-> }
-> const **MyComponent** () => {};
 
 Como mencionado anteriormente, o nome dado aos componentes deve ser claro e único dentro do sistema, a fim de facilitar sua localização e evitar possíveis confusões. O nome do componente é muito útil quando precisamos inspecioná-lo utilizando ferramentas como o React Dev Tools, e também é muito útil quando ocorre algum tipo de erro na aplicação, o erro sempre vem com o nome do componente onde ele ocorreu.
 
@@ -111,47 +126,64 @@ Se você fosse procurar o arquivo navegando na arvore de pastas, você consegue 
 Seguindo esse padrão, você sempre nomeará o **arquivo** de acordo com o contexto que ele se encontra. No caso do nosso **form**, ele é um **user form**, mas como já estamos dentro da pasta User, não precisamos repetir essa palavra no nome do **arquivo**. Sendo assim, o arquivo em si se chamará apenas **Form.jsx**.
 
 Quando comecei a trabalhar com o React, eu costumava colocar o nome completo no arquivo. Porém, isso pode te levar a repetir um nome muitas vezes e o caminho de importação se torna enorme. Observe a comparação entre um padrão e outro:
+```js
+import ScreensUserForm from './screens/User/UserForm';
+```
+<p class="centered highlight">VS</p>
 
-import **ScreensUserForm** from '**./screens/User/UserForm**';
-// vs
-import **ScreensUserForm** from '**./screens/User/Form**';
-
+```js
+import ScreensUserForm from './screens/User/Form';
+```
 No exemplo acima é difícil enxergar vantagens de um em relação ao outro. Porém, a aplicação ficando um pouco maior, já é possível notar a diferença. Observe o exemplo abaixo de um dos componentes do projeto em que eu trabalho:
 
-import MediaPlanViewChannel from '/MediaPlan/MediaPlanView/MediaPlanViewChannel.jsx';
+```js
+import MediaPlanViewChannel from './MediaPlan/MediaPlanView/MediaPlanViewChannel.jsx';
+```
+<p class="centered highlight">VS</p>
 
-// vs
-
+```js
 import MediaPlanViewChannel from './MediaPlan/View/Channel';
+```
 
-Por esses motivos, sempre nomeamos o **arquivo** de acordo com o contexto que ele se encontra e nomeamos o **componente** de acordo com sua localização em relação a pasta _src_ ou a pasta _components_.
+Por esses motivos, sempre nomeamos o **arquivo** de acordo com o contexto que ele se encontra e nomeamos o **componente** de acordo com sua localização em relação a pasta `src` ou a pasta `components`.
 
 ### Screens
 
 Screens, como o próprio nome já da a entender, seriam as telas que temos dentro da nossa aplicação.
 
-Em um _CRUD_ de usuários, teríamos uma tela para a listagem, uma para a criação e uma tela para a edição. Cada uma dessas telas, seria uma screen.
+Em um `CRUD` de usuários, teríamos uma tela para a listagem, uma para a criação e uma tela para a edição. Cada uma dessas telas, seria uma screen.
 
 Uma screen é onde você utiliza os componentes para compor uma tela. Quanto menor a estrutura da screen, melhor. Idealmente, ela não conterá nenhum tipo de lógica e será um [_functional component_](https://blog.coderockr.com/iniciando-com-react-3-criando-componentes-97f7023ca5ab#f779)_._
 
 Por padrão, nós mantemos as screens em uma pasta separada, na raiz da pasta _src_, pois elas devem ser organizadas de acordo com a definição de rotas e não por módulos:
 
 ```
-src├─ components
+src
+├─ components
+└─ screens
+  └─ User
+    ├─ Form.jsx
+    └─ List.jsx
 ```
 
-Considerando o gerenciador de rotas sendo o react-router, nós mantemos um arquivo _Root.jsx_ dentro da pasta _screens_ e nele nós definimos todas as rotas da aplicação. O código do _Root.jsx_ seria similar ao abaixo:
+Considerando o gerenciador de rotas sendo o react-router, nós mantemos um arquivo `Root.jsx` dentro da pasta `screens` e nele nós definimos todas as rotas da aplicação. O código do `Root.jsx` seria similar ao abaixo:
 
 Observe que colocamos todas as screens dentro de uma pasta com o mesmo nome da rota, `user/ -> User/`. Procure manter uma pasta para cada parent route, agrupando suas sub-rotas. Nesse caso, criamos a pasta`User` e mantemos as screens List e Form dentro dela. Esse padrão ajudará você a encontrar facilmente qual screen está renderizando cada rota, apenas de olhar em uma url.
 
 Uma mesma screen pode ser utilizada em duas rotas diferentes, como fizemos acima com as rotas para criação e edição do usuário.
 
-Pode ser que você tenha notado que todos os componentes tem um prefixo Screens no nome. Quando o componente é criado fora da pasta _components_, devemos nomeá-lo de acordo com a sua localização em relação a pasta _src_. Sendo assim, `src/screens/User/List` se torna `ScreensUserList`.
+Pode ser que você tenha notado que todos os componentes tem um prefixo Screens no nome. Quando o componente é criado fora da pasta `components`, devemos nomeá-lo de acordo com a sua localização em relação a pasta `src`. Sendo assim, `src/screens/User/List` se torna `ScreensUserList`.
 
-Já com o _Root.jsx_ criado, a estrutura de pasta estaria da seguinte forma:
+Já com o `Root.jsx` criado, a estrutura de pasta estaria da seguinte forma:
 
 ```
-src├─ components
+src
+├─ components
+└─ screens
+  ├─ User
+  │ ├─ Form.jsx
+  │ └─ List.jsx
+  └─ Root.jsx
 ```
 
 > Não esqueça de importar o Root.jsx dentro do index.js para servir como o root component da aplicação
@@ -161,18 +193,31 @@ Se você ainda tem dúvidas em relação a construção de uma screen, segue aba
 E por fim, nossa aplicação ficaria estruturada da seguinte forma:
 
 ```
-src├─ components
+src
+├─ components
+│  ├─ User
+│  │ ├─ Form
+│  │ │ ├─ Form.jsx
+│  │ │ └─ Form.css
+│  │ └─ List.jsx
+│  └─ UI
+│
+└─ screens
+  ├─ User
+  │ ├─ Form.jsx
+  │ └─ List.jsx
+  └─ Root.jsx
 ```
 
 ### **Recapitulando**
 
-*   **Presentationals** e **Containers** components são mantidos na pasta `src/**components**`
+*   **Presentationals** e **Containers** components são mantidos na pasta `src/components`
 *   Agrupamos nossos componentes por **módulo/feature.**
-*   Mantemos componentes genéricos dentro da pasta `src/**components**/**UI**`
+*   Mantemos componentes genéricos dentro da pasta `src/components/UI`
 *   Construímos **screens** com uma estrutura mínima utilizando outros componentes.
 *   Agrupamos nossas **screens** de acordo com a definição de rotas. Sendo assim, para uma rota `/user/list` teríamos a screen localizada em `/src/screens/User/List.jsx`.
-*   Componentes são nomeados de acordo com a sua localização em relação a pasta `src` ou a pasta `components`. Sendo assim, um componente localizado em `/src/components/User/List.jsx` seria nomeado como `**UserList**`. Um componente localizado em `/src/screens/User/List` seria nomeado como `**ScreensUserList**`.
-*   Componentes que estão em uma pasta de mesmo nome, não precisam repetir o nome no componente. Sendo assim, um componente localizado em `/src/components/User/List/List.jsx` seria nomeado como `**UserList**` e não como `UserListList`.
+*   Componentes são nomeados de acordo com a sua localização em relação a pasta `src` ou a pasta `components`. Sendo assim, um componente localizado em `/src/components/User/List.jsx` seria nomeado como `UserList`. Um componente localizado em `/src/screens/User/List` seria nomeado como `ScreensUserList`.
+*   Componentes que estão em uma pasta de mesmo nome, não precisam repetir o nome no componente. Sendo assim, um componente localizado em `/src/components/User/List/List.jsx` seria nomeado como `UserList` e não como `UserListList`.
 
 ### Conclusão
 

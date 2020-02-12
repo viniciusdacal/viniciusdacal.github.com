@@ -2,13 +2,28 @@ a {
   color: #ffa700;
   box-shadow: none;
 }
-
+:not(pre) > code[class*="language-"] {
+  padding-left: 3px;
+  padding-right: 3px;
+}
 h1, h2, h3, h4, h5, h6 {
   color: #ffa700;
 }
 
 blockquote {
   border-left-color: #ffa700;
+}
+
+.centered {
+  text-align: center;
+}
+
+.highlight {
+  font-size: 24px;
+  color: #ffa700;
+  font-weight: 700;
+  margin-bottom: 0;
+  font-style: italic;
 }
 
 .post-list__item__title {

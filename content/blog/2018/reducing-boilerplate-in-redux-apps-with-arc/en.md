@@ -57,6 +57,7 @@ The result will be an object, containing the **creators** and the **types** for 
 #### Types
 
 The types from the above config, would look just like the following:
+```js
 
 {
   CREATE: 'CONTACTS\_CREATE',
@@ -64,6 +65,7 @@ The types from the above config, would look just like the following:
   UPDATE: 'CONTACTS\_UPDATE',
   REMOVE: 'CONTACTS\_REMOVE',
 }
+```
 
 > Notice: the namespace we provided in the config, was used to prefix the action types value, in order to avoid having two different actions with the same name in the application**.**
 
@@ -72,6 +74,7 @@ Based on the above object, wherever you would like to use the type **CREATE**, y
 #### Creators
 
 Based on our CRUD config, the creators object would be similar to this:
+```js
 
 const creators = {
   **create**: function (payload, meta, error) {...},
@@ -79,6 +82,7 @@ const creators = {
   **update**: function (payload, meta, error) {...},
   **remove**: function (payload, meta, error) {...},
 };
+```
 
 Creators creates the actions using the `payload`, `meta` and `error` arguments. They are all optionals, so, you can omit them as you like.
 

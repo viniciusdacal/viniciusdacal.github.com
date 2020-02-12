@@ -58,7 +58,13 @@ const Bio = ({ language }) => {
 
         </p>
         <div className="bio__social-links">
-          <strong>Me siga nas redes sociais:</strong>
+          <strong>
+            {language === 'pt-br'
+              ? 'Me Siga nas redes sociais'
+              : 'Follow me on social media'
+            }
+            :
+          </strong>
           <a
             href={`https://www.youtube.com/channel/${social.youtube}`}
             target="_blank"

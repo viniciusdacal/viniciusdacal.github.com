@@ -20,8 +20,7 @@ const BlogIndex = ({ data, location }) => {
       avatar={avatar}
       language="pt-br"
     >
-
-      <SEO title="All posts" />
+      <SEO title="Home" />
       <div className="post-list">
         {posts.map(({ node }) => (
           <article className="post-list__item" key={node.fields.slug}>

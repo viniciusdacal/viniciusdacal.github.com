@@ -50,18 +50,21 @@ It is important to understand how the expressions work, because sometimes you ma
 #### Readability
 
 Since we are including logic within _JSX_, we have to be careful to maintain the readability of the code. For this reason, for expressions with more than two items, it is interesting to create a variable to abstract the validation items. An example:
+```js
+  {!isLoading && !results.length && (
+    <span>NO RESULTS FOUND</span>
+  )}
+```
+  <p class="centered highlight">VS</p>
 
-{!isLoading && !results.length && (
-  <span>**NO RESULTS FOUND**</span>
-)}
+```js
 
-// VS
+  const shouldDisplayNotFound = !isLoading && !results.length;
 
-const shouldDisplayNotFound = !isLoading && !results.length;
-
-{shouldDisplayNotFound && (
-  <span>**NO RESULTS FOUND**</span>
-)}
+  {shouldDisplayNotFound && (
+    <span>NO RESULTS FOUND</span>
+  )}
+```
 
 The above example serves only to understand the concept, I know that we do not see clearly the advantages of one approach to another. That’s because we have a small block of code in front of us. But below we will see this same applied concept in a more practical way.
 
