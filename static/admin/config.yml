@@ -11,7 +11,7 @@ collections:
     folder: "content/blog"
     path: "{{year}}/{{identifier}}/{{language}}"
     slug: "{{year}}/{{identifier}}/{{language}}"
-    media_folder: '/content/blog/__imgs'
+    media_folder: '/content/blog/_imgs'
     public_folder: '/blog/img'
     create: true
     editor:
