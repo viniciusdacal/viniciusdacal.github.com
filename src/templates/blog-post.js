@@ -132,7 +132,7 @@ const BlogPost = ({ data, pageContext, location }) => {
 export default BlogPost
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query BlogPostBySlug($slug: String!, $language: String!, $dateFormat: String!) {
     site {
       siteMetadata {
         title
@@ -147,7 +147,7 @@ export const pageQuery = graphql`
       }
       frontmatter {
         title
-        date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+        date(locale: $language, formatString: $dateFormat)
         description
         language
 

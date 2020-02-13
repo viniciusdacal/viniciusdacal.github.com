@@ -79,8 +79,9 @@ exports.createPages = async ({ graphql, actions }) => {
       component: blogPost,
       context: {
         slug: post.node.fields.slug,
+        language: 'pt-br',
+        dateFormat: 'DD [de] MMMM [de] YYYY',
         translation: enLinks[identifier],
-        heyhey: 'test',
         previous,
         next,
       },
@@ -98,6 +99,8 @@ exports.createPages = async ({ graphql, actions }) => {
       context: {
         slug: post.node.fields.slug,
         translation: ptLinks[identifier],
+        language: 'en',
+        dateFormat: 'MMM DD, YYYY',
         previous,
         next,
       },
