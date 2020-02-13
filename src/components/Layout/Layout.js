@@ -15,32 +15,34 @@ const Layout = ({
   social,
   title,
 }) => (
-  <header>
-    {language === 'pt-br' ? (
-      <Link className="layout__translation-link" to="/en/">EN <span role="img" aria-label="Bandeira da Inglaterra">🇬🇧</span></Link>
-    ) : (
-      <Link className="layout__translation-link" to="/">PT <span role="img" aria-label="Brazil flag">🇧🇷</span></Link>
-    )}
-    <div
-      style={{
-        marginLeft: `auto`,
-        marginRight: `auto`,
-        maxWidth: rhythm(26),
-        padding: `20px ${rhythm(3 / 4)} 0 ${rhythm(3 / 4)}`,
-      }}
-    >
-      <LayoutHeader
-        avatar={avatar}
-        location={location}
-        title={title}
-        author={author}
-        social={social}
-        language={language}
-      />
-    </div>
-    {coverFluid && (
-      <Image fluid={coverFluid} className="post-list__item__thumb" />
-    )}
+  <>
+    <header>
+      {language === 'pt-br' ? (
+        <Link className="layout__translation-link" to="/en/">EN <span role="img" aria-label="Bandeira da Inglaterra">🇬🇧</span></Link>
+      ) : (
+        <Link className="layout__translation-link" to="/">PT <span role="img" aria-label="Brazil flag">🇧🇷</span></Link>
+      )}
+      <div
+        style={{
+          marginLeft: `auto`,
+          marginRight: `auto`,
+          maxWidth: rhythm(26),
+          padding: `20px ${rhythm(3 / 4)} 0 ${rhythm(3 / 4)}`,
+        }}
+      >
+        <LayoutHeader
+          avatar={avatar}
+          location={location}
+          title={title}
+          author={author}
+          social={social}
+          language={language}
+        />
+      </div>
+      {coverFluid && (
+        <Image fluid={coverFluid} className="post-list__item__thumb" />
+      )}
+    </header>
     <div
       style={{
         marginLeft: `auto`,
@@ -56,7 +58,9 @@ const Layout = ({
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
     </div>
-  </header>
+    <script data-ad-client="pub-3746751671571170" async src="https://pagead2.googlesyndication.com/
+pagead/js/adsbygoogle.js"></script>
+  </>
 )
 
 export default Layout
