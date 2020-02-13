@@ -77,10 +77,12 @@ Quando um componente é composto por mais de um arquivo, colocamos esse componen
 
 ```
 src
-  └─ components
+└─ components
   └─ User
     ├─ Form
-      ├─ Form.jsx
+    │ ├─ Form.jsx
+    │ └─ Form.css
+    └─ List.jsx
 ```
 
 > Os arquivos de testes sempre acompanham o arquivo que está sendo testado. No caso acima, o teste para o **Form.jsx** ficaria na mesma pasta do arquivo em questão e seria nomeado como: **Form.spec.jsx**

@@ -81,10 +81,12 @@ When a component is composed by more than one file, we put this component and it
 
 ```
 src
-  └─ components
+└─ components
   └─ User
     ├─ Form
-      ├─ Form.jsx
+    │ ├─ Form.jsx
+    │ └─ Form.css
+    └─ List.jsx
 ```
 
 > The test files stay with the file that is being tested. In the above case, the test for **Form.jsx** would stay in its same folder and would be named as **Form.spec.jsx**
