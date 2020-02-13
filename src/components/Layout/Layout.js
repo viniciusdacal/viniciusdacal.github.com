@@ -58,8 +58,6 @@ const Layout = ({
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
     </div>
-    <script data-ad-client="pub-3746751671571170" async src="https://pagead2.googlesyndication.com/
-pagead/js/adsbygoogle.js"></script>
   </>
 )
 
