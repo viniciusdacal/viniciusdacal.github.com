@@ -108,6 +108,7 @@ export const BlogPostTemplate = ({
           <DisqusWrapper slug={post.fields.slug} title={title} />
         </>
       )}
+      <script async data-uid="1f155a4aa1" src="https://tremendous-innovator-7501.ck.page/1f155a4aa1/index.js" />
     </Layout>
   )
 }
