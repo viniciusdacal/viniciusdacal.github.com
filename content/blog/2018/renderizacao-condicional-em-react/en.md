@@ -17,6 +17,28 @@ When we are developing a React application, we often need to show or hide an ele
 
 IF is the most basic approach of all and probably the one you will mostly see, but it is restricted to the total block of the component. You use an IF with your condition and return the element to be rendered. Observe the example below:
 
+```jsx
+const UserList = ({ isLoading, results }) => (
+  <div>
+    <div>
+      <h1>Users</h1>
+      <a href="/users/create">New User</a>
+    </div>
+    <div>
+      {isLoading && <span>Loading...</span>}
+
+      {!isLoading && (
+        <ul>
+          {result.map((user) => (
+            <li key={user.id}>{user.name}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </div>
+);
+```
+
 Above we have a list of users, who receives the `isLoading` props and `results`. If `isLoading` is true, we return a message stating that it is loading, otherwise, we render the list of users.
 
 > Note that we **DO NOT** use **ELSE** since there is no need as we use the **return** within the first **IF**. Do not be afraid to use more than one **return** per function, this practice will help you to reduce the complexity of the code.
@@ -30,6 +52,17 @@ Imagine that our List of users is more complex, that it has a title and a button
 Considering the above image, we can not use the **IF** because we would need to repeat an entire block of code just to change the contents of the list.
 
 For these cases, we can write an expression using the `&&` logical operator within our _JSX_, as in the example below:
+```jsx
+const user = {
+  name: 'John',
+  surname: 'Doe',
+  address: null,
+};
+
+const userName = user && user.name // John
+const address = user && user.address // null
+const zipCode = user && user.address && user.address.zipcode // null
+```
 
 As in the example above, we can use braces (`{}`) to insert a _JS_ expression inside _JSX_. React will get the result of each expression and will render on the screen. When an expression returns a `Boolean`, `undefined` or `null`, _React_ just ignores, not rendering anything!
 
@@ -51,30 +84,85 @@ It is important to understand how the expressions work, because sometimes you ma
 
 Since we are including logic within _JSX_, we have to be careful to maintain the readability of the code. For this reason, for expressions with more than two items, it is interesting to create a variable to abstract the validation items. An example:
 ```js
-  {!isLoading && !results.length && (
-    <span>NO RESULTS FOUND</span>
-  )}
+{!isLoading && !results.length && (
+  <span>NO RESULTS FOUND</span>
+)}
 ```
   <p class="centered highlight">VS</p>
 
 ```js
+const shouldDisplayNotFound = !isLoading && !results.length;
 
-  const shouldDisplayNotFound = !isLoading && !results.length;
-
-  {shouldDisplayNotFound && (
-    <span>NO RESULTS FOUND</span>
-  )}
+{shouldDisplayNotFound && (
+  <span>NO RESULTS FOUND</span>
+)}
 ```
 
 The above example serves only to understand the concept, I know that we do not see clearly the advantages of one approach to another. That’s because we have a small block of code in front of us. But below we will see this same applied concept in a more practical way.
 
-Let’s say for our list of users, we need to show a message when no record has been found. However, we can only display this message after the result has already been loaded. In this way, we can check the number of results through `results.length`. Below, we will see how this logic would look without using variables.
+Let’s say for our list of users, we need to show a message when no record has been found. However, we can only display this message after the result has already been loaded. In this way, we can check the number of results through `results.length`. Below, see how this logic would look without using variables:
+
+```jsx
+const UserList = ({ isLoading, results }) => (
+  <div>
+    <div>
+      <h1>Users</h1>
+      <a href="/users/create">New User</a>
+    </div>
+    <div>
+      {isLoading && <span>Loading...</span>}
+      {!isLoading && !results.length && (
+        <span>No Results Found</span>
+      )}
+      {!isLoading && results.length > 0 && (
+        <ul>
+          {result.map((user) => (
+            <li key={user.id}>{user.name}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </div>
+);
+```
 
 Above we see that the logic begins to get a bit complex to be in the middle of _JSX_, but we still can understand it. Basically, in all checks, we need to consider `isLoading`, to ensure that the list is loaded and only then base us on `results.length` to tell whether there are results or not.
 
 > Note that to show the list, we checked whether the length was greater than `0`. Remember how the values of an expression are interpreted and how the result of the expression is obtained? If we just checked if the length was truthy, writing `results.length &&`, if it were `0`, that would be the result of the expression and then React would print `0` on the screen.
 
-Considering the previous example, imagine now that besides treating a state where there are no results, you also need to display a different message if there is an error in the request. Notice what the code looks like:
+Considering the previous example, imagine now that besides treating a state where there are no results, you also need to display a different message if there is an error in the request. Observe what the code looks like:
+
+```jsx
+const UserList = ({ isLoading, results, error }) => (
+  <div>
+    <div>
+      <h1>Users</h1>
+      <a href="/users/create">New User</a>
+    </div>
+    <div>
+      {error && <span>Something is not right!</span>}
+      {!error && isLoading && <span>Loading...</span>}
+      {!error && !isLoading && !results.length && (
+        <span>No Results Found</span>
+      )}
+      {!error && !isLoading && results.length > 0 && (
+        <ul>
+          {result.map((user) => (
+            <li key={user.id}>{user.name}</li>
+          ))}
+        </ul>
+      )}
+      {!error && !isLoading && results.length > 0 && (
+        <ul>
+          {result.map((user) => (
+            <li key={user.id}>{user.name}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </div>
+);
+```
 
 Notice that the complexity begins to get bigger and it becomes difficult to understand what is happening. Let’s explore ways to simplify our code!
 
@@ -82,11 +170,80 @@ Notice that the complexity begins to get bigger and it becomes difficult to unde
 
 As mentioned above, it is possible to take the piece from each expression that refers to the validation and extract them to variables, with declarative names. In this way, our logic will become a bit clearer. Note the code below:
 
+```jsx
+const UserList = ({ isLoading, results, error }) => {
+  const shouldDisplayLoader = !error && isLoading;
+  const shouldDisplayNoResults = !error && !isLoading && !results.length;
+  const shouldDisplayList = !error && !isLoading && results.length > 0;
+
+  return (
+    <div>
+      <div>
+        <h1>Users</h1>
+        <a href="/users/create">New User</a>
+      </div>
+      <div>
+        {error && <span>Something is not right!</span>}
+        {shouldDisplayLoader && <span>Loading...</span>}
+        {shouldDisplayNoResults && (
+          <span>No Results Found</span>
+        )}
+        {shouldDisplayList && (
+          <ul>
+            {result.map((user) => (
+              <li key={user.id}>{user.name}</li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </div>
+  );
+};
+```
+
 We can see that extracting the logic from the middle of _JSX_, it is possible to understand it more easily, besides the variable name already make clear what the expression represents. Anyone who would maintain the code in the future could change the validations without much fear.
 
 ### Extraction of blocks
 
 Note that in our example, most validations are centered on a single block. So, we can extract the block in question into a function, or turn it into another component, as in the example below:
+
+```jsx
+const UserListResults = ({ error, results, isLoading }) => {
+  if (error) {
+    return <span>Something is not right!</span>;
+  }
+
+  if (isLoading) {
+    return <span>Loading...</span>;
+  }
+
+  if (!results.length) {
+    return <span>No Results Found</span>;
+  }
+
+  return (
+    <ul>
+      {result.map((user) => (
+        <li key={user.id}>{user.name}</li>
+      ))}
+    </ul>
+  );
+}
+
+const UserList = ({ isLoading, results, error }) => (
+  <div>
+    <h1>Users</h1>
+    <a href="/users/create">New User</a>
+  </div>
+  <div>
+    <UserListResults
+      error={error}
+      results={results}
+      isLoading={isLoading}
+    />
+  </div>
+);
+```
 
 Observe how all our logic got simpler by extracting the block to another component. See also that we are using again the approach of the **IFs** with the return. This approach is also known as Early return. When we use _Early return_, our logics tend to be simpler, since the next validation does not have to worry about the previous one. Ex: To check if it is loading, I do not have to worry if an error has occurred or not, since this case has already been handled in the previous **IF**.
 
@@ -98,6 +255,39 @@ Ternaries are also welcome in cases where two blocks alternate given a certain c
 
 As the image above, we have the fields: Name, Email, Country and a place reserved for what would be the Province field. The Province field, requires you to select a country first. Once the country is selected, the status field will be available on the screen, according to the code below:
 
+```jsx
+const UserForm = ({ onChange, values }) => (
+  <div>
+    <h1>User</h1>
+    <div>
+      <div className="row">
+        <div className="form-group">
+          <label>Name</label>
+          <input type="text" name="name" value={values.name} onChange={onChange} />
+        </div>
+        <div className="form-group">
+          <label>Email</label>
+          <input type="email" name="email" value={values.email} onChange={onChange} />
+        </div>
+      </div>
+      <div className="row">
+        <div className="form-group">
+          <label>Country</label>
+          <CountrySelector name="country" value={values.country} onChange={onChange} />
+        </div>
+        <div className="form-group">
+          <label>Province</label>
+          {values.country
+            ? <ProvinceSelector name="province" value={values.province} onChange={onChange} />
+            : <span>Select a country first</span>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+);
+```
+
 > Let’s not go into the `onChange` or into the logic to save the state, just assume that `values` will always have the updated value of the form fields.
 
 Based on values, we write a ternary to display the `ProvinceSelector` if the `country` value is present, otherwise, we will display the message. The ternary is very useful, but it is not applicable everywhere. I would avoid using it to render large blocks of code, by making it difficult to read in some cases.
@@ -106,7 +296,28 @@ Based on values, we write a ternary to display the `ProvinceSelector` if the `co
 
 Handlers are also used in specific cases. When you need to render different content to the same block, all of them based on a given value.
 
-Imagine that you are developing a generic component for presenting data. Each data has a type, which can be `date`, `number`, `currency`, etc … For each type, you need to designate a different formatting/style. For this situation, we could use handlers.
+Imagine that you are developing a generic component for presenting data. Each data has a type, which can be `date`, `number`, `currency`, etc … For each type, you need to designate a different formatting/style. For this situation, we could use handlers:
+
+```jsx
+const handlers = {
+  number: value => <NumberDisplay>{value}</NumberDisplay>
+  currency: value => <CurrencyDisplay customProps value={value} />
+  time: value => <TimeDisplay time={value} customProps />
+  date: value => <DateDisplay date={value}  showTime={false} />
+  default: value => value,
+};
+
+const displayData = (type, value) => {
+  const handler = handlers[type] || handlers.default;
+  return handler(value);
+};
+
+const DataDisplay = ({ type, value }) => (
+  <div>
+    {displayData(type, value)}
+  </div>
+);
+```
 
 Handlers are nothing more than a key-value object, where the **key** is the unique identifier of each handler within the context and the **value** is a function that will be responsible for rendering the particular block.
 

@@ -293,7 +293,7 @@ const UserForm = ({ onChange, values }) => (
 
 Com base no values, escrevemos um ternário para mostrar o `ProvincySelector` caso o valor `country` esteja presente, caso contrário, mostramos a mensagem. O ternário é muito útil, porém não é aplicável em todos os lugares. Eu evitaria utilizá-lo para renderizar grandes blocos de código, por dificultar a leitura em alguns casos.
 
-### Utilizando Lookups
+### Utilizando handlers
 
 Handlers também são utilizados em casos específicos. Quando você precisa renderizar diferentes conteúdos para um mesmo bloco, todos eles baseados em um dado valor.
 
