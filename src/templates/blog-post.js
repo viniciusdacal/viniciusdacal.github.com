@@ -4,6 +4,7 @@ import ReactGA from 'react-ga';
 import Bio from "../components/Bio/Bio"
 import Layout from "../components/Layout/Layout";
 import DisqusWrapper from '../components/DisqusWrapper/DisqusWrapper';
+import SubscribeForm from '../components/SubscribeForm/SubscribeForm';
 import SEO from "../components/seo";
 import { rhythm, scale } from "../utils/typography"
 import './blog-post.css';
@@ -73,7 +74,8 @@ export const BlogPostTemplate = ({
             {post.frontmatter.date}
           </p>
         </header>
-        <section dangerouslySetInnerHTML={{ __html: post.html }} />
+        <section dangerouslySetInnerHTML={{ __html: post.html }} className="blog-post__article" />
+        <SubscribeForm language={language}/>
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -105,10 +107,10 @@ export const BlogPostTemplate = ({
               </li>
             </ul>
           </nav>
+
           <DisqusWrapper slug={post.fields.slug} title={title} />
         </>
       )}
-      <script async data-uid="1f155a4aa1" src="https://tremendous-innovator-7501.ck.page/1f155a4aa1/index.js" />
     </Layout>
   )
 }

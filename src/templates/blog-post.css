@@ -21,3 +21,6 @@
 .blog-post .gatsby-resp-image-wrapper {
   max-width: 100%;
 }
+.blog-post__article p {
+  text-align: justify;
+}
