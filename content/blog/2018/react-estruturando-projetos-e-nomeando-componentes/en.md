@@ -31,7 +31,7 @@ In this post, we are going to focus on `src` folder. Everything that is outside 
 
 ### Containers and Components
 
-It’s likely that you already seen the separation between _Containers_ and _Presentation Components_ in the some project’s root folder. I mean, inside `src`, you have a folder named `components` and another folder named `containers`:
+It’s likely that you already seen the separation between _Containers_ and _Presentation Components_ in some project’s root folder. I mean, having two different folders inside `src`, named `components` and `containers`:
 
 ```
 src
