@@ -17,6 +17,28 @@ Quando estamos desenvolvendo uma aplicação React, é comum precisarmos mostrar
 
 IF É a abordagem mais básica de todas e provavelmente a que você mais verá, porém se restringe ao bloco total do componente. Você utiliza um IF com a sua condição e retorna o elemento a ser renderizado. Observe o exemplo abaixo:
 
+```jsx
+const UserList = ({ isLoading, results }) => (
+  <div>
+    <div>
+      <h1>Users</h1>
+      <a href="/users/create">New User</a>
+    </div>
+    <div>
+      {isLoading && <span>Loading...</span>}
+
+      {!isLoading && (
+        <ul>
+          {result.map((user) => (
+            <li key={user.id}>{user.name}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </div>
+);
+```
+
 Acima, temos uma lista de usuários, que recebe as props `isLoading` e `results`. Caso `isLoading` seja true, nós retornamos uma mensagem informando que está carregando, caso contrário, renderizamos a lista de usuários.
 
 > Observe que **NÃO** utilizamos **ELSE**, pois não há necessidade, uma vez que utilizamos o **return** dentro do primeiro **IF**. Não tenha medo de utilizar mais de um **return** por função, essa prática inclusive, te ajudará a diminuir a complexidade do código.
@@ -36,6 +58,18 @@ Conforme o exemplo acima, podemos utilizar chaves `{}` para inserir uma express�
 #### Entendendo expressões
 
 Quando utilizamos o operador lógico `&&` o JS irá interpretar cada valor da expressão, até chegar ao último valor ou algum deles retornar um [_falsy value_](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)_._ Em qualquer dos casos, o último valor interpretado será resultado da expressão. Exemplo:
+
+```jsx
+const user = {
+  name: 'John',
+  surname: 'Doe',
+  address: null,
+};
+
+const userName = user && user.name // John
+const address = user && user.address // null
+const zipCode = user && user.address && user.address.zipcode // null
+```
 
 Conforme o exemplo acima, a partir da linha 7, o primeiro elemento, `user`, é interpretado. Como ele é um [_truthy value_](https://developer.mozilla.org/en-US/docs/Glossary/Truthy), o cursor passa para o segundo elemento, que é o `user.name`. Como esse é o último elemento interpretado, o resultado da expressão será o valor do segundo elemento: `'John'`.
 
@@ -66,7 +100,31 @@ const shouldDisplayNotFound = !isLoading && !results.length;
 ```
 O exemplo acima serve apenas para entendermos o conceito, eu sei que por ele não dá pra ver vantagens de uma abordagem em relação a outra. Isso, porque temos um bloco pequeno de código na nossa frente. Mas abaixo veremos esse mesmo conceito aplicado de uma forma mais prática.
 
-Digamos que para a nossa lista de usuários, nós precisamos mostrar uma mensagem quando nenhum registro foi encontrado. Porém, só podemos mostrar essa mensagem depois que o resultado já foi carregado. Dessa maneira, podemos verificar o número de resultados através do `results.length`. Abaixo, veremos como ficaria essa lógica sem utilizar variáveis.
+Digamos que para a nossa lista de usuários, nós precisamos mostrar uma mensagem quando nenhum registro foi encontrado. Porém, só podemos mostrar essa mensagem depois que o resultado já foi carregado. Dessa maneira, podemos verificar o número de resultados através do `results.length`. Abaixo, veremos como ficaria essa lógica sem utilizar variáveis:
+
+```jsx
+const UserList = ({ isLoading, results }) => (
+  <div>
+    <div>
+      <h1>Users</h1>
+      <a href="/users/create">New User</a>
+    </div>
+    <div>
+      {isLoading && <span>Loading...</span>}
+      {!isLoading && !results.length && (
+        <span>No Results Found</span>
+      )}
+      {!isLoading && results.length > 0 && (
+        <ul>
+          {result.map((user) => (
+            <li key={user.id}>{user.name}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </div>
+);
+```
 
 Acima vemos que a lógica começa a ficar um pouco complexa para estar no meio do _JSX_, mas ainda assim conseguimos entendê-la. Basicamente, em todas as verificações, precisamos considerar o `isLoading`, para garantir que a lista esteja carregada e só então nos basear em `results.length` para dizer se há ou não resultados.
 
@@ -74,17 +132,118 @@ Acima vemos que a lógica começa a ficar um pouco complexa para estar no meio d
 
 Considerando o exemplo anterior, imagine agora, que além de tratar um estado em que não há resultados, você também precise mostrar uma mensagem diferente, caso houver um erro no request. Observe como ficaria o código:
 
+```jsx
+const UserList = ({ isLoading, results, error }) => (
+  <div>
+    <div>
+      <h1>Users</h1>
+      <a href="/users/create">New User</a>
+    </div>
+    <div>
+      {error && <span>Something is not right!</span>}
+      {!error && isLoading && <span>Loading...</span>}
+      {!error && !isLoading && !results.length && (
+        <span>No Results Found</span>
+      )}
+      {!error && !isLoading && results.length > 0 && (
+        <ul>
+          {result.map((user) => (
+            <li key={user.id}>{user.name}</li>
+          ))}
+        </ul>
+      )}
+      {!error && !isLoading && results.length > 0 && (
+        <ul>
+          {result.map((user) => (
+            <li key={user.id}>{user.name}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  </div>
+);
+```
+
 Observe que a complexidade começa a ficar cada vez maior e fica dificil de entender o que está acontecendo. Vamos explorar maneiras de simplificar o nosso código!
 
 ### Transformando as validações em variáveis
 
 Como mencionado acima, é possível pegar o trecho de cada expressão que remete a validação e extraí-los para variáveis, com nomes declarativos. Dessa maneira, nossa lógica ficará um pouco mais clara. Observe o código abaixo:
 
+```jsx
+const UserList = ({ isLoading, results, error }) => {
+  const shouldDisplayLoader = !error && isLoading;
+  const shouldDisplayNoResults = !error && !isLoading && !results.length;
+  const shouldDisplayList = !error && !isLoading && results.length > 0;
+
+  return (
+    <div>
+      <div>
+        <h1>Users</h1>
+        <a href="/users/create">New User</a>
+      </div>
+      <div>
+        {error && <span>Something is not right!</span>}
+        {shouldDisplayLoader && <span>Loading...</span>}
+        {shouldDisplayNoResults && (
+          <span>No Results Found</span>
+        )}
+        {shouldDisplayList && (
+          <ul>
+            {result.map((user) => (
+              <li key={user.id}>{user.name}</li>
+            ))}
+          </ul>
+        )}
+      </div>
+    </div>
+  );
+};
+```
+
 Podemos observar que extraindo a lógica do meio do _JSX_, é possível entendê-la mais facilmente, além de o nome da variável já deixar claro o que a expressão representa. Qualquer pessoa que fosse dar manutenção no código no futuro, poderia alterar as validações sem muito receio.
 
 ### Extração de blocos
 
 Observe que no nosso exemplo, a maior parte das validações está centralizada em um único bloco. Sendo assim, podemos extrair o bloco em questão para dentro de uma função, ou então transformá-lo em outro componente, como no exemplo abaixo:
+
+```jsx
+const UserListResults = ({ error, results, isLoading }) => {
+  if (error) {
+    return <span>Something is not right!</span>;
+  }
+
+  if (isLoading) {
+    return <span>Loading...</span>;
+  }
+
+  if (!results.length) {
+    return <span>No Results Found</span>;
+  }
+
+  return (
+    <ul>
+      {result.map((user) => (
+        <li key={user.id}>{user.name}</li>
+      ))}
+    </ul>
+  );
+}
+
+const UserList = ({ isLoading, results, error }) => (
+  <div>
+    <h1>Users</h1>
+    <a href="/users/create">New User</a>
+  </div>
+  <div>
+    <UserListResults
+      error={error}
+      results={results}
+      isLoading={isLoading}
+    />
+  </div>
+);
+```
 
 Observe como toda nossa lógica ficou mais simples extraindo o bloco para outro componente. Observe também, que voltamos a utilizar a abordagem dos **IFs** com o **return**. Essa abordagem também é conhecida como Early return. Quando você utiliza o Early return, as suas lógicas tendem a ser mais simples, uma vez que a próxima validação não precisa se preocupar com a anterior. Ex: Para verificar se está carregando, eu não preciso me preocupar se ocorreu um erro ou não, pois esse caso já foi tratado no **IF** anterior.
 
@@ -97,15 +256,69 @@ Formulário para criação de usuário
 
 Conforme a imagem acima, temos os campos: Nome, E-mail, País e um lugar reservado para o que seria o campo estado. O campo estado(Provincy), exige que você selecione um país primeiro. Assim que o país é selecionado, o campo estado ficará disponível na tela, conforme o código abaixo:
 
+```jsx
+const UserForm = ({ onChange, values }) => (
+  <div>
+    <h1>User</h1>
+    <div>
+      <div className="row">
+        <div className="form-group">
+          <label>Name</label>
+          <input type="text" name="name" value={values.name} onChange={onChange} />
+        </div>
+        <div className="form-group">
+          <label>Email</label>
+          <input type="email" name="email" value={values.email} onChange={onChange} />
+        </div>
+      </div>
+      <div className="row">
+        <div className="form-group">
+          <label>Country</label>
+          <CountrySelector name="country" value={values.country} onChange={onChange} />
+        </div>
+        <div className="form-group">
+          <label>Province</label>
+          {values.country
+            ? <ProvinceSelector name="province" value={values.province} onChange={onChange} />
+            : <span>Select a country first</span>
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+);
+```
+
 > Não vamos adentrar no funcionamento do `onChange` ou do objeto `values`, apenas assuma que `values` sempre terá o valor atualizado dos campos do formulário.
 
 Com base no values, escrevemos um ternário para mostrar o `ProvincySelector` caso o valor `country` esteja presente, caso contrário, mostramos a mensagem. O ternário é muito útil, porém não é aplicável em todos os lugares. Eu evitaria utilizá-lo para renderizar grandes blocos de código, por dificultar a leitura em alguns casos.
 
-### Utilizando Handlers
+### Utilizando Lookups
 
 Handlers também são utilizados em casos específicos. Quando você precisa renderizar diferentes conteúdos para um mesmo bloco, todos eles baseados em um dado valor.
 
 Imagine que você está desenvolvendo um componente genérico para apresentação de dados. Cada dado tem um tipo, que pode ser `date`, `number`, `currency`, etc… Para cada tipo, você precisa designar uma formatação/estilo diferente. Para essa situação, poderíamos utilizar handlers.
+
+```jsx
+const handlers = {
+  number: value => <NumberDisplay>{value}</NumberDisplay>
+  currency: value => <CurrencyDisplay customProps value={value} />
+  time: value => <TimeDisplay time={value} customProps />
+  date: value => <DateDisplay date={value}  showTime={false} />
+  default: value => value,
+};
+
+const displayData = (type, value) => {
+  const handler = handlers[type] || handlers.default;
+  return handler(value);
+};
+
+const DataDisplay = ({ type, value }) => (
+  <div>
+    {displayData(type, value)}
+  </div>
+);
+```
 
 Os handlers não são nada além de um objeto chave-valor, onde a **chave** é o identificador único de cada handler dentro do contexto e o **valor** é uma função que ficará responsável por renderizar o bloco em específico.
 
