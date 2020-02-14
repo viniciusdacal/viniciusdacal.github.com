@@ -31,7 +31,7 @@ Levando a imagem acima em consideração, não podemos utilizar o **IF**, pois p
 
 Para esses casos, podemos escrever uma expressão utilizando o operador lógico `&&` dentro do nosso _JSX_, conforme o exemplo abaixo:
 
-Conforme o exemplo acima, podemos utilizar chaves(`{})` para inserir uma expressão _JS_ dentro do _JSX_. O React pegará o resultado de cada expressão e irá renderizar na tela. Quando uma expressão retorna um `Boolean`, `undefined` ou `null` o React apenas ignora, não renderizando nada!
+Conforme o exemplo acima, podemos utilizar chaves `{}` para inserir uma expressão _JS_ dentro do _JSX_. O React pegará o resultado de cada expressão e irá renderizar na tela. Quando uma expressão retorna um `Boolean`, `undefined` ou `null` o React apenas ignora, não renderizando nada!
 
 #### Entendendo expressões
 
@@ -49,18 +49,21 @@ Por último, no caso do `zipCode`, ocorre o mesmo processo que o `address`. Inte
 
 Como estamos incluindo lógica dentro do _JSX_, temos que ficar atentos para manter a legibilidade do código. Por esse motivo, para expressões com mais de dois itens, é interessante criar uma variável para abstrair os itens da validação. Um exemplo:
 
+```js
 {!isLoading && !results.length && (
   <span>**NENHUM RESULTADO ENCONTRADO**</span>
 )}
+```
+<p class="centered highlight">VS</p>
 
-// VS
-
+```js
 const shouldDisplayNotFound = !isLoading && !results.length;
 
 {shouldDisplayNotFound && (
   <span>**NENHUM RESULTADO ENCONTRADO**</span>
 )}
 
+```
 O exemplo acima serve apenas para entendermos o conceito, eu sei que por ele não dá pra ver vantagens de uma abordagem em relação a outra. Isso, porque temos um bloco pequeno de código na nossa frente. Mas abaixo veremos esse mesmo conceito aplicado de uma forma mais prática.
 
 Digamos que para a nossa lista de usuários, nós precisamos mostrar uma mensagem quando nenhum registro foi encontrado. Porém, só podemos mostrar essa mensagem depois que o resultado já foi carregado. Dessa maneira, podemos verificar o número de resultados através do `results.length`. Abaixo, veremos como ficaria essa lógica sem utilizar variáveis.

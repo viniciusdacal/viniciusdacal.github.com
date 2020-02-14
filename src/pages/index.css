@@ -19,7 +19,7 @@ blockquote {
 }
 
 .centered {
-  text-align: center;
+  text-align: center !important;
 }
 
 .highlight {
