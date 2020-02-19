@@ -24,3 +24,7 @@
 .blog-post__article p {
   text-align: justify;
 }
+
+.blog-post__article ul {
+  padding-left: 25px;
+}
