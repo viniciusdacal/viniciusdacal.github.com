@@ -77,6 +77,12 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: '197317508026813',
+      },
+    },
     `gatsby-plugin-netlify-cms`
     // {
     //   resolve: 'gatsby-plugin-netlify-cms',
