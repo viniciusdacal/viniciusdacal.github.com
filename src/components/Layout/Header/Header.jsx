@@ -54,13 +54,13 @@ const LayoutHeader = ({
         <p className="layout__bio">
           {language === 'pt-br' ? (
             <>
-            Brasileiro, desenvolvedor de software e trabalha remoto para BEN UK.<br />
-            <Emoji name="heart" /> Ama aprender, criar e compartilhar.
+              Brasileiro, desenvolvedor de software e trabalha remoto para BEN UK.<br />
+              <Emoji name="heart" /> Ama aprender, criar e compartilhar.
             </>
           ): (
             <>
-            Brazilian Software Engineer, working remotely for BEN UK.<br/>
-            <Emoji name="heart" /> Loves learning, creating and sharing.
+              Brazilian Software Engineer, working remotely for BEN UK.<br/>
+              <Emoji name="heart" /> Loves learning, creating and sharing.
             </>
           )}
         </p>

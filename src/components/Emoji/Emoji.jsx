@@ -16,13 +16,7 @@ const Emoji = ({ name, ...restProps }) => {
       role="img"
       {...restProps}
       className="emoji"
-      style={{
-        display: 'inline-block',
-        width: 15,
-        height: 15,
-        backgroundSize: '15px',
-        backgroundPosition,
-      }}
+      style={{ backgroundPosition }}
     />
   );
 };

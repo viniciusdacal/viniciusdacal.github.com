@@ -1,3 +1,7 @@
 .emoji {
   background-image: url('./emojis.jpg');
+  width: 15px;
+  height: 15px;
+  background-size: 15px;
+  display: inline-block;
 }
