@@ -1,146 +1,192 @@
-import React from 'react';
+import React, { useState } from 'react';
+import addToMailchimp from 'gatsby-plugin-mailchimp';
 
 import './SubscribeForm.css';
 
-const SubscribeForm = ({ language }) => (
-  <>
-    <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
-    <form
-      action="https://app.convertkit.com/forms/1222250/subscriptions"
-      className="seva-form formkit-form"
-      method="post"
-      data-sv-form="1222250"
-      data-uid="1f155a4aa1"
-      data-format="inline"
-      data-version="5"
-      data-options="{&quot;settings&quot;:{&quot;after_subscribe&quot;:{&quot;action&quot;:&quot;message&quot;,&quot;success_message&quot;:&quot;Success! Now check your email to confirm your subscription.&quot;,&quot;redirect_url&quot;:&quot;&quot;
-      },&quot;analytics&quot;:{&quot;google&quot;:null,&quot;facebook&quot;:null,&quot;segment&quot;:null,&quot;pinterest&quot;:null},&quot;modal&quot;:{&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;powered_by&quot;:{&quot;show&quot;:true,&quot;url&quot;:&quot;https://convertkit.com?utm_source=dynamic&amp;utm_medium=referral&amp;utm_campaign=poweredby&amp;utm_content=form&quot;
-      },&quot;recaptcha&quot;:{&quot;enabled&quot;:false},&quot;return_visitor&quot;:{&quot;action&quot;:&quot;show&quot;,&quot;custom_content&quot;:&quot;&quot;
-      },&quot;slide_in&quot;:{&quot;display_in&quot;:&quot;bottom_right&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15},&quot;sticky_bar&quot;:{&quot;display_in&quot;:&quot;top&quot;,&quot;trigger&quot;:&quot;timer&quot;,&quot;scroll_percentage&quot;:null,&quot;timer&quot;:5,&quot;devices&quot;:&quot;all&quot;,&quot;show_once_every&quot;:15}},&quot;version&quot;:&quot;5&quot;
-      }"
-      min-width="400 500 600 700 800"
-      style={{
-        backgroundColor: 'rgb(255, 255, 255)',
-        borderRadius: '6px',
-      }}
-    >
-      <div data-style="full">
-        <div data-element="column" className="formkit-column" style={{ backgroundColor: 'rgb(249, 250, 251)' }}>
-          <div className="formkit-background" style={{ opacity: '0.3' }}></div>
-          <div
-            className="formkit-header"
-            data-element="header"
-            style={{ color: 'rgb(77, 77, 77)', fontSize: '20px', fontWeight: 700 }}
-          >
-            <h1>
-              {language === 'pt-br'
-                ? 'Junte-se a nossa newsletter'
-                : 'Join the Newsletter'}
+const initialValues = () => ({
+  name: '',
+  email: '',
+});
 
-            </h1>
-          </div>
-          <div
-            className="formkit-subheader"
-            data-element="subheader"
-            style={{
-              color: 'rgb(104, 104, 104)',
-              fontSize: '15px'
-            }}
-          >
-            <p>
-              {language === 'pt-br'
-                ? 'Assine para receber nossos conteúdos por email'
-                : 'Subscribe to get our latest content by email.'}
+const initialForm = () => ({
+  submitting: '',
+  error: '',
+});
 
-            </p>
-          </div>
-          <div className="formkit-image relative">
-            <img
-              className="cursor-pointer focus:outline-blue"
-              src="https://images.unsplash.com/photo-1563207153-f403bf289096?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjY5NzkwfQ?fit=max&amp;w=800"
-              style={{ maxWidth: '100%' }}
-            />
-          </div>
-        </div>
-        <div data-element="column" className="formkit-column">
-          <ul className="formkit-alert formkit-alert-error" data-element="errors" data-group="alert"></ul>
-          <div data-element="fields" className="seva-fields formkit-fields">
-            <div className="formkit-field">
-              <input
-                className="formkit-input"
-                aria-label="Your first name"
-                name="fields[first_name]"
-                placeholder={language === 'pt-br' ? 'Seu nome' : 'Your first name'}
-                type="text"
-                style={{
-                  color: 'rgb(0, 0, 0)',
-                  borderColor: 'rgb(227, 227, 227)',
-                  borderRadius: '4px',
-                  fontWeight: 400
-                }}
-              />
-            </div>
-            <div className="formkit-field">
-              <input
-                className="formkit-input"
-                name="email_address"
-                placeholder={language === 'pt-br' ? 'Seu e-mail' : 'Your email address'}
-                required
-                type="email"
-                style={{
-                  color: 'rgb(0, 0, 0)',
-                  borderColor: 'rgb(227, 227, 227)',
-                  borderRadius: '4px',
-                  fontWeight: 400
-                }}
-              />
-            </div>
-            <button
-              data-element="submit"
-              className="formkit-submit formkit-submit"
+const SubscribeForm = ({ language }) => {
+  const [form, setForm] = useState(initialForm);
+  const [values, setValues] = useState(initialValues);
+
+  const onSubmit = async e => {
+    e.preventDefault();
+    if (!values.email || !values.name) {
+      return;
+    }
+    const nform = {
+      submitting: true,
+      error: '',
+      status: null,
+    };
+    setForm(nform);
+    const response = await addToMailchimp(values.email, {
+      FNAME: values.name,
+    });
+
+    setForm({
+      ...nform,
+      submitting: false,
+    });
+
+    if (response.result === 'success') {
+      setValues(initialValues);
+      setForm({
+        ...initialForm(),
+        status: 'success',
+      });
+    }
+
+    if (response.result === 'error') {
+      if (response.msg.includes('is already subscribed')) {
+        return setForm({
+          ...form,
+          msg: `O e-mail ${values.email} já está inscrito em nossa newsletter`,
+          status: 'error',
+        });
+      } else {
+        return setForm({
+          ...form,
+          msg: `Ocorreu um erro. Tente novamente mais tarde!`,
+          status: 'error',
+        });
+      }
+    }
+  };
+
+  const onChange = ev => {
+    const { name, value } = ev.target;
+
+    setValues({
+      ...values,
+      [name]: value,
+    });
+  };
+
+  return (
+    <>
+      <form
+        action="https://app.convertkit.com/forms/1222250/subscriptions"
+        className="subscribe-form"
+        onSubmit={onSubmit}
+        method="post"
+        style={{
+          backgroundColor: 'rgb(255, 255, 255)',
+          borderRadius: '6px',
+        }}
+      >
+        <div className="subscribe-form__row">
+          <div
+            className="subscribe-form__column"
+            style={{ backgroundColor: 'rgb(249, 250, 251)' }}
+          >
+            <header className="subscribe-form__header">
+              <h1>
+                {language === 'pt-br'
+                  ? 'Junte-se a nossa newsletter'
+                  : 'Join the Newsletter'}
+              </h1>
+            </header>
+            <div
+              className="subscribe-form__subheader"
               style={{
-                color: 'rgb(255, 255, 255)',
-                backgroundColor: 'rgb(22, 119, 190)',
-                borderRadius: '24px',
-                fontWeight: '700',
+                color: 'rgb(104, 104, 104)',
+                fontSize: '15px',
               }}
             >
-              <div className="formkit-spinner"></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <span>Subscribe</span>
-            </button>
+              <p>
+                {language === 'pt-br'
+                  ? 'Assine para receber nossos conteúdos por email'
+                  : 'Subscribe to get our latest content by email.'}
+              </p>
+            </div>
+            <div className="subscribe-form__image relative">
+              <img
+                className="cursor-pointer focus:outline-blue"
+                src="https://images.unsplash.com/photo-1563207153-f403bf289096?ixlib=rb-1.2.1&amp;q=85&amp;fm=jpg&amp;crop=entropy&amp;cs=srgb&amp;ixid=eyJhcHBfaWQiOjY5NzkwfQ?fit=max&amp;w=800"
+              />
+            </div>
           </div>
-          <div
-            className="formkit-guarantee"
-            data-element="guarantee"
-            style={{
-              color: 'rgb(77, 77, 77)',
-              fontSize: '13px',
-              fontWeight: '400',
-            }}
-          >
-            {language === 'pt-br' ? (
-              'Você pode cancelar a inscrição a qualquer hora'
-            ): (
-              'We respect your privacy. Unsubscribe at any time.'
-            )}
-
+          <div className="subscribe-form__column">
+            <ul
+              className="subscribe-form__alert subscribe-form__alert-error"
+              data-group="alert"
+            ></ul>
+            <div className="subscribe-form__fields">
+              <div className="subscribe-form__field">
+                <input
+                  className="subscribe-form__input"
+                  aria-label="Your first name"
+                  name="name"
+                  placeholder={
+                    language === 'pt-br' ? 'Seu nome' : 'Your first name'
+                  }
+                  value={values.name}
+                  onChange={onChange}
+                  type="text"
+                />
+              </div>
+              <div className="subscribe-form__field">
+                <input
+                  className="subscribe-form__input"
+                  name="email"
+                  placeholder={
+                    language === 'pt-br' ? 'Seu e-mail' : 'Your email address'
+                  }
+                  required
+                  type="email"
+                  onChange={onChange}
+                  value={values.email}
+                />
+              </div>
+              <button className="subscribe-form__submit" type="submit">
+                {form.submitting ? (
+                  <div className="subscribe-form__spinner">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    {/* {language === 'pt-br' ? 'Enviando' : 'Sending'}... */}
+                  </div>
+                ) : (
+                  <span>
+                    {language === 'pt-br' ? 'Inscrever-se' : 'Subscribe'}
+                  </span>
+                )}
+              </button>
+              {form.status === 'success' && (
+                <div className="subscribe-form__success">
+                  Obrigado por se juntar a nós!
+                </div>
+              )}
+              {form.status === 'error' && (
+                <div className="subscribe-form__error">{form.msg}</div>
+              )}
+            </div>
+            <div
+              className="subscribe-form__guarantee"
+              style={{
+                color: 'rgb(77, 77, 77)',
+                fontSize: '13px',
+                fontWeight: '400',
+              }}
+            >
+              {language === 'pt-br'
+                ? 'Você pode cancelar a inscrição a qualquer hora'
+                : 'We respect your privacy. Unsubscribe at any time.'}
+            </div>
           </div>
-          <a
-            href="https://convertkit.com?utm_source=dynamic&amp;utm_medium=referral&amp;utm_campaign=poweredby&amp;utm_content=form"
-            className="formkit-powered-by"
-            data-element="powered-by"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Powered By ConvertKit
-          </a>
         </div>
-      </div>
-    </form>
-  </>
-)
+      </form>
+    </>
+  );
+};
 
 export default SubscribeForm;

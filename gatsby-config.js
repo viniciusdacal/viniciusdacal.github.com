@@ -83,7 +83,13 @@ module.exports = {
         pixelId: '197317508026813',
       },
     },
-    `gatsby-plugin-netlify-cms`
+    {
+      resolve: 'gatsby-plugin-mailchimp',
+      options: {
+        endpoint: 'https://viniciusdacal.us19.list-manage.com/subscribe/post?u=5e4a2f5bc0af35d1027bc0805&amp;id=7dee1a7511',
+      },
+    }
+    //`gatsby-plugin-netlify-cms`,
     // {
     //   resolve: 'gatsby-plugin-netlify-cms',
     //   // manualInit: true,

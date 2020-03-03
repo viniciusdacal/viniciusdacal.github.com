@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import Image from 'gatsby-image';
 import LayoutHeader from './Header/Header';
 import { rhythm } from '../../utils/typography';
+import Emoji from '../../components/Emoji/Emoji';
 import './Layout.css';
 
 const Layout = ({
@@ -14,13 +15,14 @@ const Layout = ({
   location,
   social,
   title,
+  imageBy,
 }) => (
   <>
     <header>
       {language === 'pt-br' ? (
-        <Link className="layout__translation-link" to="/en/">EN <span role="img" aria-label="Bandeira da Inglaterra">🇬🇧</span></Link>
+        <Link className="layout__translation-link" to="/en/">EN <Emoji name="uk-flag" aria-label="Bandeira da Inglaterra" /></Link>
       ) : (
-        <Link className="layout__translation-link" to="/">PT <span role="img" aria-label="Brazil flag">🇧🇷</span></Link>
+        <Link className="layout__translation-link" to="/">PT <Emoji name="br-flag" aria-label="Brazil flag"/></Link>
       )}
       <div
         style={{
@@ -42,6 +44,13 @@ const Layout = ({
       {coverFluid && (
         <Image fluid={coverFluid} className="post-list__item__thumb" />
       )}
+      {imageBy && (
+        <div className="post-list__item__image__by">
+          <span>
+            image by <a  target="_blank" rel="noopener noreferrer" href={imageBy.url}>{imageBy.name}</a>
+          </span>
+        </div>
+      )}
     </header>
     <div
       style={{
@@ -52,8 +61,8 @@ const Layout = ({
       }}
     >
       <main>{children}</main>
-      <footer>
-        © {new Date().getFullYear()}, Built with
+      <footer className="footer">
+        Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>

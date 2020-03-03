@@ -42,6 +42,7 @@ export const BlogPostTemplate = ({
       location={location}
       title={siteTitle}
       coverFluid={post.frontmatter.image?.childImageSharp.fluid}
+      imageBy={post.frontmatter.imageBy}
       language={language}
     >
       <SEO
@@ -153,7 +154,10 @@ export const pageQuery = graphql`
         date(locale: $language, formatString: $dateFormat)
         description
         language
-
+        imageBy {
+          url
+          name
+        }
         image {
           id
           publicURL

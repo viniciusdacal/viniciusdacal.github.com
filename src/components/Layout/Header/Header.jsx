@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Image from 'gatsby-image';
+import Emoji from '../../../components/Emoji/Emoji';
 import Icon from '../../../components/Icon/Icon';
 import { rhythm, scale } from '../../../utils/typography';
 
@@ -51,20 +52,15 @@ const LayoutHeader = ({
           </Link>
         </h1>
         <p className="layout__bio">
-          {/* 🇧🇷Brasileiro <br/>
-          👨🏻‍💻Desenvolvedor de software <br/>
-          🇬🇧Trabalha remoto para BEN UK<br/>
-          ❤️Ama aprender, criar e compartilhar */}
-
           {language === 'pt-br' ? (
             <>
             Brasileiro, desenvolvedor de software e trabalha remoto para BEN UK.<br />
-            ❤️ Ama aprender, criar e compartilhar.
+            <Emoji name="heart" /> Ama aprender, criar e compartilhar.
             </>
           ): (
             <>
             Brazilian Software Engineer, working remotely for BEN UK.<br/>
-            ❤️ Loves learning, creating and sharing.
+            <Emoji name="heart" /> Loves learning, creating and sharing.
             </>
           )}
         </p>
