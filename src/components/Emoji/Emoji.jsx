@@ -17,7 +17,7 @@ const Emoji = ({ name, ...restProps }) => {
       {...restProps}
       className="emoji"
       style={{ backgroundPosition }}
-    />
+    ></div>
   );
 };
 
