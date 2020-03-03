@@ -5,7 +5,7 @@ description: >-
   Nesse artigo eu conto um pouco a minha experiência com trabalho remoto e dou dicas para que você possa conseguir uma vaga e ganhar em dolar.
 date: '2020-02-14T20:00:00.284Z'
 categories: []
-keywords: []
+keywords: ['trabalho remoto', 'remote work']
 language: "pt-br"
 image: "./como-ganhar-em-dolar-trabalhando-remoto.jpg"
 imageBy: {

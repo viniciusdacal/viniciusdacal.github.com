@@ -33,9 +33,12 @@ export const BlogPostTemplate = ({
   translation,
   post,
   location,
+  siteUrl,
+  author,
 }) => {
   const { language } = post.frontmatter;
   const { title } = post.frontmatter;
+  const img = post.frontmatter.image?.childImageSharp.fluid.src;
 
   return (
     <Layout
@@ -48,6 +51,25 @@ export const BlogPostTemplate = ({
       <SEO
         title={title}
         description={post.frontmatter.description || post.excerpt}
+        type="article"
+        meta={[
+          {
+            name: 'og:image',
+            content: `${siteUrl}${img}`,
+          },
+          {
+            name: 'article:author',
+            content: author,
+          },
+          {
+            name: 'article:published_time',
+            content: post.frontmatter.datetime,
+          },
+          {
+            name: 'article:tag',
+            content: post.frontmatter?.keywords?.join(','),
+          },
+        ]}
       />
       <article className="blog-post">
         <header>
@@ -119,6 +141,8 @@ export const BlogPostTemplate = ({
 const BlogPost = ({ data, pageContext, location }) => {
   const post = data.markdownRemark;
   const siteTitle = data.site.siteMetadata.title;
+  const siteUrl = data.site.siteMetadata.url;
+  const author = data.site.siteMetadata.author;
   const { previous, next, translation } = pageContext;
 
 
@@ -129,6 +153,8 @@ const BlogPost = ({ data, pageContext, location }) => {
       next={next}
       translation={translation}
       post={post}
+      siteUrl={siteUrl}
+      author={author}
     />
   );
 };
@@ -140,6 +166,8 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        url,
+        author,
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {
@@ -152,8 +180,10 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(locale: $language, formatString: $dateFormat)
+        datetime: date(formatString: "YYYY-MM-DD HH:mm:ss")
         description
         language
+        keywords
         imageBy {
           url
           name

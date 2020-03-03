@@ -3,6 +3,7 @@ module.exports = {
     title: `Vinicius Dacal`,
     author: `Vinicius Dacal`,
     description: `A starter blog demonstrating what Gatsby can do.`,
+    url: 'https://www.viniciusdacal.com',
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `vinicius_dacal`,

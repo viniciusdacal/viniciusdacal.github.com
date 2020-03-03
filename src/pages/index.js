@@ -27,10 +27,12 @@ const BlogIndex = ({ data, location }) => {
             <header>
               <small className="post-list__item__date">{node.frontmatter.date}</small>
               {node.frontmatter.image && (
-                <Image
-                  fluid={node.frontmatter.image.childImageSharp.fluid}
-                  className="post-list__item__thumb"
-                />
+                <Link className="post-list__item__thumb-link" to={node.fields.slug}>
+                  <Image
+                    fluid={node.frontmatter.image.childImageSharp.fluid}
+                    className="post-list__item__thumb"
+                  />
+                </Link>
               )}
               <h3
                 style={{
