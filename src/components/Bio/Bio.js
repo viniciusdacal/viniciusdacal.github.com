@@ -42,21 +42,20 @@ const Bio = ({ language }) => {
         <p className="bio__bio">
           <strong className="bio__bio__name">Vinicius Dacal</strong><br/>
           {language === 'pt-br' ? (
-            <>
+            <div>
               <Emoji name="br-flag" /> Brasileiro <br/>
               <Emoji name="person-macbook" /> Desenvolvedor de software <br/>
               <Emoji name="uk-flag" /> Trabalha remoto para BEN UK<br/>
               <Emoji name="heart" />Ama aprender, criar e compartilhar
-            </>
+            </div>
           ): (
-            <>
+            <div>
               <Emoji name="br-flag" /> Brazilian <br/>
               <Emoji name="person-macbook" /> Software Engineer. <br/>
               <Emoji name="uk-flag" /> Working remotely for BEN UK. <br/>
               <Emoji name="heart" /> Loves learning, creating and sharing.
-            </>
+            </div>
           )}
-
         </p>
         <div className="bio__social-links">
           <strong>
@@ -112,7 +111,6 @@ const Bio = ({ language }) => {
           marginBottom: 0,
           minWidth: 120,
           borderRadius: `100%`,
-
         }}
         imgStyle={{
           borderRadius: `50%`,
