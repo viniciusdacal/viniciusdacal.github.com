@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Image from 'gatsby-image';
 import LayoutHeader from './Header/Header';
-import { rhythm } from '../../utils/typography';
-import Emoji from '../../components/Emoji/Emoji';
+import { rhythm } from 'utils/typography';
+import Emoji from 'components/Emoji/Emoji';
 import './Layout.css';
 
 const Layout = ({

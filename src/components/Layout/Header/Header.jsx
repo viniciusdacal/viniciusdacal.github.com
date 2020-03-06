@@ -1,20 +1,21 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import Image from 'gatsby-image';
-import Icon from '../../../components/Icon/Icon';
-import { rhythm, scale } from '../../../utils/typography';
+import Icon from 'components/Icon/Icon';
+import { rhythm } from 'utils/typography';
+import './Header.css';
 
 const LayoutHeader = ({
   author,
   avatar,
+  language,
   location,
   social,
   title,
-  language,
 }) => {
   const pathname = location ? location.pathname : '';
   const rootPath = `${__PATH_PREFIX__}/`
-  if ([rootPath, `${rootPath}en/`].includes(pathname)) {
+  if ([rootPath, `${rootPath}en/`, `${rootPath}newsletter`].includes(pathname)) {
     return (
       <>
         <Image
@@ -31,21 +32,14 @@ const LayoutHeader = ({
             borderRadius: `50%`,
           }}
         />
-        <h1
-          className="layout__title"
-          style={{
-            ...scale(1),
-            marginBottom: rhythm(0.2),
-            marginTop: 0,
-          }}
-        >
+        <h1 className="layout-header__title">
           <Link
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={`/`}
+            to={language === 'en'? '/en/' : '/'}
           >
             {title}
           </Link>

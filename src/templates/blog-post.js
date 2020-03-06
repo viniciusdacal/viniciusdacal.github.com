@@ -1,12 +1,12 @@
-import React from "react"
-import { Link, graphql } from "gatsby"
+import React from 'react'
+import { Link, graphql } from 'gatsby';
 import ReactGA from 'react-ga';
-import Bio from "../components/Bio/Bio"
-import Layout from "../components/Layout/Layout";
-import DisqusWrapper from '../components/DisqusWrapper/DisqusWrapper';
-import SubscribeForm from '../components/SubscribeForm/SubscribeForm';
-import SEO from "../components/seo";
-import { rhythm, scale } from "../utils/typography"
+import Bio from 'components/Bio/Bio'
+import Layout from 'components/Layout/Layout';
+import DisqusWrapper from 'components/DisqusWrapper/DisqusWrapper';
+import SubscribeForm from 'components/SubscribeForm/SubscribeForm';
+import SEO from 'components/SEO/SEO';
+import { rhythm, scale } from 'utils/typography';
 import './blog-post.css';
 
 function trackLanguageChange(language) {

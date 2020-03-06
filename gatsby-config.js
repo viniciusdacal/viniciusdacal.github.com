@@ -1,8 +1,10 @@
+const path = require('path');
+
 module.exports = {
   siteMetadata: {
     title: `Vinicius Dacal`,
     author: `Vinicius Dacal`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Programação web, desenvolvimento de Software e carreira em TI`,
     url: 'https://www.viniciusdacal.com',
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
@@ -89,18 +91,14 @@ module.exports = {
       options: {
         endpoint: 'https://viniciusdacal.us19.list-manage.com/subscribe/post?u=5e4a2f5bc0af35d1027bc0805&amp;id=7dee1a7511',
       },
+    },
+    {
+      resolve: 'gatsby-plugin-root-import',
+      options: {
+        components: path.join(__dirname, 'src/components'),
+        utils: path.join(__dirname, 'src/utils'),
+        pages: path.join(__dirname, 'src/pages')
+      }
     }
-    //`gatsby-plugin-netlify-cms`,
-    // {
-    //   resolve: 'gatsby-plugin-netlify-cms',
-    //   // manualInit: true,
-    //   options: {
-    //     modulePath: `${__dirname}/src/cms/cms.js`,
-    //   },
-    // },
-    // 'gatsby-plugin-netlify', // make sure to keep it last in the array
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }

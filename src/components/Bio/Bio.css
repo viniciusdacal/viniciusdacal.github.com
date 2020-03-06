@@ -1,5 +1,5 @@
-.bio__bio {
-
+.bio {
+  margin-bottom: 50px;
 }
 
 .bio__bio__name {
@@ -18,3 +18,7 @@
 .bio__social-links__link svg {
   fill: #ffa700;
 }
+.bio__bio-avatar {
+  display: flex;
+}
+

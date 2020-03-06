@@ -4,7 +4,7 @@ a {
 }
 :not(pre) > code[class*="language-"] {
   padding-left: 3px;
-  padding-right: 3px;
+  padding-right: 5px;
 }
 h1, h2, h3, h4, h5, h6 {
   color: #ffa700;
@@ -64,4 +64,12 @@ blockquote {
 .post-list__item__description {
   color: rgba(0,0,0,0.84);
   margin-bottom: 10px;
+}
+
+.gatsby-highlight {
+  margin-bottom: 30px;
+}
+
+.newsletter__subcribe-form {
+  margin-top: 30px;
 }
