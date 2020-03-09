@@ -63,7 +63,6 @@ const Bio = ({ language }) => {
             borderRadius: `50%`,
           }}
         />
-        </div>
       </div>
       <div className="bio__social-links">
         <strong>
