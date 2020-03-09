@@ -2,7 +2,7 @@
 title: Como ganhar em dólar trabalhando remoto
 identifier: como-ganhar-em-dolar-trabalhando-remoto
 description: >-
-  Nesse artigo eu conto um pouco a minha experiência com trabalho remoto e dou dicas para que você possa conseguir uma vaga e ganhar em dolar.
+  Um overview sobre trabalho remoto e dicas para que você possa conseguir uma vaga e ganhar em dólar.
 date: '2020-02-14T20:00:00.284Z'
 categories: []
 keywords: ['trabalho remoto', 'remote work']
