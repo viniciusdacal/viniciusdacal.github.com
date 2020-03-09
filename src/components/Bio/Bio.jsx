@@ -59,6 +59,7 @@ const Bio = ({ language }) => {
             marginBottom: 0,
             minWidth: 120,
             borderRadius: `100%`,
+            position: 'relative',
           }}
           imgStyle={{
             borderRadius: `50%`,

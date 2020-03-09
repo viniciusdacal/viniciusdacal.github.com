@@ -1,5 +1,6 @@
 .bio {
   margin-bottom: 50px;
+  position: relative;
 }
 
 .bio__bio__name {
