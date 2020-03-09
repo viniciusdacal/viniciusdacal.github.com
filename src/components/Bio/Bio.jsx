@@ -2,7 +2,6 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import Image from 'gatsby-image';
 import Icon from 'components/Icon/Icon';
-import Emoji from 'components/Emoji/Emoji';
 import './Bio.css'
 
 const Bio = ({ language }) => {
@@ -37,17 +36,17 @@ const Bio = ({ language }) => {
           <strong className="bio__bio__name">Vinicius Dacal</strong><br/>
           {language === 'pt-br' ? (
             <div>
-              <Emoji name="br-flag" /> Brasileiro <br/>
-              <Emoji name="person-macbook" /> Desenvolvedor de software <br/>
-              <Emoji name="uk-flag" /> Trabalha remoto para BEN UK<br/>
-              <Emoji name="heart" />Ama aprender, criar e compartilhar
+              Brasileiro <br/>
+              Desenvolvedor de software <br/>
+              Trabalha remoto para BEN UK<br/>
+              Ama aprender, criar e compartilhar
             </div>
           ): (
             <div>
-              <Emoji name="br-flag" /> Brazilian <br/>
-              <Emoji name="person-macbook" /> Software Engineer. <br/>
-              <Emoji name="uk-flag" /> Working remotely for BEN UK. <br/>
-              <Emoji name="heart" /> Loves learning, creating and sharing.
+              Brazilian <br/>
+              Software Engineer. <br/>
+              Working remotely for BEN UK. <br/>
+              Loves learning, creating and sharing.
             </div>
           )}
         </p>
@@ -59,12 +58,12 @@ const Bio = ({ language }) => {
             marginBottom: 0,
             minWidth: 120,
             borderRadius: `100%`,
-            position: 'relative',
           }}
           imgStyle={{
             borderRadius: `50%`,
           }}
         />
+        </div>
       </div>
       <div className="bio__social-links">
         <strong>

@@ -3,7 +3,6 @@ import { Link } from 'gatsby';
 import Image from 'gatsby-image';
 import LayoutHeader from './Header/Header';
 import { rhythm } from 'utils/typography';
-import Emoji from 'components/Emoji/Emoji';
 import './Layout.css';
 
 const Layout = ({
@@ -21,9 +20,9 @@ const Layout = ({
   <>
     <header>
       {language === 'pt-br' ? (
-        <Link className="layout__translation-link" to="/en/">EN <Emoji name="uk-flag" aria-label="Bandeira da Inglaterra" /></Link>
+        <Link className="layout__translation-link" to="/en/">EN</Link>
       ) : (
-        <Link className="layout__translation-link" to="/">PT <Emoji name="br-flag" aria-label="Brazil flag"/></Link>
+        <Link className="layout__translation-link" to="/">PT</Link>
       )}
       <div
         style={{
