@@ -8,6 +8,11 @@ categories: []
 keywords: []
 language: "pt-br"
 image: "./array-map-filter-reduce.jpg"
+
+imageBy: {
+  url: "https://unsplash.com/@lazycreekimages",
+  name: "Michael Dziedzic"
+}
 ---
 
 

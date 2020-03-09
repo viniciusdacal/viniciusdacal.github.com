@@ -1,0 +1,16 @@
+.pagination {
+  display: flex;
+  list-style: none;
+}
+
+.pagination__button {
+  border:  1px solid #ffa700;
+  padding: 5px 15px;
+  margin-right: 10px;
+}
+
+
+.pagination__button--is-active {
+  background-color: #ffa700;
+  color: #ffffff;
+}

@@ -16,6 +16,7 @@ const Layout = ({
   social,
   title,
   imageBy,
+  showFullHeader,
 }) => (
   <>
     <header>
@@ -39,13 +40,14 @@ const Layout = ({
           author={author}
           social={social}
           language={language}
+          showFullHeader={showFullHeader}
         />
       </div>
       {coverFluid && (
-        <Image fluid={coverFluid} className="post-list__item__thumb" />
+        <Image fluid={coverFluid} className="layout__blog-list__item__thumb" />
       )}
       {imageBy && (
-        <div className="post-list__item__image__by">
+        <div className="layout__blog-list__item__image__by">
           <span>
             image by <a  target="_blank" rel="noopener noreferrer" href={imageBy.url}>{imageBy.name}</a>
           </span>

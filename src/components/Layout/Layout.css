@@ -21,14 +21,18 @@
   fill: #ffa700;
 }
 
-.post-list__item__image__by {
+.layout__blog-list__item__thumb {
+  margin-top: 20px;
+}
+
+.layout__blog-list__item__image__by {
   width: 100%;
   text-align: center;
   font-size: 12px;
-  margin-top: -20px;
   z-index: 10;
   position: relative;
 }
+
 .footer {
   text-align: center;
 }

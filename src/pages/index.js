@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
-import Image from 'gatsby-image';
 import Layout from 'components/Layout/Layout';
 import SEO from 'components/SEO/SEO';
-import { rhythm } from 'utils/typography';
+import BlogList from 'components/Blog/List/List';
 import './index.css';
 
-const BlogIndex = ({ data, location }) => {
-  const { avatar } = data;
-  const { title, author, social } = data.site.siteMetadata
-  const posts = data.allMarkdownRemark.edges
+const BlogIndex = ({ data, location, pageContext }) => {
+  const { avatar, allMarkdownRemark } = data;
+  const { title, author, social } = data.site.siteMetadata;
+  const { numPages, currentPage } = pageContext;
+  const { totalCount } = allMarkdownRemark;
 
   return (
     <Layout
@@ -19,49 +19,22 @@ const BlogIndex = ({ data, location }) => {
       social={social}
       avatar={avatar}
       language="pt-br"
+      showFullHeader
     >
       <SEO title="Home" />
-      <div className="post-list">
-        {posts.map(({ node }) => (
-          <article className="post-list__item" key={node.fields.slug}>
-            <header>
-              <small className="post-list__item__date">{node.frontmatter.date}</small>
-              {node.frontmatter.image && (
-                <Link className="post-list__item__thumb-link" to={node.fields.slug}>
-                  <Image
-                    fluid={node.frontmatter.image.childImageSharp.fluid}
-                    className="post-list__item__thumb"
-                  />
-                </Link>
-              )}
-              <h3
-                style={{
-                  marginBottom: rhythm(1 / 4),
-                }}
-              >
-                <Link className="post-list__item__title" to={node.fields.slug}>
-                  {node.frontmatter.title || node.fields.slug}
-                </Link>
-              </h3>
-            </header>
-            <section>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
-                }}
-                className="post-list__item__description"
-              />
-            </section>
-          </article>
-        ))}
-      </div>
+      <BlogList
+        numPages={numPages}
+        currentPage={currentPage}
+        data={data}
+      />
+      {totalCount > 5 && <Link to="/blog/2">Ver mais</Link>}
     </Layout>
-  )
-}
+  );
+};
 
 export default BlogIndex;
 export const pageQuery = graphql`
-  query {
+  query IndexQuery {
     site {
       siteMetadata {
         title
@@ -81,8 +54,10 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { frontmatter: { language: { eq: "pt-br" } } },
+      filter: { frontmatter: { language: { eq: "pt-br" } } }
       sort: { fields: [frontmatter___date], order: DESC }
+      limit: 5
+      skip: 0
     ) {
       edges {
         node {
@@ -106,6 +81,7 @@ export const pageQuery = graphql`
           }
         }
       }
+      totalCount
     }
   }
-`
+`;

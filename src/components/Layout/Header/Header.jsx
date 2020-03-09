@@ -12,10 +12,9 @@ const LayoutHeader = ({
   location,
   social,
   title,
+  showFullHeader,
 }) => {
-  const pathname = location ? location.pathname : '';
-  const rootPath = `${__PATH_PREFIX__}/`
-  if ([rootPath, `${rootPath}en/`, `${rootPath}newsletter`].includes(pathname)) {
+  if (showFullHeader) {
     return (
       <>
         <Image

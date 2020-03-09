@@ -1,14 +1,18 @@
 import React from 'react';
-import { Link, graphql } from 'gatsby';
+import { graphql } from 'gatsby';
+import BlogList from 'components/Blog/List/List';
 import Layout from 'components/Layout/Layout';
 import SEO from 'components/SEO/SEO';
-import BlogList from 'components/Blog/List/List';
+import './BlogList.css';
 
-const BlogENIndex = ({ data, location, pageContext }) => {
-  const { avatar, allMarkdownRemark } = data;
+const TemplatesBlogList = ({
+  data,
+  location,
+  pageContext: { numPages, currentPage, language },
+}) => {
+  console.log(data);
+  const { avatar } = data;
   const { title, author, social } = data.site.siteMetadata;
-  const { numPages, currentPage } = pageContext;
-  const { totalCount } = allMarkdownRemark;
 
   return (
     <Layout
@@ -17,23 +21,18 @@ const BlogENIndex = ({ data, location, pageContext }) => {
       author={author}
       social={social}
       avatar={avatar}
-      language="en"
+      language={language}
+      data={data}
       showFullHeader
     >
-      <SEO title="Home" />
-      <BlogList
-        numPages={numPages}
-        currentPage={currentPage}
-        data={data}
-      />
-      {totalCount > 5 && <Link to="/en/blog/2">See more</Link>}
+      <SEO title="Blog" />
+      <BlogList numPages={numPages} currentPage={currentPage} data={data} />
     </Layout>
-  )
+  );
 }
 
-export default BlogENIndex;
 export const pageQuery = graphql`
-  query {
+  query blogListQuery($skip: Int = 0, $limit: Int = 5) {
     site {
       siteMetadata {
         title
@@ -53,10 +52,10 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      filter: { frontmatter: { language: { eq: "en" } } },
+      filter: { frontmatter: { language: { eq: "pt-br" } } }
       sort: { fields: [frontmatter___date], order: DESC }
-      limit: 5
-      skip: 0
+      limit: $limit
+      skip: $skip
     ) {
       edges {
         node {
@@ -65,7 +64,7 @@ export const pageQuery = graphql`
             slug
           }
           frontmatter {
-            date(formatString: "MMM DD, YYYY")
+            date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             title
             description
             image {
@@ -80,7 +79,8 @@ export const pageQuery = graphql`
           }
         }
       }
-      totalCount
     }
   }
-`
+`;
+
+export default TemplatesBlogList;

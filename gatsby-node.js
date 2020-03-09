@@ -106,6 +106,39 @@ exports.createPages = async ({ graphql, actions }) => {
       },
     });
   });
+
+  const postsPerPage = 5
+  const ptNumPages = Math.ceil(ptPosts.length / postsPerPage);
+
+  Array.from({ length: ptNumPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/blog` : `/blog/${i + 1}`,
+      component: path.resolve('./src/templates/BlogList/BlogList.jsx'),
+      context: {
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages: ptNumPages,
+        currentPage: i + 1,
+        language: 'pt-br'
+      },
+    });
+  });
+
+  const enNumPages = Math.ceil(enPosts.length / postsPerPage);
+
+  Array.from({ length: enNumPages }).forEach((_, i) => {
+    createPage({
+      path: i === 0 ? `/en/blog` : `/en/blog/${i + 1}`,
+      component: path.resolve('./src/templates/BlogList/BlogList.jsx'),
+      context: {
+        limit: postsPerPage,
+        skip: i * postsPerPage,
+        numPages: ptNumPages,
+        currentPage: i + 1,
+        language: 'en'
+      },
+    });
+  });
 }
 
 function formatDate(date) {
