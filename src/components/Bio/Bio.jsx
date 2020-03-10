@@ -30,7 +30,7 @@ const Bio = ({ language }) => {
 
   const { author, social } = data.site.siteMetadata
   return (
-    <div className="bio">
+    <section className="bio">
       <div className="bio__bio-avatar">
         <p className="bio__bio">
           <strong className="bio__bio__name">Vinicius Dacal</strong><br/>
@@ -121,7 +121,7 @@ const Bio = ({ language }) => {
           <Icon name="linkedin" />
         </a>
       </div>
-    </div>
+    </section>
   )
 }
 
