@@ -50,7 +50,7 @@ const Bio = ({ language }) => {
             </div>
           )}
         </p>
-        <div
+        <picture
           style={{
             marginLeft: 'auto',
             width: '120px',
@@ -65,13 +65,16 @@ const Bio = ({ language }) => {
               marginLeft: 'auto',
               marginBottom: 0,
               minWidth: 120,
+              width: 120,
+              height: 120,
               borderRadius: `100%`,
+              position: 'relative',
             }}
             imgStyle={{
               borderRadius: `50%`,
             }}
           />
-        </div>
+        </picture>
       </div>
       <div className="bio__social-links">
         <strong>
