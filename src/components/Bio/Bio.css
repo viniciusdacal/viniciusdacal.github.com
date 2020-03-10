@@ -22,10 +22,3 @@
 .bio__bio-avatar {
   display: flex;
 }
-
-.bio__avatar {
-  width: 120px;
-  height: 120px;
-  position: relative;
-  margin-left: auto;
-}

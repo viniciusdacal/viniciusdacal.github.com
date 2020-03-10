@@ -50,7 +50,14 @@ const Bio = ({ language }) => {
             </div>
           )}
         </p>
-        <div className="bio__avatar">
+        <div
+          style={{
+            marginLeft: 'auto',
+            width: '120px',
+            height: '120px',
+            position: 'relative',
+          }}
+        >
           <Image
             fixed={data.avatar.childImageSharp.fixed}
             alt={author}
