@@ -78,13 +78,7 @@ export const BlogPostTemplate = ({
               {language === 'pt-br' ? 'Read in English' : 'Leia em português'}
             </Link>
           )}
-          <h1
-            style={{
-              marginTop: rhythm(1),
-              marginBottom: 0,
-              color: '#f1a10a',
-            }}
-          >
+          <h1 className="blog-post__title">
             {post.frontmatter.title}
           </h1>
           <p

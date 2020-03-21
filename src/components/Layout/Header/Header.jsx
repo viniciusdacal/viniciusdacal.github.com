@@ -58,7 +58,7 @@ const LayoutHeader = ({
         </p>
         <div className="layout__social-links">
           <a
-            href={`https://www.youtube.com/channel/${social.youtube}`}
+            href={`https://www.youtube.com/c/${social.youtube}`}
             target="_blank"
             rel="noopener noreferrer"
             title="Youtube"

@@ -9,8 +9,8 @@ module.exports = {
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `vinicius_dacal`,
-      instagram: 'vinicius.dacal',
-      youtube: 'UClivdzft5YgnZfindGaLYxg',
+      instagram: 'dacaldev',
+      youtube: 'viniciusdacal',
       linkedin: 'viniciusdacal',
     },
   },

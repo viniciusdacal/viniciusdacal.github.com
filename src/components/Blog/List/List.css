@@ -11,9 +11,13 @@
   margin-bottom: 24px;
 }
 
+.blog-list__item__thumb {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
 .blog-list__item__title {
-  color: #ffa700;
+  color: #484848;
   padding: 0 3px 2px 3px;
   box-shadow: none;
 }

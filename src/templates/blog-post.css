@@ -28,3 +28,8 @@
 .blog-post__article ul {
   padding-left: 25px;
 }
+
+.blog-post__title {
+  margin-bottom: 0;
+  margin-top: 20px;
+}
