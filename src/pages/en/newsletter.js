@@ -7,8 +7,7 @@ import '../index.css';
 
 const NewsLetter = ({ data, location }) => {
   const { avatar } = data;
-  const { title, author, social } = data.site.siteMetadata
-  const posts = data.allMarkdownRemark.edges
+  const { title, author, social } = data.site.siteMetadata;
 
   return (
     <Layout
@@ -43,33 +42,6 @@ export const pageQuery = graphql`
       childImageSharp {
         fixed(width: 120, height: 120) {
           ...GatsbyImageSharpFixed
-        }
-      }
-    }
-    allMarkdownRemark(
-      filter: { frontmatter: { language: { eq: "pt-br" } } },
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
-            title
-            description
-            image {
-              id
-              publicURL
-              childImageSharp {
-                fluid(maxWidth: 680, quality: 60) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
         }
       }
     }
