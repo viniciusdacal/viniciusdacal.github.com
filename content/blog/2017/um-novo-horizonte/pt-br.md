@@ -18,7 +18,7 @@ Em relação à esses dois anos, eu só tenho a agradecer e desejar todo sucesso
 
 ### Nova Etapa
 
-Há pouco mais de um mês atrás, eu recebi uma proposta da [BEN Group](http://bengroup.com/) para me juntar ao time como Javascript Developer. A BEN é uma empresa Norte americana, que conecta marcas aos meios de mídia. A proposta realmente era interessante e envolvia migrar a tecnologia base de **Angular** para **React+Redux** e ainda ter a oportunidade de trabalhar com **NodeJS** e **MongoDB**. A vaga era para trabalho remoto, então eu não precisaria me preocupar em mudar de cidade ou de país.
+Há pouco mais de um mês atrás, eu recebi uma proposta da [BEN Group](http://bengroup.com/) para me juntar ao time como Javascript Developer. A BEN é uma empresa Norte americana, fundada por Bill Gates, que continua sendo o único dono. Ela conecta marcas aos meios de mídia e tem escritórios em alguns países. No meu caso, a proposta era para trabalhar para o escritório da Inglaterra. A proposta realmente era interessante e envolvia migrar a tecnologia base de **Angular** para **React+Redux** e ainda ter a oportunidade de trabalhar com **NodeJS** e **MongoDB**. A vaga era para trabalho remoto, então eu não precisaria me preocupar em mudar de cidade ou de país.
 
 Eu nunca fui de me acomodar! Faz parte de mim estar em contínua mudança e buscar por constante evolução. Quando eu recebi a proposta, eu pensei muito antes de tomar uma decisão, mas no final, eu senti que era hora de seguir em frente e buscar um novo desafio.
 
