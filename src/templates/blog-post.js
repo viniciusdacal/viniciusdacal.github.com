@@ -58,6 +58,11 @@ export const BlogPostTemplate = ({
             content: `${siteUrl}${img}`,
           },
           {
+            name: 'image',
+            property: 'og:image',
+            content: `${siteUrl}${img}`,
+          },
+          {
             name: 'article:author',
             content: author,
           },
