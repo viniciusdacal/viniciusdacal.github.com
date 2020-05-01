@@ -28,40 +28,47 @@ Para acessar o state, você pode utilizar o método **getState** da store, o mes
 
 Para escutarmos as alterações do state, utilizamos o método **subscribe** da store, passando como parâmetro um listener, da seguinte forma:
 
-let unsubscribe = store.**subscribe**(() => {
+```js
+let unsubscribe = store.subscribe(() => {
   //executa a cada alteração no state
-  const state = store.**getState**();
+  const state = store.getState();
 });
-
-unsubscribe(); //canceling listener
+```
+```js
+unsubscribe(); //cancela o listener
+```
 
 > Como podemos ver no exemplo acima, quando quisermos cancelar o listener, basta chamar o retorno do método **subscribe** como uma função.
 
 Quando precisamos fazer uma alteração no **state**, a mesma precisa ser “solicitada” através de uma **action**, um objeto contendo obrigatoriamente um **type** e opcionalmente um **payload**(conteúdo).  O **type** é um identificador para a **action** e o **payload** é o conteúdo a ser enviado junto a ela, conforme o exemplo abaixo:
-
+```js
 {
-  type: 'ADD\_CONTACT',
+  type: 'ADD_CONTACT',
   name: 'Jon Snow',
   email: 'youknownothing@jonsnow.com'
 }
+```
 
-como é possível observar acima, essa é uma **action** to tipo ADD\_CONTACT, e leva com ela os dados necessários para incluir esse contato ao nosso **state**.
+como é possível observar acima, essa é uma **action** to tipo `ADD_CONTACT`, e leva com ela os dados necessários para incluir esse contato ao nosso **state**.
 
 É comum utilizarmos **action creators** para criarmos nossas actions, que são simplesmente funções que esperam parâmetros específicos e devolvem um objeto formatado, conforme o exemplo abaixo:
-
+```js
 const addContact = (name, email) => {
   return {
-    type: 'ADD\_CONTACT',
+    type: 'ADD_CONTACT',
     name,
     email
   }
 };
+```
 
 para disparar uma **action**, utilizamos o método **dispatch** da store:
 
-dispatch(addContact('Jon Snow', 'youknownothing@jonsnow.com'));
-
-#### 3\. Changes are made with Pure functions
+```js
+const action = addContact('Jon Snow', 'youknownothing@jonsnow.com');
+dispatch(action);
+```
+#### 3. Changes are made with Pure functions
 
 Para descrever como o **state** da aplicação será alterado pelas **actions**, nós escrevemos pure [**reducers**](http://redux.js.org/docs/Glossary.html#reducer)**.**
 
@@ -71,23 +78,24 @@ Para descrever como o **state** da aplicação será alterado pelas **actions**,
 
 Considerando que nossos reducers devem ser funções puras, vamos implementar nossa lógica de adicionar um novo contato ao nosso **state**:
 
+```js
 const reducer = (state = {}, action) => {
-  if (action.type === 'ADD\_CONTACT') {
-
+  if (action.type === 'ADD_CONTACT') {
     return {
       ..state,
-      contactCollection: \[
+      contactCollection: [
         ...state.contactCollection,
         {
           name: action.name,
           email: action.email
         }
-      \]
+      ]
     };
   }
 }
+```
 
-como é possível ver no exemplo acima, nosso reducer verifica se a action é tipo ADD\_CONTACT, e se ela realmente for, ele retorna um novo state, incluindo o novo contato.
+como é possível ver no exemplo acima, nosso reducer verifica se a action é tipo `ADD_CONTACT`, e se ela realmente for, ele retorna um novo state, incluindo o novo contato.
 
 É importante que, para poder aproveitar ao máximo do redux, você trabalhe com [**imutabilidade**](https://en.wikipedia.org/wiki/Immutable_object). No exemplo acima, nós não fazemos um **push** do novo contato dentro da **contactCollection**, e sim retornamos uma nova contactCollection. Esta possui os mesmos contatos da anterior, mas contém o novo contato. Desta forma preservamos o state anterior e nos mantemos dentro da premissa de **read-only state**. Como **Imutabilidade** é um dos princípios base dos redux, aconselho assistir a palestra do [William Huang](https://medium.com/u/226857fe8d86) no RSJS2016 [Quando os dados imutáveis mudam tudo](https://www.youtube.com/watch?v=8-R9C3yerPo&list=PLg2lQYZDBwORWkiAe6L9Ah-L2JxJ6froI&index=8), que explica de uma forma prática imutabilidade em Javascript.
 
@@ -101,4 +109,7 @@ No próximo post vou abordar uma forma de trabalhar com actions assíncronas, pa
 
 A princípio, redux pode parecer complicado por ser diferente dos padrões de arquitetura que estamos acostumados, mas assim que você aprende, o céu é o limite.
 
-Gostou do post? Dê um **like(**❤**)** abaixo para ajudar na divulgação e para que mais pessoas tenham acesso :)
+Gostou do post e das dicas? Ajude-nos a divulgar compartilhando nas redes sociais para que mais pessoas tenham acesso! ❤️️
+
+Não esqueça de se inscrever na nossa newsletter
+

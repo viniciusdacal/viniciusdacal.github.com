@@ -131,7 +131,7 @@ Analisando essas duas libs, nós conseguimos enxergar a forma como as suas se co
 
 O _Redux_ é baseado em conceitos de programação funcional, como imutabilidade e funções puras. É através dessas funções que nós manipulamos o _State. As funções em questão são os R_[_educers_](http://redux.js.org/docs/basics/Reducers.html)_, que possuem a seguinte assinatura:_
 
-```
+```js
 (currentState, action) => newState
 ```
 

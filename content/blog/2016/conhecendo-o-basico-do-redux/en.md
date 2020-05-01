@@ -15,11 +15,11 @@ Redux is a predictable state container for JavaScript Applications, but what doe
 
 Created by [Dan Abramov](https://medium.com/u/a3a8af6addc1), Redux is an application architecture pattern based on [Flux](http://facebook.github.io/flux/) ideas and simplified with concepts from [Elm](https://github.com/evancz/elm-architecture-tutorial/). Redux gives you the power to build consistent applications and to control the way your data flows and is transformed, following three principles:
 
-#### 1\. Single Source of Truth [(SSOT)](https://en.wikipedia.org/wiki/Single_source_of_truth)
+#### 1. Single Source of Truth [(SSOT)](https://en.wikipedia.org/wiki/Single_source_of_truth)
 
 The entire state of your application is stored in an object tree within a single  [**store**](http://redux.js.org/docs/Glossary.html#store). Any access to the state is done by referencing the original data, in the store. This way, when information is updated it gets propagated throughout the application, thus preventing duplicate data.
 
-#### 2\. State is Read-only
+#### 2. State is Read-only
 
 The only way to change the state of your application is by emitting an **action**, an object that describes what happened.
 
@@ -27,40 +27,49 @@ To access the state you can use the method **getState** from the store. It retur
 
 To listen to changes on the state we use the store’s method **subscribe**, and pass a listener as a parameter in the following way:
 
+```js
 let unsubscribe = store.**subscribe**(() => {
   //execute every time the state change
   const state = store.**getState**();
 });
+```
 
+```js
 unsubscribe(); //canceling listener
+```
 
 > As we can see in the above example, when we want to cancel the listener we just call the value returned from the method subscribe, as a function.
 
 When we need to modify the **state**, the change needs to be requested by an **action**, an object containing a **type** (required) and a **payload** (optional). The **type** is an identifier for the action and the **payload** is the content to be sent with the **action**, as seen in the following example:
 
+```js
 {
-  type: 'ADD\_CONTACT',
+  type: 'ADD_CONTACT',
   name: 'Jon Snow',
   email: 'youknownothing@jonsnow.com'
 }
 
-In the example above, the **action** has type ADD\_CONTACT and the necessary data to include this contact in the **state.**
+```
+
+In the example above, the **action** has type `ADD_CONTACT` and the necessary data to include this contact in the **state.**
 
 It’s common to create actions using **action creators**, which are functions that expect specific parameters and return a formatted object, as in the following example:
 
+```js
 const addContact = (name, email) => {
   return {
-    type: 'ADD\_CONTACT',
+    type: 'ADD_CONTACT',
     name,
     email
   }
 };
+```
 
 To dispatch an **action**, we use the method **dispatch** from the store:
 
 dispatch(addContact('Jon Snow', 'youknownothing@jonsnow.com'));
 
-#### 3\. Changes are made with Pure functions
+#### 3. Changes are made with Pure functions
 
 To describe the way the state will be changed by the actions, we write pure [**reducers**](http://redux.js.org/docs/Glossary.html#reducer)**.**
 
@@ -72,23 +81,25 @@ To learn and understand more about pure functions, I suggest you read the post [
 
 Considering our reducers must be pure functions, we are going to implement our logic to include a new contact in the **state**.
 
+```js
 const reducer = (state = {}, action) => {
-  if (action.type === 'ADD\_CONTACT') {
+  if (action.type === 'ADD_CONTACT') {
 
     return {
       ..state,
-      contactCollection: \[
+      contactCollection: [
         ...state.contactCollection,
         {
           name: action.name,
           email: action.email
         }
-      \]
+      ]
     };
   }
 }
+```
 
-As we can see in the above example, our reducer checks if the action is of type ADD\_CONTACT. If it is, it returns a new state, including the new contact.
+As we can see in the above example, our reducer checks if the action is of type `ADD_CONTACT`. If it is, it returns a new state, including the new contact.
 
 To get the most out of **Redux,** you must understand the concept of immutability. In the above example, we don’t use the **push** method  to include the new contact in the **contactCollection**, instead, we return a new contactCollection. This one has the same contacts as the previous collection, but contains the new contact. This way we preserve the previous state and stay in the premise of **read-only state.**
 
