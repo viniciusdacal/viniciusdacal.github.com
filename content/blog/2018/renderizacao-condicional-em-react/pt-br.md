@@ -85,7 +85,7 @@ Como estamos incluindo lógica dentro do _JSX_, temos que ficar atentos para man
 
 ```js
 {!isLoading && !results.length && (
-  <span>**NENHUM RESULTADO ENCONTRADO**</span>
+  <span>NENHUM RESULTADO ENCONTRADO</span>
 )}
 ```
 <p class="centered highlight">VS</p>
@@ -94,7 +94,7 @@ Como estamos incluindo lógica dentro do _JSX_, temos que ficar atentos para man
 const shouldDisplayNotFound = !isLoading && !results.length;
 
 {shouldDisplayNotFound && (
-  <span>**NENHUM RESULTADO ENCONTRADO**</span>
+  <span>NENHUM RESULTADO ENCONTRADO</span>
 )}
 
 ```
