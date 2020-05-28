@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Image from 'gatsby-image';
 import LayoutHeader from './Header/Header';
-import { rhythm } from 'utils/typography';
 import './Layout.css';
 
 const Layout = ({
@@ -28,8 +27,8 @@ const Layout = ({
         style={{
           marginLeft: `auto`,
           marginRight: `auto`,
-          maxWidth: rhythm(26),
-          padding: `20px ${rhythm(3 / 4)} 0 ${rhythm(3 / 4)}`,
+          maxWidth: 720,
+          padding: `20px 20px 0 20px`,
         }}
       >
         <LayoutHeader
@@ -57,8 +56,8 @@ const Layout = ({
       style={{
         marginLeft: `auto`,
         marginRight: `auto`,
-        maxWidth: rhythm(26),
-        padding: `10px ${rhythm(3 / 4)} ${rhythm(1.5)} ${rhythm(3 / 4)}`,
+        maxWidth: '740px',
+        padding: `10px 30px 15px 30px`,
       }}
     >
       <main>{children}</main>

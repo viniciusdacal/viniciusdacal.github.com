@@ -3,7 +3,6 @@ import { graphql } from 'gatsby';
 import BlogList from 'components/Blog/List/List';
 import Layout from 'components/Layout/Layout';
 import SEO from 'components/SEO/SEO';
-import './BlogList.css';
 
 const TemplatesBlogList = ({
   data,

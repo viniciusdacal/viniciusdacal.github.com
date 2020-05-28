@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Image from 'gatsby-image';
 import Pagination from 'components/Pagination/Pagination';
-import { rhythm } from 'utils/typography';
 import './List.css';
 
 const to = (language, i) => {
@@ -38,7 +37,7 @@ const BlogList = ({ data, numPages, currentPage }) => {
               <h3
                 className="blog-list__item__title__wrapper"
                 style={{
-                  marginBottom: rhythm(1 / 4),
+                  marginBottom: '10px',
                 }}
               >
                 <Link className="blog-list__item__title" to={node.fields.slug}>

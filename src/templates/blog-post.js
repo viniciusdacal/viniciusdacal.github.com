@@ -6,7 +6,6 @@ import Layout from 'components/Layout/Layout';
 import DisqusWrapper from 'components/DisqusWrapper/DisqusWrapper';
 import SubscribeForm from 'components/SubscribeForm/SubscribeForm';
 import SEO from 'components/SEO/SEO';
-import { rhythm, scale } from 'utils/typography';
 import './blog-post.css';
 
 function trackLanguageChange(language) {
@@ -90,24 +89,13 @@ export const BlogPostTemplate = ({
           <h1 className="blog-post__title">
             {post.frontmatter.title}
           </h1>
-          <p
-            style={{
-              ...scale(-1 / 5),
-              display: `block`,
-              marginBottom: rhythm(1),
-            }}
-          >
+          <p className="blog-post__date">
             {post.frontmatter.date}
           </p>
         </header>
         <section dangerouslySetInnerHTML={{ __html: post.html }} className="blog-post__article" />
         <SubscribeForm language={language}/>
-        <hr
-          style={{
-            marginBottom: rhythm(1),
-            marginTop: rhythm(1),
-          }}
-        />
+        <hr className="blog-post__hr" />
         <footer>
           <Bio language={language} />
         </footer>

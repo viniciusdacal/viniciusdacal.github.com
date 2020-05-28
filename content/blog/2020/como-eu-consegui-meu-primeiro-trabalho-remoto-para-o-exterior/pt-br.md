@@ -85,7 +85,7 @@ Quanto as perguntas que eles tinham me feito: Eles pediam que eu descrevesse alg
 
 Eles também perguntavam quanto tempo de aviso-prévio eu teria que cumprir.
 
-Passou pouco tempo após eu aplicar para a tal vaga e então eu obtive uma resposta. Junto com essa resposta, eles me mandaram mais algumas perguntas. Eu respondi novamente e logo em seguida eu recebi um e-mail do *Team Lead *para marcarmos uma entrevista.
+Passou pouco tempo após eu aplicar para a tal vaga e então eu obtive uma resposta. Junto com essa resposta, eles me mandaram mais algumas perguntas. Eu respondi novamente e logo em seguida eu recebi um e-mail do *Team Lead* para marcarmos uma entrevista.
 
 Essa entrevista foi muito legal! Provavelmente a melhor que tive até hoje. Ele começou me contando a história dele, como ele iniciou com desenvolvimento de software e ciências da computação, trajetória dele dentro da empresa e também me falou um pouco sobre a própria empresa. Depois ele pediu que eu contasse a minha história e minha trajetória profissional.
 

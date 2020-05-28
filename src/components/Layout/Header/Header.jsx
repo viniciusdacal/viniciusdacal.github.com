@@ -2,7 +2,6 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Image from 'gatsby-image';
 import Icon from 'components/Icon/Icon';
-import { rhythm } from 'utils/typography';
 import './Header.css';
 
 const LayoutHeader = ({
@@ -21,7 +20,7 @@ const LayoutHeader = ({
           fixed={avatar.childImageSharp.fixed}
           alt={author}
           style={{
-            marginLeft: rhythm(1 / 2),
+            marginLeft: '10px',
             marginBottom: 0,
             minWidth: 120,
             borderRadius: `100%`,

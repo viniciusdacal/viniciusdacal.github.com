@@ -154,6 +154,9 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     const isEN = node.frontmatter.language === 'en';
     const paths = value.split('/');
     const { date, title } = node.frontmatter;
+    if (!title || !date) {
+      return;
+    }
 
     value = `/blog/${formatDate(date)}/${stringToSlug(title)}`;
 
